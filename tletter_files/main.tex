@@ -1,0 +1,34 @@
+\documentclass[
+%	usetletterdata, 
+	english,%     
+%	bill,%   
+%	fromid=off,
+%	fromid=abd,
+%	frommaildate,%  
+	recid=DEF,%      
+%	recmaildate=01.01.2019,%
+%	phone,%        
+%	fax,%     
+	mobilephone,%     
+	email,%  
+%	url,%   
+	bank,% 
+%	date,% default setting uses \today
+%  	date=01.02.2019,
+%	date=off,  	
+	enlargefirstpage=on,
+]{tletter}%
+%\setkomavar{rec_addressee}       {}%
+%\setkomavar{rec_addressee_opt_a} {}%
+%\setkomavar{rec_street}          {}%
+%\setkomavar{rec_street_number}   {}%
+%\setkomavar{rec_building}        {}%
+%\setkomavar{rec_zip}             {}%
+%\setkomavar{rec_city}            {}%
+%\setkomavar{subject}             {} %
+\begin{document} %
+	\begin{tletter}
+%		\par Bei weiteren Fragen stehen wir Ihnen gerne unter o.\,g. Nummer zur Verfügung.
+		\closing{\usekomavar{closing}}%
+	\end{tletter} %
+\end{document} %
