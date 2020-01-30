@@ -439,7 +439,7 @@
 %	Command Definitions
 %-------------------------------------------------------------------------------
 \makeatletter%
-\newcommand*{\setplength}[1]{\@setplength{#1}}%
+\renewcommand*{\setplength}[1]{\@setplength{#1}}%
 \makeatother%
 \newcommand{\pnums}[1]{\proportionalnums{#1}}%
 \newcommand{\pnumsf}[1]{\proportionalnumsf{#1}}%
