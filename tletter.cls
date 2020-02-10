@@ -365,6 +365,7 @@
 }%
 %
 \RequirePackage[utf8]{inputenc}%
+\RequirePackage[T1]{fontenc}%
 \RequirePackage[hyphens]{url}%
 \RequirePackage{eurosym}%
 \RequirePackage{graphicx}%
@@ -439,7 +440,11 @@
 %	Command Definitions
 %-------------------------------------------------------------------------------
 \makeatletter%
-\renewcommand*{\setplength}[1]{\@setplength{#1}}%
+\ifdefined\setplength%
+	\renewcommand*{\setplength}[1]{\@setplength{#1}}%
+\else%
+	\newcommand*{\setplength}[1]{\@setplength{#1}}%
+\fi%
 \makeatother%
 \newcommand{\pnums}[1]{\proportionalnums{#1}}%
 \newcommand{\pnumsf}[1]{\proportionalnumsf{#1}}%
