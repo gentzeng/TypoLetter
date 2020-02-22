@@ -1585,9 +1585,34 @@
 		}%
 		\def \asset {%	
 			\fpeval{%
-				\aA+
-				\aB+\aC+\aD+\aE+\aF+\aG+\aH+\aI+\aJ+\aK+\aL+\aM+%
-				\aN+\aO+\aP+\aQ+\aR+\aS+\aT+\aU+\aV+\aW+\aX+\aY+\aZ%
+				\ifdefined\aAAa\aA\else0\fi+%
+				\ifdefined\aBAa\aB\else0\fi+%
+				\ifdefined\aCAa\aC\else0\fi+%
+				\ifdefined\aDAa\aD\else0\fi+%
+				\ifdefined\aEAa\aE\else0\fi+%
+				\ifdefined\aFAa\aF\else0\fi+%
+				\ifdefined\aGAa\aG\else0\fi+%
+				\ifdefined\aHAa\aH\else0\fi+%
+				\ifdefined\aIAa\aI\else0\fi+%
+				\ifdefined\aJAa\aJ\else0\fi+%
+				\ifdefined\aKAa\aK\else0\fi+%
+				\ifdefined\aLAa\aL\else0\fi+%
+				\ifdefined\aMAa\aM\else0\fi+%
+				\ifdefined\aNAa\aN\else0\fi+%
+				\ifdefined\aOAa\aO\else0\fi+%
+				\ifdefined\aPAa\aP\else0\fi+%
+				\ifdefined\aQAa\aQ\else0\fi+%
+				\ifdefined\aRAa\aR\else0\fi+%
+				\ifdefined\aSAa\aS\else0\fi+%
+				\ifdefined\aTAa\aT\else0\fi+%
+				\ifdefined\aUAa\aU\else0\fi+%
+				\ifdefined\aVAa\aV\else0\fi+%
+				\ifdefined\aWAa\aW\else0\fi+%
+				\ifdefined\aXAa\aX\else0\fi+%
+				\ifdefined\aYAa\aY\else0\fi+%
+				\ifdefined\aZAa\aZ\else0\fi%
+%				\aB+\aC+\aD+\aE+\aF+\aG+\aH+\aI+\aJ+\aK+\aL+\aM+%
+%				\aN+\aO+\aP+\aQ+\aR+\aS+\aT+\aU+\aV+\aW+\aX+\aY+\aZ%
 			}%
 		}%
 	}%
