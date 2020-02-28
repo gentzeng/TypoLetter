@@ -72,7 +72,7 @@
 \setkomavar{fin_bic}             {AAAAAAAA}%
 \setkomavar{write_date}          {\today}%
 %-------------------------------------------------------------------------------
-%	Declaration package options
+%	Declaration of package options
 %-------------------------------------------------------------------------------
 \RequirePackage{ifthen}%
 \RequirePackage{xkeyval}%
@@ -1626,151 +1626,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aAAa\rCa{\aAAa}&%
-				\checkaAAa(4)\let\rAA\cachedata\ifemptydata\relax\else\IfNVOETF{\rAA}{}{\num{\rAA}\ts{}\aAAa(5)}\fi&%
+				\checkaAAa(4)\let\rAA\cachedata\ifemptydata\relax\else\IfNVOETF{\rAA}{}{\num[round-precision=3]{\rAA}\ts{}\aAAa(5)}\fi&%
 				\checkaAAa(6)\let\rAA\cachedata\ifemptydata\relax\else\IfNVOETF{\rAA}{}{\num{\rAA}}\fi&%
 				\checkaAAa(7)\let\rAA\cachedata\ifemptydata\relax\else\IfNVOETF{\rAA}{}{\num{\rAA}\%}\fi&%
 				\checkaAAa(8)\let\rAA\cachedata\ifemptydata\relax\else\IfNVOETF{\rAA}{}{\num{\rAA} \euro}\fi&%
 				\IfNVOETF{\aAA}{}{\num{\aAA} \euro}\expandafter\\\fi%
 				\ifdefined\aABa\rCa{\aABa}&%
-				\checkaABa(4)\let\rAB\cachedata\ifemptydata\relax\else\IfNVOETF{\rAB}{}{\num{\rAB}\ts{}\aABa(5)}\fi&%
+				\checkaABa(4)\let\rAB\cachedata\ifemptydata\relax\else\IfNVOETF{\rAB}{}{\num[round-precision=3]{\rAB}\ts{}\aABa(5)}\fi&%
 				\checkaABa(6)\let\rAB\cachedata\ifemptydata\relax\else\IfNVOETF{\rAB}{}{\num{\rAB}}\fi&%
 				\checkaABa(7)\let\rAB\cachedata\ifemptydata\relax\else\IfNVOETF{\rAB}{}{\num{\rAB}\%}\fi&%
 				\checkaABa(8)\let\rAB\cachedata\ifemptydata\relax\else\IfNVOETF{\rAB}{}{\num{\rAB} \euro}\fi&%
 				\IfNVOETF{\aAB}{}{\num{\aAB} \euro}\expandafter\\\fi%
 				\ifdefined\aACa\rCa{\aACa}&%
-				\checkaACa(4)\let\rAC\cachedata\ifemptydata\relax\else\IfNVOETF{\rAC}{}{\num{\rAC}\ts{}\aACa(5)}\fi&%
+				\checkaACa(4)\let\rAC\cachedata\ifemptydata\relax\else\IfNVOETF{\rAC}{}{\num[round-precision=3]{\rAC}\ts{}\aACa(5)}\fi&%
 				\checkaACa(6)\let\rAC\cachedata\ifemptydata\relax\else\IfNVOETF{\rAC}{}{\num{\rAC}}\fi&%
 				\checkaACa(7)\let\rAC\cachedata\ifemptydata\relax\else\IfNVOETF{\rAC}{}{\num{\rAC}\%}\fi&%
 				\checkaACa(8)\let\rAC\cachedata\ifemptydata\relax\else\IfNVOETF{\rAC}{}{\num{\rAC} \euro}\fi&%
 				\IfNVOETF{\aAC}{}{\num{\aAC} \euro}\expandafter\\\fi%
 				\ifdefined\aADa\rCa{\aADa}&%
-				\checkaADa(4)\let\rAD\cachedata\ifemptydata\relax\else\IfNVOETF{\rAD}{}{\num{\rAD}\ts{}\aADa(5)}\fi&%
+				\checkaADa(4)\let\rAD\cachedata\ifemptydata\relax\else\IfNVOETF{\rAD}{}{\num[round-precision=3]{\rAD}\ts{}\aADa(5)}\fi&%
 				\checkaADa(6)\let\rAD\cachedata\ifemptydata\relax\else\IfNVOETF{\rAD}{}{\num{\rAD}}\fi&%
 				\checkaADa(7)\let\rAD\cachedata\ifemptydata\relax\else\IfNVOETF{\rAD}{}{\num{\rAD}\%}\fi&%
 				\checkaADa(8)\let\rAD\cachedata\ifemptydata\relax\else\IfNVOETF{\rAD}{}{\num{\rAD} \euro}\fi&%
 				\IfNVOETF{\aAD}{}{\num{\aAD} \euro}\expandafter\\\fi%
 				\ifdefined\aAEa\rCa{\aAEa}&%
-				\checkaAEa(4)\let\rAE\cachedata\ifemptydata\relax\else\IfNVOETF{\rAE}{}{\num{\rAE}\ts{}\aAEa(5)}\fi&%
+				\checkaAEa(4)\let\rAE\cachedata\ifemptydata\relax\else\IfNVOETF{\rAE}{}{\num[round-precision=3]{\rAE}\ts{}\aAEa(5)}\fi&%
 				\checkaAEa(6)\let\rAE\cachedata\ifemptydata\relax\else\IfNVOETF{\rAE}{}{\num{\rAE}}\fi&%
 				\checkaAEa(7)\let\rAE\cachedata\ifemptydata\relax\else\IfNVOETF{\rAE}{}{\num{\rAE}\%}\fi&%
 				\checkaAEa(8)\let\rAE\cachedata\ifemptydata\relax\else\IfNVOETF{\rAE}{}{\num{\rAE} \euro}\fi&%
 				\IfNVOETF{\aAE}{}{\num{\aAE} \euro}\expandafter\\\fi%
 				\ifdefined\aAFa\rCa{\aAFa}&%
-				\checkaAFa(4)\let\rAF\cachedata\ifemptydata\relax\else\IfNVOETF{\rAF}{}{\num{\rAF}\ts{}\aAFa(5)}\fi&%
+				\checkaAFa(4)\let\rAF\cachedata\ifemptydata\relax\else\IfNVOETF{\rAF}{}{\num[round-precision=3]{\rAF}\ts{}\aAFa(5)}\fi&%
 				\checkaAFa(6)\let\rAF\cachedata\ifemptydata\relax\else\IfNVOETF{\rAF}{}{\num{\rAF}}\fi&%
 				\checkaAFa(7)\let\rAF\cachedata\ifemptydata\relax\else\IfNVOETF{\rAF}{}{\num{\rAF}\%}\fi&%
 				\checkaAFa(8)\let\rAF\cachedata\ifemptydata\relax\else\IfNVOETF{\rAF}{}{\num{\rAF} \euro}\fi&%
 				\IfNVOETF{\aAF}{}{\num{\aAF} \euro}\expandafter\\\fi%
 				\ifdefined\aAGa\rCa{\aAGa}&%
-				\checkaAGa(4)\let\rAG\cachedata\ifemptydata\relax\else\IfNVOETF{\rAG}{}{\num{\rAG}\ts{}\aAGa(5)}\fi&%
+				\checkaAGa(4)\let\rAG\cachedata\ifemptydata\relax\else\IfNVOETF{\rAG}{}{\num[round-precision=3]{\rAG}\ts{}\aAGa(5)}\fi&%
 				\checkaAGa(6)\let\rAG\cachedata\ifemptydata\relax\else\IfNVOETF{\rAG}{}{\num{\rAG}}\fi&%
 				\checkaAGa(7)\let\rAG\cachedata\ifemptydata\relax\else\IfNVOETF{\rAG}{}{\num{\rAG}\%}\fi&%
 				\checkaAGa(8)\let\rAG\cachedata\ifemptydata\relax\else\IfNVOETF{\rAG}{}{\num{\rAG} \euro}\fi&%
 				\IfNVOETF{\aAG}{}{\num{\aAG} \euro}\expandafter\\\fi%
 				\ifdefined\aAIa\rCa{\aAIa}&%
-				\checkaAIa(4)\let\rAI\cachedata\ifemptydata\relax\else\IfNVOETF{\rAI}{}{\num{\rAI}\ts{}\aAIa(5)}\fi&%
+				\checkaAIa(4)\let\rAI\cachedata\ifemptydata\relax\else\IfNVOETF{\rAI}{}{\num[round-precision=3]{\rAI}\ts{}\aAIa(5)}\fi&%
 				\checkaAIa(6)\let\rAI\cachedata\ifemptydata\relax\else\IfNVOETF{\rAI}{}{\num{\rAI}}\fi&%
 				\checkaAIa(7)\let\rAI\cachedata\ifemptydata\relax\else\IfNVOETF{\rAI}{}{\num{\rAI}\%}\fi&%
 				\checkaAIa(8)\let\rAI\cachedata\ifemptydata\relax\else\IfNVOETF{\rAI}{}{\num{\rAI} \euro}\fi&%
 				\IfNVOETF{\aAI}{}{\num{\aAI} \euro}\expandafter\\\fi%
 				\ifdefined\aAJa\rCa{\aAJa}&%
-				\checkaAJa(4)\let\rAJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAJ}{}{\num{\rAJ}\ts{}\aAJa(5)}\fi&%
+				\checkaAJa(4)\let\rAJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAJ}{}{\num[round-precision=3]{\rAJ}\ts{}\aAJa(5)}\fi&%
 				\checkaAJa(6)\let\rAJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAJ}{}{\num{\rAJ}}\fi&%
 				\checkaAJa(7)\let\rAJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAJ}{}{\num{\rAJ}\%}\fi&%
 				\checkaAJa(8)\let\rAJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAJ}{}{\num{\rAJ} \euro}\fi&%
 				\IfNVOETF{\aAJ}{}{\num{\aAJ} \euro}\expandafter\\\fi%
 				\ifdefined\aAKa\rCa{\aAKa}&%
-				\checkaAKa(4)\let\rAK\cachedata\ifemptydata\relax\else\IfNVOETF{\rAK}{}{\num{\rAK}\ts{}\aAKa(5)}\fi&%
+				\checkaAKa(4)\let\rAK\cachedata\ifemptydata\relax\else\IfNVOETF{\rAK}{}{\num[round-precision=3]{\rAK}\ts{}\aAKa(5)}\fi&%
 				\checkaAKa(6)\let\rAK\cachedata\ifemptydata\relax\else\IfNVOETF{\rAK}{}{\num{\rAK}}\fi&%
 				\checkaAKa(7)\let\rAK\cachedata\ifemptydata\relax\else\IfNVOETF{\rAK}{}{\num{\rAK}\%}\fi&%
 				\checkaAKa(8)\let\rAK\cachedata\ifemptydata\relax\else\IfNVOETF{\rAK}{}{\num{\rAK} \euro}\fi&%
 				\IfNVOETF{\aAK}{}{\num{\aAK} \euro}\expandafter\\\fi%
 				\ifdefined\aALa\rCa{\aALa}&%
-				\checkaALa(4)\let\rAL\cachedata\ifemptydata\relax\else\IfNVOETF{\rAL}{}{\num{\rAL}\ts{}\aALa(5)}\fi&%
+				\checkaALa(4)\let\rAL\cachedata\ifemptydata\relax\else\IfNVOETF{\rAL}{}{\num[round-precision=3]{\rAL}\ts{}\aALa(5)}\fi&%
 				\checkaALa(6)\let\rAL\cachedata\ifemptydata\relax\else\IfNVOETF{\rAL}{}{\num{\rAL}}\fi&%
 				\checkaALa(7)\let\rAL\cachedata\ifemptydata\relax\else\IfNVOETF{\rAL}{}{\num{\rAL}\%}\fi&%
 				\checkaALa(8)\let\rAL\cachedata\ifemptydata\relax\else\IfNVOETF{\rAL}{}{\num{\rAL} \euro}\fi&%
 				\IfNVOETF{\aAL}{}{\num{\aAL} \euro}\expandafter\\\fi%
 				\ifdefined\aAMa\rCa{\aAMa}&%
-				\checkaAMa(4)\let\rAM\cachedata\ifemptydata\relax\else\IfNVOETF{\rAM}{}{\num{\rAM}\ts{}\aAMa(5)}\fi&%
+				\checkaAMa(4)\let\rAM\cachedata\ifemptydata\relax\else\IfNVOETF{\rAM}{}{\num[round-precision=3]{\rAM}\ts{}\aAMa(5)}\fi&%
 				\checkaAMa(6)\let\rAM\cachedata\ifemptydata\relax\else\IfNVOETF{\rAM}{}{\num{\rAM}}\fi&%
 				\checkaAMa(7)\let\rAM\cachedata\ifemptydata\relax\else\IfNVOETF{\rAM}{}{\num{\rAM}\%}\fi&%
 				\checkaAMa(8)\let\rAM\cachedata\ifemptydata\relax\else\IfNVOETF{\rAM}{}{\num{\rAM} \euro}\fi&%
 				\IfNVOETF{\aAM}{}{\num{\aAM} \euro}\expandafter\\\fi%
 				\ifdefined\aANa\rCa{\aANa}&%
-				\checkaANa(4)\let\rAN\cachedata\ifemptydata\relax\else\IfNVOETF{\rAN}{}{\num{\rAN}\ts{}\aANa(5)}\fi&%
+				\checkaANa(4)\let\rAN\cachedata\ifemptydata\relax\else\IfNVOETF{\rAN}{}{\num[round-precision=3]{\rAN}\ts{}\aANa(5)}\fi&%
 				\checkaANa(6)\let\rAN\cachedata\ifemptydata\relax\else\IfNVOETF{\rAN}{}{\num{\rAN}}\fi&%
 				\checkaANa(7)\let\rAN\cachedata\ifemptydata\relax\else\IfNVOETF{\rAN}{}{\num{\rAN}\%}\fi&%
 				\checkaANa(8)\let\rAN\cachedata\ifemptydata\relax\else\IfNVOETF{\rAN}{}{\num{\rAN} \euro}\fi&%
 				\IfNVOETF{\aAN}{}{\num{\aAN} \euro}\expandafter\\\fi%
 				\ifdefined\aAOa\rCa{\aAOa}&%
-				\checkaAOa(4)\let\rAO\cachedata\ifemptydata\relax\else\IfNVOETF{\rAO}{}{\num{\rAO}\ts{}\aAOa(5)}\fi&%
+				\checkaAOa(4)\let\rAO\cachedata\ifemptydata\relax\else\IfNVOETF{\rAO}{}{\num[round-precision=3]{\rAO}\ts{}\aAOa(5)}\fi&%
 				\checkaAOa(6)\let\rAO\cachedata\ifemptydata\relax\else\IfNVOETF{\rAO}{}{\num{\rAO}}\fi&%
 				\checkaAOa(7)\let\rAO\cachedata\ifemptydata\relax\else\IfNVOETF{\rAO}{}{\num{\rAO}\%}\fi&%
 				\checkaAOa(8)\let\rAO\cachedata\ifemptydata\relax\else\IfNVOETF{\rAO}{}{\num{\rAO} \euro}\fi&%
 				\IfNVOETF{\aAO}{}{\num{\aAO} \euro}\expandafter\\\fi%
 				\ifdefined\aAPa\rCa{\aAPa}&%
-				\checkaAPa(4)\let\rAP\cachedata\ifemptydata\relax\else\IfNVOETF{\rAP}{}{\num{\rAP}\ts{}\aAPa(5)}\fi&%
+				\checkaAPa(4)\let\rAP\cachedata\ifemptydata\relax\else\IfNVOETF{\rAP}{}{\num[round-precision=3]{\rAP}\ts{}\aAPa(5)}\fi&%
 				\checkaAPa(6)\let\rAP\cachedata\ifemptydata\relax\else\IfNVOETF{\rAP}{}{\num{\rAP}}\fi&%
 				\checkaAPa(7)\let\rAP\cachedata\ifemptydata\relax\else\IfNVOETF{\rAP}{}{\num{\rAP}\%}\fi&%
 				\checkaAPa(8)\let\rAP\cachedata\ifemptydata\relax\else\IfNVOETF{\rAP}{}{\num{\rAP} \euro}\fi&%
 				\IfNVOETF{\aAP}{}{\num{\aAP} \euro}\expandafter\\\fi%
 				\ifdefined\aAQa\rCa{\aAQa}&%
-				\checkaAQa(4)\let\rAQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAQ}{}{\num{\rAQ}\ts{}\aAQa(5)}\fi&%
+				\checkaAQa(4)\let\rAQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAQ}{}{\num[round-precision=3]{\rAQ}\ts{}\aAQa(5)}\fi&%
 				\checkaAQa(6)\let\rAQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAQ}{}{\num{\rAQ}}\fi&%
 				\checkaAQa(7)\let\rAQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAQ}{}{\num{\rAQ}\%}\fi&%
 				\checkaAQa(8)\let\rAQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAQ}{}{\num{\rAQ} \euro}\fi&%
 				\IfNVOETF{\aAQ}{}{\num{\aAQ} \euro}\expandafter\\\fi%
 				\ifdefined\aARa\rCa{\aARa}&%
-				\checkaARa(4)\let\rAR\cachedata\ifemptydata\relax\else\IfNVOETF{\rAR}{}{\num{\rAR}\ts{}\aARa(5)}\fi&%
+				\checkaARa(4)\let\rAR\cachedata\ifemptydata\relax\else\IfNVOETF{\rAR}{}{\num[round-precision=3]{\rAR}\ts{}\aARa(5)}\fi&%
 				\checkaARa(6)\let\rAR\cachedata\ifemptydata\relax\else\IfNVOETF{\rAR}{}{\num{\rAR}}\fi&%
 				\checkaARa(7)\let\rAR\cachedata\ifemptydata\relax\else\IfNVOETF{\rAR}{}{\num{\rAR}\%}\fi&%
 				\checkaARa(8)\let\rAR\cachedata\ifemptydata\relax\else\IfNVOETF{\rAR}{}{\num{\rAR} \euro}\fi&%
 				\IfNVOETF{\aAR}{}{\num{\aAR} \euro}\expandafter\\\fi%
 				\ifdefined\aASa\rCa{\aASa}&%
-				\checkaASa(4)\let\rAS\cachedata\ifemptydata\relax\else\IfNVOETF{\rAS}{}{\num{\rAS}\ts{}\aASa(5)}\fi&%
+				\checkaASa(4)\let\rAS\cachedata\ifemptydata\relax\else\IfNVOETF{\rAS}{}{\num[round-precision=3]{\rAS}\ts{}\aASa(5)}\fi&%
 				\checkaASa(6)\let\rAS\cachedata\ifemptydata\relax\else\IfNVOETF{\rAS}{}{\num{\rAS}}\fi&%
 				\checkaASa(7)\let\rAS\cachedata\ifemptydata\relax\else\IfNVOETF{\rAS}{}{\num{\rAS}\%}\fi&%
 				\checkaASa(8)\let\rAS\cachedata\ifemptydata\relax\else\IfNVOETF{\rAS}{}{\num{\rAS} \euro}\fi&%
 				\IfNVOETF{\aAS}{}{\num{\aAS} \euro}\expandafter\\\fi%
 				\ifdefined\aATa\rCa{\aATa}&%
-				\checkaATa(4)\let\rAT\cachedata\ifemptydata\relax\else\IfNVOETF{\rAT}{}{\num{\rAT}\ts{}\aATa(5)}\fi&%
+				\checkaATa(4)\let\rAT\cachedata\ifemptydata\relax\else\IfNVOETF{\rAT}{}{\num[round-precision=3]{\rAT}\ts{}\aATa(5)}\fi&%
 				\checkaATa(6)\let\rAT\cachedata\ifemptydata\relax\else\IfNVOETF{\rAT}{}{\num{\rAT}}\fi&%
 				\checkaATa(7)\let\rAT\cachedata\ifemptydata\relax\else\IfNVOETF{\rAT}{}{\num{\rAT}\%}\fi&%
 				\checkaATa(8)\let\rAT\cachedata\ifemptydata\relax\else\IfNVOETF{\rAT}{}{\num{\rAT} \euro}\fi&%
 				\IfNVOETF{\aAT}{}{\num{\aAT} \euro}\expandafter\\\fi%
 				\ifdefined\aAUa\rCa{\aAUa}&%
-				\checkaAUa(4)\let\rAU\cachedata\ifemptydata\relax\else\IfNVOETF{\rAU}{}{\num{\rAU}\ts{}\aAUa(5)}\fi&%
+				\checkaAUa(4)\let\rAU\cachedata\ifemptydata\relax\else\IfNVOETF{\rAU}{}{\num[round-precision=3]{\rAU}\ts{}\aAUa(5)}\fi&%
 				\checkaAUa(6)\let\rAU\cachedata\ifemptydata\relax\else\IfNVOETF{\rAU}{}{\num{\rAU}}\fi&%
 				\checkaAUa(7)\let\rAU\cachedata\ifemptydata\relax\else\IfNVOETF{\rAU}{}{\num{\rAU}\%}\fi&%
 				\checkaAUa(8)\let\rAU\cachedata\ifemptydata\relax\else\IfNVOETF{\rAU}{}{\num{\rAU} \euro}\fi&%
 				\IfNVOETF{\aAU}{}{\num{\aAU} \euro}\expandafter\\\fi%
 				\ifdefined\aAVa\rCa{\aAVa}&%
-				\checkaAVa(4)\let\rAV\cachedata\ifemptydata\relax\else\IfNVOETF{\rAV}{}{\num{\rAV}\ts{}\aAVa(5)}\fi&%
+				\checkaAVa(4)\let\rAV\cachedata\ifemptydata\relax\else\IfNVOETF{\rAV}{}{\num[round-precision=3]{\rAV}\ts{}\aAVa(5)}\fi&%
 				\checkaAVa(6)\let\rAV\cachedata\ifemptydata\relax\else\IfNVOETF{\rAV}{}{\num{\rAV}}\fi&%
 				\checkaAVa(7)\let\rAV\cachedata\ifemptydata\relax\else\IfNVOETF{\rAV}{}{\num{\rAV}\%}\fi&%
 				\checkaAVa(8)\let\rAV\cachedata\ifemptydata\relax\else\IfNVOETF{\rAV}{}{\num{\rAV} \euro}\fi&%
 				\IfNVOETF{\aAV}{}{\num{\aAV} \euro}\expandafter\\\fi%
 				\ifdefined\aAWa\rCa{\aAWa}&%
-				\checkaAWa(4)\let\rAW\cachedata\ifemptydata\relax\else\IfNVOETF{\rAW}{}{\num{\rAW}\ts{}\aAWa(5)}\fi&%
+				\checkaAWa(4)\let\rAW\cachedata\ifemptydata\relax\else\IfNVOETF{\rAW}{}{\num[round-precision=3]{\rAW}\ts{}\aAWa(5)}\fi&%
 				\checkaAWa(6)\let\rAW\cachedata\ifemptydata\relax\else\IfNVOETF{\rAW}{}{\num{\rAW}}\fi&%
 				\checkaAWa(7)\let\rAW\cachedata\ifemptydata\relax\else\IfNVOETF{\rAW}{}{\num{\rAW}\%}\fi&%
 				\checkaAWa(8)\let\rAW\cachedata\ifemptydata\relax\else\IfNVOETF{\rAW}{}{\num{\rAW} \euro}\fi&%
 				\IfNVOETF{\aAW}{}{\num{\aAW} \euro}\expandafter\\\fi%
 				\ifdefined\aAXa\rCa{\aAXa}&%
-				\checkaAXa(4)\let\rAX\cachedata\ifemptydata\relax\else\IfNVOETF{\rAX}{}{\num{\rAX}\ts{}\aAXa(5)}\fi&%
+				\checkaAXa(4)\let\rAX\cachedata\ifemptydata\relax\else\IfNVOETF{\rAX}{}{\num[round-precision=3]{\rAX}\ts{}\aAXa(5)}\fi&%
 				\checkaAXa(6)\let\rAX\cachedata\ifemptydata\relax\else\IfNVOETF{\rAX}{}{\num{\rAX}}\fi&%
 				\checkaAXa(7)\let\rAX\cachedata\ifemptydata\relax\else\IfNVOETF{\rAX}{}{\num{\rAX}\%}\fi&%
 				\checkaAXa(8)\let\rAX\cachedata\ifemptydata\relax\else\IfNVOETF{\rAX}{}{\num{\rAX} \euro}\fi&%
 				\IfNVOETF{\aAX}{}{\num{\aAX} \euro}\expandafter\\\fi%
 				\ifdefined\aAYa\rCa{\aAYa}&%
-				\checkaAYa(4)\let\rAY\cachedata\ifemptydata\relax\else\IfNVOETF{\rAY}{}{\num{\rAY}\ts{}\aAYa(5)}\fi&%
+				\checkaAYa(4)\let\rAY\cachedata\ifemptydata\relax\else\IfNVOETF{\rAY}{}{\num[round-precision=3]{\rAY}\ts{}\aAYa(5)}\fi&%
 				\checkaAYa(6)\let\rAY\cachedata\ifemptydata\relax\else\IfNVOETF{\rAY}{}{\num{\rAY}}\fi&%
 				\checkaAYa(7)\let\rAY\cachedata\ifemptydata\relax\else\IfNVOETF{\rAY}{}{\num{\rAY}\%}\fi&%
 				\checkaAYa(8)\let\rAY\cachedata\ifemptydata\relax\else\IfNVOETF{\rAY}{}{\num{\rAY} \euro}\fi&%
 				\IfNVOETF{\aAY}{}{\num{\aAY} \euro}\expandafter\\\fi%	
 				\ifdefined\aAZa\rCa{\aAZa}&%
-				\checkaAZa(4)\let\rAZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAZ}{}{\num{\rAZ}\ts{}\aAZa(5)}\fi&%
+				\checkaAZa(4)\let\rAZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAZ}{}{\num[round-precision=3]{\rAZ}\ts{}\aAZa(5)}\fi&%
 				\checkaAZa(6)\let\rAZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAZ}{}{\num{\rAZ}}\fi&%
 				\checkaAZa(7)\let\rAZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAZ}{}{\num{\rAZ}\%}\fi&%
 				\checkaAZa(8)\let\rAZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rAZ}{}{\num{\rAZ} \euro}\fi&%
@@ -1785,151 +1785,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aBAa\rCa{\aBAa}&%
-				\checkaBAa(4)\let\rBA\cachedata\ifemptydata\relax\else\IfNVOETF{\rBA}{}{\num{\rBA}\ts{}\aBAa(5)}\fi&%
+				\checkaBAa(4)\let\rBA\cachedata\ifemptydata\relax\else\IfNVOETF{\rBA}{}{\num[round-precision=3]{\rBA}\ts{}\aBAa(5)}\fi&%
 				\checkaBAa(6)\let\rBA\cachedata\ifemptydata\relax\else\IfNVOETF{\rBA}{}{\num{\rBA}}\fi&%
 				\checkaBAa(7)\let\rBA\cachedata\ifemptydata\relax\else\IfNVOETF{\rBA}{}{\num{\rBA}\%}\fi&%
 				\checkaBAa(8)\let\rBA\cachedata\ifemptydata\relax\else\IfNVOETF{\rBA}{}{\num{\rBA} \euro}\fi&%
 				\IfNVOETF{\aBA}{}{\num{\aBA} \euro}\expandafter\\\fi%
 				\ifdefined\aBBa\rCa{\aBBa}&%
-				\checkaBBa(4)\let\rBB\cachedata\ifemptydata\relax\else\IfNVOETF{\rBB}{}{\num{\rBB}\ts{}\aBBa(5)}\fi&%
+				\checkaBBa(4)\let\rBB\cachedata\ifemptydata\relax\else\IfNVOETF{\rBB}{}{\num[round-precision=3]{\rBB}\ts{}\aBBa(5)}\fi&%
 				\checkaBBa(6)\let\rBB\cachedata\ifemptydata\relax\else\IfNVOETF{\rBB}{}{\num{\rBB}}\fi&%
 				\checkaBBa(7)\let\rBB\cachedata\ifemptydata\relax\else\IfNVOETF{\rBB}{}{\num{\rBB}\%}\fi&%
 				\checkaBBa(8)\let\rBB\cachedata\ifemptydata\relax\else\IfNVOETF{\rBB}{}{\num{\rBB} \euro}\fi&%
 				\IfNVOETF{\aBB}{}{\num{\aBB} \euro}\expandafter\\\fi%
 				\ifdefined\aBCa\rCa{\aBCa}&%
-				\checkaBCa(4)\let\rBC\cachedata\ifemptydata\relax\else\IfNVOETF{\rBC}{}{\num{\rBC}\ts{}\aBCa(5)}\fi&%
+				\checkaBCa(4)\let\rBC\cachedata\ifemptydata\relax\else\IfNVOETF{\rBC}{}{\num[round-precision=3]{\rBC}\ts{}\aBCa(5)}\fi&%
 				\checkaBCa(6)\let\rBC\cachedata\ifemptydata\relax\else\IfNVOETF{\rBC}{}{\num{\rBC}}\fi&%
 				\checkaBCa(7)\let\rBC\cachedata\ifemptydata\relax\else\IfNVOETF{\rBC}{}{\num{\rBC}\%}\fi&%
 				\checkaBCa(8)\let\rBC\cachedata\ifemptydata\relax\else\IfNVOETF{\rBC}{}{\num{\rBC} \euro}\fi&%
 				\IfNVOETF{\aBC}{}{\num{\aBC} \euro}\expandafter\\\fi%
 				\ifdefined\aBDa\rCa{\aBDa}&%
-				\checkaBDa(4)\let\rBD\cachedata\ifemptydata\relax\else\IfNVOETF{\rBD}{}{\num{\rBD}\ts{}\aBDa(5)}\fi&%
+				\checkaBDa(4)\let\rBD\cachedata\ifemptydata\relax\else\IfNVOETF{\rBD}{}{\num[round-precision=3]{\rBD}\ts{}\aBDa(5)}\fi&%
 				\checkaBDa(6)\let\rBD\cachedata\ifemptydata\relax\else\IfNVOETF{\rBD}{}{\num{\rBD}}\fi&%
 				\checkaBDa(7)\let\rBD\cachedata\ifemptydata\relax\else\IfNVOETF{\rBD}{}{\num{\rBD}\%}\fi&%
 				\checkaBDa(8)\let\rBD\cachedata\ifemptydata\relax\else\IfNVOETF{\rBD}{}{\num{\rBD} \euro}\fi&%
 				\IfNVOETF{\aBD}{}{\num{\aBD} \euro}\expandafter\\\fi%
 				\ifdefined\aBEa\rCa{\aBEa}&%
-				\checkaBEa(4)\let\rBE\cachedata\ifemptydata\relax\else\IfNVOETF{\rBE}{}{\num{\rBE}\ts{}\aBEa(5)}\fi&%
+				\checkaBEa(4)\let\rBE\cachedata\ifemptydata\relax\else\IfNVOETF{\rBE}{}{\num[round-precision=3]{\rBE}\ts{}\aBEa(5)}\fi&%
 				\checkaBEa(6)\let\rBE\cachedata\ifemptydata\relax\else\IfNVOETF{\rBE}{}{\num{\rBE}}\fi&%
 				\checkaBEa(7)\let\rBE\cachedata\ifemptydata\relax\else\IfNVOETF{\rBE}{}{\num{\rBE}\%}\fi&%
 				\checkaBEa(8)\let\rBE\cachedata\ifemptydata\relax\else\IfNVOETF{\rBE}{}{\num{\rBE} \euro}\fi&%
 				\IfNVOETF{\aBE}{}{\num{\aBE} \euro}\expandafter\\\fi%
 				\ifdefined\aBFa\rCa{\aBFa}&%
-				\checkaBFa(4)\let\rBF\cachedata\ifemptydata\relax\else\IfNVOETF{\rBF}{}{\num{\rBF}\ts{}\aBFa(5)}\fi&%
+				\checkaBFa(4)\let\rBF\cachedata\ifemptydata\relax\else\IfNVOETF{\rBF}{}{\num[round-precision=3]{\rBF}\ts{}\aBFa(5)}\fi&%
 				\checkaBFa(6)\let\rBF\cachedata\ifemptydata\relax\else\IfNVOETF{\rBF}{}{\num{\rBF}}\fi&%
 				\checkaBFa(7)\let\rBF\cachedata\ifemptydata\relax\else\IfNVOETF{\rBF}{}{\num{\rBF}\%}\fi&%
 				\checkaBFa(8)\let\rBF\cachedata\ifemptydata\relax\else\IfNVOETF{\rBF}{}{\num{\rBF} \euro}\fi&%
 				\IfNVOETF{\aBF}{}{\num{\aBF} \euro}\expandafter\\\fi%
 				\ifdefined\aBGa\rCa{\aBGa}&%
-				\checkaBGa(4)\let\rBG\cachedata\ifemptydata\relax\else\IfNVOETF{\rBG}{}{\num{\rBG}\ts{}\aBGa(5)}\fi&%
+				\checkaBGa(4)\let\rBG\cachedata\ifemptydata\relax\else\IfNVOETF{\rBG}{}{\num[round-precision=3]{\rBG}\ts{}\aBGa(5)}\fi&%
 				\checkaBGa(6)\let\rBG\cachedata\ifemptydata\relax\else\IfNVOETF{\rBG}{}{\num{\rBG}}\fi&%
 				\checkaBGa(7)\let\rBG\cachedata\ifemptydata\relax\else\IfNVOETF{\rBG}{}{\num{\rBG}\%}\fi&%
 				\checkaBGa(8)\let\rBG\cachedata\ifemptydata\relax\else\IfNVOETF{\rBG}{}{\num{\rBG} \euro}\fi&%
 				\IfNVOETF{\aBG}{}{\num{\aBG} \euro}\expandafter\\\fi%
 				\ifdefined\aBIa\rCa{\aBIa}&%
-				\checkaBIa(4)\let\rBI\cachedata\ifemptydata\relax\else\IfNVOETF{\rBI}{}{\num{\rBI}\ts{}\aBIa(5)}\fi&%
+				\checkaBIa(4)\let\rBI\cachedata\ifemptydata\relax\else\IfNVOETF{\rBI}{}{\num[round-precision=3]{\rBI}\ts{}\aBIa(5)}\fi&%
 				\checkaBIa(6)\let\rBI\cachedata\ifemptydata\relax\else\IfNVOETF{\rBI}{}{\num{\rBI}}\fi&%
 				\checkaBIa(7)\let\rBI\cachedata\ifemptydata\relax\else\IfNVOETF{\rBI}{}{\num{\rBI}\%}\fi&%
 				\checkaBIa(8)\let\rBI\cachedata\ifemptydata\relax\else\IfNVOETF{\rBI}{}{\num{\rBI} \euro}\fi&%
 				\IfNVOETF{\aBI}{}{\num{\aBI} \euro}\expandafter\\\fi%
 				\ifdefined\aBJa\rCa{\aBJa}&%
-				\checkaBJa(4)\let\rBJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBJ}{}{\num{\rBJ}\ts{}\aBJa(5)}\fi&%
+				\checkaBJa(4)\let\rBJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBJ}{}{\num[round-precision=3]{\rBJ}\ts{}\aBJa(5)}\fi&%
 				\checkaBJa(6)\let\rBJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBJ}{}{\num{\rBJ}}\fi&%
 				\checkaBJa(7)\let\rBJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBJ}{}{\num{\rBJ}\%}\fi&%
 				\checkaBJa(8)\let\rBJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBJ}{}{\num{\rBJ} \euro}\fi&%
 				\IfNVOETF{\aBJ}{}{\num{\aBJ} \euro}\expandafter\\\fi%
 				\ifdefined\aBKa\rCa{\aBKa}&%
-				\checkaBKa(4)\let\rBK\cachedata\ifemptydata\relax\else\IfNVOETF{\rBK}{}{\num{\rBK}\ts{}\aBKa(5)}\fi&%
+				\checkaBKa(4)\let\rBK\cachedata\ifemptydata\relax\else\IfNVOETF{\rBK}{}{\num[round-precision=3]{\rBK}\ts{}\aBKa(5)}\fi&%
 				\checkaBKa(6)\let\rBK\cachedata\ifemptydata\relax\else\IfNVOETF{\rBK}{}{\num{\rBK}}\fi&%
 				\checkaBKa(7)\let\rBK\cachedata\ifemptydata\relax\else\IfNVOETF{\rBK}{}{\num{\rBK}\%}\fi&%
 				\checkaBKa(8)\let\rBK\cachedata\ifemptydata\relax\else\IfNVOETF{\rBK}{}{\num{\rBK} \euro}\fi&%
 				\IfNVOETF{\aBK}{}{\num{\aBK} \euro}\expandafter\\\fi%
 				\ifdefined\aBLa\rCa{\aBLa}&%
-				\checkaBLa(4)\let\rBL\cachedata\ifemptydata\relax\else\IfNVOETF{\rBL}{}{\num{\rBL}\ts{}\aBLa(5)}\fi&%
+				\checkaBLa(4)\let\rBL\cachedata\ifemptydata\relax\else\IfNVOETF{\rBL}{}{\num[round-precision=3]{\rBL}\ts{}\aBLa(5)}\fi&%
 				\checkaBLa(6)\let\rBL\cachedata\ifemptydata\relax\else\IfNVOETF{\rBL}{}{\num{\rBL}}\fi&%
 				\checkaBLa(7)\let\rBL\cachedata\ifemptydata\relax\else\IfNVOETF{\rBL}{}{\num{\rBL}\%}\fi&%
 				\checkaBLa(8)\let\rBL\cachedata\ifemptydata\relax\else\IfNVOETF{\rBL}{}{\num{\rBL} \euro}\fi&%
 				\IfNVOETF{\aBL}{}{\num{\aBL} \euro}\expandafter\\\fi%
 				\ifdefined\aBMa\rCa{\aBMa}&%
-				\checkaBMa(4)\let\rBM\cachedata\ifemptydata\relax\else\IfNVOETF{\rBM}{}{\num{\rBM}\ts{}\aBMa(5)}\fi&%
+				\checkaBMa(4)\let\rBM\cachedata\ifemptydata\relax\else\IfNVOETF{\rBM}{}{\num[round-precision=3]{\rBM}\ts{}\aBMa(5)}\fi&%
 				\checkaBMa(6)\let\rBM\cachedata\ifemptydata\relax\else\IfNVOETF{\rBM}{}{\num{\rBM}}\fi&%
 				\checkaBMa(7)\let\rBM\cachedata\ifemptydata\relax\else\IfNVOETF{\rBM}{}{\num{\rBM}\%}\fi&%
 				\checkaBMa(8)\let\rBM\cachedata\ifemptydata\relax\else\IfNVOETF{\rBM}{}{\num{\rBM} \euro}\fi&%
 				\IfNVOETF{\aBM}{}{\num{\aBM} \euro}\expandafter\\\fi%
 				\ifdefined\aBNa\rCa{\aBNa}&%
-				\checkaBNa(4)\let\rBN\cachedata\ifemptydata\relax\else\IfNVOETF{\rBN}{}{\num{\rBN}\ts{}\aBNa(5)}\fi&%
+				\checkaBNa(4)\let\rBN\cachedata\ifemptydata\relax\else\IfNVOETF{\rBN}{}{\num[round-precision=3]{\rBN}\ts{}\aBNa(5)}\fi&%
 				\checkaBNa(6)\let\rBN\cachedata\ifemptydata\relax\else\IfNVOETF{\rBN}{}{\num{\rBN}}\fi&%
 				\checkaBNa(7)\let\rBN\cachedata\ifemptydata\relax\else\IfNVOETF{\rBN}{}{\num{\rBN}\%}\fi&%
 				\checkaBNa(8)\let\rBN\cachedata\ifemptydata\relax\else\IfNVOETF{\rBN}{}{\num{\rBN} \euro}\fi&%
 				\IfNVOETF{\aBN}{}{\num{\aBN} \euro}\expandafter\\\fi%
 				\ifdefined\aBOa\rCa{\aBOa}&%
-				\checkaBOa(4)\let\rBO\cachedata\ifemptydata\relax\else\IfNVOETF{\rBO}{}{\num{\rBO}\ts{}\aBOa(5)}\fi&%
+				\checkaBOa(4)\let\rBO\cachedata\ifemptydata\relax\else\IfNVOETF{\rBO}{}{\num[round-precision=3]{\rBO}\ts{}\aBOa(5)}\fi&%
 				\checkaBOa(6)\let\rBO\cachedata\ifemptydata\relax\else\IfNVOETF{\rBO}{}{\num{\rBO}}\fi&%
 				\checkaBOa(7)\let\rBO\cachedata\ifemptydata\relax\else\IfNVOETF{\rBO}{}{\num{\rBO}\%}\fi&%
 				\checkaBOa(8)\let\rBO\cachedata\ifemptydata\relax\else\IfNVOETF{\rBO}{}{\num{\rBO} \euro}\fi&%
 				\IfNVOETF{\aBO}{}{\num{\aBO} \euro}\expandafter\\\fi%
 				\ifdefined\aBPa\rCa{\aBPa}&%
-				\checkaBPa(4)\let\rBP\cachedata\ifemptydata\relax\else\IfNVOETF{\rBP}{}{\num{\rBP}\ts{}\aBPa(5)}\fi&%
+				\checkaBPa(4)\let\rBP\cachedata\ifemptydata\relax\else\IfNVOETF{\rBP}{}{\num[round-precision=3]{\rBP}\ts{}\aBPa(5)}\fi&%
 				\checkaBPa(6)\let\rBP\cachedata\ifemptydata\relax\else\IfNVOETF{\rBP}{}{\num{\rBP}}\fi&%
 				\checkaBPa(7)\let\rBP\cachedata\ifemptydata\relax\else\IfNVOETF{\rBP}{}{\num{\rBP}\%}\fi&%
 				\checkaBPa(8)\let\rBP\cachedata\ifemptydata\relax\else\IfNVOETF{\rBP}{}{\num{\rBP} \euro}\fi&%
 				\IfNVOETF{\aBP}{}{\num{\aBP} \euro}\expandafter\\\fi%
 				\ifdefined\aBQa\rCa{\aBQa}&%
-				\checkaBQa(4)\let\rBQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBQ}{}{\num{\rBQ}\ts{}\aBQa(5)}\fi&%
+				\checkaBQa(4)\let\rBQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBQ}{}{\num[round-precision=3]{\rBQ}\ts{}\aBQa(5)}\fi&%
 				\checkaBQa(6)\let\rBQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBQ}{}{\num{\rBQ}}\fi&%
 				\checkaBQa(7)\let\rBQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBQ}{}{\num{\rBQ}\%}\fi&%
 				\checkaBQa(8)\let\rBQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBQ}{}{\num{\rBQ} \euro}\fi&%
 				\IfNVOETF{\aBQ}{}{\num{\aBQ} \euro}\expandafter\\\fi%
 				\ifdefined\aBRa\rCa{\aBRa}&%
-				\checkaBRa(4)\let\rBR\cachedata\ifemptydata\relax\else\IfNVOETF{\rBR}{}{\num{\rBR}\ts{}\aBRa(5)}\fi&%
+				\checkaBRa(4)\let\rBR\cachedata\ifemptydata\relax\else\IfNVOETF{\rBR}{}{\num[round-precision=3]{\rBR}\ts{}\aBRa(5)}\fi&%
 				\checkaBRa(6)\let\rBR\cachedata\ifemptydata\relax\else\IfNVOETF{\rBR}{}{\num{\rBR}}\fi&%
 				\checkaBRa(7)\let\rBR\cachedata\ifemptydata\relax\else\IfNVOETF{\rBR}{}{\num{\rBR}\%}\fi&%
 				\checkaBRa(8)\let\rBR\cachedata\ifemptydata\relax\else\IfNVOETF{\rBR}{}{\num{\rBR} \euro}\fi&%
 				\IfNVOETF{\aBR}{}{\num{\aBR} \euro}\expandafter\\\fi%
 				\ifdefined\aBSa\rCa{\aBSa}&%
-				\checkaBSa(4)\let\rBS\cachedata\ifemptydata\relax\else\IfNVOETF{\rBS}{}{\num{\rBS}\ts{}\aBSa(5)}\fi&%
+				\checkaBSa(4)\let\rBS\cachedata\ifemptydata\relax\else\IfNVOETF{\rBS}{}{\num[round-precision=3]{\rBS}\ts{}\aBSa(5)}\fi&%
 				\checkaBSa(6)\let\rBS\cachedata\ifemptydata\relax\else\IfNVOETF{\rBS}{}{\num{\rBS}}\fi&%
 				\checkaBSa(7)\let\rBS\cachedata\ifemptydata\relax\else\IfNVOETF{\rBS}{}{\num{\rBS}\%}\fi&%
 				\checkaBSa(8)\let\rBS\cachedata\ifemptydata\relax\else\IfNVOETF{\rBS}{}{\num{\rBS} \euro}\fi&%
 				\IfNVOETF{\aBS}{}{\num{\aBS} \euro}\expandafter\\\fi%
 				\ifdefined\aBTa\rCa{\aBTa}&%
-				\checkaBTa(4)\let\rBT\cachedata\ifemptydata\relax\else\IfNVOETF{\rBT}{}{\num{\rBT}\ts{}\aBTa(5)}\fi&%
+				\checkaBTa(4)\let\rBT\cachedata\ifemptydata\relax\else\IfNVOETF{\rBT}{}{\num[round-precision=3]{\rBT}\ts{}\aBTa(5)}\fi&%
 				\checkaBTa(6)\let\rBT\cachedata\ifemptydata\relax\else\IfNVOETF{\rBT}{}{\num{\rBT}}\fi&%
 				\checkaBTa(7)\let\rBT\cachedata\ifemptydata\relax\else\IfNVOETF{\rBT}{}{\num{\rBT}\%}\fi&%
 				\checkaBTa(8)\let\rBT\cachedata\ifemptydata\relax\else\IfNVOETF{\rBT}{}{\num{\rBT} \euro}\fi&%
 				\IfNVOETF{\aBT}{}{\num{\aBT} \euro}\expandafter\\\fi%
 				\ifdefined\aBUa\rCa{\aBUa}&%
-				\checkaBUa(4)\let\rBU\cachedata\ifemptydata\relax\else\IfNVOETF{\rBU}{}{\num{\rBU}\ts{}\aBUa(5)}\fi&%
+				\checkaBUa(4)\let\rBU\cachedata\ifemptydata\relax\else\IfNVOETF{\rBU}{}{\num[round-precision=3]{\rBU}\ts{}\aBUa(5)}\fi&%
 				\checkaBUa(6)\let\rBU\cachedata\ifemptydata\relax\else\IfNVOETF{\rBU}{}{\num{\rBU}}\fi&%
 				\checkaBUa(7)\let\rBU\cachedata\ifemptydata\relax\else\IfNVOETF{\rBU}{}{\num{\rBU}\%}\fi&%
 				\checkaBUa(8)\let\rBU\cachedata\ifemptydata\relax\else\IfNVOETF{\rBU}{}{\num{\rBU} \euro}\fi&%
 				\IfNVOETF{\aBU}{}{\num{\aBU} \euro}\expandafter\\\fi%
 				\ifdefined\aBVa\rCa{\aBVa}&%
-				\checkaBVa(4)\let\rBV\cachedata\ifemptydata\relax\else\IfNVOETF{\rBV}{}{\num{\rBV}\ts{}\aBVa(5)}\fi&%
+				\checkaBVa(4)\let\rBV\cachedata\ifemptydata\relax\else\IfNVOETF{\rBV}{}{\num[round-precision=3]{\rBV}\ts{}\aBVa(5)}\fi&%
 				\checkaBVa(6)\let\rBV\cachedata\ifemptydata\relax\else\IfNVOETF{\rBV}{}{\num{\rBV}}\fi&%
 				\checkaBVa(7)\let\rBV\cachedata\ifemptydata\relax\else\IfNVOETF{\rBV}{}{\num{\rBV}\%}\fi&%
 				\checkaBVa(8)\let\rBV\cachedata\ifemptydata\relax\else\IfNVOETF{\rBV}{}{\num{\rBV} \euro}\fi&%
 				\IfNVOETF{\aBV}{}{\num{\aBV} \euro}\expandafter\\\fi%
 				\ifdefined\aBWa\rCa{\aBWa}&%
-				\checkaBWa(4)\let\rBW\cachedata\ifemptydata\relax\else\IfNVOETF{\rBW}{}{\num{\rBW}\ts{}\aBWa(5)}\fi&%
+				\checkaBWa(4)\let\rBW\cachedata\ifemptydata\relax\else\IfNVOETF{\rBW}{}{\num[round-precision=3]{\rBW}\ts{}\aBWa(5)}\fi&%
 				\checkaBWa(6)\let\rBW\cachedata\ifemptydata\relax\else\IfNVOETF{\rBW}{}{\num{\rBW}}\fi&%
 				\checkaBWa(7)\let\rBW\cachedata\ifemptydata\relax\else\IfNVOETF{\rBW}{}{\num{\rBW}\%}\fi&%
 				\checkaBWa(8)\let\rBW\cachedata\ifemptydata\relax\else\IfNVOETF{\rBW}{}{\num{\rBW} \euro}\fi&%
 				\IfNVOETF{\aBW}{}{\num{\aBW} \euro}\expandafter\\\fi%
 				\ifdefined\aBXa\rCa{\aBXa}&%
-				\checkaBXa(4)\let\rBX\cachedata\ifemptydata\relax\else\IfNVOETF{\rBX}{}{\num{\rBX}\ts{}\aBXa(5)}\fi&%
+				\checkaBXa(4)\let\rBX\cachedata\ifemptydata\relax\else\IfNVOETF{\rBX}{}{\num[round-precision=3]{\rBX}\ts{}\aBXa(5)}\fi&%
 				\checkaBXa(6)\let\rBX\cachedata\ifemptydata\relax\else\IfNVOETF{\rBX}{}{\num{\rBX}}\fi&%
 				\checkaBXa(7)\let\rBX\cachedata\ifemptydata\relax\else\IfNVOETF{\rBX}{}{\num{\rBX}\%}\fi&%
 				\checkaBXa(8)\let\rBX\cachedata\ifemptydata\relax\else\IfNVOETF{\rBX}{}{\num{\rBX} \euro}\fi&%
 				\IfNVOETF{\aBX}{}{\num{\aBX} \euro}\expandafter\\\fi%
 				\ifdefined\aBYa\rCa{\aBYa}&%
-				\checkaBYa(4)\let\rBY\cachedata\ifemptydata\relax\else\IfNVOETF{\rBY}{}{\num{\rBY}\ts{}\aBYa(5)}\fi&%
+				\checkaBYa(4)\let\rBY\cachedata\ifemptydata\relax\else\IfNVOETF{\rBY}{}{\num[round-precision=3]{\rBY}\ts{}\aBYa(5)}\fi&%
 				\checkaBYa(6)\let\rBY\cachedata\ifemptydata\relax\else\IfNVOETF{\rBY}{}{\num{\rBY}}\fi&%
 				\checkaBYa(7)\let\rBY\cachedata\ifemptydata\relax\else\IfNVOETF{\rBY}{}{\num{\rBY}\%}\fi&%
 				\checkaBYa(8)\let\rBY\cachedata\ifemptydata\relax\else\IfNVOETF{\rBY}{}{\num{\rBY} \euro}\fi&%
 				\IfNVOETF{\aBY}{}{\num{\aBY} \euro}\expandafter\\\fi%	
 				\ifdefined\aBZa\rCa{\aBZa}&%
-				\checkaBZa(4)\let\rBZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBZ}{}{\num{\rBZ}\ts{}\aBZa(5)}\fi&%
+				\checkaBZa(4)\let\rBZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBZ}{}{\num[round-precision=3]{\rBZ}\ts{}\aBZa(5)}\fi&%
 				\checkaBZa(6)\let\rBZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBZ}{}{\num{\rBZ}}\fi&%
 				\checkaBZa(7)\let\rBZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBZ}{}{\num{\rBZ}\%}\fi&%
 				\checkaBZa(8)\let\rBZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rBZ}{}{\num{\rBZ} \euro}\fi&%
@@ -1944,151 +1944,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aCAa\rCa{\aCAa}&%
-				\checkaCAa(4)\let\rCA\cachedata\ifemptydata\relax\else\IfNVOETF{\rCA}{}{\num{\rCA}\ts{}\aCAa(5)}\fi&%
+				\checkaCAa(4)\let\rCA\cachedata\ifemptydata\relax\else\IfNVOETF{\rCA}{}{\num[round-precision=3]{\rCA}\ts{}\aCAa(5)}\fi&%
 				\checkaCAa(6)\let\rCA\cachedata\ifemptydata\relax\else\IfNVOETF{\rCA}{}{\num{\rCA}}\fi&%
 				\checkaCAa(7)\let\rCA\cachedata\ifemptydata\relax\else\IfNVOETF{\rCA}{}{\num{\rCA}\%}\fi&%
 				\checkaCAa(8)\let\rCA\cachedata\ifemptydata\relax\else\IfNVOETF{\rCA}{}{\num{\rCA} \euro}\fi&%
 				\IfNVOETF{\aCA}{}{\num{\aCA} \euro}\expandafter\\\fi%
 				\ifdefined\aCBa\rCa{\aCBa}&%
-				\checkaCBa(4)\let\rCB\cachedata\ifemptydata\relax\else\IfNVOETF{\rCB}{}{\num{\rCB}\ts{}\aCBa(5)}\fi&%
+				\checkaCBa(4)\let\rCB\cachedata\ifemptydata\relax\else\IfNVOETF{\rCB}{}{\num[round-precision=3]{\rCB}\ts{}\aCBa(5)}\fi&%
 				\checkaCBa(6)\let\rCB\cachedata\ifemptydata\relax\else\IfNVOETF{\rCB}{}{\num{\rCB}}\fi&%
 				\checkaCBa(7)\let\rCB\cachedata\ifemptydata\relax\else\IfNVOETF{\rCB}{}{\num{\rCB}\%}\fi&%
 				\checkaCBa(8)\let\rCB\cachedata\ifemptydata\relax\else\IfNVOETF{\rCB}{}{\num{\rCB} \euro}\fi&%
 				\IfNVOETF{\aCB}{}{\num{\aCB} \euro}\expandafter\\\fi%
 				\ifdefined\aCCa\rCa{\aCCa}&%
-				\checkaCCa(4)\let\rCC\cachedata\ifemptydata\relax\else\IfNVOETF{\rCC}{}{\num{\rCC}\ts{}\aCCa(5)}\fi&%
+				\checkaCCa(4)\let\rCC\cachedata\ifemptydata\relax\else\IfNVOETF{\rCC}{}{\num[round-precision=3]{\rCC}\ts{}\aCCa(5)}\fi&%
 				\checkaCCa(6)\let\rCC\cachedata\ifemptydata\relax\else\IfNVOETF{\rCC}{}{\num{\rCC}}\fi&%
 				\checkaCCa(7)\let\rCC\cachedata\ifemptydata\relax\else\IfNVOETF{\rCC}{}{\num{\rCC}\%}\fi&%
 				\checkaCCa(8)\let\rCC\cachedata\ifemptydata\relax\else\IfNVOETF{\rCC}{}{\num{\rCC} \euro}\fi&%
 				\IfNVOETF{\aCC}{}{\num{\aCC} \euro}\expandafter\\\fi%
 				\ifdefined\aCDa\rCa{\aCDa}&%
-				\checkaCDa(4)\let\rCD\cachedata\ifemptydata\relax\else\IfNVOETF{\rCD}{}{\num{\rCD}\ts{}\aCDa(5)}\fi&%
+				\checkaCDa(4)\let\rCD\cachedata\ifemptydata\relax\else\IfNVOETF{\rCD}{}{\num[round-precision=3]{\rCD}\ts{}\aCDa(5)}\fi&%
 				\checkaCDa(6)\let\rCD\cachedata\ifemptydata\relax\else\IfNVOETF{\rCD}{}{\num{\rCD}}\fi&%
 				\checkaCDa(7)\let\rCD\cachedata\ifemptydata\relax\else\IfNVOETF{\rCD}{}{\num{\rCD}\%}\fi&%
 				\checkaCDa(8)\let\rCD\cachedata\ifemptydata\relax\else\IfNVOETF{\rCD}{}{\num{\rCD} \euro}\fi&%
 				\IfNVOETF{\aCD}{}{\num{\aCD} \euro}\expandafter\\\fi%
 				\ifdefined\aCEa\rCa{\aCEa}&%
-				\checkaCEa(4)\let\rCE\cachedata\ifemptydata\relax\else\IfNVOETF{\rCE}{}{\num{\rCE}\ts{}\aCEa(5)}\fi&%
+				\checkaCEa(4)\let\rCE\cachedata\ifemptydata\relax\else\IfNVOETF{\rCE}{}{\num[round-precision=3]{\rCE}\ts{}\aCEa(5)}\fi&%
 				\checkaCEa(6)\let\rCE\cachedata\ifemptydata\relax\else\IfNVOETF{\rCE}{}{\num{\rCE}}\fi&%
 				\checkaCEa(7)\let\rCE\cachedata\ifemptydata\relax\else\IfNVOETF{\rCE}{}{\num{\rCE}\%}\fi&%
 				\checkaCEa(8)\let\rCE\cachedata\ifemptydata\relax\else\IfNVOETF{\rCE}{}{\num{\rCE} \euro}\fi&%
 				\IfNVOETF{\aCE}{}{\num{\aCE} \euro}\expandafter\\\fi%
 				\ifdefined\aCFa\rCa{\aCFa}&%
-				\checkaCFa(4)\let\rCF\cachedata\ifemptydata\relax\else\IfNVOETF{\rCF}{}{\num{\rCF}\ts{}\aCFa(5)}\fi&%
+				\checkaCFa(4)\let\rCF\cachedata\ifemptydata\relax\else\IfNVOETF{\rCF}{}{\num[round-precision=3]{\rCF}\ts{}\aCFa(5)}\fi&%
 				\checkaCFa(6)\let\rCF\cachedata\ifemptydata\relax\else\IfNVOETF{\rCF}{}{\num{\rCF}}\fi&%
 				\checkaCFa(7)\let\rCF\cachedata\ifemptydata\relax\else\IfNVOETF{\rCF}{}{\num{\rCF}\%}\fi&%
 				\checkaCFa(8)\let\rCF\cachedata\ifemptydata\relax\else\IfNVOETF{\rCF}{}{\num{\rCF} \euro}\fi&%
 				\IfNVOETF{\aCF}{}{\num{\aCF} \euro}\expandafter\\\fi%
 				\ifdefined\aCGa\rCa{\aCGa}&%
-				\checkaCGa(4)\let\rCG\cachedata\ifemptydata\relax\else\IfNVOETF{\rCG}{}{\num{\rCG}\ts{}\aCGa(5)}\fi&%
+				\checkaCGa(4)\let\rCG\cachedata\ifemptydata\relax\else\IfNVOETF{\rCG}{}{\num[round-precision=3]{\rCG}\ts{}\aCGa(5)}\fi&%
 				\checkaCGa(6)\let\rCG\cachedata\ifemptydata\relax\else\IfNVOETF{\rCG}{}{\num{\rCG}}\fi&%
 				\checkaCGa(7)\let\rCG\cachedata\ifemptydata\relax\else\IfNVOETF{\rCG}{}{\num{\rCG}\%}\fi&%
 				\checkaCGa(8)\let\rCG\cachedata\ifemptydata\relax\else\IfNVOETF{\rCG}{}{\num{\rCG} \euro}\fi&%
 				\IfNVOETF{\aCG}{}{\num{\aCG} \euro}\expandafter\\\fi%
 				\ifdefined\aCIa\rCa{\aCIa}&%
-				\checkaCIa(4)\let\rCI\cachedata\ifemptydata\relax\else\IfNVOETF{\rCI}{}{\num{\rCI}\ts{}\aCIa(5)}\fi&%
+				\checkaCIa(4)\let\rCI\cachedata\ifemptydata\relax\else\IfNVOETF{\rCI}{}{\num[round-precision=3]{\rCI}\ts{}\aCIa(5)}\fi&%
 				\checkaCIa(6)\let\rCI\cachedata\ifemptydata\relax\else\IfNVOETF{\rCI}{}{\num{\rCI}}\fi&%
 				\checkaCIa(7)\let\rCI\cachedata\ifemptydata\relax\else\IfNVOETF{\rCI}{}{\num{\rCI}\%}\fi&%
 				\checkaCIa(8)\let\rCI\cachedata\ifemptydata\relax\else\IfNVOETF{\rCI}{}{\num{\rCI} \euro}\fi&%
 				\IfNVOETF{\aCI}{}{\num{\aCI} \euro}\expandafter\\\fi%
 				\ifdefined\aCJa\rCa{\aCJa}&%
-				\checkaCJa(4)\let\rCJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCJ}{}{\num{\rCJ}\ts{}\aCJa(5)}\fi&%
+				\checkaCJa(4)\let\rCJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCJ}{}{\num[round-precision=3]{\rCJ}\ts{}\aCJa(5)}\fi&%
 				\checkaCJa(6)\let\rCJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCJ}{}{\num{\rCJ}}\fi&%
 				\checkaCJa(7)\let\rCJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCJ}{}{\num{\rCJ}\%}\fi&%
 				\checkaCJa(8)\let\rCJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCJ}{}{\num{\rCJ} \euro}\fi&%
 				\IfNVOETF{\aCJ}{}{\num{\aCJ} \euro}\expandafter\\\fi%
 				\ifdefined\aCKa\rCa{\aCKa}&%
-				\checkaCKa(4)\let\rCK\cachedata\ifemptydata\relax\else\IfNVOETF{\rCK}{}{\num{\rCK}\ts{}\aCKa(5)}\fi&%
+				\checkaCKa(4)\let\rCK\cachedata\ifemptydata\relax\else\IfNVOETF{\rCK}{}{\num[round-precision=3]{\rCK}\ts{}\aCKa(5)}\fi&%
 				\checkaCKa(6)\let\rCK\cachedata\ifemptydata\relax\else\IfNVOETF{\rCK}{}{\num{\rCK}}\fi&%
 				\checkaCKa(7)\let\rCK\cachedata\ifemptydata\relax\else\IfNVOETF{\rCK}{}{\num{\rCK}\%}\fi&%
 				\checkaCKa(8)\let\rCK\cachedata\ifemptydata\relax\else\IfNVOETF{\rCK}{}{\num{\rCK} \euro}\fi&%
 				\IfNVOETF{\aCK}{}{\num{\aCK} \euro}\expandafter\\\fi%
 				\ifdefined\aCLa\rCa{\aCLa}&%
-				\checkaCLa(4)\let\rCL\cachedata\ifemptydata\relax\else\IfNVOETF{\rCL}{}{\num{\rCL}\ts{}\aCLa(5)}\fi&%
+				\checkaCLa(4)\let\rCL\cachedata\ifemptydata\relax\else\IfNVOETF{\rCL}{}{\num[round-precision=3]{\rCL}\ts{}\aCLa(5)}\fi&%
 				\checkaCLa(6)\let\rCL\cachedata\ifemptydata\relax\else\IfNVOETF{\rCL}{}{\num{\rCL}}\fi&%
 				\checkaCLa(7)\let\rCL\cachedata\ifemptydata\relax\else\IfNVOETF{\rCL}{}{\num{\rCL}\%}\fi&%
 				\checkaCLa(8)\let\rCL\cachedata\ifemptydata\relax\else\IfNVOETF{\rCL}{}{\num{\rCL} \euro}\fi&%
 				\IfNVOETF{\aCL}{}{\num{\aCL} \euro}\expandafter\\\fi%
 				\ifdefined\aCMa\rCa{\aCMa}&%
-				\checkaCMa(4)\let\rCM\cachedata\ifemptydata\relax\else\IfNVOETF{\rCM}{}{\num{\rCM}\ts{}\aCMa(5)}\fi&%
+				\checkaCMa(4)\let\rCM\cachedata\ifemptydata\relax\else\IfNVOETF{\rCM}{}{\num[round-precision=3]{\rCM}\ts{}\aCMa(5)}\fi&%
 				\checkaCMa(6)\let\rCM\cachedata\ifemptydata\relax\else\IfNVOETF{\rCM}{}{\num{\rCM}}\fi&%
 				\checkaCMa(7)\let\rCM\cachedata\ifemptydata\relax\else\IfNVOETF{\rCM}{}{\num{\rCM}\%}\fi&%
 				\checkaCMa(8)\let\rCM\cachedata\ifemptydata\relax\else\IfNVOETF{\rCM}{}{\num{\rCM} \euro}\fi&%
 				\IfNVOETF{\aCM}{}{\num{\aCM} \euro}\expandafter\\\fi%
 				\ifdefined\aCNa\rCa{\aCNa}&%
-				\checkaCNa(4)\let\rCN\cachedata\ifemptydata\relax\else\IfNVOETF{\rCN}{}{\num{\rCN}\ts{}\aCNa(5)}\fi&%
+				\checkaCNa(4)\let\rCN\cachedata\ifemptydata\relax\else\IfNVOETF{\rCN}{}{\num[round-precision=3]{\rCN}\ts{}\aCNa(5)}\fi&%
 				\checkaCNa(6)\let\rCN\cachedata\ifemptydata\relax\else\IfNVOETF{\rCN}{}{\num{\rCN}}\fi&%
 				\checkaCNa(7)\let\rCN\cachedata\ifemptydata\relax\else\IfNVOETF{\rCN}{}{\num{\rCN}\%}\fi&%
 				\checkaCNa(8)\let\rCN\cachedata\ifemptydata\relax\else\IfNVOETF{\rCN}{}{\num{\rCN} \euro}\fi&%
 				\IfNVOETF{\aCN}{}{\num{\aCN} \euro}\expandafter\\\fi%
 				\ifdefined\aCOa\rCa{\aCOa}&%
-				\checkaCOa(4)\let\rCO\cachedata\ifemptydata\relax\else\IfNVOETF{\rCO}{}{\num{\rCO}\ts{}\aCOa(5)}\fi&%
+				\checkaCOa(4)\let\rCO\cachedata\ifemptydata\relax\else\IfNVOETF{\rCO}{}{\num[round-precision=3]{\rCO}\ts{}\aCOa(5)}\fi&%
 				\checkaCOa(6)\let\rCO\cachedata\ifemptydata\relax\else\IfNVOETF{\rCO}{}{\num{\rCO}}\fi&%
 				\checkaCOa(7)\let\rCO\cachedata\ifemptydata\relax\else\IfNVOETF{\rCO}{}{\num{\rCO}\%}\fi&%
 				\checkaCOa(8)\let\rCO\cachedata\ifemptydata\relax\else\IfNVOETF{\rCO}{}{\num{\rCO} \euro}\fi&%
 				\IfNVOETF{\aCO}{}{\num{\aCO} \euro}\expandafter\\\fi%
 				\ifdefined\aCPa\rCa{\aCPa}&%
-				\checkaCPa(4)\let\rCP\cachedata\ifemptydata\relax\else\IfNVOETF{\rCP}{}{\num{\rCP}\ts{}\aCPa(5)}\fi&%
+				\checkaCPa(4)\let\rCP\cachedata\ifemptydata\relax\else\IfNVOETF{\rCP}{}{\num[round-precision=3]{\rCP}\ts{}\aCPa(5)}\fi&%
 				\checkaCPa(6)\let\rCP\cachedata\ifemptydata\relax\else\IfNVOETF{\rCP}{}{\num{\rCP}}\fi&%
 				\checkaCPa(7)\let\rCP\cachedata\ifemptydata\relax\else\IfNVOETF{\rCP}{}{\num{\rCP}\%}\fi&%
 				\checkaCPa(8)\let\rCP\cachedata\ifemptydata\relax\else\IfNVOETF{\rCP}{}{\num{\rCP} \euro}\fi&%
 				\IfNVOETF{\aCP}{}{\num{\aCP} \euro}\expandafter\\\fi%
 				\ifdefined\aCQa\rCa{\aCQa}&%
-				\checkaCQa(4)\let\rCQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCQ}{}{\num{\rCQ}\ts{}\aCQa(5)}\fi&%
+				\checkaCQa(4)\let\rCQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCQ}{}{\num[round-precision=3]{\rCQ}\ts{}\aCQa(5)}\fi&%
 				\checkaCQa(6)\let\rCQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCQ}{}{\num{\rCQ}}\fi&%
 				\checkaCQa(7)\let\rCQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCQ}{}{\num{\rCQ}\%}\fi&%
 				\checkaCQa(8)\let\rCQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCQ}{}{\num{\rCQ} \euro}\fi&%
 				\IfNVOETF{\aCQ}{}{\num{\aCQ} \euro}\expandafter\\\fi%
 				\ifdefined\aCRa\rCa{\aCRa}&%
-				\checkaCRa(4)\let\rCR\cachedata\ifemptydata\relax\else\IfNVOETF{\rCR}{}{\num{\rCR}\ts{}\aCRa(5)}\fi&%
+				\checkaCRa(4)\let\rCR\cachedata\ifemptydata\relax\else\IfNVOETF{\rCR}{}{\num[round-precision=3]{\rCR}\ts{}\aCRa(5)}\fi&%
 				\checkaCRa(6)\let\rCR\cachedata\ifemptydata\relax\else\IfNVOETF{\rCR}{}{\num{\rCR}}\fi&%
 				\checkaCRa(7)\let\rCR\cachedata\ifemptydata\relax\else\IfNVOETF{\rCR}{}{\num{\rCR}\%}\fi&%
 				\checkaCRa(8)\let\rCR\cachedata\ifemptydata\relax\else\IfNVOETF{\rCR}{}{\num{\rCR} \euro}\fi&%
 				\IfNVOETF{\aCR}{}{\num{\aCR} \euro}\expandafter\\\fi%
 				\ifdefined\aCSa\rCa{\aCSa}&%
-				\checkaCSa(4)\let\rCS\cachedata\ifemptydata\relax\else\IfNVOETF{\rCS}{}{\num{\rCS}\ts{}\aCSa(5)}\fi&%
+				\checkaCSa(4)\let\rCS\cachedata\ifemptydata\relax\else\IfNVOETF{\rCS}{}{\num[round-precision=3]{\rCS}\ts{}\aCSa(5)}\fi&%
 				\checkaCSa(6)\let\rCS\cachedata\ifemptydata\relax\else\IfNVOETF{\rCS}{}{\num{\rCS}}\fi&%
 				\checkaCSa(7)\let\rCS\cachedata\ifemptydata\relax\else\IfNVOETF{\rCS}{}{\num{\rCS}\%}\fi&%
 				\checkaCSa(8)\let\rCS\cachedata\ifemptydata\relax\else\IfNVOETF{\rCS}{}{\num{\rCS} \euro}\fi&%
 				\IfNVOETF{\aCS}{}{\num{\aCS} \euro}\expandafter\\\fi%
 				\ifdefined\aCTa\rCa{\aCTa}&%
-				\checkaCTa(4)\let\rCT\cachedata\ifemptydata\relax\else\IfNVOETF{\rCT}{}{\num{\rCT}\ts{}\aCTa(5)}\fi&%
+				\checkaCTa(4)\let\rCT\cachedata\ifemptydata\relax\else\IfNVOETF{\rCT}{}{\num[round-precision=3]{\rCT}\ts{}\aCTa(5)}\fi&%
 				\checkaCTa(6)\let\rCT\cachedata\ifemptydata\relax\else\IfNVOETF{\rCT}{}{\num{\rCT}}\fi&%
 				\checkaCTa(7)\let\rCT\cachedata\ifemptydata\relax\else\IfNVOETF{\rCT}{}{\num{\rCT}\%}\fi&%
 				\checkaCTa(8)\let\rCT\cachedata\ifemptydata\relax\else\IfNVOETF{\rCT}{}{\num{\rCT} \euro}\fi&%
 				\IfNVOETF{\aCT}{}{\num{\aCT} \euro}\expandafter\\\fi%
 				\ifdefined\aCUa\rCa{\aCUa}&%
-				\checkaCUa(4)\let\rCU\cachedata\ifemptydata\relax\else\IfNVOETF{\rCU}{}{\num{\rCU}\ts{}\aCUa(5)}\fi&%
+				\checkaCUa(4)\let\rCU\cachedata\ifemptydata\relax\else\IfNVOETF{\rCU}{}{\num[round-precision=3]{\rCU}\ts{}\aCUa(5)}\fi&%
 				\checkaCUa(6)\let\rCU\cachedata\ifemptydata\relax\else\IfNVOETF{\rCU}{}{\num{\rCU}}\fi&%
 				\checkaCUa(7)\let\rCU\cachedata\ifemptydata\relax\else\IfNVOETF{\rCU}{}{\num{\rCU}\%}\fi&%
 				\checkaCUa(8)\let\rCU\cachedata\ifemptydata\relax\else\IfNVOETF{\rCU}{}{\num{\rCU} \euro}\fi&%
 				\IfNVOETF{\aCU}{}{\num{\aCU} \euro}\expandafter\\\fi%
 				\ifdefined\aCVa\rCa{\aCVa}&%
-				\checkaCVa(4)\let\rCV\cachedata\ifemptydata\relax\else\IfNVOETF{\rCV}{}{\num{\rCV}\ts{}\aCVa(5)}\fi&%
+				\checkaCVa(4)\let\rCV\cachedata\ifemptydata\relax\else\IfNVOETF{\rCV}{}{\num[round-precision=3]{\rCV}\ts{}\aCVa(5)}\fi&%
 				\checkaCVa(6)\let\rCV\cachedata\ifemptydata\relax\else\IfNVOETF{\rCV}{}{\num{\rCV}}\fi&%
 				\checkaCVa(7)\let\rCV\cachedata\ifemptydata\relax\else\IfNVOETF{\rCV}{}{\num{\rCV}\%}\fi&%
 				\checkaCVa(8)\let\rCV\cachedata\ifemptydata\relax\else\IfNVOETF{\rCV}{}{\num{\rCV} \euro}\fi&%
 				\IfNVOETF{\aCV}{}{\num{\aCV} \euro}\expandafter\\\fi%
 				\ifdefined\aCWa\rCa{\aCWa}&%
-				\checkaCWa(4)\let\rCW\cachedata\ifemptydata\relax\else\IfNVOETF{\rCW}{}{\num{\rCW}\ts{}\aCWa(5)}\fi&%
+				\checkaCWa(4)\let\rCW\cachedata\ifemptydata\relax\else\IfNVOETF{\rCW}{}{\num[round-precision=3]{\rCW}\ts{}\aCWa(5)}\fi&%
 				\checkaCWa(6)\let\rCW\cachedata\ifemptydata\relax\else\IfNVOETF{\rCW}{}{\num{\rCW}}\fi&%
 				\checkaCWa(7)\let\rCW\cachedata\ifemptydata\relax\else\IfNVOETF{\rCW}{}{\num{\rCW}\%}\fi&%
 				\checkaCWa(8)\let\rCW\cachedata\ifemptydata\relax\else\IfNVOETF{\rCW}{}{\num{\rCW} \euro}\fi&%
 				\IfNVOETF{\aCW}{}{\num{\aCW} \euro}\expandafter\\\fi%
 				\ifdefined\aCXa\rCa{\aCXa}&%
-				\checkaCXa(4)\let\rCX\cachedata\ifemptydata\relax\else\IfNVOETF{\rCX}{}{\num{\rCX}\ts{}\aCXa(5)}\fi&%
+				\checkaCXa(4)\let\rCX\cachedata\ifemptydata\relax\else\IfNVOETF{\rCX}{}{\num[round-precision=3]{\rCX}\ts{}\aCXa(5)}\fi&%
 				\checkaCXa(6)\let\rCX\cachedata\ifemptydata\relax\else\IfNVOETF{\rCX}{}{\num{\rCX}}\fi&%
 				\checkaCXa(7)\let\rCX\cachedata\ifemptydata\relax\else\IfNVOETF{\rCX}{}{\num{\rCX}\%}\fi&%
 				\checkaCXa(8)\let\rCX\cachedata\ifemptydata\relax\else\IfNVOETF{\rCX}{}{\num{\rCX} \euro}\fi&%
 				\IfNVOETF{\aCX}{}{\num{\aCX} \euro}\expandafter\\\fi%
 				\ifdefined\aCYa\rCa{\aCYa}&%
-				\checkaCYa(4)\let\rCY\cachedata\ifemptydata\relax\else\IfNVOETF{\rCY}{}{\num{\rCY}\ts{}\aCYa(5)}\fi&%
+				\checkaCYa(4)\let\rCY\cachedata\ifemptydata\relax\else\IfNVOETF{\rCY}{}{\num[round-precision=3]{\rCY}\ts{}\aCYa(5)}\fi&%
 				\checkaCYa(6)\let\rCY\cachedata\ifemptydata\relax\else\IfNVOETF{\rCY}{}{\num{\rCY}}\fi&%
 				\checkaCYa(7)\let\rCY\cachedata\ifemptydata\relax\else\IfNVOETF{\rCY}{}{\num{\rCY}\%}\fi&%
 				\checkaCYa(8)\let\rCY\cachedata\ifemptydata\relax\else\IfNVOETF{\rCY}{}{\num{\rCY} \euro}\fi&%
 				\IfNVOETF{\aCY}{}{\num{\aCY} \euro}\expandafter\\\fi%	
 				\ifdefined\aCZa\rCa{\aCZa}&%
-				\checkaCZa(4)\let\rCZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCZ}{}{\num{\rCZ}\ts{}\aCZa(5)}\fi&%
+				\checkaCZa(4)\let\rCZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCZ}{}{\num[round-precision=3]{\rCZ}\ts{}\aCZa(5)}\fi&%
 				\checkaCZa(6)\let\rCZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCZ}{}{\num{\rCZ}}\fi&%
 				\checkaCZa(7)\let\rCZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCZ}{}{\num{\rCZ}\%}\fi&%
 				\checkaCZa(8)\let\rCZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rCZ}{}{\num{\rCZ} \euro}\fi&%
@@ -2103,151 +2103,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aDAa\rCa{\aDAa}&%
-				\checkaDAa(4)\let\rDA\cachedata\ifemptydata\relax\else\IfNVOETF{\rDA}{}{\num{\rDA}\ts{}\aDAa(5)}\fi&%
+				\checkaDAa(4)\let\rDA\cachedata\ifemptydata\relax\else\IfNVOETF{\rDA}{}{\num[round-precision=3]{\rDA}\ts{}\aDAa(5)}\fi&%
 				\checkaDAa(6)\let\rDA\cachedata\ifemptydata\relax\else\IfNVOETF{\rDA}{}{\num{\rDA}}\fi&%
 				\checkaDAa(7)\let\rDA\cachedata\ifemptydata\relax\else\IfNVOETF{\rDA}{}{\num{\rDA}\%}\fi&%
 				\checkaDAa(8)\let\rDA\cachedata\ifemptydata\relax\else\IfNVOETF{\rDA}{}{\num{\rDA} \euro}\fi&%
 				\IfNVOETF{\aDA}{}{\num{\aDA} \euro}\expandafter\\\fi%
 				\ifdefined\aDBa\rCa{\aDBa}&%
-				\checkaDBa(4)\let\rDB\cachedata\ifemptydata\relax\else\IfNVOETF{\rDB}{}{\num{\rDB}\ts{}\aDBa(5)}\fi&%
+				\checkaDBa(4)\let\rDB\cachedata\ifemptydata\relax\else\IfNVOETF{\rDB}{}{\num[round-precision=3]{\rDB}\ts{}\aDBa(5)}\fi&%
 				\checkaDBa(6)\let\rDB\cachedata\ifemptydata\relax\else\IfNVOETF{\rDB}{}{\num{\rDB}}\fi&%
 				\checkaDBa(7)\let\rDB\cachedata\ifemptydata\relax\else\IfNVOETF{\rDB}{}{\num{\rDB}\%}\fi&%
 				\checkaDBa(8)\let\rDB\cachedata\ifemptydata\relax\else\IfNVOETF{\rDB}{}{\num{\rDB} \euro}\fi&%
 				\IfNVOETF{\aDB}{}{\num{\aDB} \euro}\expandafter\\\fi%
 				\ifdefined\aDCa\rCa{\aDCa}&%
-				\checkaDCa(4)\let\rDC\cachedata\ifemptydata\relax\else\IfNVOETF{\rDC}{}{\num{\rDC}\ts{}\aDCa(5)}\fi&%
+				\checkaDCa(4)\let\rDC\cachedata\ifemptydata\relax\else\IfNVOETF{\rDC}{}{\num[round-precision=3]{\rDC}\ts{}\aDCa(5)}\fi&%
 				\checkaDCa(6)\let\rDC\cachedata\ifemptydata\relax\else\IfNVOETF{\rDC}{}{\num{\rDC}}\fi&%
 				\checkaDCa(7)\let\rDC\cachedata\ifemptydata\relax\else\IfNVOETF{\rDC}{}{\num{\rDC}\%}\fi&%
 				\checkaDCa(8)\let\rDC\cachedata\ifemptydata\relax\else\IfNVOETF{\rDC}{}{\num{\rDC} \euro}\fi&%
 				\IfNVOETF{\aDC}{}{\num{\aDC} \euro}\expandafter\\\fi%
 				\ifdefined\aDDa\rCa{\aDDa}&%
-				\checkaDDa(4)\let\rDD\cachedata\ifemptydata\relax\else\IfNVOETF{\rDD}{}{\num{\rDD}\ts{}\aDDa(5)}\fi&%
+				\checkaDDa(4)\let\rDD\cachedata\ifemptydata\relax\else\IfNVOETF{\rDD}{}{\num[round-precision=3]{\rDD}\ts{}\aDDa(5)}\fi&%
 				\checkaDDa(6)\let\rDD\cachedata\ifemptydata\relax\else\IfNVOETF{\rDD}{}{\num{\rDD}}\fi&%
 				\checkaDDa(7)\let\rDD\cachedata\ifemptydata\relax\else\IfNVOETF{\rDD}{}{\num{\rDD}\%}\fi&%
 				\checkaDDa(8)\let\rDD\cachedata\ifemptydata\relax\else\IfNVOETF{\rDD}{}{\num{\rDD} \euro}\fi&%
 				\IfNVOETF{\aDD}{}{\num{\aDD} \euro}\expandafter\\\fi%
 				\ifdefined\aDEa\rCa{\aDEa}&%
-				\checkaDEa(4)\let\rDE\cachedata\ifemptydata\relax\else\IfNVOETF{\rDE}{}{\num{\rDE}\ts{}\aDEa(5)}\fi&%
+				\checkaDEa(4)\let\rDE\cachedata\ifemptydata\relax\else\IfNVOETF{\rDE}{}{\num[round-precision=3]{\rDE}\ts{}\aDEa(5)}\fi&%
 				\checkaDEa(6)\let\rDE\cachedata\ifemptydata\relax\else\IfNVOETF{\rDE}{}{\num{\rDE}}\fi&%
 				\checkaDEa(7)\let\rDE\cachedata\ifemptydata\relax\else\IfNVOETF{\rDE}{}{\num{\rDE}\%}\fi&%
 				\checkaDEa(8)\let\rDE\cachedata\ifemptydata\relax\else\IfNVOETF{\rDE}{}{\num{\rDE} \euro}\fi&%
 				\IfNVOETF{\aDE}{}{\num{\aDE} \euro}\expandafter\\\fi%
 				\ifdefined\aDFa\rCa{\aDFa}&%
-				\checkaDFa(4)\let\rDF\cachedata\ifemptydata\relax\else\IfNVOETF{\rDF}{}{\num{\rDF}\ts{}\aDFa(5)}\fi&%
+				\checkaDFa(4)\let\rDF\cachedata\ifemptydata\relax\else\IfNVOETF{\rDF}{}{\num[round-precision=3]{\rDF}\ts{}\aDFa(5)}\fi&%
 				\checkaDFa(6)\let\rDF\cachedata\ifemptydata\relax\else\IfNVOETF{\rDF}{}{\num{\rDF}}\fi&%
 				\checkaDFa(7)\let\rDF\cachedata\ifemptydata\relax\else\IfNVOETF{\rDF}{}{\num{\rDF}\%}\fi&%
 				\checkaDFa(8)\let\rDF\cachedata\ifemptydata\relax\else\IfNVOETF{\rDF}{}{\num{\rDF} \euro}\fi&%
 				\IfNVOETF{\aDF}{}{\num{\aDF} \euro}\expandafter\\\fi%
 				\ifdefined\aDGa\rCa{\aDGa}&%
-				\checkaDGa(4)\let\rDG\cachedata\ifemptydata\relax\else\IfNVOETF{\rDG}{}{\num{\rDG}\ts{}\aDGa(5)}\fi&%
+				\checkaDGa(4)\let\rDG\cachedata\ifemptydata\relax\else\IfNVOETF{\rDG}{}{\num[round-precision=3]{\rDG}\ts{}\aDGa(5)}\fi&%
 				\checkaDGa(6)\let\rDG\cachedata\ifemptydata\relax\else\IfNVOETF{\rDG}{}{\num{\rDG}}\fi&%
 				\checkaDGa(7)\let\rDG\cachedata\ifemptydata\relax\else\IfNVOETF{\rDG}{}{\num{\rDG}\%}\fi&%
 				\checkaDGa(8)\let\rDG\cachedata\ifemptydata\relax\else\IfNVOETF{\rDG}{}{\num{\rDG} \euro}\fi&%
 				\IfNVOETF{\aDG}{}{\num{\aDG} \euro}\expandafter\\\fi%
 				\ifdefined\aDIa\rCa{\aDIa}&%
-				\checkaDIa(4)\let\rDI\cachedata\ifemptydata\relax\else\IfNVOETF{\rDI}{}{\num{\rDI}\ts{}\aDIa(5)}\fi&%
+				\checkaDIa(4)\let\rDI\cachedata\ifemptydata\relax\else\IfNVOETF{\rDI}{}{\num[round-precision=3]{\rDI}\ts{}\aDIa(5)}\fi&%
 				\checkaDIa(6)\let\rDI\cachedata\ifemptydata\relax\else\IfNVOETF{\rDI}{}{\num{\rDI}}\fi&%
 				\checkaDIa(7)\let\rDI\cachedata\ifemptydata\relax\else\IfNVOETF{\rDI}{}{\num{\rDI}\%}\fi&%
 				\checkaDIa(8)\let\rDI\cachedata\ifemptydata\relax\else\IfNVOETF{\rDI}{}{\num{\rDI} \euro}\fi&%
 				\IfNVOETF{\aDI}{}{\num{\aDI} \euro}\expandafter\\\fi%
 				\ifdefined\aDJa\rCa{\aDJa}&%
-				\checkaDJa(4)\let\rDJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDJ}{}{\num{\rDJ}\ts{}\aDJa(5)}\fi&%
+				\checkaDJa(4)\let\rDJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDJ}{}{\num[round-precision=3]{\rDJ}\ts{}\aDJa(5)}\fi&%
 				\checkaDJa(6)\let\rDJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDJ}{}{\num{\rDJ}}\fi&%
 				\checkaDJa(7)\let\rDJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDJ}{}{\num{\rDJ}\%}\fi&%
 				\checkaDJa(8)\let\rDJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDJ}{}{\num{\rDJ} \euro}\fi&%
 				\IfNVOETF{\aDJ}{}{\num{\aDJ} \euro}\expandafter\\\fi%
 				\ifdefined\aDKa\rCa{\aDKa}&%
-				\checkaDKa(4)\let\rDK\cachedata\ifemptydata\relax\else\IfNVOETF{\rDK}{}{\num{\rDK}\ts{}\aDKa(5)}\fi&%
+				\checkaDKa(4)\let\rDK\cachedata\ifemptydata\relax\else\IfNVOETF{\rDK}{}{\num[round-precision=3]{\rDK}\ts{}\aDKa(5)}\fi&%
 				\checkaDKa(6)\let\rDK\cachedata\ifemptydata\relax\else\IfNVOETF{\rDK}{}{\num{\rDK}}\fi&%
 				\checkaDKa(7)\let\rDK\cachedata\ifemptydata\relax\else\IfNVOETF{\rDK}{}{\num{\rDK}\%}\fi&%
 				\checkaDKa(8)\let\rDK\cachedata\ifemptydata\relax\else\IfNVOETF{\rDK}{}{\num{\rDK} \euro}\fi&%
 				\IfNVOETF{\aDK}{}{\num{\aDK} \euro}\expandafter\\\fi%
 				\ifdefined\aDLa\rCa{\aDLa}&%
-				\checkaDLa(4)\let\rDL\cachedata\ifemptydata\relax\else\IfNVOETF{\rDL}{}{\num{\rDL}\ts{}\aDLa(5)}\fi&%
+				\checkaDLa(4)\let\rDL\cachedata\ifemptydata\relax\else\IfNVOETF{\rDL}{}{\num[round-precision=3]{\rDL}\ts{}\aDLa(5)}\fi&%
 				\checkaDLa(6)\let\rDL\cachedata\ifemptydata\relax\else\IfNVOETF{\rDL}{}{\num{\rDL}}\fi&%
 				\checkaDLa(7)\let\rDL\cachedata\ifemptydata\relax\else\IfNVOETF{\rDL}{}{\num{\rDL}\%}\fi&%
 				\checkaDLa(8)\let\rDL\cachedata\ifemptydata\relax\else\IfNVOETF{\rDL}{}{\num{\rDL} \euro}\fi&%
 				\IfNVOETF{\aDL}{}{\num{\aDL} \euro}\expandafter\\\fi%
 				\ifdefined\aDMa\rCa{\aDMa}&%
-				\checkaDMa(4)\let\rDM\cachedata\ifemptydata\relax\else\IfNVOETF{\rDM}{}{\num{\rDM}\ts{}\aDMa(5)}\fi&%
+				\checkaDMa(4)\let\rDM\cachedata\ifemptydata\relax\else\IfNVOETF{\rDM}{}{\num[round-precision=3]{\rDM}\ts{}\aDMa(5)}\fi&%
 				\checkaDMa(6)\let\rDM\cachedata\ifemptydata\relax\else\IfNVOETF{\rDM}{}{\num{\rDM}}\fi&%
 				\checkaDMa(7)\let\rDM\cachedata\ifemptydata\relax\else\IfNVOETF{\rDM}{}{\num{\rDM}\%}\fi&%
 				\checkaDMa(8)\let\rDM\cachedata\ifemptydata\relax\else\IfNVOETF{\rDM}{}{\num{\rDM} \euro}\fi&%
 				\IfNVOETF{\aDM}{}{\num{\aDM} \euro}\expandafter\\\fi%
 				\ifdefined\aDNa\rCa{\aDNa}&%
-				\checkaDNa(4)\let\rDN\cachedata\ifemptydata\relax\else\IfNVOETF{\rDN}{}{\num{\rDN}\ts{}\aDNa(5)}\fi&%
+				\checkaDNa(4)\let\rDN\cachedata\ifemptydata\relax\else\IfNVOETF{\rDN}{}{\num[round-precision=3]{\rDN}\ts{}\aDNa(5)}\fi&%
 				\checkaDNa(6)\let\rDN\cachedata\ifemptydata\relax\else\IfNVOETF{\rDN}{}{\num{\rDN}}\fi&%
 				\checkaDNa(7)\let\rDN\cachedata\ifemptydata\relax\else\IfNVOETF{\rDN}{}{\num{\rDN}\%}\fi&%
 				\checkaDNa(8)\let\rDN\cachedata\ifemptydata\relax\else\IfNVOETF{\rDN}{}{\num{\rDN} \euro}\fi&%
 				\IfNVOETF{\aDN}{}{\num{\aDN} \euro}\expandafter\\\fi%
 				\ifdefined\aDOa\rCa{\aDOa}&%
-				\checkaDOa(4)\let\rDO\cachedata\ifemptydata\relax\else\IfNVOETF{\rDO}{}{\num{\rDO}\ts{}\aDOa(5)}\fi&%
+				\checkaDOa(4)\let\rDO\cachedata\ifemptydata\relax\else\IfNVOETF{\rDO}{}{\num[round-precision=3]{\rDO}\ts{}\aDOa(5)}\fi&%
 				\checkaDOa(6)\let\rDO\cachedata\ifemptydata\relax\else\IfNVOETF{\rDO}{}{\num{\rDO}}\fi&%
 				\checkaDOa(7)\let\rDO\cachedata\ifemptydata\relax\else\IfNVOETF{\rDO}{}{\num{\rDO}\%}\fi&%
 				\checkaDOa(8)\let\rDO\cachedata\ifemptydata\relax\else\IfNVOETF{\rDO}{}{\num{\rDO} \euro}\fi&%
 				\IfNVOETF{\aDO}{}{\num{\aDO} \euro}\expandafter\\\fi%
 				\ifdefined\aDPa\rCa{\aDPa}&%
-				\checkaDPa(4)\let\rDP\cachedata\ifemptydata\relax\else\IfNVOETF{\rDP}{}{\num{\rDP}\ts{}\aDPa(5)}\fi&%
+				\checkaDPa(4)\let\rDP\cachedata\ifemptydata\relax\else\IfNVOETF{\rDP}{}{\num[round-precision=3]{\rDP}\ts{}\aDPa(5)}\fi&%
 				\checkaDPa(6)\let\rDP\cachedata\ifemptydata\relax\else\IfNVOETF{\rDP}{}{\num{\rDP}}\fi&%
 				\checkaDPa(7)\let\rDP\cachedata\ifemptydata\relax\else\IfNVOETF{\rDP}{}{\num{\rDP}\%}\fi&%
 				\checkaDPa(8)\let\rDP\cachedata\ifemptydata\relax\else\IfNVOETF{\rDP}{}{\num{\rDP} \euro}\fi&%
 				\IfNVOETF{\aDP}{}{\num{\aDP} \euro}\expandafter\\\fi%
 				\ifdefined\aDQa\rCa{\aDQa}&%
-				\checkaDQa(4)\let\rDQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDQ}{}{\num{\rDQ}\ts{}\aDQa(5)}\fi&%
+				\checkaDQa(4)\let\rDQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDQ}{}{\num[round-precision=3]{\rDQ}\ts{}\aDQa(5)}\fi&%
 				\checkaDQa(6)\let\rDQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDQ}{}{\num{\rDQ}}\fi&%
 				\checkaDQa(7)\let\rDQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDQ}{}{\num{\rDQ}\%}\fi&%
 				\checkaDQa(8)\let\rDQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDQ}{}{\num{\rDQ} \euro}\fi&%
 				\IfNVOETF{\aDQ}{}{\num{\aDQ} \euro}\expandafter\\\fi%
 				\ifdefined\aDRa\rCa{\aDRa}&%
-				\checkaDRa(4)\let\rDR\cachedata\ifemptydata\relax\else\IfNVOETF{\rDR}{}{\num{\rDR}\ts{}\aDRa(5)}\fi&%
+				\checkaDRa(4)\let\rDR\cachedata\ifemptydata\relax\else\IfNVOETF{\rDR}{}{\num[round-precision=3]{\rDR}\ts{}\aDRa(5)}\fi&%
 				\checkaDRa(6)\let\rDR\cachedata\ifemptydata\relax\else\IfNVOETF{\rDR}{}{\num{\rDR}}\fi&%
 				\checkaDRa(7)\let\rDR\cachedata\ifemptydata\relax\else\IfNVOETF{\rDR}{}{\num{\rDR}\%}\fi&%
 				\checkaDRa(8)\let\rDR\cachedata\ifemptydata\relax\else\IfNVOETF{\rDR}{}{\num{\rDR} \euro}\fi&%
 				\IfNVOETF{\aDR}{}{\num{\aDR} \euro}\expandafter\\\fi%
 				\ifdefined\aDSa\rCa{\aDSa}&%
-				\checkaDSa(4)\let\rDS\cachedata\ifemptydata\relax\else\IfNVOETF{\rDS}{}{\num{\rDS}\ts{}\aDSa(5)}\fi&%
+				\checkaDSa(4)\let\rDS\cachedata\ifemptydata\relax\else\IfNVOETF{\rDS}{}{\num[round-precision=3]{\rDS}\ts{}\aDSa(5)}\fi&%
 				\checkaDSa(6)\let\rDS\cachedata\ifemptydata\relax\else\IfNVOETF{\rDS}{}{\num{\rDS}}\fi&%
 				\checkaDSa(7)\let\rDS\cachedata\ifemptydata\relax\else\IfNVOETF{\rDS}{}{\num{\rDS}\%}\fi&%
 				\checkaDSa(8)\let\rDS\cachedata\ifemptydata\relax\else\IfNVOETF{\rDS}{}{\num{\rDS} \euro}\fi&%
 				\IfNVOETF{\aDS}{}{\num{\aDS} \euro}\expandafter\\\fi%
 				\ifdefined\aDTa\rCa{\aDTa}&%
-				\checkaDTa(4)\let\rDT\cachedata\ifemptydata\relax\else\IfNVOETF{\rDT}{}{\num{\rDT}\ts{}\aDTa(5)}\fi&%
+				\checkaDTa(4)\let\rDT\cachedata\ifemptydata\relax\else\IfNVOETF{\rDT}{}{\num[round-precision=3]{\rDT}\ts{}\aDTa(5)}\fi&%
 				\checkaDTa(6)\let\rDT\cachedata\ifemptydata\relax\else\IfNVOETF{\rDT}{}{\num{\rDT}}\fi&%
 				\checkaDTa(7)\let\rDT\cachedata\ifemptydata\relax\else\IfNVOETF{\rDT}{}{\num{\rDT}\%}\fi&%
 				\checkaDTa(8)\let\rDT\cachedata\ifemptydata\relax\else\IfNVOETF{\rDT}{}{\num{\rDT} \euro}\fi&%
 				\IfNVOETF{\aDT}{}{\num{\aDT} \euro}\expandafter\\\fi%
 				\ifdefined\aDUa\rCa{\aDUa}&%
-				\checkaDUa(4)\let\rDU\cachedata\ifemptydata\relax\else\IfNVOETF{\rDU}{}{\num{\rDU}\ts{}\aDUa(5)}\fi&%
+				\checkaDUa(4)\let\rDU\cachedata\ifemptydata\relax\else\IfNVOETF{\rDU}{}{\num[round-precision=3]{\rDU}\ts{}\aDUa(5)}\fi&%
 				\checkaDUa(6)\let\rDU\cachedata\ifemptydata\relax\else\IfNVOETF{\rDU}{}{\num{\rDU}}\fi&%
 				\checkaDUa(7)\let\rDU\cachedata\ifemptydata\relax\else\IfNVOETF{\rDU}{}{\num{\rDU}\%}\fi&%
 				\checkaDUa(8)\let\rDU\cachedata\ifemptydata\relax\else\IfNVOETF{\rDU}{}{\num{\rDU} \euro}\fi&%
 				\IfNVOETF{\aDU}{}{\num{\aDU} \euro}\expandafter\\\fi%
 				\ifdefined\aDVa\rCa{\aDVa}&%
-				\checkaDVa(4)\let\rDV\cachedata\ifemptydata\relax\else\IfNVOETF{\rDV}{}{\num{\rDV}\ts{}\aDVa(5)}\fi&%
+				\checkaDVa(4)\let\rDV\cachedata\ifemptydata\relax\else\IfNVOETF{\rDV}{}{\num[round-precision=3]{\rDV}\ts{}\aDVa(5)}\fi&%
 				\checkaDVa(6)\let\rDV\cachedata\ifemptydata\relax\else\IfNVOETF{\rDV}{}{\num{\rDV}}\fi&%
 				\checkaDVa(7)\let\rDV\cachedata\ifemptydata\relax\else\IfNVOETF{\rDV}{}{\num{\rDV}\%}\fi&%
 				\checkaDVa(8)\let\rDV\cachedata\ifemptydata\relax\else\IfNVOETF{\rDV}{}{\num{\rDV} \euro}\fi&%
 				\IfNVOETF{\aDV}{}{\num{\aDV} \euro}\expandafter\\\fi%
 				\ifdefined\aDWa\rCa{\aDWa}&%
-				\checkaDWa(4)\let\rDW\cachedata\ifemptydata\relax\else\IfNVOETF{\rDW}{}{\num{\rDW}\ts{}\aDWa(5)}\fi&%
+				\checkaDWa(4)\let\rDW\cachedata\ifemptydata\relax\else\IfNVOETF{\rDW}{}{\num[round-precision=3]{\rDW}\ts{}\aDWa(5)}\fi&%
 				\checkaDWa(6)\let\rDW\cachedata\ifemptydata\relax\else\IfNVOETF{\rDW}{}{\num{\rDW}}\fi&%
 				\checkaDWa(7)\let\rDW\cachedata\ifemptydata\relax\else\IfNVOETF{\rDW}{}{\num{\rDW}\%}\fi&%
 				\checkaDWa(8)\let\rDW\cachedata\ifemptydata\relax\else\IfNVOETF{\rDW}{}{\num{\rDW} \euro}\fi&%
 				\IfNVOETF{\aDW}{}{\num{\aDW} \euro}\expandafter\\\fi%
 				\ifdefined\aDXa\rCa{\aDXa}&%
-				\checkaDXa(4)\let\rDX\cachedata\ifemptydata\relax\else\IfNVOETF{\rDX}{}{\num{\rDX}\ts{}\aDXa(5)}\fi&%
+				\checkaDXa(4)\let\rDX\cachedata\ifemptydata\relax\else\IfNVOETF{\rDX}{}{\num[round-precision=3]{\rDX}\ts{}\aDXa(5)}\fi&%
 				\checkaDXa(6)\let\rDX\cachedata\ifemptydata\relax\else\IfNVOETF{\rDX}{}{\num{\rDX}}\fi&%
 				\checkaDXa(7)\let\rDX\cachedata\ifemptydata\relax\else\IfNVOETF{\rDX}{}{\num{\rDX}\%}\fi&%
 				\checkaDXa(8)\let\rDX\cachedata\ifemptydata\relax\else\IfNVOETF{\rDX}{}{\num{\rDX} \euro}\fi&%
 				\IfNVOETF{\aDX}{}{\num{\aDX} \euro}\expandafter\\\fi%
 				\ifdefined\aDYa\rCa{\aDYa}&%
-				\checkaDYa(4)\let\rDY\cachedata\ifemptydata\relax\else\IfNVOETF{\rDY}{}{\num{\rDY}\ts{}\aDYa(5)}\fi&%
+				\checkaDYa(4)\let\rDY\cachedata\ifemptydata\relax\else\IfNVOETF{\rDY}{}{\num[round-precision=3]{\rDY}\ts{}\aDYa(5)}\fi&%
 				\checkaDYa(6)\let\rDY\cachedata\ifemptydata\relax\else\IfNVOETF{\rDY}{}{\num{\rDY}}\fi&%
 				\checkaDYa(7)\let\rDY\cachedata\ifemptydata\relax\else\IfNVOETF{\rDY}{}{\num{\rDY}\%}\fi&%
 				\checkaDYa(8)\let\rDY\cachedata\ifemptydata\relax\else\IfNVOETF{\rDY}{}{\num{\rDY} \euro}\fi&%
 				\IfNVOETF{\aDY}{}{\num{\aDY} \euro}\expandafter\\\fi%	
 				\ifdefined\aDZa\rCa{\aDZa}&%
-				\checkaDZa(4)\let\rDZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDZ}{}{\num{\rDZ}\ts{}\aDZa(5)}\fi&%
+				\checkaDZa(4)\let\rDZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDZ}{}{\num[round-precision=3]{\rDZ}\ts{}\aDZa(5)}\fi&%
 				\checkaDZa(6)\let\rDZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDZ}{}{\num{\rDZ}}\fi&%
 				\checkaDZa(7)\let\rDZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDZ}{}{\num{\rDZ}\%}\fi&%
 				\checkaDZa(8)\let\rDZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rDZ}{}{\num{\rDZ} \euro}\fi&%
@@ -2266,151 +2266,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aEAa\rCa{\aEAa}&%
-				\checkaEAa(4)\let\rEA\cachedata\ifemptydata\relax\else\IfNVOETF{\rEA}{}{\num{\rEA}\ts{}\aEAa(5)}\fi&%
+				\checkaEAa(4)\let\rEA\cachedata\ifemptydata\relax\else\IfNVOETF{\rEA}{}{\num[round-precision=3]{\rEA}\ts{}\aEAa(5)}\fi&%
 				\checkaEAa(6)\let\rEA\cachedata\ifemptydata\relax\else\IfNVOETF{\rEA}{}{\num{\rEA}}\fi&%
 				\checkaEAa(7)\let\rEA\cachedata\ifemptydata\relax\else\IfNVOETF{\rEA}{}{\num{\rEA}\%}\fi&%
 				\checkaEAa(8)\let\rEA\cachedata\ifemptydata\relax\else\IfNVOETF{\rEA}{}{\num{\rEA} \euro}\fi&%
 				\IfNVOETF{\aEA}{}{\num{\aEA} \euro}\expandafter\\\fi%
 				\ifdefined\aEBa\rCa{\aEBa}&%
-				\checkaEBa(4)\let\rEB\cachedata\ifemptydata\relax\else\IfNVOETF{\rEB}{}{\num{\rEB}\ts{}\aEBa(5)}\fi&%
+				\checkaEBa(4)\let\rEB\cachedata\ifemptydata\relax\else\IfNVOETF{\rEB}{}{\num[round-precision=3]{\rEB}\ts{}\aEBa(5)}\fi&%
 				\checkaEBa(6)\let\rEB\cachedata\ifemptydata\relax\else\IfNVOETF{\rEB}{}{\num{\rEB}}\fi&%
 				\checkaEBa(7)\let\rEB\cachedata\ifemptydata\relax\else\IfNVOETF{\rEB}{}{\num{\rEB}\%}\fi&%
 				\checkaEBa(8)\let\rEB\cachedata\ifemptydata\relax\else\IfNVOETF{\rEB}{}{\num{\rEB} \euro}\fi&%
 				\IfNVOETF{\aEB}{}{\num{\aEB} \euro}\expandafter\\\fi%
 				\ifdefined\aECa\rCa{\aECa}&%
-				\checkaECa(4)\let\rEC\cachedata\ifemptydata\relax\else\IfNVOETF{\rEC}{}{\num{\rEC}\ts{}\aECa(5)}\fi&%
+				\checkaECa(4)\let\rEC\cachedata\ifemptydata\relax\else\IfNVOETF{\rEC}{}{\num[round-precision=3]{\rEC}\ts{}\aECa(5)}\fi&%
 				\checkaECa(6)\let\rEC\cachedata\ifemptydata\relax\else\IfNVOETF{\rEC}{}{\num{\rEC}}\fi&%
 				\checkaECa(7)\let\rEC\cachedata\ifemptydata\relax\else\IfNVOETF{\rEC}{}{\num{\rEC}\%}\fi&%
 				\checkaECa(8)\let\rEC\cachedata\ifemptydata\relax\else\IfNVOETF{\rEC}{}{\num{\rEC} \euro}\fi&%
 				\IfNVOETF{\aEC}{}{\num{\aEC} \euro}\expandafter\\\fi%
 				\ifdefined\aEDa\rCa{\aEDa}&%
-				\checkaEDa(4)\let\rED\cachedata\ifemptydata\relax\else\IfNVOETF{\rED}{}{\num{\rED}\ts{}\aEDa(5)}\fi&%
+				\checkaEDa(4)\let\rED\cachedata\ifemptydata\relax\else\IfNVOETF{\rED}{}{\num[round-precision=3]{\rED}\ts{}\aEDa(5)}\fi&%
 				\checkaEDa(6)\let\rED\cachedata\ifemptydata\relax\else\IfNVOETF{\rED}{}{\num{\rED}}\fi&%
 				\checkaEDa(7)\let\rED\cachedata\ifemptydata\relax\else\IfNVOETF{\rED}{}{\num{\rED}\%}\fi&%
 				\checkaEDa(8)\let\rED\cachedata\ifemptydata\relax\else\IfNVOETF{\rED}{}{\num{\rED} \euro}\fi&%
 				\IfNVOETF{\aED}{}{\num{\aED} \euro}\expandafter\\\fi%
 				\ifdefined\aEEa\rCa{\aEEa}&%
-				\checkaEEa(4)\let\rEE\cachedata\ifemptydata\relax\else\IfNVOETF{\rEE}{}{\num{\rEE}\ts{}\aEEa(5)}\fi&%
+				\checkaEEa(4)\let\rEE\cachedata\ifemptydata\relax\else\IfNVOETF{\rEE}{}{\num[round-precision=3]{\rEE}\ts{}\aEEa(5)}\fi&%
 				\checkaEEa(6)\let\rEE\cachedata\ifemptydata\relax\else\IfNVOETF{\rEE}{}{\num{\rEE}}\fi&%
 				\checkaEEa(7)\let\rEE\cachedata\ifemptydata\relax\else\IfNVOETF{\rEE}{}{\num{\rEE}\%}\fi&%
 				\checkaEEa(8)\let\rEE\cachedata\ifemptydata\relax\else\IfNVOETF{\rEE}{}{\num{\rEE} \euro}\fi&%
 				\IfNVOETF{\aEE}{}{\num{\aEE} \euro}\expandafter\\\fi%
 				\ifdefined\aEFa\rCa{\aEFa}&%
-				\checkaEFa(4)\let\rEF\cachedata\ifemptydata\relax\else\IfNVOETF{\rEF}{}{\num{\rEF}\ts{}\aEFa(5)}\fi&%
+				\checkaEFa(4)\let\rEF\cachedata\ifemptydata\relax\else\IfNVOETF{\rEF}{}{\num[round-precision=3]{\rEF}\ts{}\aEFa(5)}\fi&%
 				\checkaEFa(6)\let\rEF\cachedata\ifemptydata\relax\else\IfNVOETF{\rEF}{}{\num{\rEF}}\fi&%
 				\checkaEFa(7)\let\rEF\cachedata\ifemptydata\relax\else\IfNVOETF{\rEF}{}{\num{\rEF}\%}\fi&%
 				\checkaEFa(8)\let\rEF\cachedata\ifemptydata\relax\else\IfNVOETF{\rEF}{}{\num{\rEF} \euro}\fi&%
 				\IfNVOETF{\aEF}{}{\num{\aEF} \euro}\expandafter\\\fi%
 				\ifdefined\aEGa\rCa{\aEGa}&%
-				\checkaEGa(4)\let\rEG\cachedata\ifemptydata\relax\else\IfNVOETF{\rEG}{}{\num{\rEG}\ts{}\aEGa(5)}\fi&%
+				\checkaEGa(4)\let\rEG\cachedata\ifemptydata\relax\else\IfNVOETF{\rEG}{}{\num[round-precision=3]{\rEG}\ts{}\aEGa(5)}\fi&%
 				\checkaEGa(6)\let\rEG\cachedata\ifemptydata\relax\else\IfNVOETF{\rEG}{}{\num{\rEG}}\fi&%
 				\checkaEGa(7)\let\rEG\cachedata\ifemptydata\relax\else\IfNVOETF{\rEG}{}{\num{\rEG}\%}\fi&%
 				\checkaEGa(8)\let\rEG\cachedata\ifemptydata\relax\else\IfNVOETF{\rEG}{}{\num{\rEG} \euro}\fi&%
 				\IfNVOETF{\aEG}{}{\num{\aEG} \euro}\expandafter\\\fi%
 				\ifdefined\aEIa\rCa{\aEIa}&%
-				\checkaEIa(4)\let\rEI\cachedata\ifemptydata\relax\else\IfNVOETF{\rEI}{}{\num{\rEI}\ts{}\aEIa(5)}\fi&%
+				\checkaEIa(4)\let\rEI\cachedata\ifemptydata\relax\else\IfNVOETF{\rEI}{}{\num[round-precision=3]{\rEI}\ts{}\aEIa(5)}\fi&%
 				\checkaEIa(6)\let\rEI\cachedata\ifemptydata\relax\else\IfNVOETF{\rEI}{}{\num{\rEI}}\fi&%
 				\checkaEIa(7)\let\rEI\cachedata\ifemptydata\relax\else\IfNVOETF{\rEI}{}{\num{\rEI}\%}\fi&%
 				\checkaEIa(8)\let\rEI\cachedata\ifemptydata\relax\else\IfNVOETF{\rEI}{}{\num{\rEI} \euro}\fi&%
 				\IfNVOETF{\aEI}{}{\num{\aEI} \euro}\expandafter\\\fi%
 				\ifdefined\aEJa\rCa{\aEJa}&%
-				\checkaEJa(4)\let\rEJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEJ}{}{\num{\rEJ}\ts{}\aEJa(5)}\fi&%
+				\checkaEJa(4)\let\rEJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEJ}{}{\num[round-precision=3]{\rEJ}\ts{}\aEJa(5)}\fi&%
 				\checkaEJa(6)\let\rEJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEJ}{}{\num{\rEJ}}\fi&%
 				\checkaEJa(7)\let\rEJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEJ}{}{\num{\rEJ}\%}\fi&%
 				\checkaEJa(8)\let\rEJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEJ}{}{\num{\rEJ} \euro}\fi&%
 				\IfNVOETF{\aEJ}{}{\num{\aEJ} \euro}\expandafter\\\fi%
 				\ifdefined\aEKa\rCa{\aEKa}&%
-				\checkaEKa(4)\let\rEK\cachedata\ifemptydata\relax\else\IfNVOETF{\rEK}{}{\num{\rEK}\ts{}\aEKa(5)}\fi&%
+				\checkaEKa(4)\let\rEK\cachedata\ifemptydata\relax\else\IfNVOETF{\rEK}{}{\num[round-precision=3]{\rEK}\ts{}\aEKa(5)}\fi&%
 				\checkaEKa(6)\let\rEK\cachedata\ifemptydata\relax\else\IfNVOETF{\rEK}{}{\num{\rEK}}\fi&%
 				\checkaEKa(7)\let\rEK\cachedata\ifemptydata\relax\else\IfNVOETF{\rEK}{}{\num{\rEK}\%}\fi&%
 				\checkaEKa(8)\let\rEK\cachedata\ifemptydata\relax\else\IfNVOETF{\rEK}{}{\num{\rEK} \euro}\fi&%
 				\IfNVOETF{\aEK}{}{\num{\aEK} \euro}\expandafter\\\fi%
 				\ifdefined\aELa\rCa{\aELa}&%
-				\checkaELa(4)\let\rEL\cachedata\ifemptydata\relax\else\IfNVOETF{\rEL}{}{\num{\rEL}\ts{}\aELa(5)}\fi&%
+				\checkaELa(4)\let\rEL\cachedata\ifemptydata\relax\else\IfNVOETF{\rEL}{}{\num[round-precision=3]{\rEL}\ts{}\aELa(5)}\fi&%
 				\checkaELa(6)\let\rEL\cachedata\ifemptydata\relax\else\IfNVOETF{\rEL}{}{\num{\rEL}}\fi&%
 				\checkaELa(7)\let\rEL\cachedata\ifemptydata\relax\else\IfNVOETF{\rEL}{}{\num{\rEL}\%}\fi&%
 				\checkaELa(8)\let\rEL\cachedata\ifemptydata\relax\else\IfNVOETF{\rEL}{}{\num{\rEL} \euro}\fi&%
 				\IfNVOETF{\aEL}{}{\num{\aEL} \euro}\expandafter\\\fi%
 				\ifdefined\aEMa\rCa{\aEMa}&%
-				\checkaEMa(4)\let\rEM\cachedata\ifemptydata\relax\else\IfNVOETF{\rEM}{}{\num{\rEM}\ts{}\aEMa(5)}\fi&%
+				\checkaEMa(4)\let\rEM\cachedata\ifemptydata\relax\else\IfNVOETF{\rEM}{}{\num[round-precision=3]{\rEM}\ts{}\aEMa(5)}\fi&%
 				\checkaEMa(6)\let\rEM\cachedata\ifemptydata\relax\else\IfNVOETF{\rEM}{}{\num{\rEM}}\fi&%
 				\checkaEMa(7)\let\rEM\cachedata\ifemptydata\relax\else\IfNVOETF{\rEM}{}{\num{\rEM}\%}\fi&%
 				\checkaEMa(8)\let\rEM\cachedata\ifemptydata\relax\else\IfNVOETF{\rEM}{}{\num{\rEM} \euro}\fi&%
 				\IfNVOETF{\aEM}{}{\num{\aEM} \euro}\expandafter\\\fi%
 				\ifdefined\aENa\rCa{\aENa}&%
-				\checkaENa(4)\let\rEN\cachedata\ifemptydata\relax\else\IfNVOETF{\rEN}{}{\num{\rEN}\ts{}\aENa(5)}\fi&%
+				\checkaENa(4)\let\rEN\cachedata\ifemptydata\relax\else\IfNVOETF{\rEN}{}{\num[round-precision=3]{\rEN}\ts{}\aENa(5)}\fi&%
 				\checkaENa(6)\let\rEN\cachedata\ifemptydata\relax\else\IfNVOETF{\rEN}{}{\num{\rEN}}\fi&%
 				\checkaENa(7)\let\rEN\cachedata\ifemptydata\relax\else\IfNVOETF{\rEN}{}{\num{\rEN}\%}\fi&%
 				\checkaENa(8)\let\rEN\cachedata\ifemptydata\relax\else\IfNVOETF{\rEN}{}{\num{\rEN} \euro}\fi&%
 				\IfNVOETF{\aEN}{}{\num{\aEN} \euro}\expandafter\\\fi%
 				\ifdefined\aEOa\rCa{\aEOa}&%
-				\checkaEOa(4)\let\rEO\cachedata\ifemptydata\relax\else\IfNVOETF{\rEO}{}{\num{\rEO}\ts{}\aEOa(5)}\fi&%
+				\checkaEOa(4)\let\rEO\cachedata\ifemptydata\relax\else\IfNVOETF{\rEO}{}{\num[round-precision=3]{\rEO}\ts{}\aEOa(5)}\fi&%
 				\checkaEOa(6)\let\rEO\cachedata\ifemptydata\relax\else\IfNVOETF{\rEO}{}{\num{\rEO}}\fi&%
 				\checkaEOa(7)\let\rEO\cachedata\ifemptydata\relax\else\IfNVOETF{\rEO}{}{\num{\rEO}\%}\fi&%
 				\checkaEOa(8)\let\rEO\cachedata\ifemptydata\relax\else\IfNVOETF{\rEO}{}{\num{\rEO} \euro}\fi&%
 				\IfNVOETF{\aEO}{}{\num{\aEO} \euro}\expandafter\\\fi%
 				\ifdefined\aEPa\rCa{\aEPa}&%
-				\checkaEPa(4)\let\rEP\cachedata\ifemptydata\relax\else\IfNVOETF{\rEP}{}{\num{\rEP}\ts{}\aEPa(5)}\fi&%
+				\checkaEPa(4)\let\rEP\cachedata\ifemptydata\relax\else\IfNVOETF{\rEP}{}{\num[round-precision=3]{\rEP}\ts{}\aEPa(5)}\fi&%
 				\checkaEPa(6)\let\rEP\cachedata\ifemptydata\relax\else\IfNVOETF{\rEP}{}{\num{\rEP}}\fi&%
 				\checkaEPa(7)\let\rEP\cachedata\ifemptydata\relax\else\IfNVOETF{\rEP}{}{\num{\rEP}\%}\fi&%
 				\checkaEPa(8)\let\rEP\cachedata\ifemptydata\relax\else\IfNVOETF{\rEP}{}{\num{\rEP} \euro}\fi&%
 				\IfNVOETF{\aEP}{}{\num{\aEP} \euro}\expandafter\\\fi%
 				\ifdefined\aEQa\rCa{\aEQa}&%
-				\checkaEQa(4)\let\rEQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEQ}{}{\num{\rEQ}\ts{}\aEQa(5)}\fi&%
+				\checkaEQa(4)\let\rEQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEQ}{}{\num[round-precision=3]{\rEQ}\ts{}\aEQa(5)}\fi&%
 				\checkaEQa(6)\let\rEQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEQ}{}{\num{\rEQ}}\fi&%
 				\checkaEQa(7)\let\rEQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEQ}{}{\num{\rEQ}\%}\fi&%
 				\checkaEQa(8)\let\rEQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEQ}{}{\num{\rEQ} \euro}\fi&%
 				\IfNVOETF{\aEQ}{}{\num{\aEQ} \euro}\expandafter\\\fi%
 				\ifdefined\aERa\rCa{\aERa}&%
-				\checkaERa(4)\let\rER\cachedata\ifemptydata\relax\else\IfNVOETF{\rER}{}{\num{\rER}\ts{}\aERa(5)}\fi&%
+				\checkaERa(4)\let\rER\cachedata\ifemptydata\relax\else\IfNVOETF{\rER}{}{\num[round-precision=3]{\rER}\ts{}\aERa(5)}\fi&%
 				\checkaERa(6)\let\rER\cachedata\ifemptydata\relax\else\IfNVOETF{\rER}{}{\num{\rER}}\fi&%
 				\checkaERa(7)\let\rER\cachedata\ifemptydata\relax\else\IfNVOETF{\rER}{}{\num{\rER}\%}\fi&%
 				\checkaERa(8)\let\rER\cachedata\ifemptydata\relax\else\IfNVOETF{\rER}{}{\num{\rER} \euro}\fi&%
 				\IfNVOETF{\aER}{}{\num{\aER} \euro}\expandafter\\\fi%
 				\ifdefined\aESa\rCa{\aESa}&%
-				\checkaESa(4)\let\rES\cachedata\ifemptydata\relax\else\IfNVOETF{\rES}{}{\num{\rES}\ts{}\aESa(5)}\fi&%
+				\checkaESa(4)\let\rES\cachedata\ifemptydata\relax\else\IfNVOETF{\rES}{}{\num[round-precision=3]{\rES}\ts{}\aESa(5)}\fi&%
 				\checkaESa(6)\let\rES\cachedata\ifemptydata\relax\else\IfNVOETF{\rES}{}{\num{\rES}}\fi&%
 				\checkaESa(7)\let\rES\cachedata\ifemptydata\relax\else\IfNVOETF{\rES}{}{\num{\rES}\%}\fi&%
 				\checkaESa(8)\let\rES\cachedata\ifemptydata\relax\else\IfNVOETF{\rES}{}{\num{\rES} \euro}\fi&%
 				\IfNVOETF{\aES}{}{\num{\aES} \euro}\expandafter\\\fi%
 				\ifdefined\aETa\rCa{\aETa}&%
-				\checkaETa(4)\let\rET\cachedata\ifemptydata\relax\else\IfNVOETF{\rET}{}{\num{\rET}\ts{}\aETa(5)}\fi&%
+				\checkaETa(4)\let\rET\cachedata\ifemptydata\relax\else\IfNVOETF{\rET}{}{\num[round-precision=3]{\rET}\ts{}\aETa(5)}\fi&%
 				\checkaETa(6)\let\rET\cachedata\ifemptydata\relax\else\IfNVOETF{\rET}{}{\num{\rET}}\fi&%
 				\checkaETa(7)\let\rET\cachedata\ifemptydata\relax\else\IfNVOETF{\rET}{}{\num{\rET}\%}\fi&%
 				\checkaETa(8)\let\rET\cachedata\ifemptydata\relax\else\IfNVOETF{\rET}{}{\num{\rET} \euro}\fi&%
 				\IfNVOETF{\aET}{}{\num{\aET} \euro}\expandafter\\\fi%
 				\ifdefined\aEUa\rCa{\aEUa}&%
-				\checkaEUa(4)\let\rEU\cachedata\ifemptydata\relax\else\IfNVOETF{\rEU}{}{\num{\rEU}\ts{}\aEUa(5)}\fi&%
+				\checkaEUa(4)\let\rEU\cachedata\ifemptydata\relax\else\IfNVOETF{\rEU}{}{\num[round-precision=3]{\rEU}\ts{}\aEUa(5)}\fi&%
 				\checkaEUa(6)\let\rEU\cachedata\ifemptydata\relax\else\IfNVOETF{\rEU}{}{\num{\rEU}}\fi&%
 				\checkaEUa(7)\let\rEU\cachedata\ifemptydata\relax\else\IfNVOETF{\rEU}{}{\num{\rEU}\%}\fi&%
 				\checkaEUa(8)\let\rEU\cachedata\ifemptydata\relax\else\IfNVOETF{\rEU}{}{\num{\rEU} \euro}\fi&%
 				\IfNVOETF{\aEU}{}{\num{\aEU} \euro}\expandafter\\\fi%
 				\ifdefined\aEVa\rCa{\aEVa}&%
-				\checkaEVa(4)\let\rEV\cachedata\ifemptydata\relax\else\IfNVOETF{\rEV}{}{\num{\rEV}\ts{}\aEVa(5)}\fi&%
+				\checkaEVa(4)\let\rEV\cachedata\ifemptydata\relax\else\IfNVOETF{\rEV}{}{\num[round-precision=3]{\rEV}\ts{}\aEVa(5)}\fi&%
 				\checkaEVa(6)\let\rEV\cachedata\ifemptydata\relax\else\IfNVOETF{\rEV}{}{\num{\rEV}}\fi&%
 				\checkaEVa(7)\let\rEV\cachedata\ifemptydata\relax\else\IfNVOETF{\rEV}{}{\num{\rEV}\%}\fi&%
 				\checkaEVa(8)\let\rEV\cachedata\ifemptydata\relax\else\IfNVOETF{\rEV}{}{\num{\rEV} \euro}\fi&%
 				\IfNVOETF{\aEV}{}{\num{\aEV} \euro}\expandafter\\\fi%
 				\ifdefined\aEWa\rCa{\aEWa}&%
-				\checkaEWa(4)\let\rEW\cachedata\ifemptydata\relax\else\IfNVOETF{\rEW}{}{\num{\rEW}\ts{}\aEWa(5)}\fi&%
+				\checkaEWa(4)\let\rEW\cachedata\ifemptydata\relax\else\IfNVOETF{\rEW}{}{\num[round-precision=3]{\rEW}\ts{}\aEWa(5)}\fi&%
 				\checkaEWa(6)\let\rEW\cachedata\ifemptydata\relax\else\IfNVOETF{\rEW}{}{\num{\rEW}}\fi&%
 				\checkaEWa(7)\let\rEW\cachedata\ifemptydata\relax\else\IfNVOETF{\rEW}{}{\num{\rEW}\%}\fi&%
 				\checkaEWa(8)\let\rEW\cachedata\ifemptydata\relax\else\IfNVOETF{\rEW}{}{\num{\rEW} \euro}\fi&%
 				\IfNVOETF{\aEW}{}{\num{\aEW} \euro}\expandafter\\\fi%
 				\ifdefined\aEXa\rCa{\aEXa}&%
-				\checkaEXa(4)\let\rEX\cachedata\ifemptydata\relax\else\IfNVOETF{\rEX}{}{\num{\rEX}\ts{}\aEXa(5)}\fi&%
+				\checkaEXa(4)\let\rEX\cachedata\ifemptydata\relax\else\IfNVOETF{\rEX}{}{\num[round-precision=3]{\rEX}\ts{}\aEXa(5)}\fi&%
 				\checkaEXa(6)\let\rEX\cachedata\ifemptydata\relax\else\IfNVOETF{\rEX}{}{\num{\rEX}}\fi&%
 				\checkaEXa(7)\let\rEX\cachedata\ifemptydata\relax\else\IfNVOETF{\rEX}{}{\num{\rEX}\%}\fi&%
 				\checkaEXa(8)\let\rEX\cachedata\ifemptydata\relax\else\IfNVOETF{\rEX}{}{\num{\rEX} \euro}\fi&%
 				\IfNVOETF{\aEX}{}{\num{\aEX} \euro}\expandafter\\\fi%
 				\ifdefined\aEYa\rCa{\aEYa}&%
-				\checkaEYa(4)\let\rEY\cachedata\ifemptydata\relax\else\IfNVOETF{\rEY}{}{\num{\rEY}\ts{}\aEYa(5)}\fi&%
+				\checkaEYa(4)\let\rEY\cachedata\ifemptydata\relax\else\IfNVOETF{\rEY}{}{\num[round-precision=3]{\rEY}\ts{}\aEYa(5)}\fi&%
 				\checkaEYa(6)\let\rEY\cachedata\ifemptydata\relax\else\IfNVOETF{\rEY}{}{\num{\rEY}}\fi&%
 				\checkaEYa(7)\let\rEY\cachedata\ifemptydata\relax\else\IfNVOETF{\rEY}{}{\num{\rEY}\%}\fi&%
 				\checkaEYa(8)\let\rEY\cachedata\ifemptydata\relax\else\IfNVOETF{\rEY}{}{\num{\rEY} \euro}\fi&%
 				\IfNVOETF{\aEY}{}{\num{\aEY} \euro}\expandafter\\\fi%	
 				\ifdefined\aEZa\rCa{\aEZa}&%
-				\checkaEZa(4)\let\rEZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEZ}{}{\num{\rEZ}\ts{}\aEZa(5)}\fi&%
+				\checkaEZa(4)\let\rEZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEZ}{}{\num[round-precision=3]{\rEZ}\ts{}\aEZa(5)}\fi&%
 				\checkaEZa(6)\let\rEZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEZ}{}{\num{\rEZ}}\fi&%
 				\checkaEZa(7)\let\rEZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEZ}{}{\num{\rEZ}\%}\fi&%
 				\checkaEZa(8)\let\rEZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rEZ}{}{\num{\rEZ} \euro}\fi&%
@@ -2425,151 +2425,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aFAa\rCa{\aFAa}&%
-				\checkaFAa(4)\let\rFA\cachedata\ifemptydata\relax\else\IfNVOETF{\rFA}{}{\num{\rFA}\ts{}\aFAa(5)}\fi&%
+				\checkaFAa(4)\let\rFA\cachedata\ifemptydata\relax\else\IfNVOETF{\rFA}{}{\num[round-precision=3]{\rFA}\ts{}\aFAa(5)}\fi&%
 				\checkaFAa(6)\let\rFA\cachedata\ifemptydata\relax\else\IfNVOETF{\rFA}{}{\num{\rFA}}\fi&%
 				\checkaFAa(7)\let\rFA\cachedata\ifemptydata\relax\else\IfNVOETF{\rFA}{}{\num{\rFA}\%}\fi&%
 				\checkaFAa(8)\let\rFA\cachedata\ifemptydata\relax\else\IfNVOETF{\rFA}{}{\num{\rFA} \euro}\fi&%
 				\IfNVOETF{\aFA}{}{\num{\aFA} \euro}\expandafter\\\fi%
 				\ifdefined\aFBa\rCa{\aFBa}&%
-				\checkaFBa(4)\let\rFB\cachedata\ifemptydata\relax\else\IfNVOETF{\rFB}{}{\num{\rFB}\ts{}\aFBa(5)}\fi&%
+				\checkaFBa(4)\let\rFB\cachedata\ifemptydata\relax\else\IfNVOETF{\rFB}{}{\num[round-precision=3]{\rFB}\ts{}\aFBa(5)}\fi&%
 				\checkaFBa(6)\let\rFB\cachedata\ifemptydata\relax\else\IfNVOETF{\rFB}{}{\num{\rFB}}\fi&%
 				\checkaFBa(7)\let\rFB\cachedata\ifemptydata\relax\else\IfNVOETF{\rFB}{}{\num{\rFB}\%}\fi&%
 				\checkaFBa(8)\let\rFB\cachedata\ifemptydata\relax\else\IfNVOETF{\rFB}{}{\num{\rFB} \euro}\fi&%
 				\IfNVOETF{\aFB}{}{\num{\aFB} \euro}\expandafter\\\fi%
 				\ifdefined\aFCa\rCa{\aFCa}&%
-				\checkaFCa(4)\let\rFC\cachedata\ifemptydata\relax\else\IfNVOETF{\rFC}{}{\num{\rFC}\ts{}\aFCa(5)}\fi&%
+				\checkaFCa(4)\let\rFC\cachedata\ifemptydata\relax\else\IfNVOETF{\rFC}{}{\num[round-precision=3]{\rFC}\ts{}\aFCa(5)}\fi&%
 				\checkaFCa(6)\let\rFC\cachedata\ifemptydata\relax\else\IfNVOETF{\rFC}{}{\num{\rFC}}\fi&%
 				\checkaFCa(7)\let\rFC\cachedata\ifemptydata\relax\else\IfNVOETF{\rFC}{}{\num{\rFC}\%}\fi&%
 				\checkaFCa(8)\let\rFC\cachedata\ifemptydata\relax\else\IfNVOETF{\rFC}{}{\num{\rFC} \euro}\fi&%
 				\IfNVOETF{\aFC}{}{\num{\aFC} \euro}\expandafter\\\fi%
 				\ifdefined\aFDa\rCa{\aFDa}&%
-				\checkaFDa(4)\let\rFD\cachedata\ifemptydata\relax\else\IfNVOETF{\rFD}{}{\num{\rFD}\ts{}\aFDa(5)}\fi&%
+				\checkaFDa(4)\let\rFD\cachedata\ifemptydata\relax\else\IfNVOETF{\rFD}{}{\num[round-precision=3]{\rFD}\ts{}\aFDa(5)}\fi&%
 				\checkaFDa(6)\let\rFD\cachedata\ifemptydata\relax\else\IfNVOETF{\rFD}{}{\num{\rFD}}\fi&%
 				\checkaFDa(7)\let\rFD\cachedata\ifemptydata\relax\else\IfNVOETF{\rFD}{}{\num{\rFD}\%}\fi&%
 				\checkaFDa(8)\let\rFD\cachedata\ifemptydata\relax\else\IfNVOETF{\rFD}{}{\num{\rFD} \euro}\fi&%
 				\IfNVOETF{\aFD}{}{\num{\aFD} \euro}\expandafter\\\fi%
 				\ifdefined\aFEa\rCa{\aFEa}&%
-				\checkaFEa(4)\let\rFE\cachedata\ifemptydata\relax\else\IfNVOETF{\rFE}{}{\num{\rFE}\ts{}\aFEa(5)}\fi&%
+				\checkaFEa(4)\let\rFE\cachedata\ifemptydata\relax\else\IfNVOETF{\rFE}{}{\num[round-precision=3]{\rFE}\ts{}\aFEa(5)}\fi&%
 				\checkaFEa(6)\let\rFE\cachedata\ifemptydata\relax\else\IfNVOETF{\rFE}{}{\num{\rFE}}\fi&%
 				\checkaFEa(7)\let\rFE\cachedata\ifemptydata\relax\else\IfNVOETF{\rFE}{}{\num{\rFE}\%}\fi&%
 				\checkaFEa(8)\let\rFE\cachedata\ifemptydata\relax\else\IfNVOETF{\rFE}{}{\num{\rFE} \euro}\fi&%
 				\IfNVOETF{\aFE}{}{\num{\aFE} \euro}\expandafter\\\fi%
 				\ifdefined\aFFa\rCa{\aFFa}&%
-				\checkaFFa(4)\let\rFF\cachedata\ifemptydata\relax\else\IfNVOETF{\rFF}{}{\num{\rFF}\ts{}\aFFa(5)}\fi&%
+				\checkaFFa(4)\let\rFF\cachedata\ifemptydata\relax\else\IfNVOETF{\rFF}{}{\num[round-precision=3]{\rFF}\ts{}\aFFa(5)}\fi&%
 				\checkaFFa(6)\let\rFF\cachedata\ifemptydata\relax\else\IfNVOETF{\rFF}{}{\num{\rFF}}\fi&%
 				\checkaFFa(7)\let\rFF\cachedata\ifemptydata\relax\else\IfNVOETF{\rFF}{}{\num{\rFF}\%}\fi&%
 				\checkaFFa(8)\let\rFF\cachedata\ifemptydata\relax\else\IfNVOETF{\rFF}{}{\num{\rFF} \euro}\fi&%
 				\IfNVOETF{\aFF}{}{\num{\aFF} \euro}\expandafter\\\fi%
 				\ifdefined\aFGa\rCa{\aFGa}&%
-				\checkaFGa(4)\let\rFG\cachedata\ifemptydata\relax\else\IfNVOETF{\rFG}{}{\num{\rFG}\ts{}\aFGa(5)}\fi&%
+				\checkaFGa(4)\let\rFG\cachedata\ifemptydata\relax\else\IfNVOETF{\rFG}{}{\num[round-precision=3]{\rFG}\ts{}\aFGa(5)}\fi&%
 				\checkaFGa(6)\let\rFG\cachedata\ifemptydata\relax\else\IfNVOETF{\rFG}{}{\num{\rFG}}\fi&%
 				\checkaFGa(7)\let\rFG\cachedata\ifemptydata\relax\else\IfNVOETF{\rFG}{}{\num{\rFG}\%}\fi&%
 				\checkaFGa(8)\let\rFG\cachedata\ifemptydata\relax\else\IfNVOETF{\rFG}{}{\num{\rFG} \euro}\fi&%
 				\IfNVOETF{\aFG}{}{\num{\aFG} \euro}\expandafter\\\fi%
 				\ifdefined\aFIa\rCa{\aFIa}&%
-				\checkaFIa(4)\let\rFI\cachedata\ifemptydata\relax\else\IfNVOETF{\rFI}{}{\num{\rFI}\ts{}\aFIa(5)}\fi&%
+				\checkaFIa(4)\let\rFI\cachedata\ifemptydata\relax\else\IfNVOETF{\rFI}{}{\num[round-precision=3]{\rFI}\ts{}\aFIa(5)}\fi&%
 				\checkaFIa(6)\let\rFI\cachedata\ifemptydata\relax\else\IfNVOETF{\rFI}{}{\num{\rFI}}\fi&%
 				\checkaFIa(7)\let\rFI\cachedata\ifemptydata\relax\else\IfNVOETF{\rFI}{}{\num{\rFI}\%}\fi&%
 				\checkaFIa(8)\let\rFI\cachedata\ifemptydata\relax\else\IfNVOETF{\rFI}{}{\num{\rFI} \euro}\fi&%
 				\IfNVOETF{\aFI}{}{\num{\aFI} \euro}\expandafter\\\fi%
 				\ifdefined\aFJa\rCa{\aFJa}&%
-				\checkaFJa(4)\let\rFJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFJ}{}{\num{\rFJ}\ts{}\aFJa(5)}\fi&%
+				\checkaFJa(4)\let\rFJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFJ}{}{\num[round-precision=3]{\rFJ}\ts{}\aFJa(5)}\fi&%
 				\checkaFJa(6)\let\rFJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFJ}{}{\num{\rFJ}}\fi&%
 				\checkaFJa(7)\let\rFJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFJ}{}{\num{\rFJ}\%}\fi&%
 				\checkaFJa(8)\let\rFJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFJ}{}{\num{\rFJ} \euro}\fi&%
 				\IfNVOETF{\aFJ}{}{\num{\aFJ} \euro}\expandafter\\\fi%
 				\ifdefined\aFKa\rCa{\aFKa}&%
-				\checkaFKa(4)\let\rFK\cachedata\ifemptydata\relax\else\IfNVOETF{\rFK}{}{\num{\rFK}\ts{}\aFKa(5)}\fi&%
+				\checkaFKa(4)\let\rFK\cachedata\ifemptydata\relax\else\IfNVOETF{\rFK}{}{\num[round-precision=3]{\rFK}\ts{}\aFKa(5)}\fi&%
 				\checkaFKa(6)\let\rFK\cachedata\ifemptydata\relax\else\IfNVOETF{\rFK}{}{\num{\rFK}}\fi&%
 				\checkaFKa(7)\let\rFK\cachedata\ifemptydata\relax\else\IfNVOETF{\rFK}{}{\num{\rFK}\%}\fi&%
 				\checkaFKa(8)\let\rFK\cachedata\ifemptydata\relax\else\IfNVOETF{\rFK}{}{\num{\rFK} \euro}\fi&%
 				\IfNVOETF{\aFK}{}{\num{\aFK} \euro}\expandafter\\\fi%
 				\ifdefined\aFLa\rCa{\aFLa}&%
-				\checkaFLa(4)\let\rFL\cachedata\ifemptydata\relax\else\IfNVOETF{\rFL}{}{\num{\rFL}\ts{}\aFLa(5)}\fi&%
+				\checkaFLa(4)\let\rFL\cachedata\ifemptydata\relax\else\IfNVOETF{\rFL}{}{\num[round-precision=3]{\rFL}\ts{}\aFLa(5)}\fi&%
 				\checkaFLa(6)\let\rFL\cachedata\ifemptydata\relax\else\IfNVOETF{\rFL}{}{\num{\rFL}}\fi&%
 				\checkaFLa(7)\let\rFL\cachedata\ifemptydata\relax\else\IfNVOETF{\rFL}{}{\num{\rFL}\%}\fi&%
 				\checkaFLa(8)\let\rFL\cachedata\ifemptydata\relax\else\IfNVOETF{\rFL}{}{\num{\rFL} \euro}\fi&%
 				\IfNVOETF{\aFL}{}{\num{\aFL} \euro}\expandafter\\\fi%
 				\ifdefined\aFMa\rCa{\aFMa}&%
-				\checkaFMa(4)\let\rFM\cachedata\ifemptydata\relax\else\IfNVOETF{\rFM}{}{\num{\rFM}\ts{}\aFMa(5)}\fi&%
+				\checkaFMa(4)\let\rFM\cachedata\ifemptydata\relax\else\IfNVOETF{\rFM}{}{\num[round-precision=3]{\rFM}\ts{}\aFMa(5)}\fi&%
 				\checkaFMa(6)\let\rFM\cachedata\ifemptydata\relax\else\IfNVOETF{\rFM}{}{\num{\rFM}}\fi&%
 				\checkaFMa(7)\let\rFM\cachedata\ifemptydata\relax\else\IfNVOETF{\rFM}{}{\num{\rFM}\%}\fi&%
 				\checkaFMa(8)\let\rFM\cachedata\ifemptydata\relax\else\IfNVOETF{\rFM}{}{\num{\rFM} \euro}\fi&%
 				\IfNVOETF{\aFM}{}{\num{\aFM} \euro}\expandafter\\\fi%
 				\ifdefined\aFNa\rCa{\aFNa}&%
-				\checkaFNa(4)\let\rFN\cachedata\ifemptydata\relax\else\IfNVOETF{\rFN}{}{\num{\rFN}\ts{}\aFNa(5)}\fi&%
+				\checkaFNa(4)\let\rFN\cachedata\ifemptydata\relax\else\IfNVOETF{\rFN}{}{\num[round-precision=3]{\rFN}\ts{}\aFNa(5)}\fi&%
 				\checkaFNa(6)\let\rFN\cachedata\ifemptydata\relax\else\IfNVOETF{\rFN}{}{\num{\rFN}}\fi&%
 				\checkaFNa(7)\let\rFN\cachedata\ifemptydata\relax\else\IfNVOETF{\rFN}{}{\num{\rFN}\%}\fi&%
 				\checkaFNa(8)\let\rFN\cachedata\ifemptydata\relax\else\IfNVOETF{\rFN}{}{\num{\rFN} \euro}\fi&%
 				\IfNVOETF{\aFN}{}{\num{\aFN} \euro}\expandafter\\\fi%
 				\ifdefined\aFOa\rCa{\aFOa}&%
-				\checkaFOa(4)\let\rFO\cachedata\ifemptydata\relax\else\IfNVOETF{\rFO}{}{\num{\rFO}\ts{}\aFOa(5)}\fi&%
+				\checkaFOa(4)\let\rFO\cachedata\ifemptydata\relax\else\IfNVOETF{\rFO}{}{\num[round-precision=3]{\rFO}\ts{}\aFOa(5)}\fi&%
 				\checkaFOa(6)\let\rFO\cachedata\ifemptydata\relax\else\IfNVOETF{\rFO}{}{\num{\rFO}}\fi&%
 				\checkaFOa(7)\let\rFO\cachedata\ifemptydata\relax\else\IfNVOETF{\rFO}{}{\num{\rFO}\%}\fi&%
 				\checkaFOa(8)\let\rFO\cachedata\ifemptydata\relax\else\IfNVOETF{\rFO}{}{\num{\rFO} \euro}\fi&%
 				\IfNVOETF{\aFO}{}{\num{\aFO} \euro}\expandafter\\\fi%
 				\ifdefined\aFPa\rCa{\aFPa}&%
-				\checkaFPa(4)\let\rFP\cachedata\ifemptydata\relax\else\IfNVOETF{\rFP}{}{\num{\rFP}\ts{}\aFPa(5)}\fi&%
+				\checkaFPa(4)\let\rFP\cachedata\ifemptydata\relax\else\IfNVOETF{\rFP}{}{\num[round-precision=3]{\rFP}\ts{}\aFPa(5)}\fi&%
 				\checkaFPa(6)\let\rFP\cachedata\ifemptydata\relax\else\IfNVOETF{\rFP}{}{\num{\rFP}}\fi&%
 				\checkaFPa(7)\let\rFP\cachedata\ifemptydata\relax\else\IfNVOETF{\rFP}{}{\num{\rFP}\%}\fi&%
 				\checkaFPa(8)\let\rFP\cachedata\ifemptydata\relax\else\IfNVOETF{\rFP}{}{\num{\rFP} \euro}\fi&%
 				\IfNVOETF{\aFP}{}{\num{\aFP} \euro}\expandafter\\\fi%
 				\ifdefined\aFQa\rCa{\aFQa}&%
-				\checkaFQa(4)\let\rFQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFQ}{}{\num{\rFQ}\ts{}\aFQa(5)}\fi&%
+				\checkaFQa(4)\let\rFQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFQ}{}{\num[round-precision=3]{\rFQ}\ts{}\aFQa(5)}\fi&%
 				\checkaFQa(6)\let\rFQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFQ}{}{\num{\rFQ}}\fi&%
 				\checkaFQa(7)\let\rFQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFQ}{}{\num{\rFQ}\%}\fi&%
 				\checkaFQa(8)\let\rFQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFQ}{}{\num{\rFQ} \euro}\fi&%
 				\IfNVOETF{\aFQ}{}{\num{\aFQ} \euro}\expandafter\\\fi%
 				\ifdefined\aFRa\rCa{\aFRa}&%
-				\checkaFRa(4)\let\rFR\cachedata\ifemptydata\relax\else\IfNVOETF{\rFR}{}{\num{\rFR}\ts{}\aFRa(5)}\fi&%
+				\checkaFRa(4)\let\rFR\cachedata\ifemptydata\relax\else\IfNVOETF{\rFR}{}{\num[round-precision=3]{\rFR}\ts{}\aFRa(5)}\fi&%
 				\checkaFRa(6)\let\rFR\cachedata\ifemptydata\relax\else\IfNVOETF{\rFR}{}{\num{\rFR}}\fi&%
 				\checkaFRa(7)\let\rFR\cachedata\ifemptydata\relax\else\IfNVOETF{\rFR}{}{\num{\rFR}\%}\fi&%
 				\checkaFRa(8)\let\rFR\cachedata\ifemptydata\relax\else\IfNVOETF{\rFR}{}{\num{\rFR} \euro}\fi&%
 				\IfNVOETF{\aFR}{}{\num{\aFR} \euro}\expandafter\\\fi%
 				\ifdefined\aFSa\rCa{\aFSa}&%
-				\checkaFSa(4)\let\rFS\cachedata\ifemptydata\relax\else\IfNVOETF{\rFS}{}{\num{\rFS}\ts{}\aFSa(5)}\fi&%
+				\checkaFSa(4)\let\rFS\cachedata\ifemptydata\relax\else\IfNVOETF{\rFS}{}{\num[round-precision=3]{\rFS}\ts{}\aFSa(5)}\fi&%
 				\checkaFSa(6)\let\rFS\cachedata\ifemptydata\relax\else\IfNVOETF{\rFS}{}{\num{\rFS}}\fi&%
 				\checkaFSa(7)\let\rFS\cachedata\ifemptydata\relax\else\IfNVOETF{\rFS}{}{\num{\rFS}\%}\fi&%
 				\checkaFSa(8)\let\rFS\cachedata\ifemptydata\relax\else\IfNVOETF{\rFS}{}{\num{\rFS} \euro}\fi&%
 				\IfNVOETF{\aFS}{}{\num{\aFS} \euro}\expandafter\\\fi%
 				\ifdefined\aFTa\rCa{\aFTa}&%
-				\checkaFTa(4)\let\rFT\cachedata\ifemptydata\relax\else\IfNVOETF{\rFT}{}{\num{\rFT}\ts{}\aFTa(5)}\fi&%
+				\checkaFTa(4)\let\rFT\cachedata\ifemptydata\relax\else\IfNVOETF{\rFT}{}{\num[round-precision=3]{\rFT}\ts{}\aFTa(5)}\fi&%
 				\checkaFTa(6)\let\rFT\cachedata\ifemptydata\relax\else\IfNVOETF{\rFT}{}{\num{\rFT}}\fi&%
 				\checkaFTa(7)\let\rFT\cachedata\ifemptydata\relax\else\IfNVOETF{\rFT}{}{\num{\rFT}\%}\fi&%
 				\checkaFTa(8)\let\rFT\cachedata\ifemptydata\relax\else\IfNVOETF{\rFT}{}{\num{\rFT} \euro}\fi&%
 				\IfNVOETF{\aFT}{}{\num{\aFT} \euro}\expandafter\\\fi%
 				\ifdefined\aFUa\rCa{\aFUa}&%
-				\checkaFUa(4)\let\rFU\cachedata\ifemptydata\relax\else\IfNVOETF{\rFU}{}{\num{\rFU}\ts{}\aFUa(5)}\fi&%
+				\checkaFUa(4)\let\rFU\cachedata\ifemptydata\relax\else\IfNVOETF{\rFU}{}{\num[round-precision=3]{\rFU}\ts{}\aFUa(5)}\fi&%
 				\checkaFUa(6)\let\rFU\cachedata\ifemptydata\relax\else\IfNVOETF{\rFU}{}{\num{\rFU}}\fi&%
 				\checkaFUa(7)\let\rFU\cachedata\ifemptydata\relax\else\IfNVOETF{\rFU}{}{\num{\rFU}\%}\fi&%
 				\checkaFUa(8)\let\rFU\cachedata\ifemptydata\relax\else\IfNVOETF{\rFU}{}{\num{\rFU} \euro}\fi&%
 				\IfNVOETF{\aFU}{}{\num{\aFU} \euro}\expandafter\\\fi%
 				\ifdefined\aFVa\rCa{\aFVa}&%
-				\checkaFVa(4)\let\rFV\cachedata\ifemptydata\relax\else\IfNVOETF{\rFV}{}{\num{\rFV}\ts{}\aFVa(5)}\fi&%
+				\checkaFVa(4)\let\rFV\cachedata\ifemptydata\relax\else\IfNVOETF{\rFV}{}{\num[round-precision=3]{\rFV}\ts{}\aFVa(5)}\fi&%
 				\checkaFVa(6)\let\rFV\cachedata\ifemptydata\relax\else\IfNVOETF{\rFV}{}{\num{\rFV}}\fi&%
 				\checkaFVa(7)\let\rFV\cachedata\ifemptydata\relax\else\IfNVOETF{\rFV}{}{\num{\rFV}\%}\fi&%
 				\checkaFVa(8)\let\rFV\cachedata\ifemptydata\relax\else\IfNVOETF{\rFV}{}{\num{\rFV} \euro}\fi&%
 				\IfNVOETF{\aFV}{}{\num{\aFV} \euro}\expandafter\\\fi%
 				\ifdefined\aFWa\rCa{\aFWa}&%
-				\checkaFWa(4)\let\rFW\cachedata\ifemptydata\relax\else\IfNVOETF{\rFW}{}{\num{\rFW}\ts{}\aFWa(5)}\fi&%
+				\checkaFWa(4)\let\rFW\cachedata\ifemptydata\relax\else\IfNVOETF{\rFW}{}{\num[round-precision=3]{\rFW}\ts{}\aFWa(5)}\fi&%
 				\checkaFWa(6)\let\rFW\cachedata\ifemptydata\relax\else\IfNVOETF{\rFW}{}{\num{\rFW}}\fi&%
 				\checkaFWa(7)\let\rFW\cachedata\ifemptydata\relax\else\IfNVOETF{\rFW}{}{\num{\rFW}\%}\fi&%
 				\checkaFWa(8)\let\rFW\cachedata\ifemptydata\relax\else\IfNVOETF{\rFW}{}{\num{\rFW} \euro}\fi&%
 				\IfNVOETF{\aFW}{}{\num{\aFW} \euro}\expandafter\\\fi%
 				\ifdefined\aFXa\rCa{\aFXa}&%
-				\checkaFXa(4)\let\rFX\cachedata\ifemptydata\relax\else\IfNVOETF{\rFX}{}{\num{\rFX}\ts{}\aFXa(5)}\fi&%
+				\checkaFXa(4)\let\rFX\cachedata\ifemptydata\relax\else\IfNVOETF{\rFX}{}{\num[round-precision=3]{\rFX}\ts{}\aFXa(5)}\fi&%
 				\checkaFXa(6)\let\rFX\cachedata\ifemptydata\relax\else\IfNVOETF{\rFX}{}{\num{\rFX}}\fi&%
 				\checkaFXa(7)\let\rFX\cachedata\ifemptydata\relax\else\IfNVOETF{\rFX}{}{\num{\rFX}\%}\fi&%
 				\checkaFXa(8)\let\rFX\cachedata\ifemptydata\relax\else\IfNVOETF{\rFX}{}{\num{\rFX} \euro}\fi&%
 				\IfNVOETF{\aFX}{}{\num{\aFX} \euro}\expandafter\\\fi%
 				\ifdefined\aFYa\rCa{\aFYa}&%
-				\checkaFYa(4)\let\rFY\cachedata\ifemptydata\relax\else\IfNVOETF{\rFY}{}{\num{\rFY}\ts{}\aFYa(5)}\fi&%
+				\checkaFYa(4)\let\rFY\cachedata\ifemptydata\relax\else\IfNVOETF{\rFY}{}{\num[round-precision=3]{\rFY}\ts{}\aFYa(5)}\fi&%
 				\checkaFYa(6)\let\rFY\cachedata\ifemptydata\relax\else\IfNVOETF{\rFY}{}{\num{\rFY}}\fi&%
 				\checkaFYa(7)\let\rFY\cachedata\ifemptydata\relax\else\IfNVOETF{\rFY}{}{\num{\rFY}\%}\fi&%
 				\checkaFYa(8)\let\rFY\cachedata\ifemptydata\relax\else\IfNVOETF{\rFY}{}{\num{\rFY} \euro}\fi&%
 				\IfNVOETF{\aFY}{}{\num{\aFY} \euro}\expandafter\\\fi%	
 				\ifdefined\aFZa\rCa{\aFZa}&%
-				\checkaFZa(4)\let\rFZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFZ}{}{\num{\rFZ}\ts{}\aFZa(5)}\fi&%
+				\checkaFZa(4)\let\rFZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFZ}{}{\num[round-precision=3]{\rFZ}\ts{}\aFZa(5)}\fi&%
 				\checkaFZa(6)\let\rFZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFZ}{}{\num{\rFZ}}\fi&%
 				\checkaFZa(7)\let\rFZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFZ}{}{\num{\rFZ}\%}\fi&%
 				\checkaFZa(8)\let\rFZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rFZ}{}{\num{\rFZ} \euro}\fi&%
@@ -2584,151 +2584,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aGAa\rCa{\aGAa}&%
-				\checkaGAa(4)\let\rGA\cachedata\ifemptydata\relax\else\IfNVOETF{\rGA}{}{\num{\rGA}\ts{}\aGAa(5)}\fi&%
+				\checkaGAa(4)\let\rGA\cachedata\ifemptydata\relax\else\IfNVOETF{\rGA}{}{\num[round-precision=3]{\rGA}\ts{}\aGAa(5)}\fi&%
 				\checkaGAa(6)\let\rGA\cachedata\ifemptydata\relax\else\IfNVOETF{\rGA}{}{\num{\rGA}}\fi&%
 				\checkaGAa(7)\let\rGA\cachedata\ifemptydata\relax\else\IfNVOETF{\rGA}{}{\num{\rGA}\%}\fi&%
 				\checkaGAa(8)\let\rGA\cachedata\ifemptydata\relax\else\IfNVOETF{\rGA}{}{\num{\rGA} \euro}\fi&%
 				\IfNVOETF{\aGA}{}{\num{\aGA} \euro}\expandafter\\\fi%
 				\ifdefined\aGBa\rCa{\aGBa}&%
-				\checkaGBa(4)\let\rGB\cachedata\ifemptydata\relax\else\IfNVOETF{\rGB}{}{\num{\rGB}\ts{}\aGBa(5)}\fi&%
+				\checkaGBa(4)\let\rGB\cachedata\ifemptydata\relax\else\IfNVOETF{\rGB}{}{\num[round-precision=3]{\rGB}\ts{}\aGBa(5)}\fi&%
 				\checkaGBa(6)\let\rGB\cachedata\ifemptydata\relax\else\IfNVOETF{\rGB}{}{\num{\rGB}}\fi&%
 				\checkaGBa(7)\let\rGB\cachedata\ifemptydata\relax\else\IfNVOETF{\rGB}{}{\num{\rGB}\%}\fi&%
 				\checkaGBa(8)\let\rGB\cachedata\ifemptydata\relax\else\IfNVOETF{\rGB}{}{\num{\rGB} \euro}\fi&%
 				\IfNVOETF{\aGB}{}{\num{\aGB} \euro}\expandafter\\\fi%
 				\ifdefined\aGCa\rCa{\aGCa}&%
-				\checkaGCa(4)\let\rGC\cachedata\ifemptydata\relax\else\IfNVOETF{\rGC}{}{\num{\rGC}\ts{}\aGCa(5)}\fi&%
+				\checkaGCa(4)\let\rGC\cachedata\ifemptydata\relax\else\IfNVOETF{\rGC}{}{\num[round-precision=3]{\rGC}\ts{}\aGCa(5)}\fi&%
 				\checkaGCa(6)\let\rGC\cachedata\ifemptydata\relax\else\IfNVOETF{\rGC}{}{\num{\rGC}}\fi&%
 				\checkaGCa(7)\let\rGC\cachedata\ifemptydata\relax\else\IfNVOETF{\rGC}{}{\num{\rGC}\%}\fi&%
 				\checkaGCa(8)\let\rGC\cachedata\ifemptydata\relax\else\IfNVOETF{\rGC}{}{\num{\rGC} \euro}\fi&%
 				\IfNVOETF{\aGC}{}{\num{\aGC} \euro}\expandafter\\\fi%
 				\ifdefined\aGDa\rCa{\aGDa}&%
-				\checkaGDa(4)\let\rGD\cachedata\ifemptydata\relax\else\IfNVOETF{\rGD}{}{\num{\rGD}\ts{}\aGDa(5)}\fi&%
+				\checkaGDa(4)\let\rGD\cachedata\ifemptydata\relax\else\IfNVOETF{\rGD}{}{\num[round-precision=3]{\rGD}\ts{}\aGDa(5)}\fi&%
 				\checkaGDa(6)\let\rGD\cachedata\ifemptydata\relax\else\IfNVOETF{\rGD}{}{\num{\rGD}}\fi&%
 				\checkaGDa(7)\let\rGD\cachedata\ifemptydata\relax\else\IfNVOETF{\rGD}{}{\num{\rGD}\%}\fi&%
 				\checkaGDa(8)\let\rGD\cachedata\ifemptydata\relax\else\IfNVOETF{\rGD}{}{\num{\rGD} \euro}\fi&%
 				\IfNVOETF{\aGD}{}{\num{\aGD} \euro}\expandafter\\\fi%
 				\ifdefined\aGEa\rCa{\aGEa}&%
-				\checkaGEa(4)\let\rGE\cachedata\ifemptydata\relax\else\IfNVOETF{\rGE}{}{\num{\rGE}\ts{}\aGEa(5)}\fi&%
+				\checkaGEa(4)\let\rGE\cachedata\ifemptydata\relax\else\IfNVOETF{\rGE}{}{\num[round-precision=3]{\rGE}\ts{}\aGEa(5)}\fi&%
 				\checkaGEa(6)\let\rGE\cachedata\ifemptydata\relax\else\IfNVOETF{\rGE}{}{\num{\rGE}}\fi&%
 				\checkaGEa(7)\let\rGE\cachedata\ifemptydata\relax\else\IfNVOETF{\rGE}{}{\num{\rGE}\%}\fi&%
 				\checkaGEa(8)\let\rGE\cachedata\ifemptydata\relax\else\IfNVOETF{\rGE}{}{\num{\rGE} \euro}\fi&%
 				\IfNVOETF{\aGE}{}{\num{\aGE} \euro}\expandafter\\\fi%
 				\ifdefined\aGFa\rCa{\aGFa}&%
-				\checkaGFa(4)\let\rGF\cachedata\ifemptydata\relax\else\IfNVOETF{\rGF}{}{\num{\rGF}\ts{}\aGFa(5)}\fi&%
+				\checkaGFa(4)\let\rGF\cachedata\ifemptydata\relax\else\IfNVOETF{\rGF}{}{\num[round-precision=3]{\rGF}\ts{}\aGFa(5)}\fi&%
 				\checkaGFa(6)\let\rGF\cachedata\ifemptydata\relax\else\IfNVOETF{\rGF}{}{\num{\rGF}}\fi&%
 				\checkaGFa(7)\let\rGF\cachedata\ifemptydata\relax\else\IfNVOETF{\rGF}{}{\num{\rGF}\%}\fi&%
 				\checkaGFa(8)\let\rGF\cachedata\ifemptydata\relax\else\IfNVOETF{\rGF}{}{\num{\rGF} \euro}\fi&%
 				\IfNVOETF{\aGF}{}{\num{\aGF} \euro}\expandafter\\\fi%
 				\ifdefined\aGGa\rCa{\aGGa}&%
-				\checkaGGa(4)\let\rGG\cachedata\ifemptydata\relax\else\IfNVOETF{\rGG}{}{\num{\rGG}\ts{}\aGGa(5)}\fi&%
+				\checkaGGa(4)\let\rGG\cachedata\ifemptydata\relax\else\IfNVOETF{\rGG}{}{\num[round-precision=3]{\rGG}\ts{}\aGGa(5)}\fi&%
 				\checkaGGa(6)\let\rGG\cachedata\ifemptydata\relax\else\IfNVOETF{\rGG}{}{\num{\rGG}}\fi&%
 				\checkaGGa(7)\let\rGG\cachedata\ifemptydata\relax\else\IfNVOETF{\rGG}{}{\num{\rGG}\%}\fi&%
 				\checkaGGa(8)\let\rGG\cachedata\ifemptydata\relax\else\IfNVOETF{\rGG}{}{\num{\rGG} \euro}\fi&%
 				\IfNVOETF{\aGG}{}{\num{\aGG} \euro}\expandafter\\\fi%
 				\ifdefined\aGIa\rCa{\aGIa}&%
-				\checkaGIa(4)\let\rGI\cachedata\ifemptydata\relax\else\IfNVOETF{\rGI}{}{\num{\rGI}\ts{}\aGIa(5)}\fi&%
+				\checkaGIa(4)\let\rGI\cachedata\ifemptydata\relax\else\IfNVOETF{\rGI}{}{\num[round-precision=3]{\rGI}\ts{}\aGIa(5)}\fi&%
 				\checkaGIa(6)\let\rGI\cachedata\ifemptydata\relax\else\IfNVOETF{\rGI}{}{\num{\rGI}}\fi&%
 				\checkaGIa(7)\let\rGI\cachedata\ifemptydata\relax\else\IfNVOETF{\rGI}{}{\num{\rGI}\%}\fi&%
 				\checkaGIa(8)\let\rGI\cachedata\ifemptydata\relax\else\IfNVOETF{\rGI}{}{\num{\rGI} \euro}\fi&%
 				\IfNVOETF{\aGI}{}{\num{\aGI} \euro}\expandafter\\\fi%
 				\ifdefined\aGJa\rCa{\aGJa}&%
-				\checkaGJa(4)\let\rGJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGJ}{}{\num{\rGJ}\ts{}\aGJa(5)}\fi&%
+				\checkaGJa(4)\let\rGJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGJ}{}{\num[round-precision=3]{\rGJ}\ts{}\aGJa(5)}\fi&%
 				\checkaGJa(6)\let\rGJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGJ}{}{\num{\rGJ}}\fi&%
 				\checkaGJa(7)\let\rGJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGJ}{}{\num{\rGJ}\%}\fi&%
 				\checkaGJa(8)\let\rGJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGJ}{}{\num{\rGJ} \euro}\fi&%
 				\IfNVOETF{\aGJ}{}{\num{\aGJ} \euro}\expandafter\\\fi%
 				\ifdefined\aGKa\rCa{\aGKa}&%
-				\checkaGKa(4)\let\rGK\cachedata\ifemptydata\relax\else\IfNVOETF{\rGK}{}{\num{\rGK}\ts{}\aGKa(5)}\fi&%
+				\checkaGKa(4)\let\rGK\cachedata\ifemptydata\relax\else\IfNVOETF{\rGK}{}{\num[round-precision=3]{\rGK}\ts{}\aGKa(5)}\fi&%
 				\checkaGKa(6)\let\rGK\cachedata\ifemptydata\relax\else\IfNVOETF{\rGK}{}{\num{\rGK}}\fi&%
 				\checkaGKa(7)\let\rGK\cachedata\ifemptydata\relax\else\IfNVOETF{\rGK}{}{\num{\rGK}\%}\fi&%
 				\checkaGKa(8)\let\rGK\cachedata\ifemptydata\relax\else\IfNVOETF{\rGK}{}{\num{\rGK} \euro}\fi&%
 				\IfNVOETF{\aGK}{}{\num{\aGK} \euro}\expandafter\\\fi%
 				\ifdefined\aGLa\rCa{\aGLa}&%
-				\checkaGLa(4)\let\rGL\cachedata\ifemptydata\relax\else\IfNVOETF{\rGL}{}{\num{\rGL}\ts{}\aGLa(5)}\fi&%
+				\checkaGLa(4)\let\rGL\cachedata\ifemptydata\relax\else\IfNVOETF{\rGL}{}{\num[round-precision=3]{\rGL}\ts{}\aGLa(5)}\fi&%
 				\checkaGLa(6)\let\rGL\cachedata\ifemptydata\relax\else\IfNVOETF{\rGL}{}{\num{\rGL}}\fi&%
 				\checkaGLa(7)\let\rGL\cachedata\ifemptydata\relax\else\IfNVOETF{\rGL}{}{\num{\rGL}\%}\fi&%
 				\checkaGLa(8)\let\rGL\cachedata\ifemptydata\relax\else\IfNVOETF{\rGL}{}{\num{\rGL} \euro}\fi&%
 				\IfNVOETF{\aGL}{}{\num{\aGL} \euro}\expandafter\\\fi%
 				\ifdefined\aGMa\rCa{\aGMa}&%
-				\checkaGMa(4)\let\rGM\cachedata\ifemptydata\relax\else\IfNVOETF{\rGM}{}{\num{\rGM}\ts{}\aGMa(5)}\fi&%
+				\checkaGMa(4)\let\rGM\cachedata\ifemptydata\relax\else\IfNVOETF{\rGM}{}{\num[round-precision=3]{\rGM}\ts{}\aGMa(5)}\fi&%
 				\checkaGMa(6)\let\rGM\cachedata\ifemptydata\relax\else\IfNVOETF{\rGM}{}{\num{\rGM}}\fi&%
 				\checkaGMa(7)\let\rGM\cachedata\ifemptydata\relax\else\IfNVOETF{\rGM}{}{\num{\rGM}\%}\fi&%
 				\checkaGMa(8)\let\rGM\cachedata\ifemptydata\relax\else\IfNVOETF{\rGM}{}{\num{\rGM} \euro}\fi&%
 				\IfNVOETF{\aGM}{}{\num{\aGM} \euro}\expandafter\\\fi%
 				\ifdefined\aGNa\rCa{\aGNa}&%
-				\checkaGNa(4)\let\rGN\cachedata\ifemptydata\relax\else\IfNVOETF{\rGN}{}{\num{\rGN}\ts{}\aGNa(5)}\fi&%
+				\checkaGNa(4)\let\rGN\cachedata\ifemptydata\relax\else\IfNVOETF{\rGN}{}{\num[round-precision=3]{\rGN}\ts{}\aGNa(5)}\fi&%
 				\checkaGNa(6)\let\rGN\cachedata\ifemptydata\relax\else\IfNVOETF{\rGN}{}{\num{\rGN}}\fi&%
 				\checkaGNa(7)\let\rGN\cachedata\ifemptydata\relax\else\IfNVOETF{\rGN}{}{\num{\rGN}\%}\fi&%
 				\checkaGNa(8)\let\rGN\cachedata\ifemptydata\relax\else\IfNVOETF{\rGN}{}{\num{\rGN} \euro}\fi&%
 				\IfNVOETF{\aGN}{}{\num{\aGN} \euro}\expandafter\\\fi%
 				\ifdefined\aGOa\rCa{\aGOa}&%
-				\checkaGOa(4)\let\rGO\cachedata\ifemptydata\relax\else\IfNVOETF{\rGO}{}{\num{\rGO}\ts{}\aGOa(5)}\fi&%
+				\checkaGOa(4)\let\rGO\cachedata\ifemptydata\relax\else\IfNVOETF{\rGO}{}{\num[round-precision=3]{\rGO}\ts{}\aGOa(5)}\fi&%
 				\checkaGOa(6)\let\rGO\cachedata\ifemptydata\relax\else\IfNVOETF{\rGO}{}{\num{\rGO}}\fi&%
 				\checkaGOa(7)\let\rGO\cachedata\ifemptydata\relax\else\IfNVOETF{\rGO}{}{\num{\rGO}\%}\fi&%
 				\checkaGOa(8)\let\rGO\cachedata\ifemptydata\relax\else\IfNVOETF{\rGO}{}{\num{\rGO} \euro}\fi&%
 				\IfNVOETF{\aGO}{}{\num{\aGO} \euro}\expandafter\\\fi%
 				\ifdefined\aGPa\rCa{\aGPa}&%
-				\checkaGPa(4)\let\rGP\cachedata\ifemptydata\relax\else\IfNVOETF{\rGP}{}{\num{\rGP}\ts{}\aGPa(5)}\fi&%
+				\checkaGPa(4)\let\rGP\cachedata\ifemptydata\relax\else\IfNVOETF{\rGP}{}{\num[round-precision=3]{\rGP}\ts{}\aGPa(5)}\fi&%
 				\checkaGPa(6)\let\rGP\cachedata\ifemptydata\relax\else\IfNVOETF{\rGP}{}{\num{\rGP}}\fi&%
 				\checkaGPa(7)\let\rGP\cachedata\ifemptydata\relax\else\IfNVOETF{\rGP}{}{\num{\rGP}\%}\fi&%
 				\checkaGPa(8)\let\rGP\cachedata\ifemptydata\relax\else\IfNVOETF{\rGP}{}{\num{\rGP} \euro}\fi&%
 				\IfNVOETF{\aGP}{}{\num{\aGP} \euro}\expandafter\\\fi%
 				\ifdefined\aGQa\rCa{\aGQa}&%
-				\checkaGQa(4)\let\rGQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGQ}{}{\num{\rGQ}\ts{}\aGQa(5)}\fi&%
+				\checkaGQa(4)\let\rGQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGQ}{}{\num[round-precision=3]{\rGQ}\ts{}\aGQa(5)}\fi&%
 				\checkaGQa(6)\let\rGQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGQ}{}{\num{\rGQ}}\fi&%
 				\checkaGQa(7)\let\rGQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGQ}{}{\num{\rGQ}\%}\fi&%
 				\checkaGQa(8)\let\rGQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGQ}{}{\num{\rGQ} \euro}\fi&%
 				\IfNVOETF{\aGQ}{}{\num{\aGQ} \euro}\expandafter\\\fi%
 				\ifdefined\aGRa\rCa{\aGRa}&%
-				\checkaGRa(4)\let\rGR\cachedata\ifemptydata\relax\else\IfNVOETF{\rGR}{}{\num{\rGR}\ts{}\aGRa(5)}\fi&%
+				\checkaGRa(4)\let\rGR\cachedata\ifemptydata\relax\else\IfNVOETF{\rGR}{}{\num[round-precision=3]{\rGR}\ts{}\aGRa(5)}\fi&%
 				\checkaGRa(6)\let\rGR\cachedata\ifemptydata\relax\else\IfNVOETF{\rGR}{}{\num{\rGR}}\fi&%
 				\checkaGRa(7)\let\rGR\cachedata\ifemptydata\relax\else\IfNVOETF{\rGR}{}{\num{\rGR}\%}\fi&%
 				\checkaGRa(8)\let\rGR\cachedata\ifemptydata\relax\else\IfNVOETF{\rGR}{}{\num{\rGR} \euro}\fi&%
 				\IfNVOETF{\aGR}{}{\num{\aGR} \euro}\expandafter\\\fi%
 				\ifdefined\aGSa\rCa{\aGSa}&%
-				\checkaGSa(4)\let\rGS\cachedata\ifemptydata\relax\else\IfNVOETF{\rGS}{}{\num{\rGS}\ts{}\aGSa(5)}\fi&%
+				\checkaGSa(4)\let\rGS\cachedata\ifemptydata\relax\else\IfNVOETF{\rGS}{}{\num[round-precision=3]{\rGS}\ts{}\aGSa(5)}\fi&%
 				\checkaGSa(6)\let\rGS\cachedata\ifemptydata\relax\else\IfNVOETF{\rGS}{}{\num{\rGS}}\fi&%
 				\checkaGSa(7)\let\rGS\cachedata\ifemptydata\relax\else\IfNVOETF{\rGS}{}{\num{\rGS}\%}\fi&%
 				\checkaGSa(8)\let\rGS\cachedata\ifemptydata\relax\else\IfNVOETF{\rGS}{}{\num{\rGS} \euro}\fi&%
 				\IfNVOETF{\aGS}{}{\num{\aGS} \euro}\expandafter\\\fi%
 				\ifdefined\aGTa\rCa{\aGTa}&%
-				\checkaGTa(4)\let\rGT\cachedata\ifemptydata\relax\else\IfNVOETF{\rGT}{}{\num{\rGT}\ts{}\aGTa(5)}\fi&%
+				\checkaGTa(4)\let\rGT\cachedata\ifemptydata\relax\else\IfNVOETF{\rGT}{}{\num[round-precision=3]{\rGT}\ts{}\aGTa(5)}\fi&%
 				\checkaGTa(6)\let\rGT\cachedata\ifemptydata\relax\else\IfNVOETF{\rGT}{}{\num{\rGT}}\fi&%
 				\checkaGTa(7)\let\rGT\cachedata\ifemptydata\relax\else\IfNVOETF{\rGT}{}{\num{\rGT}\%}\fi&%
 				\checkaGTa(8)\let\rGT\cachedata\ifemptydata\relax\else\IfNVOETF{\rGT}{}{\num{\rGT} \euro}\fi&%
 				\IfNVOETF{\aGT}{}{\num{\aGT} \euro}\expandafter\\\fi%
 				\ifdefined\aGUa\rCa{\aGUa}&%
-				\checkaGUa(4)\let\rGU\cachedata\ifemptydata\relax\else\IfNVOETF{\rGU}{}{\num{\rGU}\ts{}\aGUa(5)}\fi&%
+				\checkaGUa(4)\let\rGU\cachedata\ifemptydata\relax\else\IfNVOETF{\rGU}{}{\num[round-precision=3]{\rGU}\ts{}\aGUa(5)}\fi&%
 				\checkaGUa(6)\let\rGU\cachedata\ifemptydata\relax\else\IfNVOETF{\rGU}{}{\num{\rGU}}\fi&%
 				\checkaGUa(7)\let\rGU\cachedata\ifemptydata\relax\else\IfNVOETF{\rGU}{}{\num{\rGU}\%}\fi&%
 				\checkaGUa(8)\let\rGU\cachedata\ifemptydata\relax\else\IfNVOETF{\rGU}{}{\num{\rGU} \euro}\fi&%
 				\IfNVOETF{\aGU}{}{\num{\aGU} \euro}\expandafter\\\fi%
 				\ifdefined\aGVa\rCa{\aGVa}&%
-				\checkaGVa(4)\let\rGV\cachedata\ifemptydata\relax\else\IfNVOETF{\rGV}{}{\num{\rGV}\ts{}\aGVa(5)}\fi&%
+				\checkaGVa(4)\let\rGV\cachedata\ifemptydata\relax\else\IfNVOETF{\rGV}{}{\num[round-precision=3]{\rGV}\ts{}\aGVa(5)}\fi&%
 				\checkaGVa(6)\let\rGV\cachedata\ifemptydata\relax\else\IfNVOETF{\rGV}{}{\num{\rGV}}\fi&%
 				\checkaGVa(7)\let\rGV\cachedata\ifemptydata\relax\else\IfNVOETF{\rGV}{}{\num{\rGV}\%}\fi&%
 				\checkaGVa(8)\let\rGV\cachedata\ifemptydata\relax\else\IfNVOETF{\rGV}{}{\num{\rGV} \euro}\fi&%
 				\IfNVOETF{\aGV}{}{\num{\aGV} \euro}\expandafter\\\fi%
 				\ifdefined\aGWa\rCa{\aGWa}&%
-				\checkaGWa(4)\let\rGW\cachedata\ifemptydata\relax\else\IfNVOETF{\rGW}{}{\num{\rGW}\ts{}\aGWa(5)}\fi&%
+				\checkaGWa(4)\let\rGW\cachedata\ifemptydata\relax\else\IfNVOETF{\rGW}{}{\num[round-precision=3]{\rGW}\ts{}\aGWa(5)}\fi&%
 				\checkaGWa(6)\let\rGW\cachedata\ifemptydata\relax\else\IfNVOETF{\rGW}{}{\num{\rGW}}\fi&%
 				\checkaGWa(7)\let\rGW\cachedata\ifemptydata\relax\else\IfNVOETF{\rGW}{}{\num{\rGW}\%}\fi&%
 				\checkaGWa(8)\let\rGW\cachedata\ifemptydata\relax\else\IfNVOETF{\rGW}{}{\num{\rGW} \euro}\fi&%
 				\IfNVOETF{\aGW}{}{\num{\aGW} \euro}\expandafter\\\fi%
 				\ifdefined\aGXa\rCa{\aGXa}&%
-				\checkaGXa(4)\let\rGX\cachedata\ifemptydata\relax\else\IfNVOETF{\rGX}{}{\num{\rGX}\ts{}\aGXa(5)}\fi&%
+				\checkaGXa(4)\let\rGX\cachedata\ifemptydata\relax\else\IfNVOETF{\rGX}{}{\num[round-precision=3]{\rGX}\ts{}\aGXa(5)}\fi&%
 				\checkaGXa(6)\let\rGX\cachedata\ifemptydata\relax\else\IfNVOETF{\rGX}{}{\num{\rGX}}\fi&%
 				\checkaGXa(7)\let\rGX\cachedata\ifemptydata\relax\else\IfNVOETF{\rGX}{}{\num{\rGX}\%}\fi&%
 				\checkaGXa(8)\let\rGX\cachedata\ifemptydata\relax\else\IfNVOETF{\rGX}{}{\num{\rGX} \euro}\fi&%
 				\IfNVOETF{\aGX}{}{\num{\aGX} \euro}\expandafter\\\fi%
 				\ifdefined\aGYa\rCa{\aGYa}&%
-				\checkaGYa(4)\let\rGY\cachedata\ifemptydata\relax\else\IfNVOETF{\rGY}{}{\num{\rGY}\ts{}\aGYa(5)}\fi&%
+				\checkaGYa(4)\let\rGY\cachedata\ifemptydata\relax\else\IfNVOETF{\rGY}{}{\num[round-precision=3]{\rGY}\ts{}\aGYa(5)}\fi&%
 				\checkaGYa(6)\let\rGY\cachedata\ifemptydata\relax\else\IfNVOETF{\rGY}{}{\num{\rGY}}\fi&%
 				\checkaGYa(7)\let\rGY\cachedata\ifemptydata\relax\else\IfNVOETF{\rGY}{}{\num{\rGY}\%}\fi&%
 				\checkaGYa(8)\let\rGY\cachedata\ifemptydata\relax\else\IfNVOETF{\rGY}{}{\num{\rGY} \euro}\fi&%
 				\IfNVOETF{\aGY}{}{\num{\aGY} \euro}\expandafter\\\fi%	
 				\ifdefined\aGZa\rCa{\aGZa}&%
-				\checkaGZa(4)\let\rGZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGZ}{}{\num{\rGZ}\ts{}\aGZa(5)}\fi&%
+				\checkaGZa(4)\let\rGZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGZ}{}{\num[round-precision=3]{\rGZ}\ts{}\aGZa(5)}\fi&%
 				\checkaGZa(6)\let\rGZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGZ}{}{\num{\rGZ}}\fi&%
 				\checkaGZa(7)\let\rGZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGZ}{}{\num{\rGZ}\%}\fi&%
 				\checkaGZa(8)\let\rGZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rGZ}{}{\num{\rGZ} \euro}\fi&%
@@ -2743,151 +2743,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aHAa\rCa{\aHAa}&%
-				\checkaHAa(4)\let\rHA\cachedata\ifemptydata\relax\else\IfNVOETF{\rHA}{}{\num{\rHA}\ts{}\aHAa(5)}\fi&%
+				\checkaHAa(4)\let\rHA\cachedata\ifemptydata\relax\else\IfNVOETF{\rHA}{}{\num[round-precision=3]{\rHA}\ts{}\aHAa(5)}\fi&%
 				\checkaHAa(6)\let\rHA\cachedata\ifemptydata\relax\else\IfNVOETF{\rHA}{}{\num{\rHA}}\fi&%
 				\checkaHAa(7)\let\rHA\cachedata\ifemptydata\relax\else\IfNVOETF{\rHA}{}{\num{\rHA}\%}\fi&%
 				\checkaHAa(8)\let\rHA\cachedata\ifemptydata\relax\else\IfNVOETF{\rHA}{}{\num{\rHA} \euro}\fi&%
 				\IfNVOETF{\aHA}{}{\num{\aHA} \euro}\expandafter\\\fi%
 				\ifdefined\aHBa\rCa{\aHBa}&%
-				\checkaHBa(4)\let\rHB\cachedata\ifemptydata\relax\else\IfNVOETF{\rHB}{}{\num{\rHB}\ts{}\aHBa(5)}\fi&%
+				\checkaHBa(4)\let\rHB\cachedata\ifemptydata\relax\else\IfNVOETF{\rHB}{}{\num[round-precision=3]{\rHB}\ts{}\aHBa(5)}\fi&%
 				\checkaHBa(6)\let\rHB\cachedata\ifemptydata\relax\else\IfNVOETF{\rHB}{}{\num{\rHB}}\fi&%
 				\checkaHBa(7)\let\rHB\cachedata\ifemptydata\relax\else\IfNVOETF{\rHB}{}{\num{\rHB}\%}\fi&%
 				\checkaHBa(8)\let\rHB\cachedata\ifemptydata\relax\else\IfNVOETF{\rHB}{}{\num{\rHB} \euro}\fi&%
 				\IfNVOETF{\aHB}{}{\num{\aHB} \euro}\expandafter\\\fi%
 				\ifdefined\aHCa\rCa{\aHCa}&%
-				\checkaHCa(4)\let\rHC\cachedata\ifemptydata\relax\else\IfNVOETF{\rHC}{}{\num{\rHC}\ts{}\aHCa(5)}\fi&%
+				\checkaHCa(4)\let\rHC\cachedata\ifemptydata\relax\else\IfNVOETF{\rHC}{}{\num[round-precision=3]{\rHC}\ts{}\aHCa(5)}\fi&%
 				\checkaHCa(6)\let\rHC\cachedata\ifemptydata\relax\else\IfNVOETF{\rHC}{}{\num{\rHC}}\fi&%
 				\checkaHCa(7)\let\rHC\cachedata\ifemptydata\relax\else\IfNVOETF{\rHC}{}{\num{\rHC}\%}\fi&%
 				\checkaHCa(8)\let\rHC\cachedata\ifemptydata\relax\else\IfNVOETF{\rHC}{}{\num{\rHC} \euro}\fi&%
 				\IfNVOETF{\aHC}{}{\num{\aHC} \euro}\expandafter\\\fi%
 				\ifdefined\aHDa\rCa{\aHDa}&%
-				\checkaHDa(4)\let\rHD\cachedata\ifemptydata\relax\else\IfNVOETF{\rHD}{}{\num{\rHD}\ts{}\aHDa(5)}\fi&%
+				\checkaHDa(4)\let\rHD\cachedata\ifemptydata\relax\else\IfNVOETF{\rHD}{}{\num[round-precision=3]{\rHD}\ts{}\aHDa(5)}\fi&%
 				\checkaHDa(6)\let\rHD\cachedata\ifemptydata\relax\else\IfNVOETF{\rHD}{}{\num{\rHD}}\fi&%
 				\checkaHDa(7)\let\rHD\cachedata\ifemptydata\relax\else\IfNVOETF{\rHD}{}{\num{\rHD}\%}\fi&%
 				\checkaHDa(8)\let\rHD\cachedata\ifemptydata\relax\else\IfNVOETF{\rHD}{}{\num{\rHD} \euro}\fi&%
 				\IfNVOETF{\aHD}{}{\num{\aHD} \euro}\expandafter\\\fi%
 				\ifdefined\aHEa\rCa{\aHEa}&%
-				\checkaHEa(4)\let\rHE\cachedata\ifemptydata\relax\else\IfNVOETF{\rHE}{}{\num{\rHE}\ts{}\aHEa(5)}\fi&%
+				\checkaHEa(4)\let\rHE\cachedata\ifemptydata\relax\else\IfNVOETF{\rHE}{}{\num[round-precision=3]{\rHE}\ts{}\aHEa(5)}\fi&%
 				\checkaHEa(6)\let\rHE\cachedata\ifemptydata\relax\else\IfNVOETF{\rHE}{}{\num{\rHE}}\fi&%
 				\checkaHEa(7)\let\rHE\cachedata\ifemptydata\relax\else\IfNVOETF{\rHE}{}{\num{\rHE}\%}\fi&%
 				\checkaHEa(8)\let\rHE\cachedata\ifemptydata\relax\else\IfNVOETF{\rHE}{}{\num{\rHE} \euro}\fi&%
 				\IfNVOETF{\aHE}{}{\num{\aHE} \euro}\expandafter\\\fi%
 				\ifdefined\aHFa\rCa{\aHFa}&%
-				\checkaHFa(4)\let\rHF\cachedata\ifemptydata\relax\else\IfNVOETF{\rHF}{}{\num{\rHF}\ts{}\aHFa(5)}\fi&%
+				\checkaHFa(4)\let\rHF\cachedata\ifemptydata\relax\else\IfNVOETF{\rHF}{}{\num[round-precision=3]{\rHF}\ts{}\aHFa(5)}\fi&%
 				\checkaHFa(6)\let\rHF\cachedata\ifemptydata\relax\else\IfNVOETF{\rHF}{}{\num{\rHF}}\fi&%
 				\checkaHFa(7)\let\rHF\cachedata\ifemptydata\relax\else\IfNVOETF{\rHF}{}{\num{\rHF}\%}\fi&%
 				\checkaHFa(8)\let\rHF\cachedata\ifemptydata\relax\else\IfNVOETF{\rHF}{}{\num{\rHF} \euro}\fi&%
 				\IfNVOETF{\aHF}{}{\num{\aHF} \euro}\expandafter\\\fi%
 				\ifdefined\aHGa\rCa{\aHGa}&%
-				\checkaHGa(4)\let\rHG\cachedata\ifemptydata\relax\else\IfNVOETF{\rHG}{}{\num{\rHG}\ts{}\aHGa(5)}\fi&%
+				\checkaHGa(4)\let\rHG\cachedata\ifemptydata\relax\else\IfNVOETF{\rHG}{}{\num[round-precision=3]{\rHG}\ts{}\aHGa(5)}\fi&%
 				\checkaHGa(6)\let\rHG\cachedata\ifemptydata\relax\else\IfNVOETF{\rHG}{}{\num{\rHG}}\fi&%
 				\checkaHGa(7)\let\rHG\cachedata\ifemptydata\relax\else\IfNVOETF{\rHG}{}{\num{\rHG}\%}\fi&%
 				\checkaHGa(8)\let\rHG\cachedata\ifemptydata\relax\else\IfNVOETF{\rHG}{}{\num{\rHG} \euro}\fi&%
 				\IfNVOETF{\aHG}{}{\num{\aHG} \euro}\expandafter\\\fi%
 				\ifdefined\aHIa\rCa{\aHIa}&%
-				\checkaHIa(4)\let\rHI\cachedata\ifemptydata\relax\else\IfNVOETF{\rHI}{}{\num{\rHI}\ts{}\aHIa(5)}\fi&%
+				\checkaHIa(4)\let\rHI\cachedata\ifemptydata\relax\else\IfNVOETF{\rHI}{}{\num[round-precision=3]{\rHI}\ts{}\aHIa(5)}\fi&%
 				\checkaHIa(6)\let\rHI\cachedata\ifemptydata\relax\else\IfNVOETF{\rHI}{}{\num{\rHI}}\fi&%
 				\checkaHIa(7)\let\rHI\cachedata\ifemptydata\relax\else\IfNVOETF{\rHI}{}{\num{\rHI}\%}\fi&%
 				\checkaHIa(8)\let\rHI\cachedata\ifemptydata\relax\else\IfNVOETF{\rHI}{}{\num{\rHI} \euro}\fi&%
 				\IfNVOETF{\aHI}{}{\num{\aHI} \euro}\expandafter\\\fi%
 				\ifdefined\aHJa\rCa{\aHJa}&%
-				\checkaHJa(4)\let\rHJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHJ}{}{\num{\rHJ}\ts{}\aHJa(5)}\fi&%
+				\checkaHJa(4)\let\rHJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHJ}{}{\num[round-precision=3]{\rHJ}\ts{}\aHJa(5)}\fi&%
 				\checkaHJa(6)\let\rHJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHJ}{}{\num{\rHJ}}\fi&%
 				\checkaHJa(7)\let\rHJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHJ}{}{\num{\rHJ}\%}\fi&%
 				\checkaHJa(8)\let\rHJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHJ}{}{\num{\rHJ} \euro}\fi&%
 				\IfNVOETF{\aHJ}{}{\num{\aHJ} \euro}\expandafter\\\fi%
 				\ifdefined\aHKa\rCa{\aHKa}&%
-				\checkaHKa(4)\let\rHK\cachedata\ifemptydata\relax\else\IfNVOETF{\rHK}{}{\num{\rHK}\ts{}\aHKa(5)}\fi&%
+				\checkaHKa(4)\let\rHK\cachedata\ifemptydata\relax\else\IfNVOETF{\rHK}{}{\num[round-precision=3]{\rHK}\ts{}\aHKa(5)}\fi&%
 				\checkaHKa(6)\let\rHK\cachedata\ifemptydata\relax\else\IfNVOETF{\rHK}{}{\num{\rHK}}\fi&%
 				\checkaHKa(7)\let\rHK\cachedata\ifemptydata\relax\else\IfNVOETF{\rHK}{}{\num{\rHK}\%}\fi&%
 				\checkaHKa(8)\let\rHK\cachedata\ifemptydata\relax\else\IfNVOETF{\rHK}{}{\num{\rHK} \euro}\fi&%
 				\IfNVOETF{\aHK}{}{\num{\aHK} \euro}\expandafter\\\fi%
 				\ifdefined\aHLa\rCa{\aHLa}&%
-				\checkaHLa(4)\let\rHL\cachedata\ifemptydata\relax\else\IfNVOETF{\rHL}{}{\num{\rHL}\ts{}\aHLa(5)}\fi&%
+				\checkaHLa(4)\let\rHL\cachedata\ifemptydata\relax\else\IfNVOETF{\rHL}{}{\num[round-precision=3]{\rHL}\ts{}\aHLa(5)}\fi&%
 				\checkaHLa(6)\let\rHL\cachedata\ifemptydata\relax\else\IfNVOETF{\rHL}{}{\num{\rHL}}\fi&%
 				\checkaHLa(7)\let\rHL\cachedata\ifemptydata\relax\else\IfNVOETF{\rHL}{}{\num{\rHL}\%}\fi&%
 				\checkaHLa(8)\let\rHL\cachedata\ifemptydata\relax\else\IfNVOETF{\rHL}{}{\num{\rHL} \euro}\fi&%
 				\IfNVOETF{\aHL}{}{\num{\aHL} \euro}\expandafter\\\fi%
 				\ifdefined\aHMa\rCa{\aHMa}&%
-				\checkaHMa(4)\let\rHM\cachedata\ifemptydata\relax\else\IfNVOETF{\rHM}{}{\num{\rHM}\ts{}\aHMa(5)}\fi&%
+				\checkaHMa(4)\let\rHM\cachedata\ifemptydata\relax\else\IfNVOETF{\rHM}{}{\num[round-precision=3]{\rHM}\ts{}\aHMa(5)}\fi&%
 				\checkaHMa(6)\let\rHM\cachedata\ifemptydata\relax\else\IfNVOETF{\rHM}{}{\num{\rHM}}\fi&%
 				\checkaHMa(7)\let\rHM\cachedata\ifemptydata\relax\else\IfNVOETF{\rHM}{}{\num{\rHM}\%}\fi&%
 				\checkaHMa(8)\let\rHM\cachedata\ifemptydata\relax\else\IfNVOETF{\rHM}{}{\num{\rHM} \euro}\fi&%
 				\IfNVOETF{\aHM}{}{\num{\aHM} \euro}\expandafter\\\fi%
 				\ifdefined\aHNa\rCa{\aHNa}&%
-				\checkaHNa(4)\let\rHN\cachedata\ifemptydata\relax\else\IfNVOETF{\rHN}{}{\num{\rHN}\ts{}\aHNa(5)}\fi&%
+				\checkaHNa(4)\let\rHN\cachedata\ifemptydata\relax\else\IfNVOETF{\rHN}{}{\num[round-precision=3]{\rHN}\ts{}\aHNa(5)}\fi&%
 				\checkaHNa(6)\let\rHN\cachedata\ifemptydata\relax\else\IfNVOETF{\rHN}{}{\num{\rHN}}\fi&%
 				\checkaHNa(7)\let\rHN\cachedata\ifemptydata\relax\else\IfNVOETF{\rHN}{}{\num{\rHN}\%}\fi&%
 				\checkaHNa(8)\let\rHN\cachedata\ifemptydata\relax\else\IfNVOETF{\rHN}{}{\num{\rHN} \euro}\fi&%
 				\IfNVOETF{\aHN}{}{\num{\aHN} \euro}\expandafter\\\fi%
 				\ifdefined\aHOa\rCa{\aHOa}&%
-				\checkaHOa(4)\let\rHO\cachedata\ifemptydata\relax\else\IfNVOETF{\rHO}{}{\num{\rHO}\ts{}\aHOa(5)}\fi&%
+				\checkaHOa(4)\let\rHO\cachedata\ifemptydata\relax\else\IfNVOETF{\rHO}{}{\num[round-precision=3]{\rHO}\ts{}\aHOa(5)}\fi&%
 				\checkaHOa(6)\let\rHO\cachedata\ifemptydata\relax\else\IfNVOETF{\rHO}{}{\num{\rHO}}\fi&%
 				\checkaHOa(7)\let\rHO\cachedata\ifemptydata\relax\else\IfNVOETF{\rHO}{}{\num{\rHO}\%}\fi&%
 				\checkaHOa(8)\let\rHO\cachedata\ifemptydata\relax\else\IfNVOETF{\rHO}{}{\num{\rHO} \euro}\fi&%
 				\IfNVOETF{\aHO}{}{\num{\aHO} \euro}\expandafter\\\fi%
 				\ifdefined\aHPa\rCa{\aHPa}&%
-				\checkaHPa(4)\let\rHP\cachedata\ifemptydata\relax\else\IfNVOETF{\rHP}{}{\num{\rHP}\ts{}\aHPa(5)}\fi&%
+				\checkaHPa(4)\let\rHP\cachedata\ifemptydata\relax\else\IfNVOETF{\rHP}{}{\num[round-precision=3]{\rHP}\ts{}\aHPa(5)}\fi&%
 				\checkaHPa(6)\let\rHP\cachedata\ifemptydata\relax\else\IfNVOETF{\rHP}{}{\num{\rHP}}\fi&%
 				\checkaHPa(7)\let\rHP\cachedata\ifemptydata\relax\else\IfNVOETF{\rHP}{}{\num{\rHP}\%}\fi&%
 				\checkaHPa(8)\let\rHP\cachedata\ifemptydata\relax\else\IfNVOETF{\rHP}{}{\num{\rHP} \euro}\fi&%
 				\IfNVOETF{\aHP}{}{\num{\aHP} \euro}\expandafter\\\fi%
 				\ifdefined\aHQa\rCa{\aHQa}&%
-				\checkaHQa(4)\let\rHQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHQ}{}{\num{\rHQ}\ts{}\aHQa(5)}\fi&%
+				\checkaHQa(4)\let\rHQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHQ}{}{\num[round-precision=3]{\rHQ}\ts{}\aHQa(5)}\fi&%
 				\checkaHQa(6)\let\rHQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHQ}{}{\num{\rHQ}}\fi&%
 				\checkaHQa(7)\let\rHQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHQ}{}{\num{\rHQ}\%}\fi&%
 				\checkaHQa(8)\let\rHQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHQ}{}{\num{\rHQ} \euro}\fi&%
 				\IfNVOETF{\aHQ}{}{\num{\aHQ} \euro}\expandafter\\\fi%
 				\ifdefined\aHRa\rCa{\aHRa}&%
-				\checkaHRa(4)\let\rHR\cachedata\ifemptydata\relax\else\IfNVOETF{\rHR}{}{\num{\rHR}\ts{}\aHRa(5)}\fi&%
+				\checkaHRa(4)\let\rHR\cachedata\ifemptydata\relax\else\IfNVOETF{\rHR}{}{\num[round-precision=3]{\rHR}\ts{}\aHRa(5)}\fi&%
 				\checkaHRa(6)\let\rHR\cachedata\ifemptydata\relax\else\IfNVOETF{\rHR}{}{\num{\rHR}}\fi&%
 				\checkaHRa(7)\let\rHR\cachedata\ifemptydata\relax\else\IfNVOETF{\rHR}{}{\num{\rHR}\%}\fi&%
 				\checkaHRa(8)\let\rHR\cachedata\ifemptydata\relax\else\IfNVOETF{\rHR}{}{\num{\rHR} \euro}\fi&%
 				\IfNVOETF{\aHR}{}{\num{\aHR} \euro}\expandafter\\\fi%
 				\ifdefined\aHSa\rCa{\aHSa}&%
-				\checkaHSa(4)\let\rHS\cachedata\ifemptydata\relax\else\IfNVOETF{\rHS}{}{\num{\rHS}\ts{}\aHSa(5)}\fi&%
+				\checkaHSa(4)\let\rHS\cachedata\ifemptydata\relax\else\IfNVOETF{\rHS}{}{\num[round-precision=3]{\rHS}\ts{}\aHSa(5)}\fi&%
 				\checkaHSa(6)\let\rHS\cachedata\ifemptydata\relax\else\IfNVOETF{\rHS}{}{\num{\rHS}}\fi&%
 				\checkaHSa(7)\let\rHS\cachedata\ifemptydata\relax\else\IfNVOETF{\rHS}{}{\num{\rHS}\%}\fi&%
 				\checkaHSa(8)\let\rHS\cachedata\ifemptydata\relax\else\IfNVOETF{\rHS}{}{\num{\rHS} \euro}\fi&%
 				\IfNVOETF{\aHS}{}{\num{\aHS} \euro}\expandafter\\\fi%
 				\ifdefined\aHTa\rCa{\aHTa}&%
-				\checkaHTa(4)\let\rHT\cachedata\ifemptydata\relax\else\IfNVOETF{\rHT}{}{\num{\rHT}\ts{}\aHTa(5)}\fi&%
+				\checkaHTa(4)\let\rHT\cachedata\ifemptydata\relax\else\IfNVOETF{\rHT}{}{\num[round-precision=3]{\rHT}\ts{}\aHTa(5)}\fi&%
 				\checkaHTa(6)\let\rHT\cachedata\ifemptydata\relax\else\IfNVOETF{\rHT}{}{\num{\rHT}}\fi&%
 				\checkaHTa(7)\let\rHT\cachedata\ifemptydata\relax\else\IfNVOETF{\rHT}{}{\num{\rHT}\%}\fi&%
 				\checkaHTa(8)\let\rHT\cachedata\ifemptydata\relax\else\IfNVOETF{\rHT}{}{\num{\rHT} \euro}\fi&%
 				\IfNVOETF{\aHT}{}{\num{\aHT} \euro}\expandafter\\\fi%
 				\ifdefined\aHUa\rCa{\aHUa}&%
-				\checkaHUa(4)\let\rHU\cachedata\ifemptydata\relax\else\IfNVOETF{\rHU}{}{\num{\rHU}\ts{}\aHUa(5)}\fi&%
+				\checkaHUa(4)\let\rHU\cachedata\ifemptydata\relax\else\IfNVOETF{\rHU}{}{\num[round-precision=3]{\rHU}\ts{}\aHUa(5)}\fi&%
 				\checkaHUa(6)\let\rHU\cachedata\ifemptydata\relax\else\IfNVOETF{\rHU}{}{\num{\rHU}}\fi&%
 				\checkaHUa(7)\let\rHU\cachedata\ifemptydata\relax\else\IfNVOETF{\rHU}{}{\num{\rHU}\%}\fi&%
 				\checkaHUa(8)\let\rHU\cachedata\ifemptydata\relax\else\IfNVOETF{\rHU}{}{\num{\rHU} \euro}\fi&%
 				\IfNVOETF{\aHU}{}{\num{\aHU} \euro}\expandafter\\\fi%
 				\ifdefined\aHVa\rCa{\aHVa}&%
-				\checkaHVa(4)\let\rHV\cachedata\ifemptydata\relax\else\IfNVOETF{\rHV}{}{\num{\rHV}\ts{}\aHVa(5)}\fi&%
+				\checkaHVa(4)\let\rHV\cachedata\ifemptydata\relax\else\IfNVOETF{\rHV}{}{\num[round-precision=3]{\rHV}\ts{}\aHVa(5)}\fi&%
 				\checkaHVa(6)\let\rHV\cachedata\ifemptydata\relax\else\IfNVOETF{\rHV}{}{\num{\rHV}}\fi&%
 				\checkaHVa(7)\let\rHV\cachedata\ifemptydata\relax\else\IfNVOETF{\rHV}{}{\num{\rHV}\%}\fi&%
 				\checkaHVa(8)\let\rHV\cachedata\ifemptydata\relax\else\IfNVOETF{\rHV}{}{\num{\rHV} \euro}\fi&%
 				\IfNVOETF{\aHV}{}{\num{\aHV} \euro}\expandafter\\\fi%
 				\ifdefined\aHWa\rCa{\aHWa}&%
-				\checkaHWa(4)\let\rHW\cachedata\ifemptydata\relax\else\IfNVOETF{\rHW}{}{\num{\rHW}\ts{}\aHWa(5)}\fi&%
+				\checkaHWa(4)\let\rHW\cachedata\ifemptydata\relax\else\IfNVOETF{\rHW}{}{\num[round-precision=3]{\rHW}\ts{}\aHWa(5)}\fi&%
 				\checkaHWa(6)\let\rHW\cachedata\ifemptydata\relax\else\IfNVOETF{\rHW}{}{\num{\rHW}}\fi&%
 				\checkaHWa(7)\let\rHW\cachedata\ifemptydata\relax\else\IfNVOETF{\rHW}{}{\num{\rHW}\%}\fi&%
 				\checkaHWa(8)\let\rHW\cachedata\ifemptydata\relax\else\IfNVOETF{\rHW}{}{\num{\rHW} \euro}\fi&%
 				\IfNVOETF{\aHW}{}{\num{\aHW} \euro}\expandafter\\\fi%
 				\ifdefined\aHXa\rCa{\aHXa}&%
-				\checkaHXa(4)\let\rHX\cachedata\ifemptydata\relax\else\IfNVOETF{\rHX}{}{\num{\rHX}\ts{}\aHXa(5)}\fi&%
+				\checkaHXa(4)\let\rHX\cachedata\ifemptydata\relax\else\IfNVOETF{\rHX}{}{\num[round-precision=3]{\rHX}\ts{}\aHXa(5)}\fi&%
 				\checkaHXa(6)\let\rHX\cachedata\ifemptydata\relax\else\IfNVOETF{\rHX}{}{\num{\rHX}}\fi&%
 				\checkaHXa(7)\let\rHX\cachedata\ifemptydata\relax\else\IfNVOETF{\rHX}{}{\num{\rHX}\%}\fi&%
 				\checkaHXa(8)\let\rHX\cachedata\ifemptydata\relax\else\IfNVOETF{\rHX}{}{\num{\rHX} \euro}\fi&%
 				\IfNVOETF{\aHX}{}{\num{\aHX} \euro}\expandafter\\\fi%
 				\ifdefined\aHYa\rCa{\aHYa}&%
-				\checkaHYa(4)\let\rHY\cachedata\ifemptydata\relax\else\IfNVOETF{\rHY}{}{\num{\rHY}\ts{}\aHYa(5)}\fi&%
+				\checkaHYa(4)\let\rHY\cachedata\ifemptydata\relax\else\IfNVOETF{\rHY}{}{\num[round-precision=3]{\rHY}\ts{}\aHYa(5)}\fi&%
 				\checkaHYa(6)\let\rHY\cachedata\ifemptydata\relax\else\IfNVOETF{\rHY}{}{\num{\rHY}}\fi&%
 				\checkaHYa(7)\let\rHY\cachedata\ifemptydata\relax\else\IfNVOETF{\rHY}{}{\num{\rHY}\%}\fi&%
 				\checkaHYa(8)\let\rHY\cachedata\ifemptydata\relax\else\IfNVOETF{\rHY}{}{\num{\rHY} \euro}\fi&%
 				\IfNVOETF{\aHY}{}{\num{\aHY} \euro}\expandafter\\\fi%	
 				\ifdefined\aHZa\rCa{\aHZa}&%
-				\checkaHZa(4)\let\rHZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHZ}{}{\num{\rHZ}\ts{}\aHZa(5)}\fi&%
+				\checkaHZa(4)\let\rHZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHZ}{}{\num[round-precision=3]{\rHZ}\ts{}\aHZa(5)}\fi&%
 				\checkaHZa(6)\let\rHZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHZ}{}{\num{\rHZ}}\fi&%
 				\checkaHZa(7)\let\rHZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHZ}{}{\num{\rHZ}\%}\fi&%
 				\checkaHZa(8)\let\rHZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rHZ}{}{\num{\rHZ} \euro}\fi&%
@@ -2906,151 +2906,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aIAa\rCa{\aIAa}&%
-				\checkaIAa(4)\let\rIA\cachedata\ifemptydata\relax\else\IfNVOETF{\rIA}{}{\num{\rIA}\ts{}\aIAa(5)}\fi&%
+				\checkaIAa(4)\let\rIA\cachedata\ifemptydata\relax\else\IfNVOETF{\rIA}{}{\num[round-precision=3]{\rIA}\ts{}\aIAa(5)}\fi&%
 				\checkaIAa(6)\let\rIA\cachedata\ifemptydata\relax\else\IfNVOETF{\rIA}{}{\num{\rIA}}\fi&%
 				\checkaIAa(7)\let\rIA\cachedata\ifemptydata\relax\else\IfNVOETF{\rIA}{}{\num{\rIA}\%}\fi&%
 				\checkaIAa(8)\let\rIA\cachedata\ifemptydata\relax\else\IfNVOETF{\rIA}{}{\num{\rIA} \euro}\fi&%
 				\IfNVOETF{\aIA}{}{\num{\aIA} \euro}\expandafter\\\fi%
 				\ifdefined\aIBa\rCa{\aIBa}&%
-				\checkaIBa(4)\let\rIB\cachedata\ifemptydata\relax\else\IfNVOETF{\rIB}{}{\num{\rIB}\ts{}\aIBa(5)}\fi&%
+				\checkaIBa(4)\let\rIB\cachedata\ifemptydata\relax\else\IfNVOETF{\rIB}{}{\num[round-precision=3]{\rIB}\ts{}\aIBa(5)}\fi&%
 				\checkaIBa(6)\let\rIB\cachedata\ifemptydata\relax\else\IfNVOETF{\rIB}{}{\num{\rIB}}\fi&%
 				\checkaIBa(7)\let\rIB\cachedata\ifemptydata\relax\else\IfNVOETF{\rIB}{}{\num{\rIB}\%}\fi&%
 				\checkaIBa(8)\let\rIB\cachedata\ifemptydata\relax\else\IfNVOETF{\rIB}{}{\num{\rIB} \euro}\fi&%
 				\IfNVOETF{\aIB}{}{\num{\aIB} \euro}\expandafter\\\fi%
 				\ifdefined\aICa\rCa{\aICa}&%
-				\checkaICa(4)\let\rIC\cachedata\ifemptydata\relax\else\IfNVOETF{\rIC}{}{\num{\rIC}\ts{}\aICa(5)}\fi&%
+				\checkaICa(4)\let\rIC\cachedata\ifemptydata\relax\else\IfNVOETF{\rIC}{}{\num[round-precision=3]{\rIC}\ts{}\aICa(5)}\fi&%
 				\checkaICa(6)\let\rIC\cachedata\ifemptydata\relax\else\IfNVOETF{\rIC}{}{\num{\rIC}}\fi&%
 				\checkaICa(7)\let\rIC\cachedata\ifemptydata\relax\else\IfNVOETF{\rIC}{}{\num{\rIC}\%}\fi&%
 				\checkaICa(8)\let\rIC\cachedata\ifemptydata\relax\else\IfNVOETF{\rIC}{}{\num{\rIC} \euro}\fi&%
 				\IfNVOETF{\aIC}{}{\num{\aIC} \euro}\expandafter\\\fi%
 				\ifdefined\aIDa\rCa{\aIDa}&%
-				\checkaIDa(4)\let\rID\cachedata\ifemptydata\relax\else\IfNVOETF{\rID}{}{\num{\rID}\ts{}\aIDa(5)}\fi&%
+				\checkaIDa(4)\let\rID\cachedata\ifemptydata\relax\else\IfNVOETF{\rID}{}{\num[round-precision=3]{\rID}\ts{}\aIDa(5)}\fi&%
 				\checkaIDa(6)\let\rID\cachedata\ifemptydata\relax\else\IfNVOETF{\rID}{}{\num{\rID}}\fi&%
 				\checkaIDa(7)\let\rID\cachedata\ifemptydata\relax\else\IfNVOETF{\rID}{}{\num{\rID}\%}\fi&%
 				\checkaIDa(8)\let\rID\cachedata\ifemptydata\relax\else\IfNVOETF{\rID}{}{\num{\rID} \euro}\fi&%
 				\IfNVOETF{\aID}{}{\num{\aID} \euro}\expandafter\\\fi%
 				\ifdefined\aIEa\rCa{\aIEa}&%
-				\checkaIEa(4)\let\rIE\cachedata\ifemptydata\relax\else\IfNVOETF{\rIE}{}{\num{\rIE}\ts{}\aIEa(5)}\fi&%
+				\checkaIEa(4)\let\rIE\cachedata\ifemptydata\relax\else\IfNVOETF{\rIE}{}{\num[round-precision=3]{\rIE}\ts{}\aIEa(5)}\fi&%
 				\checkaIEa(6)\let\rIE\cachedata\ifemptydata\relax\else\IfNVOETF{\rIE}{}{\num{\rIE}}\fi&%
 				\checkaIEa(7)\let\rIE\cachedata\ifemptydata\relax\else\IfNVOETF{\rIE}{}{\num{\rIE}\%}\fi&%
 				\checkaIEa(8)\let\rIE\cachedata\ifemptydata\relax\else\IfNVOETF{\rIE}{}{\num{\rIE} \euro}\fi&%
 				\IfNVOETF{\aIE}{}{\num{\aIE} \euro}\expandafter\\\fi%
 				\ifdefined\aIFa\rCa{\aIFa}&%
-				\checkaIFa(4)\let\rIF\cachedata\ifemptydata\relax\else\IfNVOETF{\rIF}{}{\num{\rIF}\ts{}\aIFa(5)}\fi&%
+				\checkaIFa(4)\let\rIF\cachedata\ifemptydata\relax\else\IfNVOETF{\rIF}{}{\num[round-precision=3]{\rIF}\ts{}\aIFa(5)}\fi&%
 				\checkaIFa(6)\let\rIF\cachedata\ifemptydata\relax\else\IfNVOETF{\rIF}{}{\num{\rIF}}\fi&%
 				\checkaIFa(7)\let\rIF\cachedata\ifemptydata\relax\else\IfNVOETF{\rIF}{}{\num{\rIF}\%}\fi&%
 				\checkaIFa(8)\let\rIF\cachedata\ifemptydata\relax\else\IfNVOETF{\rIF}{}{\num{\rIF} \euro}\fi&%
 				\IfNVOETF{\aIF}{}{\num{\aIF} \euro}\expandafter\\\fi%
 				\ifdefined\aIGa\rCa{\aIGa}&%
-				\checkaIGa(4)\let\rIG\cachedata\ifemptydata\relax\else\IfNVOETF{\rIG}{}{\num{\rIG}\ts{}\aIGa(5)}\fi&%
+				\checkaIGa(4)\let\rIG\cachedata\ifemptydata\relax\else\IfNVOETF{\rIG}{}{\num[round-precision=3]{\rIG}\ts{}\aIGa(5)}\fi&%
 				\checkaIGa(6)\let\rIG\cachedata\ifemptydata\relax\else\IfNVOETF{\rIG}{}{\num{\rIG}}\fi&%
 				\checkaIGa(7)\let\rIG\cachedata\ifemptydata\relax\else\IfNVOETF{\rIG}{}{\num{\rIG}\%}\fi&%
 				\checkaIGa(8)\let\rIG\cachedata\ifemptydata\relax\else\IfNVOETF{\rIG}{}{\num{\rIG} \euro}\fi&%
 				\IfNVOETF{\aIG}{}{\num{\aIG} \euro}\expandafter\\\fi%
 				\ifdefined\aIIa\rCa{\aIIa}&%
-				\checkaIIa(4)\let\rII\cachedata\ifemptydata\relax\else\IfNVOETF{\rII}{}{\num{\rII}\ts{}\aIIa(5)}\fi&%
+				\checkaIIa(4)\let\rII\cachedata\ifemptydata\relax\else\IfNVOETF{\rII}{}{\num[round-precision=3]{\rII}\ts{}\aIIa(5)}\fi&%
 				\checkaIIa(6)\let\rII\cachedata\ifemptydata\relax\else\IfNVOETF{\rII}{}{\num{\rII}}\fi&%
 				\checkaIIa(7)\let\rII\cachedata\ifemptydata\relax\else\IfNVOETF{\rII}{}{\num{\rII}\%}\fi&%
 				\checkaIIa(8)\let\rII\cachedata\ifemptydata\relax\else\IfNVOETF{\rII}{}{\num{\rII} \euro}\fi&%
 				\IfNVOETF{\aII}{}{\num{\aII} \euro}\expandafter\\\fi%
 				\ifdefined\aIJa\rCa{\aIJa}&%
-				\checkaIJa(4)\let\rIJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIJ}{}{\num{\rIJ}\ts{}\aIJa(5)}\fi&%
+				\checkaIJa(4)\let\rIJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIJ}{}{\num[round-precision=3]{\rIJ}\ts{}\aIJa(5)}\fi&%
 				\checkaIJa(6)\let\rIJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIJ}{}{\num{\rIJ}}\fi&%
 				\checkaIJa(7)\let\rIJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIJ}{}{\num{\rIJ}\%}\fi&%
 				\checkaIJa(8)\let\rIJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIJ}{}{\num{\rIJ} \euro}\fi&%
 				\IfNVOETF{\aIJ}{}{\num{\aIJ} \euro}\expandafter\\\fi%
 				\ifdefined\aIKa\rCa{\aIKa}&%
-				\checkaIKa(4)\let\rIK\cachedata\ifemptydata\relax\else\IfNVOETF{\rIK}{}{\num{\rIK}\ts{}\aIKa(5)}\fi&%
+				\checkaIKa(4)\let\rIK\cachedata\ifemptydata\relax\else\IfNVOETF{\rIK}{}{\num[round-precision=3]{\rIK}\ts{}\aIKa(5)}\fi&%
 				\checkaIKa(6)\let\rIK\cachedata\ifemptydata\relax\else\IfNVOETF{\rIK}{}{\num{\rIK}}\fi&%
 				\checkaIKa(7)\let\rIK\cachedata\ifemptydata\relax\else\IfNVOETF{\rIK}{}{\num{\rIK}\%}\fi&%
 				\checkaIKa(8)\let\rIK\cachedata\ifemptydata\relax\else\IfNVOETF{\rIK}{}{\num{\rIK} \euro}\fi&%
 				\IfNVOETF{\aIK}{}{\num{\aIK} \euro}\expandafter\\\fi%
 				\ifdefined\aILa\rCa{\aILa}&%
-				\checkaILa(4)\let\rIL\cachedata\ifemptydata\relax\else\IfNVOETF{\rIL}{}{\num{\rIL}\ts{}\aILa(5)}\fi&%
+				\checkaILa(4)\let\rIL\cachedata\ifemptydata\relax\else\IfNVOETF{\rIL}{}{\num[round-precision=3]{\rIL}\ts{}\aILa(5)}\fi&%
 				\checkaILa(6)\let\rIL\cachedata\ifemptydata\relax\else\IfNVOETF{\rIL}{}{\num{\rIL}}\fi&%
 				\checkaILa(7)\let\rIL\cachedata\ifemptydata\relax\else\IfNVOETF{\rIL}{}{\num{\rIL}\%}\fi&%
 				\checkaILa(8)\let\rIL\cachedata\ifemptydata\relax\else\IfNVOETF{\rIL}{}{\num{\rIL} \euro}\fi&%
 				\IfNVOETF{\aIL}{}{\num{\aIL} \euro}\expandafter\\\fi%
 				\ifdefined\aIMa\rCa{\aIMa}&%
-				\checkaIMa(4)\let\rIM\cachedata\ifemptydata\relax\else\IfNVOETF{\rIM}{}{\num{\rIM}\ts{}\aIMa(5)}\fi&%
+				\checkaIMa(4)\let\rIM\cachedata\ifemptydata\relax\else\IfNVOETF{\rIM}{}{\num[round-precision=3]{\rIM}\ts{}\aIMa(5)}\fi&%
 				\checkaIMa(6)\let\rIM\cachedata\ifemptydata\relax\else\IfNVOETF{\rIM}{}{\num{\rIM}}\fi&%
 				\checkaIMa(7)\let\rIM\cachedata\ifemptydata\relax\else\IfNVOETF{\rIM}{}{\num{\rIM}\%}\fi&%
 				\checkaIMa(8)\let\rIM\cachedata\ifemptydata\relax\else\IfNVOETF{\rIM}{}{\num{\rIM} \euro}\fi&%
 				\IfNVOETF{\aIM}{}{\num{\aIM} \euro}\expandafter\\\fi%
 				\ifdefined\aINa\rCa{\aINa}&%
-				\checkaINa(4)\let\rIN\cachedata\ifemptydata\relax\else\IfNVOETF{\rIN}{}{\num{\rIN}\ts{}\aINa(5)}\fi&%
+				\checkaINa(4)\let\rIN\cachedata\ifemptydata\relax\else\IfNVOETF{\rIN}{}{\num[round-precision=3]{\rIN}\ts{}\aINa(5)}\fi&%
 				\checkaINa(6)\let\rIN\cachedata\ifemptydata\relax\else\IfNVOETF{\rIN}{}{\num{\rIN}}\fi&%
 				\checkaINa(7)\let\rIN\cachedata\ifemptydata\relax\else\IfNVOETF{\rIN}{}{\num{\rIN}\%}\fi&%
 				\checkaINa(8)\let\rIN\cachedata\ifemptydata\relax\else\IfNVOETF{\rIN}{}{\num{\rIN} \euro}\fi&%
 				\IfNVOETF{\aIN}{}{\num{\aIN} \euro}\expandafter\\\fi%
 				\ifdefined\aIOa\rCa{\aIOa}&%
-				\checkaIOa(4)\let\rIO\cachedata\ifemptydata\relax\else\IfNVOETF{\rIO}{}{\num{\rIO}\ts{}\aIOa(5)}\fi&%
+				\checkaIOa(4)\let\rIO\cachedata\ifemptydata\relax\else\IfNVOETF{\rIO}{}{\num[round-precision=3]{\rIO}\ts{}\aIOa(5)}\fi&%
 				\checkaIOa(6)\let\rIO\cachedata\ifemptydata\relax\else\IfNVOETF{\rIO}{}{\num{\rIO}}\fi&%
 				\checkaIOa(7)\let\rIO\cachedata\ifemptydata\relax\else\IfNVOETF{\rIO}{}{\num{\rIO}\%}\fi&%
 				\checkaIOa(8)\let\rIO\cachedata\ifemptydata\relax\else\IfNVOETF{\rIO}{}{\num{\rIO} \euro}\fi&%
 				\IfNVOETF{\aIO}{}{\num{\aIO} \euro}\expandafter\\\fi%
 				\ifdefined\aIPa\rCa{\aIPa}&%
-				\checkaIPa(4)\let\rIP\cachedata\ifemptydata\relax\else\IfNVOETF{\rIP}{}{\num{\rIP}\ts{}\aIPa(5)}\fi&%
+				\checkaIPa(4)\let\rIP\cachedata\ifemptydata\relax\else\IfNVOETF{\rIP}{}{\num[round-precision=3]{\rIP}\ts{}\aIPa(5)}\fi&%
 				\checkaIPa(6)\let\rIP\cachedata\ifemptydata\relax\else\IfNVOETF{\rIP}{}{\num{\rIP}}\fi&%
 				\checkaIPa(7)\let\rIP\cachedata\ifemptydata\relax\else\IfNVOETF{\rIP}{}{\num{\rIP}\%}\fi&%
 				\checkaIPa(8)\let\rIP\cachedata\ifemptydata\relax\else\IfNVOETF{\rIP}{}{\num{\rIP} \euro}\fi&%
 				\IfNVOETF{\aIP}{}{\num{\aIP} \euro}\expandafter\\\fi%
 				\ifdefined\aIQa\rCa{\aIQa}&%
-				\checkaIQa(4)\let\rIQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIQ}{}{\num{\rIQ}\ts{}\aIQa(5)}\fi&%
+				\checkaIQa(4)\let\rIQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIQ}{}{\num[round-precision=3]{\rIQ}\ts{}\aIQa(5)}\fi&%
 				\checkaIQa(6)\let\rIQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIQ}{}{\num{\rIQ}}\fi&%
 				\checkaIQa(7)\let\rIQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIQ}{}{\num{\rIQ}\%}\fi&%
 				\checkaIQa(8)\let\rIQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIQ}{}{\num{\rIQ} \euro}\fi&%
 				\IfNVOETF{\aIQ}{}{\num{\aIQ} \euro}\expandafter\\\fi%
 				\ifdefined\aIRa\rCa{\aIRa}&%
-				\checkaIRa(4)\let\rIR\cachedata\ifemptydata\relax\else\IfNVOETF{\rIR}{}{\num{\rIR}\ts{}\aIRa(5)}\fi&%
+				\checkaIRa(4)\let\rIR\cachedata\ifemptydata\relax\else\IfNVOETF{\rIR}{}{\num[round-precision=3]{\rIR}\ts{}\aIRa(5)}\fi&%
 				\checkaIRa(6)\let\rIR\cachedata\ifemptydata\relax\else\IfNVOETF{\rIR}{}{\num{\rIR}}\fi&%
 				\checkaIRa(7)\let\rIR\cachedata\ifemptydata\relax\else\IfNVOETF{\rIR}{}{\num{\rIR}\%}\fi&%
 				\checkaIRa(8)\let\rIR\cachedata\ifemptydata\relax\else\IfNVOETF{\rIR}{}{\num{\rIR} \euro}\fi&%
 				\IfNVOETF{\aIR}{}{\num{\aIR} \euro}\expandafter\\\fi%
 				\ifdefined\aISa\rCa{\aISa}&%
-				\checkaISa(4)\let\rIS\cachedata\ifemptydata\relax\else\IfNVOETF{\rIS}{}{\num{\rIS}\ts{}\aISa(5)}\fi&%
+				\checkaISa(4)\let\rIS\cachedata\ifemptydata\relax\else\IfNVOETF{\rIS}{}{\num[round-precision=3]{\rIS}\ts{}\aISa(5)}\fi&%
 				\checkaISa(6)\let\rIS\cachedata\ifemptydata\relax\else\IfNVOETF{\rIS}{}{\num{\rIS}}\fi&%
 				\checkaISa(7)\let\rIS\cachedata\ifemptydata\relax\else\IfNVOETF{\rIS}{}{\num{\rIS}\%}\fi&%
 				\checkaISa(8)\let\rIS\cachedata\ifemptydata\relax\else\IfNVOETF{\rIS}{}{\num{\rIS} \euro}\fi&%
 				\IfNVOETF{\aIS}{}{\num{\aIS} \euro}\expandafter\\\fi%
 				\ifdefined\aITa\rCa{\aITa}&%
-				\checkaITa(4)\let\rIT\cachedata\ifemptydata\relax\else\IfNVOETF{\rIT}{}{\num{\rIT}\ts{}\aITa(5)}\fi&%
+				\checkaITa(4)\let\rIT\cachedata\ifemptydata\relax\else\IfNVOETF{\rIT}{}{\num[round-precision=3]{\rIT}\ts{}\aITa(5)}\fi&%
 				\checkaITa(6)\let\rIT\cachedata\ifemptydata\relax\else\IfNVOETF{\rIT}{}{\num{\rIT}}\fi&%
 				\checkaITa(7)\let\rIT\cachedata\ifemptydata\relax\else\IfNVOETF{\rIT}{}{\num{\rIT}\%}\fi&%
 				\checkaITa(8)\let\rIT\cachedata\ifemptydata\relax\else\IfNVOETF{\rIT}{}{\num{\rIT} \euro}\fi&%
 				\IfNVOETF{\aIT}{}{\num{\aIT} \euro}\expandafter\\\fi%
 				\ifdefined\aIUa\rCa{\aIUa}&%
-				\checkaIUa(4)\let\rIU\cachedata\ifemptydata\relax\else\IfNVOETF{\rIU}{}{\num{\rIU}\ts{}\aIUa(5)}\fi&%
+				\checkaIUa(4)\let\rIU\cachedata\ifemptydata\relax\else\IfNVOETF{\rIU}{}{\num[round-precision=3]{\rIU}\ts{}\aIUa(5)}\fi&%
 				\checkaIUa(6)\let\rIU\cachedata\ifemptydata\relax\else\IfNVOETF{\rIU}{}{\num{\rIU}}\fi&%
 				\checkaIUa(7)\let\rIU\cachedata\ifemptydata\relax\else\IfNVOETF{\rIU}{}{\num{\rIU}\%}\fi&%
 				\checkaIUa(8)\let\rIU\cachedata\ifemptydata\relax\else\IfNVOETF{\rIU}{}{\num{\rIU} \euro}\fi&%
 				\IfNVOETF{\aIU}{}{\num{\aIU} \euro}\expandafter\\\fi%
 				\ifdefined\aIVa\rCa{\aIVa}&%
-				\checkaIVa(4)\let\rIV\cachedata\ifemptydata\relax\else\IfNVOETF{\rIV}{}{\num{\rIV}\ts{}\aIVa(5)}\fi&%
+				\checkaIVa(4)\let\rIV\cachedata\ifemptydata\relax\else\IfNVOETF{\rIV}{}{\num[round-precision=3]{\rIV}\ts{}\aIVa(5)}\fi&%
 				\checkaIVa(6)\let\rIV\cachedata\ifemptydata\relax\else\IfNVOETF{\rIV}{}{\num{\rIV}}\fi&%
 				\checkaIVa(7)\let\rIV\cachedata\ifemptydata\relax\else\IfNVOETF{\rIV}{}{\num{\rIV}\%}\fi&%
 				\checkaIVa(8)\let\rIV\cachedata\ifemptydata\relax\else\IfNVOETF{\rIV}{}{\num{\rIV} \euro}\fi&%
 				\IfNVOETF{\aIV}{}{\num{\aIV} \euro}\expandafter\\\fi%
 				\ifdefined\aIWa\rCa{\aIWa}&%
-				\checkaIWa(4)\let\rIW\cachedata\ifemptydata\relax\else\IfNVOETF{\rIW}{}{\num{\rIW}\ts{}\aIWa(5)}\fi&%
+				\checkaIWa(4)\let\rIW\cachedata\ifemptydata\relax\else\IfNVOETF{\rIW}{}{\num[round-precision=3]{\rIW}\ts{}\aIWa(5)}\fi&%
 				\checkaIWa(6)\let\rIW\cachedata\ifemptydata\relax\else\IfNVOETF{\rIW}{}{\num{\rIW}}\fi&%
 				\checkaIWa(7)\let\rIW\cachedata\ifemptydata\relax\else\IfNVOETF{\rIW}{}{\num{\rIW}\%}\fi&%
 				\checkaIWa(8)\let\rIW\cachedata\ifemptydata\relax\else\IfNVOETF{\rIW}{}{\num{\rIW} \euro}\fi&%
 				\IfNVOETF{\aIW}{}{\num{\aIW} \euro}\expandafter\\\fi%
 				\ifdefined\aIXa\rCa{\aIXa}&%
-				\checkaIXa(4)\let\rIX\cachedata\ifemptydata\relax\else\IfNVOETF{\rIX}{}{\num{\rIX}\ts{}\aIXa(5)}\fi&%
+				\checkaIXa(4)\let\rIX\cachedata\ifemptydata\relax\else\IfNVOETF{\rIX}{}{\num[round-precision=3]{\rIX}\ts{}\aIXa(5)}\fi&%
 				\checkaIXa(6)\let\rIX\cachedata\ifemptydata\relax\else\IfNVOETF{\rIX}{}{\num{\rIX}}\fi&%
 				\checkaIXa(7)\let\rIX\cachedata\ifemptydata\relax\else\IfNVOETF{\rIX}{}{\num{\rIX}\%}\fi&%
 				\checkaIXa(8)\let\rIX\cachedata\ifemptydata\relax\else\IfNVOETF{\rIX}{}{\num{\rIX} \euro}\fi&%
 				\IfNVOETF{\aIX}{}{\num{\aIX} \euro}\expandafter\\\fi%
 				\ifdefined\aIYa\rCa{\aIYa}&%
-				\checkaIYa(4)\let\rIY\cachedata\ifemptydata\relax\else\IfNVOETF{\rIY}{}{\num{\rIY}\ts{}\aIYa(5)}\fi&%
+				\checkaIYa(4)\let\rIY\cachedata\ifemptydata\relax\else\IfNVOETF{\rIY}{}{\num[round-precision=3]{\rIY}\ts{}\aIYa(5)}\fi&%
 				\checkaIYa(6)\let\rIY\cachedata\ifemptydata\relax\else\IfNVOETF{\rIY}{}{\num{\rIY}}\fi&%
 				\checkaIYa(7)\let\rIY\cachedata\ifemptydata\relax\else\IfNVOETF{\rIY}{}{\num{\rIY}\%}\fi&%
 				\checkaIYa(8)\let\rIY\cachedata\ifemptydata\relax\else\IfNVOETF{\rIY}{}{\num{\rIY} \euro}\fi&%
 				\IfNVOETF{\aIY}{}{\num{\aIY} \euro}\expandafter\\\fi%	
 				\ifdefined\aIZa\rCa{\aIZa}&%
-				\checkaIZa(4)\let\rIZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIZ}{}{\num{\rIZ}\ts{}\aIZa(5)}\fi&%
+				\checkaIZa(4)\let\rIZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIZ}{}{\num[round-precision=3]{\rIZ}\ts{}\aIZa(5)}\fi&%
 				\checkaIZa(6)\let\rIZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIZ}{}{\num{\rIZ}}\fi&%
 				\checkaIZa(7)\let\rIZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIZ}{}{\num{\rIZ}\%}\fi&%
 				\checkaIZa(8)\let\rIZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rIZ}{}{\num{\rIZ} \euro}\fi&%
@@ -3065,151 +3065,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aJAa\rCa{\aJAa}&%
-				\checkaJAa(4)\let\rJA\cachedata\ifemptydata\relax\else\IfNVOETF{\rJA}{}{\num{\rJA}\ts{}\aJAa(5)}\fi&%
+				\checkaJAa(4)\let\rJA\cachedata\ifemptydata\relax\else\IfNVOETF{\rJA}{}{\num[round-precision=3]{\rJA}\ts{}\aJAa(5)}\fi&%
 				\checkaJAa(6)\let\rJA\cachedata\ifemptydata\relax\else\IfNVOETF{\rJA}{}{\num{\rJA}}\fi&%
 				\checkaJAa(7)\let\rJA\cachedata\ifemptydata\relax\else\IfNVOETF{\rJA}{}{\num{\rJA}\%}\fi&%
 				\checkaJAa(8)\let\rJA\cachedata\ifemptydata\relax\else\IfNVOETF{\rJA}{}{\num{\rJA} \euro}\fi&%
 				\IfNVOETF{\aJA}{}{\num{\aJA} \euro}\expandafter\\\fi%
 				\ifdefined\aJBa\rCa{\aJBa}&%
-				\checkaJBa(4)\let\rJB\cachedata\ifemptydata\relax\else\IfNVOETF{\rJB}{}{\num{\rJB}\ts{}\aJBa(5)}\fi&%
+				\checkaJBa(4)\let\rJB\cachedata\ifemptydata\relax\else\IfNVOETF{\rJB}{}{\num[round-precision=3]{\rJB}\ts{}\aJBa(5)}\fi&%
 				\checkaJBa(6)\let\rJB\cachedata\ifemptydata\relax\else\IfNVOETF{\rJB}{}{\num{\rJB}}\fi&%
 				\checkaJBa(7)\let\rJB\cachedata\ifemptydata\relax\else\IfNVOETF{\rJB}{}{\num{\rJB}\%}\fi&%
 				\checkaJBa(8)\let\rJB\cachedata\ifemptydata\relax\else\IfNVOETF{\rJB}{}{\num{\rJB} \euro}\fi&%
 				\IfNVOETF{\aJB}{}{\num{\aJB} \euro}\expandafter\\\fi%
 				\ifdefined\aJCa\rCa{\aJCa}&%
-				\checkaJCa(4)\let\rJC\cachedata\ifemptydata\relax\else\IfNVOETF{\rJC}{}{\num{\rJC}\ts{}\aJCa(5)}\fi&%
+				\checkaJCa(4)\let\rJC\cachedata\ifemptydata\relax\else\IfNVOETF{\rJC}{}{\num[round-precision=3]{\rJC}\ts{}\aJCa(5)}\fi&%
 				\checkaJCa(6)\let\rJC\cachedata\ifemptydata\relax\else\IfNVOETF{\rJC}{}{\num{\rJC}}\fi&%
 				\checkaJCa(7)\let\rJC\cachedata\ifemptydata\relax\else\IfNVOETF{\rJC}{}{\num{\rJC}\%}\fi&%
 				\checkaJCa(8)\let\rJC\cachedata\ifemptydata\relax\else\IfNVOETF{\rJC}{}{\num{\rJC} \euro}\fi&%
 				\IfNVOETF{\aJC}{}{\num{\aJC} \euro}\expandafter\\\fi%
 				\ifdefined\aJDa\rCa{\aJDa}&%
-				\checkaJDa(4)\let\rJD\cachedata\ifemptydata\relax\else\IfNVOETF{\rJD}{}{\num{\rJD}\ts{}\aJDa(5)}\fi&%
+				\checkaJDa(4)\let\rJD\cachedata\ifemptydata\relax\else\IfNVOETF{\rJD}{}{\num[round-precision=3]{\rJD}\ts{}\aJDa(5)}\fi&%
 				\checkaJDa(6)\let\rJD\cachedata\ifemptydata\relax\else\IfNVOETF{\rJD}{}{\num{\rJD}}\fi&%
 				\checkaJDa(7)\let\rJD\cachedata\ifemptydata\relax\else\IfNVOETF{\rJD}{}{\num{\rJD}\%}\fi&%
 				\checkaJDa(8)\let\rJD\cachedata\ifemptydata\relax\else\IfNVOETF{\rJD}{}{\num{\rJD} \euro}\fi&%
 				\IfNVOETF{\aJD}{}{\num{\aJD} \euro}\expandafter\\\fi%
 				\ifdefined\aJEa\rCa{\aJEa}&%
-				\checkaJEa(4)\let\rJE\cachedata\ifemptydata\relax\else\IfNVOETF{\rJE}{}{\num{\rJE}\ts{}\aJEa(5)}\fi&%
+				\checkaJEa(4)\let\rJE\cachedata\ifemptydata\relax\else\IfNVOETF{\rJE}{}{\num[round-precision=3]{\rJE}\ts{}\aJEa(5)}\fi&%
 				\checkaJEa(6)\let\rJE\cachedata\ifemptydata\relax\else\IfNVOETF{\rJE}{}{\num{\rJE}}\fi&%
 				\checkaJEa(7)\let\rJE\cachedata\ifemptydata\relax\else\IfNVOETF{\rJE}{}{\num{\rJE}\%}\fi&%
 				\checkaJEa(8)\let\rJE\cachedata\ifemptydata\relax\else\IfNVOETF{\rJE}{}{\num{\rJE} \euro}\fi&%
 				\IfNVOETF{\aJE}{}{\num{\aJE} \euro}\expandafter\\\fi%
 				\ifdefined\aJFa\rCa{\aJFa}&%
-				\checkaJFa(4)\let\rJF\cachedata\ifemptydata\relax\else\IfNVOETF{\rJF}{}{\num{\rJF}\ts{}\aJFa(5)}\fi&%
+				\checkaJFa(4)\let\rJF\cachedata\ifemptydata\relax\else\IfNVOETF{\rJF}{}{\num[round-precision=3]{\rJF}\ts{}\aJFa(5)}\fi&%
 				\checkaJFa(6)\let\rJF\cachedata\ifemptydata\relax\else\IfNVOETF{\rJF}{}{\num{\rJF}}\fi&%
 				\checkaJFa(7)\let\rJF\cachedata\ifemptydata\relax\else\IfNVOETF{\rJF}{}{\num{\rJF}\%}\fi&%
 				\checkaJFa(8)\let\rJF\cachedata\ifemptydata\relax\else\IfNVOETF{\rJF}{}{\num{\rJF} \euro}\fi&%
 				\IfNVOETF{\aJF}{}{\num{\aJF} \euro}\expandafter\\\fi%
 				\ifdefined\aJGa\rCa{\aJGa}&%
-				\checkaJGa(4)\let\rJG\cachedata\ifemptydata\relax\else\IfNVOETF{\rJG}{}{\num{\rJG}\ts{}\aJGa(5)}\fi&%
+				\checkaJGa(4)\let\rJG\cachedata\ifemptydata\relax\else\IfNVOETF{\rJG}{}{\num[round-precision=3]{\rJG}\ts{}\aJGa(5)}\fi&%
 				\checkaJGa(6)\let\rJG\cachedata\ifemptydata\relax\else\IfNVOETF{\rJG}{}{\num{\rJG}}\fi&%
 				\checkaJGa(7)\let\rJG\cachedata\ifemptydata\relax\else\IfNVOETF{\rJG}{}{\num{\rJG}\%}\fi&%
 				\checkaJGa(8)\let\rJG\cachedata\ifemptydata\relax\else\IfNVOETF{\rJG}{}{\num{\rJG} \euro}\fi&%
 				\IfNVOETF{\aJG}{}{\num{\aJG} \euro}\expandafter\\\fi%
 				\ifdefined\aJIa\rCa{\aJIa}&%
-				\checkaJIa(4)\let\rJI\cachedata\ifemptydata\relax\else\IfNVOETF{\rJI}{}{\num{\rJI}\ts{}\aJIa(5)}\fi&%
+				\checkaJIa(4)\let\rJI\cachedata\ifemptydata\relax\else\IfNVOETF{\rJI}{}{\num[round-precision=3]{\rJI}\ts{}\aJIa(5)}\fi&%
 				\checkaJIa(6)\let\rJI\cachedata\ifemptydata\relax\else\IfNVOETF{\rJI}{}{\num{\rJI}}\fi&%
 				\checkaJIa(7)\let\rJI\cachedata\ifemptydata\relax\else\IfNVOETF{\rJI}{}{\num{\rJI}\%}\fi&%
 				\checkaJIa(8)\let\rJI\cachedata\ifemptydata\relax\else\IfNVOETF{\rJI}{}{\num{\rJI} \euro}\fi&%
 				\IfNVOETF{\aJI}{}{\num{\aJI} \euro}\expandafter\\\fi%
 				\ifdefined\aJJa\rCa{\aJJa}&%
-				\checkaJJa(4)\let\rJJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJJ}{}{\num{\rJJ}\ts{}\aJJa(5)}\fi&%
+				\checkaJJa(4)\let\rJJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJJ}{}{\num[round-precision=3]{\rJJ}\ts{}\aJJa(5)}\fi&%
 				\checkaJJa(6)\let\rJJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJJ}{}{\num{\rJJ}}\fi&%
 				\checkaJJa(7)\let\rJJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJJ}{}{\num{\rJJ}\%}\fi&%
 				\checkaJJa(8)\let\rJJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJJ}{}{\num{\rJJ} \euro}\fi&%
 				\IfNVOETF{\aJJ}{}{\num{\aJJ} \euro}\expandafter\\\fi%
 				\ifdefined\aJKa\rCa{\aJKa}&%
-				\checkaJKa(4)\let\rJK\cachedata\ifemptydata\relax\else\IfNVOETF{\rJK}{}{\num{\rJK}\ts{}\aJKa(5)}\fi&%
+				\checkaJKa(4)\let\rJK\cachedata\ifemptydata\relax\else\IfNVOETF{\rJK}{}{\num[round-precision=3]{\rJK}\ts{}\aJKa(5)}\fi&%
 				\checkaJKa(6)\let\rJK\cachedata\ifemptydata\relax\else\IfNVOETF{\rJK}{}{\num{\rJK}}\fi&%
 				\checkaJKa(7)\let\rJK\cachedata\ifemptydata\relax\else\IfNVOETF{\rJK}{}{\num{\rJK}\%}\fi&%
 				\checkaJKa(8)\let\rJK\cachedata\ifemptydata\relax\else\IfNVOETF{\rJK}{}{\num{\rJK} \euro}\fi&%
 				\IfNVOETF{\aJK}{}{\num{\aJK} \euro}\expandafter\\\fi%
 				\ifdefined\aJLa\rCa{\aJLa}&%
-				\checkaJLa(4)\let\rJL\cachedata\ifemptydata\relax\else\IfNVOETF{\rJL}{}{\num{\rJL}\ts{}\aJLa(5)}\fi&%
+				\checkaJLa(4)\let\rJL\cachedata\ifemptydata\relax\else\IfNVOETF{\rJL}{}{\num[round-precision=3]{\rJL}\ts{}\aJLa(5)}\fi&%
 				\checkaJLa(6)\let\rJL\cachedata\ifemptydata\relax\else\IfNVOETF{\rJL}{}{\num{\rJL}}\fi&%
 				\checkaJLa(7)\let\rJL\cachedata\ifemptydata\relax\else\IfNVOETF{\rJL}{}{\num{\rJL}\%}\fi&%
 				\checkaJLa(8)\let\rJL\cachedata\ifemptydata\relax\else\IfNVOETF{\rJL}{}{\num{\rJL} \euro}\fi&%
 				\IfNVOETF{\aJL}{}{\num{\aJL} \euro}\expandafter\\\fi%
 				\ifdefined\aJMa\rCa{\aJMa}&%
-				\checkaJMa(4)\let\rJM\cachedata\ifemptydata\relax\else\IfNVOETF{\rJM}{}{\num{\rJM}\ts{}\aJMa(5)}\fi&%
+				\checkaJMa(4)\let\rJM\cachedata\ifemptydata\relax\else\IfNVOETF{\rJM}{}{\num[round-precision=3]{\rJM}\ts{}\aJMa(5)}\fi&%
 				\checkaJMa(6)\let\rJM\cachedata\ifemptydata\relax\else\IfNVOETF{\rJM}{}{\num{\rJM}}\fi&%
 				\checkaJMa(7)\let\rJM\cachedata\ifemptydata\relax\else\IfNVOETF{\rJM}{}{\num{\rJM}\%}\fi&%
 				\checkaJMa(8)\let\rJM\cachedata\ifemptydata\relax\else\IfNVOETF{\rJM}{}{\num{\rJM} \euro}\fi&%
 				\IfNVOETF{\aJM}{}{\num{\aJM} \euro}\expandafter\\\fi%
 				\ifdefined\aJNa\rCa{\aJNa}&%
-				\checkaJNa(4)\let\rJN\cachedata\ifemptydata\relax\else\IfNVOETF{\rJN}{}{\num{\rJN}\ts{}\aJNa(5)}\fi&%
+				\checkaJNa(4)\let\rJN\cachedata\ifemptydata\relax\else\IfNVOETF{\rJN}{}{\num[round-precision=3]{\rJN}\ts{}\aJNa(5)}\fi&%
 				\checkaJNa(6)\let\rJN\cachedata\ifemptydata\relax\else\IfNVOETF{\rJN}{}{\num{\rJN}}\fi&%
 				\checkaJNa(7)\let\rJN\cachedata\ifemptydata\relax\else\IfNVOETF{\rJN}{}{\num{\rJN}\%}\fi&%
 				\checkaJNa(8)\let\rJN\cachedata\ifemptydata\relax\else\IfNVOETF{\rJN}{}{\num{\rJN} \euro}\fi&%
 				\IfNVOETF{\aJN}{}{\num{\aJN} \euro}\expandafter\\\fi%
 				\ifdefined\aJOa\rCa{\aJOa}&%
-				\checkaJOa(4)\let\rJO\cachedata\ifemptydata\relax\else\IfNVOETF{\rJO}{}{\num{\rJO}\ts{}\aJOa(5)}\fi&%
+				\checkaJOa(4)\let\rJO\cachedata\ifemptydata\relax\else\IfNVOETF{\rJO}{}{\num[round-precision=3]{\rJO}\ts{}\aJOa(5)}\fi&%
 				\checkaJOa(6)\let\rJO\cachedata\ifemptydata\relax\else\IfNVOETF{\rJO}{}{\num{\rJO}}\fi&%
 				\checkaJOa(7)\let\rJO\cachedata\ifemptydata\relax\else\IfNVOETF{\rJO}{}{\num{\rJO}\%}\fi&%
 				\checkaJOa(8)\let\rJO\cachedata\ifemptydata\relax\else\IfNVOETF{\rJO}{}{\num{\rJO} \euro}\fi&%
 				\IfNVOETF{\aJO}{}{\num{\aJO} \euro}\expandafter\\\fi%
 				\ifdefined\aJPa\rCa{\aJPa}&%
-				\checkaJPa(4)\let\rJP\cachedata\ifemptydata\relax\else\IfNVOETF{\rJP}{}{\num{\rJP}\ts{}\aJPa(5)}\fi&%
+				\checkaJPa(4)\let\rJP\cachedata\ifemptydata\relax\else\IfNVOETF{\rJP}{}{\num[round-precision=3]{\rJP}\ts{}\aJPa(5)}\fi&%
 				\checkaJPa(6)\let\rJP\cachedata\ifemptydata\relax\else\IfNVOETF{\rJP}{}{\num{\rJP}}\fi&%
 				\checkaJPa(7)\let\rJP\cachedata\ifemptydata\relax\else\IfNVOETF{\rJP}{}{\num{\rJP}\%}\fi&%
 				\checkaJPa(8)\let\rJP\cachedata\ifemptydata\relax\else\IfNVOETF{\rJP}{}{\num{\rJP} \euro}\fi&%
 				\IfNVOETF{\aJP}{}{\num{\aJP} \euro}\expandafter\\\fi%
 				\ifdefined\aJQa\rCa{\aJQa}&%
-				\checkaJQa(4)\let\rJQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJQ}{}{\num{\rJQ}\ts{}\aJQa(5)}\fi&%
+				\checkaJQa(4)\let\rJQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJQ}{}{\num[round-precision=3]{\rJQ}\ts{}\aJQa(5)}\fi&%
 				\checkaJQa(6)\let\rJQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJQ}{}{\num{\rJQ}}\fi&%
 				\checkaJQa(7)\let\rJQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJQ}{}{\num{\rJQ}\%}\fi&%
 				\checkaJQa(8)\let\rJQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJQ}{}{\num{\rJQ} \euro}\fi&%
 				\IfNVOETF{\aJQ}{}{\num{\aJQ} \euro}\expandafter\\\fi%
 				\ifdefined\aJRa\rCa{\aJRa}&%
-				\checkaJRa(4)\let\rJR\cachedata\ifemptydata\relax\else\IfNVOETF{\rJR}{}{\num{\rJR}\ts{}\aJRa(5)}\fi&%
+				\checkaJRa(4)\let\rJR\cachedata\ifemptydata\relax\else\IfNVOETF{\rJR}{}{\num[round-precision=3]{\rJR}\ts{}\aJRa(5)}\fi&%
 				\checkaJRa(6)\let\rJR\cachedata\ifemptydata\relax\else\IfNVOETF{\rJR}{}{\num{\rJR}}\fi&%
 				\checkaJRa(7)\let\rJR\cachedata\ifemptydata\relax\else\IfNVOETF{\rJR}{}{\num{\rJR}\%}\fi&%
 				\checkaJRa(8)\let\rJR\cachedata\ifemptydata\relax\else\IfNVOETF{\rJR}{}{\num{\rJR} \euro}\fi&%
 				\IfNVOETF{\aJR}{}{\num{\aJR} \euro}\expandafter\\\fi%
 				\ifdefined\aJSa\rCa{\aJSa}&%
-				\checkaJSa(4)\let\rJS\cachedata\ifemptydata\relax\else\IfNVOETF{\rJS}{}{\num{\rJS}\ts{}\aJSa(5)}\fi&%
+				\checkaJSa(4)\let\rJS\cachedata\ifemptydata\relax\else\IfNVOETF{\rJS}{}{\num[round-precision=3]{\rJS}\ts{}\aJSa(5)}\fi&%
 				\checkaJSa(6)\let\rJS\cachedata\ifemptydata\relax\else\IfNVOETF{\rJS}{}{\num{\rJS}}\fi&%
 				\checkaJSa(7)\let\rJS\cachedata\ifemptydata\relax\else\IfNVOETF{\rJS}{}{\num{\rJS}\%}\fi&%
 				\checkaJSa(8)\let\rJS\cachedata\ifemptydata\relax\else\IfNVOETF{\rJS}{}{\num{\rJS} \euro}\fi&%
 				\IfNVOETF{\aJS}{}{\num{\aJS} \euro}\expandafter\\\fi%
 				\ifdefined\aJTa\rCa{\aJTa}&%
-				\checkaJTa(4)\let\rJT\cachedata\ifemptydata\relax\else\IfNVOETF{\rJT}{}{\num{\rJT}\ts{}\aJTa(5)}\fi&%
+				\checkaJTa(4)\let\rJT\cachedata\ifemptydata\relax\else\IfNVOETF{\rJT}{}{\num[round-precision=3]{\rJT}\ts{}\aJTa(5)}\fi&%
 				\checkaJTa(6)\let\rJT\cachedata\ifemptydata\relax\else\IfNVOETF{\rJT}{}{\num{\rJT}}\fi&%
 				\checkaJTa(7)\let\rJT\cachedata\ifemptydata\relax\else\IfNVOETF{\rJT}{}{\num{\rJT}\%}\fi&%
 				\checkaJTa(8)\let\rJT\cachedata\ifemptydata\relax\else\IfNVOETF{\rJT}{}{\num{\rJT} \euro}\fi&%
 				\IfNVOETF{\aJT}{}{\num{\aJT} \euro}\expandafter\\\fi%
 				\ifdefined\aJUa\rCa{\aJUa}&%
-				\checkaJUa(4)\let\rJU\cachedata\ifemptydata\relax\else\IfNVOETF{\rJU}{}{\num{\rJU}\ts{}\aJUa(5)}\fi&%
+				\checkaJUa(4)\let\rJU\cachedata\ifemptydata\relax\else\IfNVOETF{\rJU}{}{\num[round-precision=3]{\rJU}\ts{}\aJUa(5)}\fi&%
 				\checkaJUa(6)\let\rJU\cachedata\ifemptydata\relax\else\IfNVOETF{\rJU}{}{\num{\rJU}}\fi&%
 				\checkaJUa(7)\let\rJU\cachedata\ifemptydata\relax\else\IfNVOETF{\rJU}{}{\num{\rJU}\%}\fi&%
 				\checkaJUa(8)\let\rJU\cachedata\ifemptydata\relax\else\IfNVOETF{\rJU}{}{\num{\rJU} \euro}\fi&%
 				\IfNVOETF{\aJU}{}{\num{\aJU} \euro}\expandafter\\\fi%
 				\ifdefined\aJVa\rCa{\aJVa}&%
-				\checkaJVa(4)\let\rJV\cachedata\ifemptydata\relax\else\IfNVOETF{\rJV}{}{\num{\rJV}\ts{}\aJVa(5)}\fi&%
+				\checkaJVa(4)\let\rJV\cachedata\ifemptydata\relax\else\IfNVOETF{\rJV}{}{\num[round-precision=3]{\rJV}\ts{}\aJVa(5)}\fi&%
 				\checkaJVa(6)\let\rJV\cachedata\ifemptydata\relax\else\IfNVOETF{\rJV}{}{\num{\rJV}}\fi&%
 				\checkaJVa(7)\let\rJV\cachedata\ifemptydata\relax\else\IfNVOETF{\rJV}{}{\num{\rJV}\%}\fi&%
 				\checkaJVa(8)\let\rJV\cachedata\ifemptydata\relax\else\IfNVOETF{\rJV}{}{\num{\rJV} \euro}\fi&%
 				\IfNVOETF{\aJV}{}{\num{\aJV} \euro}\expandafter\\\fi%
 				\ifdefined\aJWa\rCa{\aJWa}&%
-				\checkaJWa(4)\let\rJW\cachedata\ifemptydata\relax\else\IfNVOETF{\rJW}{}{\num{\rJW}\ts{}\aJWa(5)}\fi&%
+				\checkaJWa(4)\let\rJW\cachedata\ifemptydata\relax\else\IfNVOETF{\rJW}{}{\num[round-precision=3]{\rJW}\ts{}\aJWa(5)}\fi&%
 				\checkaJWa(6)\let\rJW\cachedata\ifemptydata\relax\else\IfNVOETF{\rJW}{}{\num{\rJW}}\fi&%
 				\checkaJWa(7)\let\rJW\cachedata\ifemptydata\relax\else\IfNVOETF{\rJW}{}{\num{\rJW}\%}\fi&%
 				\checkaJWa(8)\let\rJW\cachedata\ifemptydata\relax\else\IfNVOETF{\rJW}{}{\num{\rJW} \euro}\fi&%
 				\IfNVOETF{\aJW}{}{\num{\aJW} \euro}\expandafter\\\fi%
 				\ifdefined\aJXa\rCa{\aJXa}&%
-				\checkaJXa(4)\let\rJX\cachedata\ifemptydata\relax\else\IfNVOETF{\rJX}{}{\num{\rJX}\ts{}\aJXa(5)}\fi&%
+				\checkaJXa(4)\let\rJX\cachedata\ifemptydata\relax\else\IfNVOETF{\rJX}{}{\num[round-precision=3]{\rJX}\ts{}\aJXa(5)}\fi&%
 				\checkaJXa(6)\let\rJX\cachedata\ifemptydata\relax\else\IfNVOETF{\rJX}{}{\num{\rJX}}\fi&%
 				\checkaJXa(7)\let\rJX\cachedata\ifemptydata\relax\else\IfNVOETF{\rJX}{}{\num{\rJX}\%}\fi&%
 				\checkaJXa(8)\let\rJX\cachedata\ifemptydata\relax\else\IfNVOETF{\rJX}{}{\num{\rJX} \euro}\fi&%
 				\IfNVOETF{\aJX}{}{\num{\aJX} \euro}\expandafter\\\fi%
 				\ifdefined\aJYa\rCa{\aJYa}&%
-				\checkaJYa(4)\let\rJY\cachedata\ifemptydata\relax\else\IfNVOETF{\rJY}{}{\num{\rJY}\ts{}\aJYa(5)}\fi&%
+				\checkaJYa(4)\let\rJY\cachedata\ifemptydata\relax\else\IfNVOETF{\rJY}{}{\num[round-precision=3]{\rJY}\ts{}\aJYa(5)}\fi&%
 				\checkaJYa(6)\let\rJY\cachedata\ifemptydata\relax\else\IfNVOETF{\rJY}{}{\num{\rJY}}\fi&%
 				\checkaJYa(7)\let\rJY\cachedata\ifemptydata\relax\else\IfNVOETF{\rJY}{}{\num{\rJY}\%}\fi&%
 				\checkaJYa(8)\let\rJY\cachedata\ifemptydata\relax\else\IfNVOETF{\rJY}{}{\num{\rJY} \euro}\fi&%
 				\IfNVOETF{\aJY}{}{\num{\aJY} \euro}\expandafter\\\fi%	
 				\ifdefined\aJZa\rCa{\aJZa}&%
-				\checkaJZa(4)\let\rJZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJZ}{}{\num{\rJZ}\ts{}\aJZa(5)}\fi&%
+				\checkaJZa(4)\let\rJZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJZ}{}{\num[round-precision=3]{\rJZ}\ts{}\aJZa(5)}\fi&%
 				\checkaJZa(6)\let\rJZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJZ}{}{\num{\rJZ}}\fi&%
 				\checkaJZa(7)\let\rJZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJZ}{}{\num{\rJZ}\%}\fi&%
 				\checkaJZa(8)\let\rJZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rJZ}{}{\num{\rJZ} \euro}\fi&%
@@ -3224,151 +3224,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aKAa\rCa{\aKAa}&%
-				\checkaKAa(4)\let\rKA\cachedata\ifemptydata\relax\else\IfNVOETF{\rKA}{}{\num{\rKA}\ts{}\aKAa(5)}\fi&%
+				\checkaKAa(4)\let\rKA\cachedata\ifemptydata\relax\else\IfNVOETF{\rKA}{}{\num[round-precision=3]{\rKA}\ts{}\aKAa(5)}\fi&%
 				\checkaKAa(6)\let\rKA\cachedata\ifemptydata\relax\else\IfNVOETF{\rKA}{}{\num{\rKA}}\fi&%
 				\checkaKAa(7)\let\rKA\cachedata\ifemptydata\relax\else\IfNVOETF{\rKA}{}{\num{\rKA}\%}\fi&%
 				\checkaKAa(8)\let\rKA\cachedata\ifemptydata\relax\else\IfNVOETF{\rKA}{}{\num{\rKA} \euro}\fi&%
 				\IfNVOETF{\aKA}{}{\num{\aKA} \euro}\expandafter\\\fi%
 				\ifdefined\aKBa\rCa{\aKBa}&%
-				\checkaKBa(4)\let\rKB\cachedata\ifemptydata\relax\else\IfNVOETF{\rKB}{}{\num{\rKB}\ts{}\aKBa(5)}\fi&%
+				\checkaKBa(4)\let\rKB\cachedata\ifemptydata\relax\else\IfNVOETF{\rKB}{}{\num[round-precision=3]{\rKB}\ts{}\aKBa(5)}\fi&%
 				\checkaKBa(6)\let\rKB\cachedata\ifemptydata\relax\else\IfNVOETF{\rKB}{}{\num{\rKB}}\fi&%
 				\checkaKBa(7)\let\rKB\cachedata\ifemptydata\relax\else\IfNVOETF{\rKB}{}{\num{\rKB}\%}\fi&%
 				\checkaKBa(8)\let\rKB\cachedata\ifemptydata\relax\else\IfNVOETF{\rKB}{}{\num{\rKB} \euro}\fi&%
 				\IfNVOETF{\aKB}{}{\num{\aKB} \euro}\expandafter\\\fi%
 				\ifdefined\aKCa\rCa{\aKCa}&%
-				\checkaKCa(4)\let\rKC\cachedata\ifemptydata\relax\else\IfNVOETF{\rKC}{}{\num{\rKC}\ts{}\aKCa(5)}\fi&%
+				\checkaKCa(4)\let\rKC\cachedata\ifemptydata\relax\else\IfNVOETF{\rKC}{}{\num[round-precision=3]{\rKC}\ts{}\aKCa(5)}\fi&%
 				\checkaKCa(6)\let\rKC\cachedata\ifemptydata\relax\else\IfNVOETF{\rKC}{}{\num{\rKC}}\fi&%
 				\checkaKCa(7)\let\rKC\cachedata\ifemptydata\relax\else\IfNVOETF{\rKC}{}{\num{\rKC}\%}\fi&%
 				\checkaKCa(8)\let\rKC\cachedata\ifemptydata\relax\else\IfNVOETF{\rKC}{}{\num{\rKC} \euro}\fi&%
 				\IfNVOETF{\aKC}{}{\num{\aKC} \euro}\expandafter\\\fi%
 				\ifdefined\aKDa\rCa{\aKDa}&%
-				\checkaKDa(4)\let\rKD\cachedata\ifemptydata\relax\else\IfNVOETF{\rKD}{}{\num{\rKD}\ts{}\aKDa(5)}\fi&%
+				\checkaKDa(4)\let\rKD\cachedata\ifemptydata\relax\else\IfNVOETF{\rKD}{}{\num[round-precision=3]{\rKD}\ts{}\aKDa(5)}\fi&%
 				\checkaKDa(6)\let\rKD\cachedata\ifemptydata\relax\else\IfNVOETF{\rKD}{}{\num{\rKD}}\fi&%
 				\checkaKDa(7)\let\rKD\cachedata\ifemptydata\relax\else\IfNVOETF{\rKD}{}{\num{\rKD}\%}\fi&%
 				\checkaKDa(8)\let\rKD\cachedata\ifemptydata\relax\else\IfNVOETF{\rKD}{}{\num{\rKD} \euro}\fi&%
 				\IfNVOETF{\aKD}{}{\num{\aKD} \euro}\expandafter\\\fi%
 				\ifdefined\aKEa\rCa{\aKEa}&%
-				\checkaKEa(4)\let\rKE\cachedata\ifemptydata\relax\else\IfNVOETF{\rKE}{}{\num{\rKE}\ts{}\aKEa(5)}\fi&%
+				\checkaKEa(4)\let\rKE\cachedata\ifemptydata\relax\else\IfNVOETF{\rKE}{}{\num[round-precision=3]{\rKE}\ts{}\aKEa(5)}\fi&%
 				\checkaKEa(6)\let\rKE\cachedata\ifemptydata\relax\else\IfNVOETF{\rKE}{}{\num{\rKE}}\fi&%
 				\checkaKEa(7)\let\rKE\cachedata\ifemptydata\relax\else\IfNVOETF{\rKE}{}{\num{\rKE}\%}\fi&%
 				\checkaKEa(8)\let\rKE\cachedata\ifemptydata\relax\else\IfNVOETF{\rKE}{}{\num{\rKE} \euro}\fi&%
 				\IfNVOETF{\aKE}{}{\num{\aKE} \euro}\expandafter\\\fi%
 				\ifdefined\aKFa\rCa{\aKFa}&%
-				\checkaKFa(4)\let\rKF\cachedata\ifemptydata\relax\else\IfNVOETF{\rKF}{}{\num{\rKF}\ts{}\aKFa(5)}\fi&%
+				\checkaKFa(4)\let\rKF\cachedata\ifemptydata\relax\else\IfNVOETF{\rKF}{}{\num[round-precision=3]{\rKF}\ts{}\aKFa(5)}\fi&%
 				\checkaKFa(6)\let\rKF\cachedata\ifemptydata\relax\else\IfNVOETF{\rKF}{}{\num{\rKF}}\fi&%
 				\checkaKFa(7)\let\rKF\cachedata\ifemptydata\relax\else\IfNVOETF{\rKF}{}{\num{\rKF}\%}\fi&%
 				\checkaKFa(8)\let\rKF\cachedata\ifemptydata\relax\else\IfNVOETF{\rKF}{}{\num{\rKF} \euro}\fi&%
 				\IfNVOETF{\aKF}{}{\num{\aKF} \euro}\expandafter\\\fi%
 				\ifdefined\aKGa\rCa{\aKGa}&%
-				\checkaKGa(4)\let\rKG\cachedata\ifemptydata\relax\else\IfNVOETF{\rKG}{}{\num{\rKG}\ts{}\aKGa(5)}\fi&%
+				\checkaKGa(4)\let\rKG\cachedata\ifemptydata\relax\else\IfNVOETF{\rKG}{}{\num[round-precision=3]{\rKG}\ts{}\aKGa(5)}\fi&%
 				\checkaKGa(6)\let\rKG\cachedata\ifemptydata\relax\else\IfNVOETF{\rKG}{}{\num{\rKG}}\fi&%
 				\checkaKGa(7)\let\rKG\cachedata\ifemptydata\relax\else\IfNVOETF{\rKG}{}{\num{\rKG}\%}\fi&%
 				\checkaKGa(8)\let\rKG\cachedata\ifemptydata\relax\else\IfNVOETF{\rKG}{}{\num{\rKG} \euro}\fi&%
 				\IfNVOETF{\aKG}{}{\num{\aKG} \euro}\expandafter\\\fi%
 				\ifdefined\aKIa\rCa{\aKIa}&%
-				\checkaKIa(4)\let\rKI\cachedata\ifemptydata\relax\else\IfNVOETF{\rKI}{}{\num{\rKI}\ts{}\aKIa(5)}\fi&%
+				\checkaKIa(4)\let\rKI\cachedata\ifemptydata\relax\else\IfNVOETF{\rKI}{}{\num[round-precision=3]{\rKI}\ts{}\aKIa(5)}\fi&%
 				\checkaKIa(6)\let\rKI\cachedata\ifemptydata\relax\else\IfNVOETF{\rKI}{}{\num{\rKI}}\fi&%
 				\checkaKIa(7)\let\rKI\cachedata\ifemptydata\relax\else\IfNVOETF{\rKI}{}{\num{\rKI}\%}\fi&%
 				\checkaKIa(8)\let\rKI\cachedata\ifemptydata\relax\else\IfNVOETF{\rKI}{}{\num{\rKI} \euro}\fi&%
 				\IfNVOETF{\aKI}{}{\num{\aKI} \euro}\expandafter\\\fi%
 				\ifdefined\aKJa\rCa{\aKJa}&%
-				\checkaKJa(4)\let\rKJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKJ}{}{\num{\rKJ}\ts{}\aKJa(5)}\fi&%
+				\checkaKJa(4)\let\rKJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKJ}{}{\num[round-precision=3]{\rKJ}\ts{}\aKJa(5)}\fi&%
 				\checkaKJa(6)\let\rKJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKJ}{}{\num{\rKJ}}\fi&%
 				\checkaKJa(7)\let\rKJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKJ}{}{\num{\rKJ}\%}\fi&%
 				\checkaKJa(8)\let\rKJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKJ}{}{\num{\rKJ} \euro}\fi&%
 				\IfNVOETF{\aKJ}{}{\num{\aKJ} \euro}\expandafter\\\fi%
 				\ifdefined\aKKa\rCa{\aKKa}&%
-				\checkaKKa(4)\let\rKK\cachedata\ifemptydata\relax\else\IfNVOETF{\rKK}{}{\num{\rKK}\ts{}\aKKa(5)}\fi&%
+				\checkaKKa(4)\let\rKK\cachedata\ifemptydata\relax\else\IfNVOETF{\rKK}{}{\num[round-precision=3]{\rKK}\ts{}\aKKa(5)}\fi&%
 				\checkaKKa(6)\let\rKK\cachedata\ifemptydata\relax\else\IfNVOETF{\rKK}{}{\num{\rKK}}\fi&%
 				\checkaKKa(7)\let\rKK\cachedata\ifemptydata\relax\else\IfNVOETF{\rKK}{}{\num{\rKK}\%}\fi&%
 				\checkaKKa(8)\let\rKK\cachedata\ifemptydata\relax\else\IfNVOETF{\rKK}{}{\num{\rKK} \euro}\fi&%
 				\IfNVOETF{\aKK}{}{\num{\aKK} \euro}\expandafter\\\fi%
 				\ifdefined\aKLa\rCa{\aKLa}&%
-				\checkaKLa(4)\let\rKL\cachedata\ifemptydata\relax\else\IfNVOETF{\rKL}{}{\num{\rKL}\ts{}\aKLa(5)}\fi&%
+				\checkaKLa(4)\let\rKL\cachedata\ifemptydata\relax\else\IfNVOETF{\rKL}{}{\num[round-precision=3]{\rKL}\ts{}\aKLa(5)}\fi&%
 				\checkaKLa(6)\let\rKL\cachedata\ifemptydata\relax\else\IfNVOETF{\rKL}{}{\num{\rKL}}\fi&%
 				\checkaKLa(7)\let\rKL\cachedata\ifemptydata\relax\else\IfNVOETF{\rKL}{}{\num{\rKL}\%}\fi&%
 				\checkaKLa(8)\let\rKL\cachedata\ifemptydata\relax\else\IfNVOETF{\rKL}{}{\num{\rKL} \euro}\fi&%
 				\IfNVOETF{\aKL}{}{\num{\aKL} \euro}\expandafter\\\fi%
 				\ifdefined\aKMa\rCa{\aKMa}&%
-				\checkaKMa(4)\let\rKM\cachedata\ifemptydata\relax\else\IfNVOETF{\rKM}{}{\num{\rKM}\ts{}\aKMa(5)}\fi&%
+				\checkaKMa(4)\let\rKM\cachedata\ifemptydata\relax\else\IfNVOETF{\rKM}{}{\num[round-precision=3]{\rKM}\ts{}\aKMa(5)}\fi&%
 				\checkaKMa(6)\let\rKM\cachedata\ifemptydata\relax\else\IfNVOETF{\rKM}{}{\num{\rKM}}\fi&%
 				\checkaKMa(7)\let\rKM\cachedata\ifemptydata\relax\else\IfNVOETF{\rKM}{}{\num{\rKM}\%}\fi&%
 				\checkaKMa(8)\let\rKM\cachedata\ifemptydata\relax\else\IfNVOETF{\rKM}{}{\num{\rKM} \euro}\fi&%
 				\IfNVOETF{\aKM}{}{\num{\aKM} \euro}\expandafter\\\fi%
 				\ifdefined\aKNa\rCa{\aKNa}&%
-				\checkaKNa(4)\let\rKN\cachedata\ifemptydata\relax\else\IfNVOETF{\rKN}{}{\num{\rKN}\ts{}\aKNa(5)}\fi&%
+				\checkaKNa(4)\let\rKN\cachedata\ifemptydata\relax\else\IfNVOETF{\rKN}{}{\num[round-precision=3]{\rKN}\ts{}\aKNa(5)}\fi&%
 				\checkaKNa(6)\let\rKN\cachedata\ifemptydata\relax\else\IfNVOETF{\rKN}{}{\num{\rKN}}\fi&%
 				\checkaKNa(7)\let\rKN\cachedata\ifemptydata\relax\else\IfNVOETF{\rKN}{}{\num{\rKN}\%}\fi&%
 				\checkaKNa(8)\let\rKN\cachedata\ifemptydata\relax\else\IfNVOETF{\rKN}{}{\num{\rKN} \euro}\fi&%
 				\IfNVOETF{\aKN}{}{\num{\aKN} \euro}\expandafter\\\fi%
 				\ifdefined\aKOa\rCa{\aKOa}&%
-				\checkaKOa(4)\let\rKO\cachedata\ifemptydata\relax\else\IfNVOETF{\rKO}{}{\num{\rKO}\ts{}\aKOa(5)}\fi&%
+				\checkaKOa(4)\let\rKO\cachedata\ifemptydata\relax\else\IfNVOETF{\rKO}{}{\num[round-precision=3]{\rKO}\ts{}\aKOa(5)}\fi&%
 				\checkaKOa(6)\let\rKO\cachedata\ifemptydata\relax\else\IfNVOETF{\rKO}{}{\num{\rKO}}\fi&%
 				\checkaKOa(7)\let\rKO\cachedata\ifemptydata\relax\else\IfNVOETF{\rKO}{}{\num{\rKO}\%}\fi&%
 				\checkaKOa(8)\let\rKO\cachedata\ifemptydata\relax\else\IfNVOETF{\rKO}{}{\num{\rKO} \euro}\fi&%
 				\IfNVOETF{\aKO}{}{\num{\aKO} \euro}\expandafter\\\fi%
 				\ifdefined\aKPa\rCa{\aKPa}&%
-				\checkaKPa(4)\let\rKP\cachedata\ifemptydata\relax\else\IfNVOETF{\rKP}{}{\num{\rKP}\ts{}\aKPa(5)}\fi&%
+				\checkaKPa(4)\let\rKP\cachedata\ifemptydata\relax\else\IfNVOETF{\rKP}{}{\num[round-precision=3]{\rKP}\ts{}\aKPa(5)}\fi&%
 				\checkaKPa(6)\let\rKP\cachedata\ifemptydata\relax\else\IfNVOETF{\rKP}{}{\num{\rKP}}\fi&%
 				\checkaKPa(7)\let\rKP\cachedata\ifemptydata\relax\else\IfNVOETF{\rKP}{}{\num{\rKP}\%}\fi&%
 				\checkaKPa(8)\let\rKP\cachedata\ifemptydata\relax\else\IfNVOETF{\rKP}{}{\num{\rKP} \euro}\fi&%
 				\IfNVOETF{\aKP}{}{\num{\aKP} \euro}\expandafter\\\fi%
 				\ifdefined\aKQa\rCa{\aKQa}&%
-				\checkaKQa(4)\let\rKQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKQ}{}{\num{\rKQ}\ts{}\aKQa(5)}\fi&%
+				\checkaKQa(4)\let\rKQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKQ}{}{\num[round-precision=3]{\rKQ}\ts{}\aKQa(5)}\fi&%
 				\checkaKQa(6)\let\rKQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKQ}{}{\num{\rKQ}}\fi&%
 				\checkaKQa(7)\let\rKQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKQ}{}{\num{\rKQ}\%}\fi&%
 				\checkaKQa(8)\let\rKQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKQ}{}{\num{\rKQ} \euro}\fi&%
 				\IfNVOETF{\aKQ}{}{\num{\aKQ} \euro}\expandafter\\\fi%
 				\ifdefined\aKRa\rCa{\aKRa}&%
-				\checkaKRa(4)\let\rKR\cachedata\ifemptydata\relax\else\IfNVOETF{\rKR}{}{\num{\rKR}\ts{}\aKRa(5)}\fi&%
+				\checkaKRa(4)\let\rKR\cachedata\ifemptydata\relax\else\IfNVOETF{\rKR}{}{\num[round-precision=3]{\rKR}\ts{}\aKRa(5)}\fi&%
 				\checkaKRa(6)\let\rKR\cachedata\ifemptydata\relax\else\IfNVOETF{\rKR}{}{\num{\rKR}}\fi&%
 				\checkaKRa(7)\let\rKR\cachedata\ifemptydata\relax\else\IfNVOETF{\rKR}{}{\num{\rKR}\%}\fi&%
 				\checkaKRa(8)\let\rKR\cachedata\ifemptydata\relax\else\IfNVOETF{\rKR}{}{\num{\rKR} \euro}\fi&%
 				\IfNVOETF{\aKR}{}{\num{\aKR} \euro}\expandafter\\\fi%
 				\ifdefined\aKSa\rCa{\aKSa}&%
-				\checkaKSa(4)\let\rKS\cachedata\ifemptydata\relax\else\IfNVOETF{\rKS}{}{\num{\rKS}\ts{}\aKSa(5)}\fi&%
+				\checkaKSa(4)\let\rKS\cachedata\ifemptydata\relax\else\IfNVOETF{\rKS}{}{\num[round-precision=3]{\rKS}\ts{}\aKSa(5)}\fi&%
 				\checkaKSa(6)\let\rKS\cachedata\ifemptydata\relax\else\IfNVOETF{\rKS}{}{\num{\rKS}}\fi&%
 				\checkaKSa(7)\let\rKS\cachedata\ifemptydata\relax\else\IfNVOETF{\rKS}{}{\num{\rKS}\%}\fi&%
 				\checkaKSa(8)\let\rKS\cachedata\ifemptydata\relax\else\IfNVOETF{\rKS}{}{\num{\rKS} \euro}\fi&%
 				\IfNVOETF{\aKS}{}{\num{\aKS} \euro}\expandafter\\\fi%
 				\ifdefined\aKTa\rCa{\aKTa}&%
-				\checkaKTa(4)\let\rKT\cachedata\ifemptydata\relax\else\IfNVOETF{\rKT}{}{\num{\rKT}\ts{}\aKTa(5)}\fi&%
+				\checkaKTa(4)\let\rKT\cachedata\ifemptydata\relax\else\IfNVOETF{\rKT}{}{\num[round-precision=3]{\rKT}\ts{}\aKTa(5)}\fi&%
 				\checkaKTa(6)\let\rKT\cachedata\ifemptydata\relax\else\IfNVOETF{\rKT}{}{\num{\rKT}}\fi&%
 				\checkaKTa(7)\let\rKT\cachedata\ifemptydata\relax\else\IfNVOETF{\rKT}{}{\num{\rKT}\%}\fi&%
 				\checkaKTa(8)\let\rKT\cachedata\ifemptydata\relax\else\IfNVOETF{\rKT}{}{\num{\rKT} \euro}\fi&%
 				\IfNVOETF{\aKT}{}{\num{\aKT} \euro}\expandafter\\\fi%
 				\ifdefined\aKUa\rCa{\aKUa}&%
-				\checkaKUa(4)\let\rKU\cachedata\ifemptydata\relax\else\IfNVOETF{\rKU}{}{\num{\rKU}\ts{}\aKUa(5)}\fi&%
+				\checkaKUa(4)\let\rKU\cachedata\ifemptydata\relax\else\IfNVOETF{\rKU}{}{\num[round-precision=3]{\rKU}\ts{}\aKUa(5)}\fi&%
 				\checkaKUa(6)\let\rKU\cachedata\ifemptydata\relax\else\IfNVOETF{\rKU}{}{\num{\rKU}}\fi&%
 				\checkaKUa(7)\let\rKU\cachedata\ifemptydata\relax\else\IfNVOETF{\rKU}{}{\num{\rKU}\%}\fi&%
 				\checkaKUa(8)\let\rKU\cachedata\ifemptydata\relax\else\IfNVOETF{\rKU}{}{\num{\rKU} \euro}\fi&%
 				\IfNVOETF{\aKU}{}{\num{\aKU} \euro}\expandafter\\\fi%
 				\ifdefined\aKVa\rCa{\aKVa}&%
-				\checkaKVa(4)\let\rKV\cachedata\ifemptydata\relax\else\IfNVOETF{\rKV}{}{\num{\rKV}\ts{}\aKVa(5)}\fi&%
+				\checkaKVa(4)\let\rKV\cachedata\ifemptydata\relax\else\IfNVOETF{\rKV}{}{\num[round-precision=3]{\rKV}\ts{}\aKVa(5)}\fi&%
 				\checkaKVa(6)\let\rKV\cachedata\ifemptydata\relax\else\IfNVOETF{\rKV}{}{\num{\rKV}}\fi&%
 				\checkaKVa(7)\let\rKV\cachedata\ifemptydata\relax\else\IfNVOETF{\rKV}{}{\num{\rKV}\%}\fi&%
 				\checkaKVa(8)\let\rKV\cachedata\ifemptydata\relax\else\IfNVOETF{\rKV}{}{\num{\rKV} \euro}\fi&%
 				\IfNVOETF{\aKV}{}{\num{\aKV} \euro}\expandafter\\\fi%
 				\ifdefined\aKWa\rCa{\aKWa}&%
-				\checkaKWa(4)\let\rKW\cachedata\ifemptydata\relax\else\IfNVOETF{\rKW}{}{\num{\rKW}\ts{}\aKWa(5)}\fi&%
+				\checkaKWa(4)\let\rKW\cachedata\ifemptydata\relax\else\IfNVOETF{\rKW}{}{\num[round-precision=3]{\rKW}\ts{}\aKWa(5)}\fi&%
 				\checkaKWa(6)\let\rKW\cachedata\ifemptydata\relax\else\IfNVOETF{\rKW}{}{\num{\rKW}}\fi&%
 				\checkaKWa(7)\let\rKW\cachedata\ifemptydata\relax\else\IfNVOETF{\rKW}{}{\num{\rKW}\%}\fi&%
 				\checkaKWa(8)\let\rKW\cachedata\ifemptydata\relax\else\IfNVOETF{\rKW}{}{\num{\rKW} \euro}\fi&%
 				\IfNVOETF{\aKW}{}{\num{\aKW} \euro}\expandafter\\\fi%
 				\ifdefined\aKXa\rCa{\aKXa}&%
-				\checkaKXa(4)\let\rKX\cachedata\ifemptydata\relax\else\IfNVOETF{\rKX}{}{\num{\rKX}\ts{}\aKXa(5)}\fi&%
+				\checkaKXa(4)\let\rKX\cachedata\ifemptydata\relax\else\IfNVOETF{\rKX}{}{\num[round-precision=3]{\rKX}\ts{}\aKXa(5)}\fi&%
 				\checkaKXa(6)\let\rKX\cachedata\ifemptydata\relax\else\IfNVOETF{\rKX}{}{\num{\rKX}}\fi&%
 				\checkaKXa(7)\let\rKX\cachedata\ifemptydata\relax\else\IfNVOETF{\rKX}{}{\num{\rKX}\%}\fi&%
 				\checkaKXa(8)\let\rKX\cachedata\ifemptydata\relax\else\IfNVOETF{\rKX}{}{\num{\rKX} \euro}\fi&%
 				\IfNVOETF{\aKX}{}{\num{\aKX} \euro}\expandafter\\\fi%
 				\ifdefined\aKYa\rCa{\aKYa}&%
-				\checkaKYa(4)\let\rKY\cachedata\ifemptydata\relax\else\IfNVOETF{\rKY}{}{\num{\rKY}\ts{}\aKYa(5)}\fi&%
+				\checkaKYa(4)\let\rKY\cachedata\ifemptydata\relax\else\IfNVOETF{\rKY}{}{\num[round-precision=3]{\rKY}\ts{}\aKYa(5)}\fi&%
 				\checkaKYa(6)\let\rKY\cachedata\ifemptydata\relax\else\IfNVOETF{\rKY}{}{\num{\rKY}}\fi&%
 				\checkaKYa(7)\let\rKY\cachedata\ifemptydata\relax\else\IfNVOETF{\rKY}{}{\num{\rKY}\%}\fi&%
 				\checkaKYa(8)\let\rKY\cachedata\ifemptydata\relax\else\IfNVOETF{\rKY}{}{\num{\rKY} \euro}\fi&%
 				\IfNVOETF{\aKY}{}{\num{\aKY} \euro}\expandafter\\\fi%	
 				\ifdefined\aKZa\rCa{\aKZa}&%
-				\checkaKZa(4)\let\rKZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKZ}{}{\num{\rKZ}\ts{}\aKZa(5)}\fi&%
+				\checkaKZa(4)\let\rKZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKZ}{}{\num[round-precision=3]{\rKZ}\ts{}\aKZa(5)}\fi&%
 				\checkaKZa(6)\let\rKZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKZ}{}{\num{\rKZ}}\fi&%
 				\checkaKZa(7)\let\rKZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKZ}{}{\num{\rKZ}\%}\fi&%
 				\checkaKZa(8)\let\rKZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rKZ}{}{\num{\rKZ} \euro}\fi&%
@@ -3383,151 +3383,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aLAa\rCa{\aLAa}&%
-				\checkaLAa(4)\let\rLA\cachedata\ifemptydata\relax\else\IfNVOETF{\rLA}{}{\num{\rLA}\ts{}\aLAa(5)}\fi&%
+				\checkaLAa(4)\let\rLA\cachedata\ifemptydata\relax\else\IfNVOETF{\rLA}{}{\num[round-precision=3]{\rLA}\ts{}\aLAa(5)}\fi&%
 				\checkaLAa(6)\let\rLA\cachedata\ifemptydata\relax\else\IfNVOETF{\rLA}{}{\num{\rLA}}\fi&%
 				\checkaLAa(7)\let\rLA\cachedata\ifemptydata\relax\else\IfNVOETF{\rLA}{}{\num{\rLA}\%}\fi&%
 				\checkaLAa(8)\let\rLA\cachedata\ifemptydata\relax\else\IfNVOETF{\rLA}{}{\num{\rLA} \euro}\fi&%
 				\IfNVOETF{\aLA}{}{\num{\aLA} \euro}\expandafter\\\fi%
 				\ifdefined\aLBa\rCa{\aLBa}&%
-				\checkaLBa(4)\let\rLB\cachedata\ifemptydata\relax\else\IfNVOETF{\rLB}{}{\num{\rLB}\ts{}\aLBa(5)}\fi&%
+				\checkaLBa(4)\let\rLB\cachedata\ifemptydata\relax\else\IfNVOETF{\rLB}{}{\num[round-precision=3]{\rLB}\ts{}\aLBa(5)}\fi&%
 				\checkaLBa(6)\let\rLB\cachedata\ifemptydata\relax\else\IfNVOETF{\rLB}{}{\num{\rLB}}\fi&%
 				\checkaLBa(7)\let\rLB\cachedata\ifemptydata\relax\else\IfNVOETF{\rLB}{}{\num{\rLB}\%}\fi&%
 				\checkaLBa(8)\let\rLB\cachedata\ifemptydata\relax\else\IfNVOETF{\rLB}{}{\num{\rLB} \euro}\fi&%
 				\IfNVOETF{\aLB}{}{\num{\aLB} \euro}\expandafter\\\fi%
 				\ifdefined\aLCa\rCa{\aLCa}&%
-				\checkaLCa(4)\let\rLC\cachedata\ifemptydata\relax\else\IfNVOETF{\rLC}{}{\num{\rLC}\ts{}\aLCa(5)}\fi&%
+				\checkaLCa(4)\let\rLC\cachedata\ifemptydata\relax\else\IfNVOETF{\rLC}{}{\num[round-precision=3]{\rLC}\ts{}\aLCa(5)}\fi&%
 				\checkaLCa(6)\let\rLC\cachedata\ifemptydata\relax\else\IfNVOETF{\rLC}{}{\num{\rLC}}\fi&%
 				\checkaLCa(7)\let\rLC\cachedata\ifemptydata\relax\else\IfNVOETF{\rLC}{}{\num{\rLC}\%}\fi&%
 				\checkaLCa(8)\let\rLC\cachedata\ifemptydata\relax\else\IfNVOETF{\rLC}{}{\num{\rLC} \euro}\fi&%
 				\IfNVOETF{\aLC}{}{\num{\aLC} \euro}\expandafter\\\fi%
 				\ifdefined\aLDa\rCa{\aLDa}&%
-				\checkaLDa(4)\let\rLD\cachedata\ifemptydata\relax\else\IfNVOETF{\rLD}{}{\num{\rLD}\ts{}\aLDa(5)}\fi&%
+				\checkaLDa(4)\let\rLD\cachedata\ifemptydata\relax\else\IfNVOETF{\rLD}{}{\num[round-precision=3]{\rLD}\ts{}\aLDa(5)}\fi&%
 				\checkaLDa(6)\let\rLD\cachedata\ifemptydata\relax\else\IfNVOETF{\rLD}{}{\num{\rLD}}\fi&%
 				\checkaLDa(7)\let\rLD\cachedata\ifemptydata\relax\else\IfNVOETF{\rLD}{}{\num{\rLD}\%}\fi&%
 				\checkaLDa(8)\let\rLD\cachedata\ifemptydata\relax\else\IfNVOETF{\rLD}{}{\num{\rLD} \euro}\fi&%
 				\IfNVOETF{\aLD}{}{\num{\aLD} \euro}\expandafter\\\fi%
 				\ifdefined\aLEa\rCa{\aLEa}&%
-				\checkaLEa(4)\let\rLE\cachedata\ifemptydata\relax\else\IfNVOETF{\rLE}{}{\num{\rLE}\ts{}\aLEa(5)}\fi&%
+				\checkaLEa(4)\let\rLE\cachedata\ifemptydata\relax\else\IfNVOETF{\rLE}{}{\num[round-precision=3]{\rLE}\ts{}\aLEa(5)}\fi&%
 				\checkaLEa(6)\let\rLE\cachedata\ifemptydata\relax\else\IfNVOETF{\rLE}{}{\num{\rLE}}\fi&%
 				\checkaLEa(7)\let\rLE\cachedata\ifemptydata\relax\else\IfNVOETF{\rLE}{}{\num{\rLE}\%}\fi&%
 				\checkaLEa(8)\let\rLE\cachedata\ifemptydata\relax\else\IfNVOETF{\rLE}{}{\num{\rLE} \euro}\fi&%
 				\IfNVOETF{\aLE}{}{\num{\aLE} \euro}\expandafter\\\fi%
 				\ifdefined\aLFa\rCa{\aLFa}&%
-				\checkaLFa(4)\let\rLF\cachedata\ifemptydata\relax\else\IfNVOETF{\rLF}{}{\num{\rLF}\ts{}\aLFa(5)}\fi&%
+				\checkaLFa(4)\let\rLF\cachedata\ifemptydata\relax\else\IfNVOETF{\rLF}{}{\num[round-precision=3]{\rLF}\ts{}\aLFa(5)}\fi&%
 				\checkaLFa(6)\let\rLF\cachedata\ifemptydata\relax\else\IfNVOETF{\rLF}{}{\num{\rLF}}\fi&%
 				\checkaLFa(7)\let\rLF\cachedata\ifemptydata\relax\else\IfNVOETF{\rLF}{}{\num{\rLF}\%}\fi&%
 				\checkaLFa(8)\let\rLF\cachedata\ifemptydata\relax\else\IfNVOETF{\rLF}{}{\num{\rLF} \euro}\fi&%
 				\IfNVOETF{\aLF}{}{\num{\aLF} \euro}\expandafter\\\fi%
 				\ifdefined\aLGa\rCa{\aLGa}&%
-				\checkaLGa(4)\let\rLG\cachedata\ifemptydata\relax\else\IfNVOETF{\rLG}{}{\num{\rLG}\ts{}\aLGa(5)}\fi&%
+				\checkaLGa(4)\let\rLG\cachedata\ifemptydata\relax\else\IfNVOETF{\rLG}{}{\num[round-precision=3]{\rLG}\ts{}\aLGa(5)}\fi&%
 				\checkaLGa(6)\let\rLG\cachedata\ifemptydata\relax\else\IfNVOETF{\rLG}{}{\num{\rLG}}\fi&%
 				\checkaLGa(7)\let\rLG\cachedata\ifemptydata\relax\else\IfNVOETF{\rLG}{}{\num{\rLG}\%}\fi&%
 				\checkaLGa(8)\let\rLG\cachedata\ifemptydata\relax\else\IfNVOETF{\rLG}{}{\num{\rLG} \euro}\fi&%
 				\IfNVOETF{\aLG}{}{\num{\aLG} \euro}\expandafter\\\fi%
 				\ifdefined\aLIa\rCa{\aLIa}&%
-				\checkaLIa(4)\let\rLI\cachedata\ifemptydata\relax\else\IfNVOETF{\rLI}{}{\num{\rLI}\ts{}\aLIa(5)}\fi&%
+				\checkaLIa(4)\let\rLI\cachedata\ifemptydata\relax\else\IfNVOETF{\rLI}{}{\num[round-precision=3]{\rLI}\ts{}\aLIa(5)}\fi&%
 				\checkaLIa(6)\let\rLI\cachedata\ifemptydata\relax\else\IfNVOETF{\rLI}{}{\num{\rLI}}\fi&%
 				\checkaLIa(7)\let\rLI\cachedata\ifemptydata\relax\else\IfNVOETF{\rLI}{}{\num{\rLI}\%}\fi&%
 				\checkaLIa(8)\let\rLI\cachedata\ifemptydata\relax\else\IfNVOETF{\rLI}{}{\num{\rLI} \euro}\fi&%
 				\IfNVOETF{\aLI}{}{\num{\aLI} \euro}\expandafter\\\fi%
 				\ifdefined\aLJa\rCa{\aLJa}&%
-				\checkaLJa(4)\let\rLJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLJ}{}{\num{\rLJ}\ts{}\aLJa(5)}\fi&%
+				\checkaLJa(4)\let\rLJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLJ}{}{\num[round-precision=3]{\rLJ}\ts{}\aLJa(5)}\fi&%
 				\checkaLJa(6)\let\rLJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLJ}{}{\num{\rLJ}}\fi&%
 				\checkaLJa(7)\let\rLJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLJ}{}{\num{\rLJ}\%}\fi&%
 				\checkaLJa(8)\let\rLJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLJ}{}{\num{\rLJ} \euro}\fi&%
 				\IfNVOETF{\aLJ}{}{\num{\aLJ} \euro}\expandafter\\\fi%
 				\ifdefined\aLKa\rCa{\aLKa}&%
-				\checkaLKa(4)\let\rLK\cachedata\ifemptydata\relax\else\IfNVOETF{\rLK}{}{\num{\rLK}\ts{}\aLKa(5)}\fi&%
+				\checkaLKa(4)\let\rLK\cachedata\ifemptydata\relax\else\IfNVOETF{\rLK}{}{\num[round-precision=3]{\rLK}\ts{}\aLKa(5)}\fi&%
 				\checkaLKa(6)\let\rLK\cachedata\ifemptydata\relax\else\IfNVOETF{\rLK}{}{\num{\rLK}}\fi&%
 				\checkaLKa(7)\let\rLK\cachedata\ifemptydata\relax\else\IfNVOETF{\rLK}{}{\num{\rLK}\%}\fi&%
 				\checkaLKa(8)\let\rLK\cachedata\ifemptydata\relax\else\IfNVOETF{\rLK}{}{\num{\rLK} \euro}\fi&%
 				\IfNVOETF{\aLK}{}{\num{\aLK} \euro}\expandafter\\\fi%
 				\ifdefined\aLLa\rCa{\aLLa}&%
-				\checkaLLa(4)\let\rLL\cachedata\ifemptydata\relax\else\IfNVOETF{\rLL}{}{\num{\rLL}\ts{}\aLLa(5)}\fi&%
+				\checkaLLa(4)\let\rLL\cachedata\ifemptydata\relax\else\IfNVOETF{\rLL}{}{\num[round-precision=3]{\rLL}\ts{}\aLLa(5)}\fi&%
 				\checkaLLa(6)\let\rLL\cachedata\ifemptydata\relax\else\IfNVOETF{\rLL}{}{\num{\rLL}}\fi&%
 				\checkaLLa(7)\let\rLL\cachedata\ifemptydata\relax\else\IfNVOETF{\rLL}{}{\num{\rLL}\%}\fi&%
 				\checkaLLa(8)\let\rLL\cachedata\ifemptydata\relax\else\IfNVOETF{\rLL}{}{\num{\rLL} \euro}\fi&%
 				\IfNVOETF{\aLL}{}{\num{\aLL} \euro}\expandafter\\\fi%
 				\ifdefined\aLMa\rCa{\aLMa}&%
-				\checkaLMa(4)\let\rLM\cachedata\ifemptydata\relax\else\IfNVOETF{\rLM}{}{\num{\rLM}\ts{}\aLMa(5)}\fi&%
+				\checkaLMa(4)\let\rLM\cachedata\ifemptydata\relax\else\IfNVOETF{\rLM}{}{\num[round-precision=3]{\rLM}\ts{}\aLMa(5)}\fi&%
 				\checkaLMa(6)\let\rLM\cachedata\ifemptydata\relax\else\IfNVOETF{\rLM}{}{\num{\rLM}}\fi&%
 				\checkaLMa(7)\let\rLM\cachedata\ifemptydata\relax\else\IfNVOETF{\rLM}{}{\num{\rLM}\%}\fi&%
 				\checkaLMa(8)\let\rLM\cachedata\ifemptydata\relax\else\IfNVOETF{\rLM}{}{\num{\rLM} \euro}\fi&%
 				\IfNVOETF{\aLM}{}{\num{\aLM} \euro}\expandafter\\\fi%
 				\ifdefined\aLNa\rCa{\aLNa}&%
-				\checkaLNa(4)\let\rLN\cachedata\ifemptydata\relax\else\IfNVOETF{\rLN}{}{\num{\rLN}\ts{}\aLNa(5)}\fi&%
+				\checkaLNa(4)\let\rLN\cachedata\ifemptydata\relax\else\IfNVOETF{\rLN}{}{\num[round-precision=3]{\rLN}\ts{}\aLNa(5)}\fi&%
 				\checkaLNa(6)\let\rLN\cachedata\ifemptydata\relax\else\IfNVOETF{\rLN}{}{\num{\rLN}}\fi&%
 				\checkaLNa(7)\let\rLN\cachedata\ifemptydata\relax\else\IfNVOETF{\rLN}{}{\num{\rLN}\%}\fi&%
 				\checkaLNa(8)\let\rLN\cachedata\ifemptydata\relax\else\IfNVOETF{\rLN}{}{\num{\rLN} \euro}\fi&%
 				\IfNVOETF{\aLN}{}{\num{\aLN} \euro}\expandafter\\\fi%
 				\ifdefined\aLOa\rCa{\aLOa}&%
-				\checkaLOa(4)\let\rLO\cachedata\ifemptydata\relax\else\IfNVOETF{\rLO}{}{\num{\rLO}\ts{}\aLOa(5)}\fi&%
+				\checkaLOa(4)\let\rLO\cachedata\ifemptydata\relax\else\IfNVOETF{\rLO}{}{\num[round-precision=3]{\rLO}\ts{}\aLOa(5)}\fi&%
 				\checkaLOa(6)\let\rLO\cachedata\ifemptydata\relax\else\IfNVOETF{\rLO}{}{\num{\rLO}}\fi&%
 				\checkaLOa(7)\let\rLO\cachedata\ifemptydata\relax\else\IfNVOETF{\rLO}{}{\num{\rLO}\%}\fi&%
 				\checkaLOa(8)\let\rLO\cachedata\ifemptydata\relax\else\IfNVOETF{\rLO}{}{\num{\rLO} \euro}\fi&%
 				\IfNVOETF{\aLO}{}{\num{\aLO} \euro}\expandafter\\\fi%
 				\ifdefined\aLPa\rCa{\aLPa}&%
-				\checkaLPa(4)\let\rLP\cachedata\ifemptydata\relax\else\IfNVOETF{\rLP}{}{\num{\rLP}\ts{}\aLPa(5)}\fi&%
+				\checkaLPa(4)\let\rLP\cachedata\ifemptydata\relax\else\IfNVOETF{\rLP}{}{\num[round-precision=3]{\rLP}\ts{}\aLPa(5)}\fi&%
 				\checkaLPa(6)\let\rLP\cachedata\ifemptydata\relax\else\IfNVOETF{\rLP}{}{\num{\rLP}}\fi&%
 				\checkaLPa(7)\let\rLP\cachedata\ifemptydata\relax\else\IfNVOETF{\rLP}{}{\num{\rLP}\%}\fi&%
 				\checkaLPa(8)\let\rLP\cachedata\ifemptydata\relax\else\IfNVOETF{\rLP}{}{\num{\rLP} \euro}\fi&%
 				\IfNVOETF{\aLP}{}{\num{\aLP} \euro}\expandafter\\\fi%
 				\ifdefined\aLQa\rCa{\aLQa}&%
-				\checkaLQa(4)\let\rLQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLQ}{}{\num{\rLQ}\ts{}\aLQa(5)}\fi&%
+				\checkaLQa(4)\let\rLQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLQ}{}{\num[round-precision=3]{\rLQ}\ts{}\aLQa(5)}\fi&%
 				\checkaLQa(6)\let\rLQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLQ}{}{\num{\rLQ}}\fi&%
 				\checkaLQa(7)\let\rLQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLQ}{}{\num{\rLQ}\%}\fi&%
 				\checkaLQa(8)\let\rLQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLQ}{}{\num{\rLQ} \euro}\fi&%
 				\IfNVOETF{\aLQ}{}{\num{\aLQ} \euro}\expandafter\\\fi%
 				\ifdefined\aLRa\rCa{\aLRa}&%
-				\checkaLRa(4)\let\rLR\cachedata\ifemptydata\relax\else\IfNVOETF{\rLR}{}{\num{\rLR}\ts{}\aLRa(5)}\fi&%
+				\checkaLRa(4)\let\rLR\cachedata\ifemptydata\relax\else\IfNVOETF{\rLR}{}{\num[round-precision=3]{\rLR}\ts{}\aLRa(5)}\fi&%
 				\checkaLRa(6)\let\rLR\cachedata\ifemptydata\relax\else\IfNVOETF{\rLR}{}{\num{\rLR}}\fi&%
 				\checkaLRa(7)\let\rLR\cachedata\ifemptydata\relax\else\IfNVOETF{\rLR}{}{\num{\rLR}\%}\fi&%
 				\checkaLRa(8)\let\rLR\cachedata\ifemptydata\relax\else\IfNVOETF{\rLR}{}{\num{\rLR} \euro}\fi&%
 				\IfNVOETF{\aLR}{}{\num{\aLR} \euro}\expandafter\\\fi%
 				\ifdefined\aLSa\rCa{\aLSa}&%
-				\checkaLSa(4)\let\rLS\cachedata\ifemptydata\relax\else\IfNVOETF{\rLS}{}{\num{\rLS}\ts{}\aLSa(5)}\fi&%
+				\checkaLSa(4)\let\rLS\cachedata\ifemptydata\relax\else\IfNVOETF{\rLS}{}{\num[round-precision=3]{\rLS}\ts{}\aLSa(5)}\fi&%
 				\checkaLSa(6)\let\rLS\cachedata\ifemptydata\relax\else\IfNVOETF{\rLS}{}{\num{\rLS}}\fi&%
 				\checkaLSa(7)\let\rLS\cachedata\ifemptydata\relax\else\IfNVOETF{\rLS}{}{\num{\rLS}\%}\fi&%
 				\checkaLSa(8)\let\rLS\cachedata\ifemptydata\relax\else\IfNVOETF{\rLS}{}{\num{\rLS} \euro}\fi&%
 				\IfNVOETF{\aLS}{}{\num{\aLS} \euro}\expandafter\\\fi%
 				\ifdefined\aLTa\rCa{\aLTa}&%
-				\checkaLTa(4)\let\rLT\cachedata\ifemptydata\relax\else\IfNVOETF{\rLT}{}{\num{\rLT}\ts{}\aLTa(5)}\fi&%
+				\checkaLTa(4)\let\rLT\cachedata\ifemptydata\relax\else\IfNVOETF{\rLT}{}{\num[round-precision=3]{\rLT}\ts{}\aLTa(5)}\fi&%
 				\checkaLTa(6)\let\rLT\cachedata\ifemptydata\relax\else\IfNVOETF{\rLT}{}{\num{\rLT}}\fi&%
 				\checkaLTa(7)\let\rLT\cachedata\ifemptydata\relax\else\IfNVOETF{\rLT}{}{\num{\rLT}\%}\fi&%
 				\checkaLTa(8)\let\rLT\cachedata\ifemptydata\relax\else\IfNVOETF{\rLT}{}{\num{\rLT} \euro}\fi&%
 				\IfNVOETF{\aLT}{}{\num{\aLT} \euro}\expandafter\\\fi%
 				\ifdefined\aLUa\rCa{\aLUa}&%
-				\checkaLUa(4)\let\rLU\cachedata\ifemptydata\relax\else\IfNVOETF{\rLU}{}{\num{\rLU}\ts{}\aLUa(5)}\fi&%
+				\checkaLUa(4)\let\rLU\cachedata\ifemptydata\relax\else\IfNVOETF{\rLU}{}{\num[round-precision=3]{\rLU}\ts{}\aLUa(5)}\fi&%
 				\checkaLUa(6)\let\rLU\cachedata\ifemptydata\relax\else\IfNVOETF{\rLU}{}{\num{\rLU}}\fi&%
 				\checkaLUa(7)\let\rLU\cachedata\ifemptydata\relax\else\IfNVOETF{\rLU}{}{\num{\rLU}\%}\fi&%
 				\checkaLUa(8)\let\rLU\cachedata\ifemptydata\relax\else\IfNVOETF{\rLU}{}{\num{\rLU} \euro}\fi&%
 				\IfNVOETF{\aLU}{}{\num{\aLU} \euro}\expandafter\\\fi%
 				\ifdefined\aLVa\rCa{\aLVa}&%
-				\checkaLVa(4)\let\rLV\cachedata\ifemptydata\relax\else\IfNVOETF{\rLV}{}{\num{\rLV}\ts{}\aLVa(5)}\fi&%
+				\checkaLVa(4)\let\rLV\cachedata\ifemptydata\relax\else\IfNVOETF{\rLV}{}{\num[round-precision=3]{\rLV}\ts{}\aLVa(5)}\fi&%
 				\checkaLVa(6)\let\rLV\cachedata\ifemptydata\relax\else\IfNVOETF{\rLV}{}{\num{\rLV}}\fi&%
 				\checkaLVa(7)\let\rLV\cachedata\ifemptydata\relax\else\IfNVOETF{\rLV}{}{\num{\rLV}\%}\fi&%
 				\checkaLVa(8)\let\rLV\cachedata\ifemptydata\relax\else\IfNVOETF{\rLV}{}{\num{\rLV} \euro}\fi&%
 				\IfNVOETF{\aLV}{}{\num{\aLV} \euro}\expandafter\\\fi%
 				\ifdefined\aLWa\rCa{\aLWa}&%
-				\checkaLWa(4)\let\rLW\cachedata\ifemptydata\relax\else\IfNVOETF{\rLW}{}{\num{\rLW}\ts{}\aLWa(5)}\fi&%
+				\checkaLWa(4)\let\rLW\cachedata\ifemptydata\relax\else\IfNVOETF{\rLW}{}{\num[round-precision=3]{\rLW}\ts{}\aLWa(5)}\fi&%
 				\checkaLWa(6)\let\rLW\cachedata\ifemptydata\relax\else\IfNVOETF{\rLW}{}{\num{\rLW}}\fi&%
 				\checkaLWa(7)\let\rLW\cachedata\ifemptydata\relax\else\IfNVOETF{\rLW}{}{\num{\rLW}\%}\fi&%
 				\checkaLWa(8)\let\rLW\cachedata\ifemptydata\relax\else\IfNVOETF{\rLW}{}{\num{\rLW} \euro}\fi&%
 				\IfNVOETF{\aLW}{}{\num{\aLW} \euro}\expandafter\\\fi%
 				\ifdefined\aLXa\rCa{\aLXa}&%
-				\checkaLXa(4)\let\rLX\cachedata\ifemptydata\relax\else\IfNVOETF{\rLX}{}{\num{\rLX}\ts{}\aLXa(5)}\fi&%
+				\checkaLXa(4)\let\rLX\cachedata\ifemptydata\relax\else\IfNVOETF{\rLX}{}{\num[round-precision=3]{\rLX}\ts{}\aLXa(5)}\fi&%
 				\checkaLXa(6)\let\rLX\cachedata\ifemptydata\relax\else\IfNVOETF{\rLX}{}{\num{\rLX}}\fi&%
 				\checkaLXa(7)\let\rLX\cachedata\ifemptydata\relax\else\IfNVOETF{\rLX}{}{\num{\rLX}\%}\fi&%
 				\checkaLXa(8)\let\rLX\cachedata\ifemptydata\relax\else\IfNVOETF{\rLX}{}{\num{\rLX} \euro}\fi&%
 				\IfNVOETF{\aLX}{}{\num{\aLX} \euro}\expandafter\\\fi%
 				\ifdefined\aLYa\rCa{\aLYa}&%
-				\checkaLYa(4)\let\rLY\cachedata\ifemptydata\relax\else\IfNVOETF{\rLY}{}{\num{\rLY}\ts{}\aLYa(5)}\fi&%
+				\checkaLYa(4)\let\rLY\cachedata\ifemptydata\relax\else\IfNVOETF{\rLY}{}{\num[round-precision=3]{\rLY}\ts{}\aLYa(5)}\fi&%
 				\checkaLYa(6)\let\rLY\cachedata\ifemptydata\relax\else\IfNVOETF{\rLY}{}{\num{\rLY}}\fi&%
 				\checkaLYa(7)\let\rLY\cachedata\ifemptydata\relax\else\IfNVOETF{\rLY}{}{\num{\rLY}\%}\fi&%
 				\checkaLYa(8)\let\rLY\cachedata\ifemptydata\relax\else\IfNVOETF{\rLY}{}{\num{\rLY} \euro}\fi&%
 				\IfNVOETF{\aLY}{}{\num{\aLY} \euro}\expandafter\\\fi%	
 				\ifdefined\aLZa\rCa{\aLZa}&%
-				\checkaLZa(4)\let\rLZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLZ}{}{\num{\rLZ}\ts{}\aLZa(5)}\fi&%
+				\checkaLZa(4)\let\rLZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLZ}{}{\num[round-precision=3]{\rLZ}\ts{}\aLZa(5)}\fi&%
 				\checkaLZa(6)\let\rLZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLZ}{}{\num{\rLZ}}\fi&%
 				\checkaLZa(7)\let\rLZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLZ}{}{\num{\rLZ}\%}\fi&%
 				\checkaLZa(8)\let\rLZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rLZ}{}{\num{\rLZ} \euro}\fi&%
@@ -3546,151 +3546,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aMAa\rCa{\aMAa}&%
-				\checkaMAa(4)\let\rMA\cachedata\ifemptydata\relax\else\IfNVOETF{\rMA}{}{\num{\rMA}\ts{}\aMAa(5)}\fi&%
+				\checkaMAa(4)\let\rMA\cachedata\ifemptydata\relax\else\IfNVOETF{\rMA}{}{\num[round-precision=3]{\rMA}\ts{}\aMAa(5)}\fi&%
 				\checkaMAa(6)\let\rMA\cachedata\ifemptydata\relax\else\IfNVOETF{\rMA}{}{\num{\rMA}}\fi&%
 				\checkaMAa(7)\let\rMA\cachedata\ifemptydata\relax\else\IfNVOETF{\rMA}{}{\num{\rMA}\%}\fi&%
 				\checkaMAa(8)\let\rMA\cachedata\ifemptydata\relax\else\IfNVOETF{\rMA}{}{\num{\rMA} \euro}\fi&%
 				\IfNVOETF{\aMA}{}{\num{\aMA} \euro}\expandafter\\\fi%
 				\ifdefined\aMBa\rCa{\aMBa}&%
-				\checkaMBa(4)\let\rMB\cachedata\ifemptydata\relax\else\IfNVOETF{\rMB}{}{\num{\rMB}\ts{}\aMBa(5)}\fi&%
+				\checkaMBa(4)\let\rMB\cachedata\ifemptydata\relax\else\IfNVOETF{\rMB}{}{\num[round-precision=3]{\rMB}\ts{}\aMBa(5)}\fi&%
 				\checkaMBa(6)\let\rMB\cachedata\ifemptydata\relax\else\IfNVOETF{\rMB}{}{\num{\rMB}}\fi&%
 				\checkaMBa(7)\let\rMB\cachedata\ifemptydata\relax\else\IfNVOETF{\rMB}{}{\num{\rMB}\%}\fi&%
 				\checkaMBa(8)\let\rMB\cachedata\ifemptydata\relax\else\IfNVOETF{\rMB}{}{\num{\rMB} \euro}\fi&%
 				\IfNVOETF{\aMB}{}{\num{\aMB} \euro}\expandafter\\\fi%
 				\ifdefined\aMCa\rCa{\aMCa}&%
-				\checkaMCa(4)\let\rMC\cachedata\ifemptydata\relax\else\IfNVOETF{\rMC}{}{\num{\rMC}\ts{}\aMCa(5)}\fi&%
+				\checkaMCa(4)\let\rMC\cachedata\ifemptydata\relax\else\IfNVOETF{\rMC}{}{\num[round-precision=3]{\rMC}\ts{}\aMCa(5)}\fi&%
 				\checkaMCa(6)\let\rMC\cachedata\ifemptydata\relax\else\IfNVOETF{\rMC}{}{\num{\rMC}}\fi&%
 				\checkaMCa(7)\let\rMC\cachedata\ifemptydata\relax\else\IfNVOETF{\rMC}{}{\num{\rMC}\%}\fi&%
 				\checkaMCa(8)\let\rMC\cachedata\ifemptydata\relax\else\IfNVOETF{\rMC}{}{\num{\rMC} \euro}\fi&%
 				\IfNVOETF{\aMC}{}{\num{\aMC} \euro}\expandafter\\\fi%
 				\ifdefined\aMDa\rCa{\aMDa}&%
-				\checkaMDa(4)\let\rMD\cachedata\ifemptydata\relax\else\IfNVOETF{\rMD}{}{\num{\rMD}\ts{}\aMDa(5)}\fi&%
+				\checkaMDa(4)\let\rMD\cachedata\ifemptydata\relax\else\IfNVOETF{\rMD}{}{\num[round-precision=3]{\rMD}\ts{}\aMDa(5)}\fi&%
 				\checkaMDa(6)\let\rMD\cachedata\ifemptydata\relax\else\IfNVOETF{\rMD}{}{\num{\rMD}}\fi&%
 				\checkaMDa(7)\let\rMD\cachedata\ifemptydata\relax\else\IfNVOETF{\rMD}{}{\num{\rMD}\%}\fi&%
 				\checkaMDa(8)\let\rMD\cachedata\ifemptydata\relax\else\IfNVOETF{\rMD}{}{\num{\rMD} \euro}\fi&%
 				\IfNVOETF{\aMD}{}{\num{\aMD} \euro}\expandafter\\\fi%
 				\ifdefined\aMEa\rCa{\aMEa}&%
-				\checkaMEa(4)\let\rME\cachedata\ifemptydata\relax\else\IfNVOETF{\rME}{}{\num{\rME}\ts{}\aMEa(5)}\fi&%
+				\checkaMEa(4)\let\rME\cachedata\ifemptydata\relax\else\IfNVOETF{\rME}{}{\num[round-precision=3]{\rME}\ts{}\aMEa(5)}\fi&%
 				\checkaMEa(6)\let\rME\cachedata\ifemptydata\relax\else\IfNVOETF{\rME}{}{\num{\rME}}\fi&%
 				\checkaMEa(7)\let\rME\cachedata\ifemptydata\relax\else\IfNVOETF{\rME}{}{\num{\rME}\%}\fi&%
 				\checkaMEa(8)\let\rME\cachedata\ifemptydata\relax\else\IfNVOETF{\rME}{}{\num{\rME} \euro}\fi&%
 				\IfNVOETF{\aME}{}{\num{\aME} \euro}\expandafter\\\fi%
 				\ifdefined\aMFa\rCa{\aMFa}&%
-				\checkaMFa(4)\let\rMF\cachedata\ifemptydata\relax\else\IfNVOETF{\rMF}{}{\num{\rMF}\ts{}\aMFa(5)}\fi&%
+				\checkaMFa(4)\let\rMF\cachedata\ifemptydata\relax\else\IfNVOETF{\rMF}{}{\num[round-precision=3]{\rMF}\ts{}\aMFa(5)}\fi&%
 				\checkaMFa(6)\let\rMF\cachedata\ifemptydata\relax\else\IfNVOETF{\rMF}{}{\num{\rMF}}\fi&%
 				\checkaMFa(7)\let\rMF\cachedata\ifemptydata\relax\else\IfNVOETF{\rMF}{}{\num{\rMF}\%}\fi&%
 				\checkaMFa(8)\let\rMF\cachedata\ifemptydata\relax\else\IfNVOETF{\rMF}{}{\num{\rMF} \euro}\fi&%
 				\IfNVOETF{\aMF}{}{\num{\aMF} \euro}\expandafter\\\fi%
 				\ifdefined\aMGa\rCa{\aMGa}&%
-				\checkaMGa(4)\let\rMG\cachedata\ifemptydata\relax\else\IfNVOETF{\rMG}{}{\num{\rMG}\ts{}\aMGa(5)}\fi&%
+				\checkaMGa(4)\let\rMG\cachedata\ifemptydata\relax\else\IfNVOETF{\rMG}{}{\num[round-precision=3]{\rMG}\ts{}\aMGa(5)}\fi&%
 				\checkaMGa(6)\let\rMG\cachedata\ifemptydata\relax\else\IfNVOETF{\rMG}{}{\num{\rMG}}\fi&%
 				\checkaMGa(7)\let\rMG\cachedata\ifemptydata\relax\else\IfNVOETF{\rMG}{}{\num{\rMG}\%}\fi&%
 				\checkaMGa(8)\let\rMG\cachedata\ifemptydata\relax\else\IfNVOETF{\rMG}{}{\num{\rMG} \euro}\fi&%
 				\IfNVOETF{\aMG}{}{\num{\aMG} \euro}\expandafter\\\fi%
 				\ifdefined\aMIa\rCa{\aMIa}&%
-				\checkaMIa(4)\let\rMI\cachedata\ifemptydata\relax\else\IfNVOETF{\rMI}{}{\num{\rMI}\ts{}\aMIa(5)}\fi&%
+				\checkaMIa(4)\let\rMI\cachedata\ifemptydata\relax\else\IfNVOETF{\rMI}{}{\num[round-precision=3]{\rMI}\ts{}\aMIa(5)}\fi&%
 				\checkaMIa(6)\let\rMI\cachedata\ifemptydata\relax\else\IfNVOETF{\rMI}{}{\num{\rMI}}\fi&%
 				\checkaMIa(7)\let\rMI\cachedata\ifemptydata\relax\else\IfNVOETF{\rMI}{}{\num{\rMI}\%}\fi&%
 				\checkaMIa(8)\let\rMI\cachedata\ifemptydata\relax\else\IfNVOETF{\rMI}{}{\num{\rMI} \euro}\fi&%
 				\IfNVOETF{\aMI}{}{\num{\aMI} \euro}\expandafter\\\fi%
 				\ifdefined\aMJa\rCa{\aMJa}&%
-				\checkaMJa(4)\let\rMJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMJ}{}{\num{\rMJ}\ts{}\aMJa(5)}\fi&%
+				\checkaMJa(4)\let\rMJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMJ}{}{\num[round-precision=3]{\rMJ}\ts{}\aMJa(5)}\fi&%
 				\checkaMJa(6)\let\rMJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMJ}{}{\num{\rMJ}}\fi&%
 				\checkaMJa(7)\let\rMJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMJ}{}{\num{\rMJ}\%}\fi&%
 				\checkaMJa(8)\let\rMJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMJ}{}{\num{\rMJ} \euro}\fi&%
 				\IfNVOETF{\aMJ}{}{\num{\aMJ} \euro}\expandafter\\\fi%
 				\ifdefined\aMKa\rCa{\aMKa}&%
-				\checkaMKa(4)\let\rMK\cachedata\ifemptydata\relax\else\IfNVOETF{\rMK}{}{\num{\rMK}\ts{}\aMKa(5)}\fi&%
+				\checkaMKa(4)\let\rMK\cachedata\ifemptydata\relax\else\IfNVOETF{\rMK}{}{\num[round-precision=3]{\rMK}\ts{}\aMKa(5)}\fi&%
 				\checkaMKa(6)\let\rMK\cachedata\ifemptydata\relax\else\IfNVOETF{\rMK}{}{\num{\rMK}}\fi&%
 				\checkaMKa(7)\let\rMK\cachedata\ifemptydata\relax\else\IfNVOETF{\rMK}{}{\num{\rMK}\%}\fi&%
 				\checkaMKa(8)\let\rMK\cachedata\ifemptydata\relax\else\IfNVOETF{\rMK}{}{\num{\rMK} \euro}\fi&%
 				\IfNVOETF{\aMK}{}{\num{\aMK} \euro}\expandafter\\\fi%
 				\ifdefined\aMLa\rCa{\aMLa}&%
-				\checkaMLa(4)\let\rML\cachedata\ifemptydata\relax\else\IfNVOETF{\rML}{}{\num{\rML}\ts{}\aMLa(5)}\fi&%
+				\checkaMLa(4)\let\rML\cachedata\ifemptydata\relax\else\IfNVOETF{\rML}{}{\num[round-precision=3]{\rML}\ts{}\aMLa(5)}\fi&%
 				\checkaMLa(6)\let\rML\cachedata\ifemptydata\relax\else\IfNVOETF{\rML}{}{\num{\rML}}\fi&%
 				\checkaMLa(7)\let\rML\cachedata\ifemptydata\relax\else\IfNVOETF{\rML}{}{\num{\rML}\%}\fi&%
 				\checkaMLa(8)\let\rML\cachedata\ifemptydata\relax\else\IfNVOETF{\rML}{}{\num{\rML} \euro}\fi&%
 				\IfNVOETF{\aML}{}{\num{\aML} \euro}\expandafter\\\fi%
 				\ifdefined\aMMa\rCa{\aMMa}&%
-				\checkaMMa(4)\let\rMM\cachedata\ifemptydata\relax\else\IfNVOETF{\rMM}{}{\num{\rMM}\ts{}\aMMa(5)}\fi&%
+				\checkaMMa(4)\let\rMM\cachedata\ifemptydata\relax\else\IfNVOETF{\rMM}{}{\num[round-precision=3]{\rMM}\ts{}\aMMa(5)}\fi&%
 				\checkaMMa(6)\let\rMM\cachedata\ifemptydata\relax\else\IfNVOETF{\rMM}{}{\num{\rMM}}\fi&%
 				\checkaMMa(7)\let\rMM\cachedata\ifemptydata\relax\else\IfNVOETF{\rMM}{}{\num{\rMM}\%}\fi&%
 				\checkaMMa(8)\let\rMM\cachedata\ifemptydata\relax\else\IfNVOETF{\rMM}{}{\num{\rMM} \euro}\fi&%
 				\IfNVOETF{\aMM}{}{\num{\aMM} \euro}\expandafter\\\fi%
 				\ifdefined\aMNa\rCa{\aMNa}&%
-				\checkaMNa(4)\let\rMN\cachedata\ifemptydata\relax\else\IfNVOETF{\rMN}{}{\num{\rMN}\ts{}\aMNa(5)}\fi&%
+				\checkaMNa(4)\let\rMN\cachedata\ifemptydata\relax\else\IfNVOETF{\rMN}{}{\num[round-precision=3]{\rMN}\ts{}\aMNa(5)}\fi&%
 				\checkaMNa(6)\let\rMN\cachedata\ifemptydata\relax\else\IfNVOETF{\rMN}{}{\num{\rMN}}\fi&%
 				\checkaMNa(7)\let\rMN\cachedata\ifemptydata\relax\else\IfNVOETF{\rMN}{}{\num{\rMN}\%}\fi&%
 				\checkaMNa(8)\let\rMN\cachedata\ifemptydata\relax\else\IfNVOETF{\rMN}{}{\num{\rMN} \euro}\fi&%
 				\IfNVOETF{\aMN}{}{\num{\aMN} \euro}\expandafter\\\fi%
 				\ifdefined\aMOa\rCa{\aMOa}&%
-				\checkaMOa(4)\let\rMO\cachedata\ifemptydata\relax\else\IfNVOETF{\rMO}{}{\num{\rMO}\ts{}\aMOa(5)}\fi&%
+				\checkaMOa(4)\let\rMO\cachedata\ifemptydata\relax\else\IfNVOETF{\rMO}{}{\num[round-precision=3]{\rMO}\ts{}\aMOa(5)}\fi&%
 				\checkaMOa(6)\let\rMO\cachedata\ifemptydata\relax\else\IfNVOETF{\rMO}{}{\num{\rMO}}\fi&%
 				\checkaMOa(7)\let\rMO\cachedata\ifemptydata\relax\else\IfNVOETF{\rMO}{}{\num{\rMO}\%}\fi&%
 				\checkaMOa(8)\let\rMO\cachedata\ifemptydata\relax\else\IfNVOETF{\rMO}{}{\num{\rMO} \euro}\fi&%
 				\IfNVOETF{\aMO}{}{\num{\aMO} \euro}\expandafter\\\fi%
 				\ifdefined\aMPa\rCa{\aMPa}&%
-				\checkaMPa(4)\let\rMP\cachedata\ifemptydata\relax\else\IfNVOETF{\rMP}{}{\num{\rMP}\ts{}\aMPa(5)}\fi&%
+				\checkaMPa(4)\let\rMP\cachedata\ifemptydata\relax\else\IfNVOETF{\rMP}{}{\num[round-precision=3]{\rMP}\ts{}\aMPa(5)}\fi&%
 				\checkaMPa(6)\let\rMP\cachedata\ifemptydata\relax\else\IfNVOETF{\rMP}{}{\num{\rMP}}\fi&%
 				\checkaMPa(7)\let\rMP\cachedata\ifemptydata\relax\else\IfNVOETF{\rMP}{}{\num{\rMP}\%}\fi&%
 				\checkaMPa(8)\let\rMP\cachedata\ifemptydata\relax\else\IfNVOETF{\rMP}{}{\num{\rMP} \euro}\fi&%
 				\IfNVOETF{\aMP}{}{\num{\aMP} \euro}\expandafter\\\fi%
 				\ifdefined\aMQa\rCa{\aMQa}&%
-				\checkaMQa(4)\let\rMQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMQ}{}{\num{\rMQ}\ts{}\aMQa(5)}\fi&%
+				\checkaMQa(4)\let\rMQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMQ}{}{\num[round-precision=3]{\rMQ}\ts{}\aMQa(5)}\fi&%
 				\checkaMQa(6)\let\rMQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMQ}{}{\num{\rMQ}}\fi&%
 				\checkaMQa(7)\let\rMQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMQ}{}{\num{\rMQ}\%}\fi&%
 				\checkaMQa(8)\let\rMQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMQ}{}{\num{\rMQ} \euro}\fi&%
 				\IfNVOETF{\aMQ}{}{\num{\aMQ} \euro}\expandafter\\\fi%
 				\ifdefined\aMRa\rCa{\aMRa}&%
-				\checkaMRa(4)\let\rMR\cachedata\ifemptydata\relax\else\IfNVOETF{\rMR}{}{\num{\rMR}\ts{}\aMRa(5)}\fi&%
+				\checkaMRa(4)\let\rMR\cachedata\ifemptydata\relax\else\IfNVOETF{\rMR}{}{\num[round-precision=3]{\rMR}\ts{}\aMRa(5)}\fi&%
 				\checkaMRa(6)\let\rMR\cachedata\ifemptydata\relax\else\IfNVOETF{\rMR}{}{\num{\rMR}}\fi&%
 				\checkaMRa(7)\let\rMR\cachedata\ifemptydata\relax\else\IfNVOETF{\rMR}{}{\num{\rMR}\%}\fi&%
 				\checkaMRa(8)\let\rMR\cachedata\ifemptydata\relax\else\IfNVOETF{\rMR}{}{\num{\rMR} \euro}\fi&%
 				\IfNVOETF{\aMR}{}{\num{\aMR} \euro}\expandafter\\\fi%
 				\ifdefined\aMSa\rCa{\aMSa}&%
-				\checkaMSa(4)\let\rMS\cachedata\ifemptydata\relax\else\IfNVOETF{\rMS}{}{\num{\rMS}\ts{}\aMSa(5)}\fi&%
+				\checkaMSa(4)\let\rMS\cachedata\ifemptydata\relax\else\IfNVOETF{\rMS}{}{\num[round-precision=3]{\rMS}\ts{}\aMSa(5)}\fi&%
 				\checkaMSa(6)\let\rMS\cachedata\ifemptydata\relax\else\IfNVOETF{\rMS}{}{\num{\rMS}}\fi&%
 				\checkaMSa(7)\let\rMS\cachedata\ifemptydata\relax\else\IfNVOETF{\rMS}{}{\num{\rMS}\%}\fi&%
 				\checkaMSa(8)\let\rMS\cachedata\ifemptydata\relax\else\IfNVOETF{\rMS}{}{\num{\rMS} \euro}\fi&%
 				\IfNVOETF{\aMS}{}{\num{\aMS} \euro}\expandafter\\\fi%
 				\ifdefined\aMTa\rCa{\aMTa}&%
-				\checkaMTa(4)\let\rMT\cachedata\ifemptydata\relax\else\IfNVOETF{\rMT}{}{\num{\rMT}\ts{}\aMTa(5)}\fi&%
+				\checkaMTa(4)\let\rMT\cachedata\ifemptydata\relax\else\IfNVOETF{\rMT}{}{\num[round-precision=3]{\rMT}\ts{}\aMTa(5)}\fi&%
 				\checkaMTa(6)\let\rMT\cachedata\ifemptydata\relax\else\IfNVOETF{\rMT}{}{\num{\rMT}}\fi&%
 				\checkaMTa(7)\let\rMT\cachedata\ifemptydata\relax\else\IfNVOETF{\rMT}{}{\num{\rMT}\%}\fi&%
 				\checkaMTa(8)\let\rMT\cachedata\ifemptydata\relax\else\IfNVOETF{\rMT}{}{\num{\rMT} \euro}\fi&%
 				\IfNVOETF{\aMT}{}{\num{\aMT} \euro}\expandafter\\\fi%
 				\ifdefined\aMUa\rCa{\aMUa}&%
-				\checkaMUa(4)\let\rMU\cachedata\ifemptydata\relax\else\IfNVOETF{\rMU}{}{\num{\rMU}\ts{}\aMUa(5)}\fi&%
+				\checkaMUa(4)\let\rMU\cachedata\ifemptydata\relax\else\IfNVOETF{\rMU}{}{\num[round-precision=3]{\rMU}\ts{}\aMUa(5)}\fi&%
 				\checkaMUa(6)\let\rMU\cachedata\ifemptydata\relax\else\IfNVOETF{\rMU}{}{\num{\rMU}}\fi&%
 				\checkaMUa(7)\let\rMU\cachedata\ifemptydata\relax\else\IfNVOETF{\rMU}{}{\num{\rMU}\%}\fi&%
 				\checkaMUa(8)\let\rMU\cachedata\ifemptydata\relax\else\IfNVOETF{\rMU}{}{\num{\rMU} \euro}\fi&%
 				\IfNVOETF{\aMU}{}{\num{\aMU} \euro}\expandafter\\\fi%
 				\ifdefined\aMVa\rCa{\aMVa}&%
-				\checkaMVa(4)\let\rMV\cachedata\ifemptydata\relax\else\IfNVOETF{\rMV}{}{\num{\rMV}\ts{}\aMVa(5)}\fi&%
+				\checkaMVa(4)\let\rMV\cachedata\ifemptydata\relax\else\IfNVOETF{\rMV}{}{\num[round-precision=3]{\rMV}\ts{}\aMVa(5)}\fi&%
 				\checkaMVa(6)\let\rMV\cachedata\ifemptydata\relax\else\IfNVOETF{\rMV}{}{\num{\rMV}}\fi&%
 				\checkaMVa(7)\let\rMV\cachedata\ifemptydata\relax\else\IfNVOETF{\rMV}{}{\num{\rMV}\%}\fi&%
 				\checkaMVa(8)\let\rMV\cachedata\ifemptydata\relax\else\IfNVOETF{\rMV}{}{\num{\rMV} \euro}\fi&%
 				\IfNVOETF{\aMV}{}{\num{\aMV} \euro}\expandafter\\\fi%
 				\ifdefined\aMWa\rCa{\aMWa}&%
-				\checkaMWa(4)\let\rMW\cachedata\ifemptydata\relax\else\IfNVOETF{\rMW}{}{\num{\rMW}\ts{}\aMWa(5)}\fi&%
+				\checkaMWa(4)\let\rMW\cachedata\ifemptydata\relax\else\IfNVOETF{\rMW}{}{\num[round-precision=3]{\rMW}\ts{}\aMWa(5)}\fi&%
 				\checkaMWa(6)\let\rMW\cachedata\ifemptydata\relax\else\IfNVOETF{\rMW}{}{\num{\rMW}}\fi&%
 				\checkaMWa(7)\let\rMW\cachedata\ifemptydata\relax\else\IfNVOETF{\rMW}{}{\num{\rMW}\%}\fi&%
 				\checkaMWa(8)\let\rMW\cachedata\ifemptydata\relax\else\IfNVOETF{\rMW}{}{\num{\rMW} \euro}\fi&%
 				\IfNVOETF{\aMW}{}{\num{\aMW} \euro}\expandafter\\\fi%
 				\ifdefined\aMXa\rCa{\aMXa}&%
-				\checkaMXa(4)\let\rMX\cachedata\ifemptydata\relax\else\IfNVOETF{\rMX}{}{\num{\rMX}\ts{}\aMXa(5)}\fi&%
+				\checkaMXa(4)\let\rMX\cachedata\ifemptydata\relax\else\IfNVOETF{\rMX}{}{\num[round-precision=3]{\rMX}\ts{}\aMXa(5)}\fi&%
 				\checkaMXa(6)\let\rMX\cachedata\ifemptydata\relax\else\IfNVOETF{\rMX}{}{\num{\rMX}}\fi&%
 				\checkaMXa(7)\let\rMX\cachedata\ifemptydata\relax\else\IfNVOETF{\rMX}{}{\num{\rMX}\%}\fi&%
 				\checkaMXa(8)\let\rMX\cachedata\ifemptydata\relax\else\IfNVOETF{\rMX}{}{\num{\rMX} \euro}\fi&%
 				\IfNVOETF{\aMX}{}{\num{\aMX} \euro}\expandafter\\\fi%
 				\ifdefined\aMYa\rCa{\aMYa}&%
-				\checkaMYa(4)\let\rMY\cachedata\ifemptydata\relax\else\IfNVOETF{\rMY}{}{\num{\rMY}\ts{}\aMYa(5)}\fi&%
+				\checkaMYa(4)\let\rMY\cachedata\ifemptydata\relax\else\IfNVOETF{\rMY}{}{\num[round-precision=3]{\rMY}\ts{}\aMYa(5)}\fi&%
 				\checkaMYa(6)\let\rMY\cachedata\ifemptydata\relax\else\IfNVOETF{\rMY}{}{\num{\rMY}}\fi&%
 				\checkaMYa(7)\let\rMY\cachedata\ifemptydata\relax\else\IfNVOETF{\rMY}{}{\num{\rMY}\%}\fi&%
 				\checkaMYa(8)\let\rMY\cachedata\ifemptydata\relax\else\IfNVOETF{\rMY}{}{\num{\rMY} \euro}\fi&%
 				\IfNVOETF{\aMY}{}{\num{\aMY} \euro}\expandafter\\\fi%	
 				\ifdefined\aMZa\rCa{\aMZa}&%
-				\checkaMZa(4)\let\rMZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMZ}{}{\num{\rMZ}\ts{}\aMZa(5)}\fi&%
+				\checkaMZa(4)\let\rMZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMZ}{}{\num[round-precision=3]{\rMZ}\ts{}\aMZa(5)}\fi&%
 				\checkaMZa(6)\let\rMZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMZ}{}{\num{\rMZ}}\fi&%
 				\checkaMZa(7)\let\rMZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMZ}{}{\num{\rMZ}\%}\fi&%
 				\checkaMZa(8)\let\rMZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rMZ}{}{\num{\rMZ} \euro}\fi&%
@@ -3705,151 +3705,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aNAa\rCa{\aNAa}&%
-				\checkaNAa(4)\let\rNA\cachedata\ifemptydata\relax\else\IfNVOETF{\rNA}{}{\num{\rNA}\ts{}\aNAa(5)}\fi&%
+				\checkaNAa(4)\let\rNA\cachedata\ifemptydata\relax\else\IfNVOETF{\rNA}{}{\num[round-precision=3]{\rNA}\ts{}\aNAa(5)}\fi&%
 				\checkaNAa(6)\let\rNA\cachedata\ifemptydata\relax\else\IfNVOETF{\rNA}{}{\num{\rNA}}\fi&%
 				\checkaNAa(7)\let\rNA\cachedata\ifemptydata\relax\else\IfNVOETF{\rNA}{}{\num{\rNA}\%}\fi&%
 				\checkaNAa(8)\let\rNA\cachedata\ifemptydata\relax\else\IfNVOETF{\rNA}{}{\num{\rNA} \euro}\fi&%
 				\IfNVOETF{\aNA}{}{\num{\aNA} \euro}\expandafter\\\fi%
 				\ifdefined\aNBa\rCa{\aNBa}&%
-				\checkaNBa(4)\let\rNB\cachedata\ifemptydata\relax\else\IfNVOETF{\rNB}{}{\num{\rNB}\ts{}\aNBa(5)}\fi&%
+				\checkaNBa(4)\let\rNB\cachedata\ifemptydata\relax\else\IfNVOETF{\rNB}{}{\num[round-precision=3]{\rNB}\ts{}\aNBa(5)}\fi&%
 				\checkaNBa(6)\let\rNB\cachedata\ifemptydata\relax\else\IfNVOETF{\rNB}{}{\num{\rNB}}\fi&%
 				\checkaNBa(7)\let\rNB\cachedata\ifemptydata\relax\else\IfNVOETF{\rNB}{}{\num{\rNB}\%}\fi&%
 				\checkaNBa(8)\let\rNB\cachedata\ifemptydata\relax\else\IfNVOETF{\rNB}{}{\num{\rNB} \euro}\fi&%
 				\IfNVOETF{\aNB}{}{\num{\aNB} \euro}\expandafter\\\fi%
 				\ifdefined\aNCa\rCa{\aNCa}&%
-				\checkaNCa(4)\let\rNC\cachedata\ifemptydata\relax\else\IfNVOETF{\rNC}{}{\num{\rNC}\ts{}\aNCa(5)}\fi&%
+				\checkaNCa(4)\let\rNC\cachedata\ifemptydata\relax\else\IfNVOETF{\rNC}{}{\num[round-precision=3]{\rNC}\ts{}\aNCa(5)}\fi&%
 				\checkaNCa(6)\let\rNC\cachedata\ifemptydata\relax\else\IfNVOETF{\rNC}{}{\num{\rNC}}\fi&%
 				\checkaNCa(7)\let\rNC\cachedata\ifemptydata\relax\else\IfNVOETF{\rNC}{}{\num{\rNC}\%}\fi&%
 				\checkaNCa(8)\let\rNC\cachedata\ifemptydata\relax\else\IfNVOETF{\rNC}{}{\num{\rNC} \euro}\fi&%
 				\IfNVOETF{\aNC}{}{\num{\aNC} \euro}\expandafter\\\fi%
 				\ifdefined\aNDa\rCa{\aNDa}&%
-				\checkaNDa(4)\let\rND\cachedata\ifemptydata\relax\else\IfNVOETF{\rND}{}{\num{\rND}\ts{}\aNDa(5)}\fi&%
+				\checkaNDa(4)\let\rND\cachedata\ifemptydata\relax\else\IfNVOETF{\rND}{}{\num[round-precision=3]{\rND}\ts{}\aNDa(5)}\fi&%
 				\checkaNDa(6)\let\rND\cachedata\ifemptydata\relax\else\IfNVOETF{\rND}{}{\num{\rND}}\fi&%
 				\checkaNDa(7)\let\rND\cachedata\ifemptydata\relax\else\IfNVOETF{\rND}{}{\num{\rND}\%}\fi&%
 				\checkaNDa(8)\let\rND\cachedata\ifemptydata\relax\else\IfNVOETF{\rND}{}{\num{\rND} \euro}\fi&%
 				\IfNVOETF{\aND}{}{\num{\aND} \euro}\expandafter\\\fi%
 				\ifdefined\aNEa\rCa{\aNEa}&%
-				\checkaNEa(4)\let\rNE\cachedata\ifemptydata\relax\else\IfNVOETF{\rNE}{}{\num{\rNE}\ts{}\aNEa(5)}\fi&%
+				\checkaNEa(4)\let\rNE\cachedata\ifemptydata\relax\else\IfNVOETF{\rNE}{}{\num[round-precision=3]{\rNE}\ts{}\aNEa(5)}\fi&%
 				\checkaNEa(6)\let\rNE\cachedata\ifemptydata\relax\else\IfNVOETF{\rNE}{}{\num{\rNE}}\fi&%
 				\checkaNEa(7)\let\rNE\cachedata\ifemptydata\relax\else\IfNVOETF{\rNE}{}{\num{\rNE}\%}\fi&%
 				\checkaNEa(8)\let\rNE\cachedata\ifemptydata\relax\else\IfNVOETF{\rNE}{}{\num{\rNE} \euro}\fi&%
 				\IfNVOETF{\aNE}{}{\num{\aNE} \euro}\expandafter\\\fi%
 				\ifdefined\aNFa\rCa{\aNFa}&%
-				\checkaNFa(4)\let\rNF\cachedata\ifemptydata\relax\else\IfNVOETF{\rNF}{}{\num{\rNF}\ts{}\aNFa(5)}\fi&%
+				\checkaNFa(4)\let\rNF\cachedata\ifemptydata\relax\else\IfNVOETF{\rNF}{}{\num[round-precision=3]{\rNF}\ts{}\aNFa(5)}\fi&%
 				\checkaNFa(6)\let\rNF\cachedata\ifemptydata\relax\else\IfNVOETF{\rNF}{}{\num{\rNF}}\fi&%
 				\checkaNFa(7)\let\rNF\cachedata\ifemptydata\relax\else\IfNVOETF{\rNF}{}{\num{\rNF}\%}\fi&%
 				\checkaNFa(8)\let\rNF\cachedata\ifemptydata\relax\else\IfNVOETF{\rNF}{}{\num{\rNF} \euro}\fi&%
 				\IfNVOETF{\aNF}{}{\num{\aNF} \euro}\expandafter\\\fi%
 				\ifdefined\aNGa\rCa{\aNGa}&%
-				\checkaNGa(4)\let\rNG\cachedata\ifemptydata\relax\else\IfNVOETF{\rNG}{}{\num{\rNG}\ts{}\aNGa(5)}\fi&%
+				\checkaNGa(4)\let\rNG\cachedata\ifemptydata\relax\else\IfNVOETF{\rNG}{}{\num[round-precision=3]{\rNG}\ts{}\aNGa(5)}\fi&%
 				\checkaNGa(6)\let\rNG\cachedata\ifemptydata\relax\else\IfNVOETF{\rNG}{}{\num{\rNG}}\fi&%
 				\checkaNGa(7)\let\rNG\cachedata\ifemptydata\relax\else\IfNVOETF{\rNG}{}{\num{\rNG}\%}\fi&%
 				\checkaNGa(8)\let\rNG\cachedata\ifemptydata\relax\else\IfNVOETF{\rNG}{}{\num{\rNG} \euro}\fi&%
 				\IfNVOETF{\aNG}{}{\num{\aNG} \euro}\expandafter\\\fi%
 				\ifdefined\aNIa\rCa{\aNIa}&%
-				\checkaNIa(4)\let\rNI\cachedata\ifemptydata\relax\else\IfNVOETF{\rNI}{}{\num{\rNI}\ts{}\aNIa(5)}\fi&%
+				\checkaNIa(4)\let\rNI\cachedata\ifemptydata\relax\else\IfNVOETF{\rNI}{}{\num[round-precision=3]{\rNI}\ts{}\aNIa(5)}\fi&%
 				\checkaNIa(6)\let\rNI\cachedata\ifemptydata\relax\else\IfNVOETF{\rNI}{}{\num{\rNI}}\fi&%
 				\checkaNIa(7)\let\rNI\cachedata\ifemptydata\relax\else\IfNVOETF{\rNI}{}{\num{\rNI}\%}\fi&%
 				\checkaNIa(8)\let\rNI\cachedata\ifemptydata\relax\else\IfNVOETF{\rNI}{}{\num{\rNI} \euro}\fi&%
 				\IfNVOETF{\aNI}{}{\num{\aNI} \euro}\expandafter\\\fi%
 				\ifdefined\aNJa\rCa{\aNJa}&%
-				\checkaNJa(4)\let\rNJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNJ}{}{\num{\rNJ}\ts{}\aNJa(5)}\fi&%
+				\checkaNJa(4)\let\rNJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNJ}{}{\num[round-precision=3]{\rNJ}\ts{}\aNJa(5)}\fi&%
 				\checkaNJa(6)\let\rNJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNJ}{}{\num{\rNJ}}\fi&%
 				\checkaNJa(7)\let\rNJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNJ}{}{\num{\rNJ}\%}\fi&%
 				\checkaNJa(8)\let\rNJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNJ}{}{\num{\rNJ} \euro}\fi&%
 				\IfNVOETF{\aNJ}{}{\num{\aNJ} \euro}\expandafter\\\fi%
 				\ifdefined\aNKa\rCa{\aNKa}&%
-				\checkaNKa(4)\let\rNK\cachedata\ifemptydata\relax\else\IfNVOETF{\rNK}{}{\num{\rNK}\ts{}\aNKa(5)}\fi&%
+				\checkaNKa(4)\let\rNK\cachedata\ifemptydata\relax\else\IfNVOETF{\rNK}{}{\num[round-precision=3]{\rNK}\ts{}\aNKa(5)}\fi&%
 				\checkaNKa(6)\let\rNK\cachedata\ifemptydata\relax\else\IfNVOETF{\rNK}{}{\num{\rNK}}\fi&%
 				\checkaNKa(7)\let\rNK\cachedata\ifemptydata\relax\else\IfNVOETF{\rNK}{}{\num{\rNK}\%}\fi&%
 				\checkaNKa(8)\let\rNK\cachedata\ifemptydata\relax\else\IfNVOETF{\rNK}{}{\num{\rNK} \euro}\fi&%
 				\IfNVOETF{\aNK}{}{\num{\aNK} \euro}\expandafter\\\fi%
 				\ifdefined\aNLa\rCa{\aNLa}&%
-				\checkaNLa(4)\let\rNL\cachedata\ifemptydata\relax\else\IfNVOETF{\rNL}{}{\num{\rNL}\ts{}\aNLa(5)}\fi&%
+				\checkaNLa(4)\let\rNL\cachedata\ifemptydata\relax\else\IfNVOETF{\rNL}{}{\num[round-precision=3]{\rNL}\ts{}\aNLa(5)}\fi&%
 				\checkaNLa(6)\let\rNL\cachedata\ifemptydata\relax\else\IfNVOETF{\rNL}{}{\num{\rNL}}\fi&%
 				\checkaNLa(7)\let\rNL\cachedata\ifemptydata\relax\else\IfNVOETF{\rNL}{}{\num{\rNL}\%}\fi&%
 				\checkaNLa(8)\let\rNL\cachedata\ifemptydata\relax\else\IfNVOETF{\rNL}{}{\num{\rNL} \euro}\fi&%
 				\IfNVOETF{\aNL}{}{\num{\aNL} \euro}\expandafter\\\fi%
 				\ifdefined\aNMa\rCa{\aNMa}&%
-				\checkaNMa(4)\let\rNM\cachedata\ifemptydata\relax\else\IfNVOETF{\rNM}{}{\num{\rNM}\ts{}\aNMa(5)}\fi&%
+				\checkaNMa(4)\let\rNM\cachedata\ifemptydata\relax\else\IfNVOETF{\rNM}{}{\num[round-precision=3]{\rNM}\ts{}\aNMa(5)}\fi&%
 				\checkaNMa(6)\let\rNM\cachedata\ifemptydata\relax\else\IfNVOETF{\rNM}{}{\num{\rNM}}\fi&%
 				\checkaNMa(7)\let\rNM\cachedata\ifemptydata\relax\else\IfNVOETF{\rNM}{}{\num{\rNM}\%}\fi&%
 				\checkaNMa(8)\let\rNM\cachedata\ifemptydata\relax\else\IfNVOETF{\rNM}{}{\num{\rNM} \euro}\fi&%
 				\IfNVOETF{\aNM}{}{\num{\aNM} \euro}\expandafter\\\fi%
 				\ifdefined\aNNa\rCa{\aNNa}&%
-				\checkaNNa(4)\let\rNN\cachedata\ifemptydata\relax\else\IfNVOETF{\rNN}{}{\num{\rNN}\ts{}\aNNa(5)}\fi&%
+				\checkaNNa(4)\let\rNN\cachedata\ifemptydata\relax\else\IfNVOETF{\rNN}{}{\num[round-precision=3]{\rNN}\ts{}\aNNa(5)}\fi&%
 				\checkaNNa(6)\let\rNN\cachedata\ifemptydata\relax\else\IfNVOETF{\rNN}{}{\num{\rNN}}\fi&%
 				\checkaNNa(7)\let\rNN\cachedata\ifemptydata\relax\else\IfNVOETF{\rNN}{}{\num{\rNN}\%}\fi&%
 				\checkaNNa(8)\let\rNN\cachedata\ifemptydata\relax\else\IfNVOETF{\rNN}{}{\num{\rNN} \euro}\fi&%
 				\IfNVOETF{\aNN}{}{\num{\aNN} \euro}\expandafter\\\fi%
 				\ifdefined\aNOa\rCa{\aNOa}&%
-				\checkaNOa(4)\let\rNO\cachedata\ifemptydata\relax\else\IfNVOETF{\rNO}{}{\num{\rNO}\ts{}\aNOa(5)}\fi&%
+				\checkaNOa(4)\let\rNO\cachedata\ifemptydata\relax\else\IfNVOETF{\rNO}{}{\num[round-precision=3]{\rNO}\ts{}\aNOa(5)}\fi&%
 				\checkaNOa(6)\let\rNO\cachedata\ifemptydata\relax\else\IfNVOETF{\rNO}{}{\num{\rNO}}\fi&%
 				\checkaNOa(7)\let\rNO\cachedata\ifemptydata\relax\else\IfNVOETF{\rNO}{}{\num{\rNO}\%}\fi&%
 				\checkaNOa(8)\let\rNO\cachedata\ifemptydata\relax\else\IfNVOETF{\rNO}{}{\num{\rNO} \euro}\fi&%
 				\IfNVOETF{\aNO}{}{\num{\aNO} \euro}\expandafter\\\fi%
 				\ifdefined\aNPa\rCa{\aNPa}&%
-				\checkaNPa(4)\let\rNP\cachedata\ifemptydata\relax\else\IfNVOETF{\rNP}{}{\num{\rNP}\ts{}\aNPa(5)}\fi&%
+				\checkaNPa(4)\let\rNP\cachedata\ifemptydata\relax\else\IfNVOETF{\rNP}{}{\num[round-precision=3]{\rNP}\ts{}\aNPa(5)}\fi&%
 				\checkaNPa(6)\let\rNP\cachedata\ifemptydata\relax\else\IfNVOETF{\rNP}{}{\num{\rNP}}\fi&%
 				\checkaNPa(7)\let\rNP\cachedata\ifemptydata\relax\else\IfNVOETF{\rNP}{}{\num{\rNP}\%}\fi&%
 				\checkaNPa(8)\let\rNP\cachedata\ifemptydata\relax\else\IfNVOETF{\rNP}{}{\num{\rNP} \euro}\fi&%
 				\IfNVOETF{\aNP}{}{\num{\aNP} \euro}\expandafter\\\fi%
 				\ifdefined\aNQa\rCa{\aNQa}&%
-				\checkaNQa(4)\let\rNQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNQ}{}{\num{\rNQ}\ts{}\aNQa(5)}\fi&%
+				\checkaNQa(4)\let\rNQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNQ}{}{\num[round-precision=3]{\rNQ}\ts{}\aNQa(5)}\fi&%
 				\checkaNQa(6)\let\rNQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNQ}{}{\num{\rNQ}}\fi&%
 				\checkaNQa(7)\let\rNQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNQ}{}{\num{\rNQ}\%}\fi&%
 				\checkaNQa(8)\let\rNQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNQ}{}{\num{\rNQ} \euro}\fi&%
 				\IfNVOETF{\aNQ}{}{\num{\aNQ} \euro}\expandafter\\\fi%
 				\ifdefined\aNRa\rCa{\aNRa}&%
-				\checkaNRa(4)\let\rNR\cachedata\ifemptydata\relax\else\IfNVOETF{\rNR}{}{\num{\rNR}\ts{}\aNRa(5)}\fi&%
+				\checkaNRa(4)\let\rNR\cachedata\ifemptydata\relax\else\IfNVOETF{\rNR}{}{\num[round-precision=3]{\rNR}\ts{}\aNRa(5)}\fi&%
 				\checkaNRa(6)\let\rNR\cachedata\ifemptydata\relax\else\IfNVOETF{\rNR}{}{\num{\rNR}}\fi&%
 				\checkaNRa(7)\let\rNR\cachedata\ifemptydata\relax\else\IfNVOETF{\rNR}{}{\num{\rNR}\%}\fi&%
 				\checkaNRa(8)\let\rNR\cachedata\ifemptydata\relax\else\IfNVOETF{\rNR}{}{\num{\rNR} \euro}\fi&%
 				\IfNVOETF{\aNR}{}{\num{\aNR} \euro}\expandafter\\\fi%
 				\ifdefined\aNSa\rCa{\aNSa}&%
-				\checkaNSa(4)\let\rNS\cachedata\ifemptydata\relax\else\IfNVOETF{\rNS}{}{\num{\rNS}\ts{}\aNSa(5)}\fi&%
+				\checkaNSa(4)\let\rNS\cachedata\ifemptydata\relax\else\IfNVOETF{\rNS}{}{\num[round-precision=3]{\rNS}\ts{}\aNSa(5)}\fi&%
 				\checkaNSa(6)\let\rNS\cachedata\ifemptydata\relax\else\IfNVOETF{\rNS}{}{\num{\rNS}}\fi&%
 				\checkaNSa(7)\let\rNS\cachedata\ifemptydata\relax\else\IfNVOETF{\rNS}{}{\num{\rNS}\%}\fi&%
 				\checkaNSa(8)\let\rNS\cachedata\ifemptydata\relax\else\IfNVOETF{\rNS}{}{\num{\rNS} \euro}\fi&%
 				\IfNVOETF{\aNS}{}{\num{\aNS} \euro}\expandafter\\\fi%
 				\ifdefined\aNTa\rCa{\aNTa}&%
-				\checkaNTa(4)\let\rNT\cachedata\ifemptydata\relax\else\IfNVOETF{\rNT}{}{\num{\rNT}\ts{}\aNTa(5)}\fi&%
+				\checkaNTa(4)\let\rNT\cachedata\ifemptydata\relax\else\IfNVOETF{\rNT}{}{\num[round-precision=3]{\rNT}\ts{}\aNTa(5)}\fi&%
 				\checkaNTa(6)\let\rNT\cachedata\ifemptydata\relax\else\IfNVOETF{\rNT}{}{\num{\rNT}}\fi&%
 				\checkaNTa(7)\let\rNT\cachedata\ifemptydata\relax\else\IfNVOETF{\rNT}{}{\num{\rNT}\%}\fi&%
 				\checkaNTa(8)\let\rNT\cachedata\ifemptydata\relax\else\IfNVOETF{\rNT}{}{\num{\rNT} \euro}\fi&%
 				\IfNVOETF{\aNT}{}{\num{\aNT} \euro}\expandafter\\\fi%
 				\ifdefined\aNUa\rCa{\aNUa}&%
-				\checkaNUa(4)\let\rNU\cachedata\ifemptydata\relax\else\IfNVOETF{\rNU}{}{\num{\rNU}\ts{}\aNUa(5)}\fi&%
+				\checkaNUa(4)\let\rNU\cachedata\ifemptydata\relax\else\IfNVOETF{\rNU}{}{\num[round-precision=3]{\rNU}\ts{}\aNUa(5)}\fi&%
 				\checkaNUa(6)\let\rNU\cachedata\ifemptydata\relax\else\IfNVOETF{\rNU}{}{\num{\rNU}}\fi&%
 				\checkaNUa(7)\let\rNU\cachedata\ifemptydata\relax\else\IfNVOETF{\rNU}{}{\num{\rNU}\%}\fi&%
 				\checkaNUa(8)\let\rNU\cachedata\ifemptydata\relax\else\IfNVOETF{\rNU}{}{\num{\rNU} \euro}\fi&%
 				\IfNVOETF{\aNU}{}{\num{\aNU} \euro}\expandafter\\\fi%
 				\ifdefined\aNVa\rCa{\aNVa}&%
-				\checkaNVa(4)\let\rNV\cachedata\ifemptydata\relax\else\IfNVOETF{\rNV}{}{\num{\rNV}\ts{}\aNVa(5)}\fi&%
+				\checkaNVa(4)\let\rNV\cachedata\ifemptydata\relax\else\IfNVOETF{\rNV}{}{\num[round-precision=3]{\rNV}\ts{}\aNVa(5)}\fi&%
 				\checkaNVa(6)\let\rNV\cachedata\ifemptydata\relax\else\IfNVOETF{\rNV}{}{\num{\rNV}}\fi&%
 				\checkaNVa(7)\let\rNV\cachedata\ifemptydata\relax\else\IfNVOETF{\rNV}{}{\num{\rNV}\%}\fi&%
 				\checkaNVa(8)\let\rNV\cachedata\ifemptydata\relax\else\IfNVOETF{\rNV}{}{\num{\rNV} \euro}\fi&%
 				\IfNVOETF{\aNV}{}{\num{\aNV} \euro}\expandafter\\\fi%
 				\ifdefined\aNWa\rCa{\aNWa}&%
-				\checkaNWa(4)\let\rNW\cachedata\ifemptydata\relax\else\IfNVOETF{\rNW}{}{\num{\rNW}\ts{}\aNWa(5)}\fi&%
+				\checkaNWa(4)\let\rNW\cachedata\ifemptydata\relax\else\IfNVOETF{\rNW}{}{\num[round-precision=3]{\rNW}\ts{}\aNWa(5)}\fi&%
 				\checkaNWa(6)\let\rNW\cachedata\ifemptydata\relax\else\IfNVOETF{\rNW}{}{\num{\rNW}}\fi&%
 				\checkaNWa(7)\let\rNW\cachedata\ifemptydata\relax\else\IfNVOETF{\rNW}{}{\num{\rNW}\%}\fi&%
 				\checkaNWa(8)\let\rNW\cachedata\ifemptydata\relax\else\IfNVOETF{\rNW}{}{\num{\rNW} \euro}\fi&%
 				\IfNVOETF{\aNW}{}{\num{\aNW} \euro}\expandafter\\\fi%
 				\ifdefined\aNXa\rCa{\aNXa}&%
-				\checkaNXa(4)\let\rNX\cachedata\ifemptydata\relax\else\IfNVOETF{\rNX}{}{\num{\rNX}\ts{}\aNXa(5)}\fi&%
+				\checkaNXa(4)\let\rNX\cachedata\ifemptydata\relax\else\IfNVOETF{\rNX}{}{\num[round-precision=3]{\rNX}\ts{}\aNXa(5)}\fi&%
 				\checkaNXa(6)\let\rNX\cachedata\ifemptydata\relax\else\IfNVOETF{\rNX}{}{\num{\rNX}}\fi&%
 				\checkaNXa(7)\let\rNX\cachedata\ifemptydata\relax\else\IfNVOETF{\rNX}{}{\num{\rNX}\%}\fi&%
 				\checkaNXa(8)\let\rNX\cachedata\ifemptydata\relax\else\IfNVOETF{\rNX}{}{\num{\rNX} \euro}\fi&%
 				\IfNVOETF{\aNX}{}{\num{\aNX} \euro}\expandafter\\\fi%
 				\ifdefined\aNYa\rCa{\aNYa}&%
-				\checkaNYa(4)\let\rNY\cachedata\ifemptydata\relax\else\IfNVOETF{\rNY}{}{\num{\rNY}\ts{}\aNYa(5)}\fi&%
+				\checkaNYa(4)\let\rNY\cachedata\ifemptydata\relax\else\IfNVOETF{\rNY}{}{\num[round-precision=3]{\rNY}\ts{}\aNYa(5)}\fi&%
 				\checkaNYa(6)\let\rNY\cachedata\ifemptydata\relax\else\IfNVOETF{\rNY}{}{\num{\rNY}}\fi&%
 				\checkaNYa(7)\let\rNY\cachedata\ifemptydata\relax\else\IfNVOETF{\rNY}{}{\num{\rNY}\%}\fi&%
 				\checkaNYa(8)\let\rNY\cachedata\ifemptydata\relax\else\IfNVOETF{\rNY}{}{\num{\rNY} \euro}\fi&%
 				\IfNVOETF{\aNY}{}{\num{\aNY} \euro}\expandafter\\\fi%	
 				\ifdefined\aNZa\rCa{\aNZa}&%
-				\checkaNZa(4)\let\rNZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNZ}{}{\num{\rNZ}\ts{}\aNZa(5)}\fi&%
+				\checkaNZa(4)\let\rNZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNZ}{}{\num[round-precision=3]{\rNZ}\ts{}\aNZa(5)}\fi&%
 				\checkaNZa(6)\let\rNZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNZ}{}{\num{\rNZ}}\fi&%
 				\checkaNZa(7)\let\rNZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNZ}{}{\num{\rNZ}\%}\fi&%
 				\checkaNZa(8)\let\rNZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rNZ}{}{\num{\rNZ} \euro}\fi&%
@@ -3864,151 +3864,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aOAa\rCa{\aOAa}&%
-				\checkaOAa(4)\let\rOA\cachedata\ifemptydata\relax\else\IfNVOETF{\rOA}{}{\num{\rOA}\ts{}\aOAa(5)}\fi&%
+				\checkaOAa(4)\let\rOA\cachedata\ifemptydata\relax\else\IfNVOETF{\rOA}{}{\num[round-precision=3]{\rOA}\ts{}\aOAa(5)}\fi&%
 				\checkaOAa(6)\let\rOA\cachedata\ifemptydata\relax\else\IfNVOETF{\rOA}{}{\num{\rOA}}\fi&%
 				\checkaOAa(7)\let\rOA\cachedata\ifemptydata\relax\else\IfNVOETF{\rOA}{}{\num{\rOA}\%}\fi&%
 				\checkaOAa(8)\let\rOA\cachedata\ifemptydata\relax\else\IfNVOETF{\rOA}{}{\num{\rOA} \euro}\fi&%
 				\IfNVOETF{\aOA}{}{\num{\aOA} \euro}\expandafter\\\fi%
 				\ifdefined\aOBa\rCa{\aOBa}&%
-				\checkaOBa(4)\let\rOB\cachedata\ifemptydata\relax\else\IfNVOETF{\rOB}{}{\num{\rOB}\ts{}\aOBa(5)}\fi&%
+				\checkaOBa(4)\let\rOB\cachedata\ifemptydata\relax\else\IfNVOETF{\rOB}{}{\num[round-precision=3]{\rOB}\ts{}\aOBa(5)}\fi&%
 				\checkaOBa(6)\let\rOB\cachedata\ifemptydata\relax\else\IfNVOETF{\rOB}{}{\num{\rOB}}\fi&%
 				\checkaOBa(7)\let\rOB\cachedata\ifemptydata\relax\else\IfNVOETF{\rOB}{}{\num{\rOB}\%}\fi&%
 				\checkaOBa(8)\let\rOB\cachedata\ifemptydata\relax\else\IfNVOETF{\rOB}{}{\num{\rOB} \euro}\fi&%
 				\IfNVOETF{\aOB}{}{\num{\aOB} \euro}\expandafter\\\fi%
 				\ifdefined\aOCa\rCa{\aOCa}&%
-				\checkaOCa(4)\let\rOC\cachedata\ifemptydata\relax\else\IfNVOETF{\rOC}{}{\num{\rOC}\ts{}\aOCa(5)}\fi&%
+				\checkaOCa(4)\let\rOC\cachedata\ifemptydata\relax\else\IfNVOETF{\rOC}{}{\num[round-precision=3]{\rOC}\ts{}\aOCa(5)}\fi&%
 				\checkaOCa(6)\let\rOC\cachedata\ifemptydata\relax\else\IfNVOETF{\rOC}{}{\num{\rOC}}\fi&%
 				\checkaOCa(7)\let\rOC\cachedata\ifemptydata\relax\else\IfNVOETF{\rOC}{}{\num{\rOC}\%}\fi&%
 				\checkaOCa(8)\let\rOC\cachedata\ifemptydata\relax\else\IfNVOETF{\rOC}{}{\num{\rOC} \euro}\fi&%
 				\IfNVOETF{\aOC}{}{\num{\aOC} \euro}\expandafter\\\fi%
 				\ifdefined\aODa\rCa{\aODa}&%
-				\checkaODa(4)\let\rOD\cachedata\ifemptydata\relax\else\IfNVOETF{\rOD}{}{\num{\rOD}\ts{}\aODa(5)}\fi&%
+				\checkaODa(4)\let\rOD\cachedata\ifemptydata\relax\else\IfNVOETF{\rOD}{}{\num[round-precision=3]{\rOD}\ts{}\aODa(5)}\fi&%
 				\checkaODa(6)\let\rOD\cachedata\ifemptydata\relax\else\IfNVOETF{\rOD}{}{\num{\rOD}}\fi&%
 				\checkaODa(7)\let\rOD\cachedata\ifemptydata\relax\else\IfNVOETF{\rOD}{}{\num{\rOD}\%}\fi&%
 				\checkaODa(8)\let\rOD\cachedata\ifemptydata\relax\else\IfNVOETF{\rOD}{}{\num{\rOD} \euro}\fi&%
 				\IfNVOETF{\aOD}{}{\num{\aOD} \euro}\expandafter\\\fi%
 				\ifdefined\aOEa\rCa{\aOEa}&%
-				\checkaOEa(4)\let\rOE\cachedata\ifemptydata\relax\else\IfNVOETF{\rOE}{}{\num{\rOE}\ts{}\aOEa(5)}\fi&%
+				\checkaOEa(4)\let\rOE\cachedata\ifemptydata\relax\else\IfNVOETF{\rOE}{}{\num[round-precision=3]{\rOE}\ts{}\aOEa(5)}\fi&%
 				\checkaOEa(6)\let\rOE\cachedata\ifemptydata\relax\else\IfNVOETF{\rOE}{}{\num{\rOE}}\fi&%
 				\checkaOEa(7)\let\rOE\cachedata\ifemptydata\relax\else\IfNVOETF{\rOE}{}{\num{\rOE}\%}\fi&%
 				\checkaOEa(8)\let\rOE\cachedata\ifemptydata\relax\else\IfNVOETF{\rOE}{}{\num{\rOE} \euro}\fi&%
 				\IfNVOETF{\aOE}{}{\num{\aOE} \euro}\expandafter\\\fi%
 				\ifdefined\aOFa\rCa{\aOFa}&%
-				\checkaOFa(4)\let\rOF\cachedata\ifemptydata\relax\else\IfNVOETF{\rOF}{}{\num{\rOF}\ts{}\aOFa(5)}\fi&%
+				\checkaOFa(4)\let\rOF\cachedata\ifemptydata\relax\else\IfNVOETF{\rOF}{}{\num[round-precision=3]{\rOF}\ts{}\aOFa(5)}\fi&%
 				\checkaOFa(6)\let\rOF\cachedata\ifemptydata\relax\else\IfNVOETF{\rOF}{}{\num{\rOF}}\fi&%
 				\checkaOFa(7)\let\rOF\cachedata\ifemptydata\relax\else\IfNVOETF{\rOF}{}{\num{\rOF}\%}\fi&%
 				\checkaOFa(8)\let\rOF\cachedata\ifemptydata\relax\else\IfNVOETF{\rOF}{}{\num{\rOF} \euro}\fi&%
 				\IfNVOETF{\aOF}{}{\num{\aOF} \euro}\expandafter\\\fi%
 				\ifdefined\aOGa\rCa{\aOGa}&%
-				\checkaOGa(4)\let\rOG\cachedata\ifemptydata\relax\else\IfNVOETF{\rOG}{}{\num{\rOG}\ts{}\aOGa(5)}\fi&%
+				\checkaOGa(4)\let\rOG\cachedata\ifemptydata\relax\else\IfNVOETF{\rOG}{}{\num[round-precision=3]{\rOG}\ts{}\aOGa(5)}\fi&%
 				\checkaOGa(6)\let\rOG\cachedata\ifemptydata\relax\else\IfNVOETF{\rOG}{}{\num{\rOG}}\fi&%
 				\checkaOGa(7)\let\rOG\cachedata\ifemptydata\relax\else\IfNVOETF{\rOG}{}{\num{\rOG}\%}\fi&%
 				\checkaOGa(8)\let\rOG\cachedata\ifemptydata\relax\else\IfNVOETF{\rOG}{}{\num{\rOG} \euro}\fi&%
 				\IfNVOETF{\aOG}{}{\num{\aOG} \euro}\expandafter\\\fi%
 				\ifdefined\aOIa\rCa{\aOIa}&%
-				\checkaOIa(4)\let\rOI\cachedata\ifemptydata\relax\else\IfNVOETF{\rOI}{}{\num{\rOI}\ts{}\aOIa(5)}\fi&%
+				\checkaOIa(4)\let\rOI\cachedata\ifemptydata\relax\else\IfNVOETF{\rOI}{}{\num[round-precision=3]{\rOI}\ts{}\aOIa(5)}\fi&%
 				\checkaOIa(6)\let\rOI\cachedata\ifemptydata\relax\else\IfNVOETF{\rOI}{}{\num{\rOI}}\fi&%
 				\checkaOIa(7)\let\rOI\cachedata\ifemptydata\relax\else\IfNVOETF{\rOI}{}{\num{\rOI}\%}\fi&%
 				\checkaOIa(8)\let\rOI\cachedata\ifemptydata\relax\else\IfNVOETF{\rOI}{}{\num{\rOI} \euro}\fi&%
 				\IfNVOETF{\aOI}{}{\num{\aOI} \euro}\expandafter\\\fi%
 				\ifdefined\aOJa\rCa{\aOJa}&%
-				\checkaOJa(4)\let\rOJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOJ}{}{\num{\rOJ}\ts{}\aOJa(5)}\fi&%
+				\checkaOJa(4)\let\rOJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOJ}{}{\num[round-precision=3]{\rOJ}\ts{}\aOJa(5)}\fi&%
 				\checkaOJa(6)\let\rOJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOJ}{}{\num{\rOJ}}\fi&%
 				\checkaOJa(7)\let\rOJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOJ}{}{\num{\rOJ}\%}\fi&%
 				\checkaOJa(8)\let\rOJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOJ}{}{\num{\rOJ} \euro}\fi&%
 				\IfNVOETF{\aOJ}{}{\num{\aOJ} \euro}\expandafter\\\fi%
 				\ifdefined\aOKa\rCa{\aOKa}&%
-				\checkaOKa(4)\let\rOK\cachedata\ifemptydata\relax\else\IfNVOETF{\rOK}{}{\num{\rOK}\ts{}\aOKa(5)}\fi&%
+				\checkaOKa(4)\let\rOK\cachedata\ifemptydata\relax\else\IfNVOETF{\rOK}{}{\num[round-precision=3]{\rOK}\ts{}\aOKa(5)}\fi&%
 				\checkaOKa(6)\let\rOK\cachedata\ifemptydata\relax\else\IfNVOETF{\rOK}{}{\num{\rOK}}\fi&%
 				\checkaOKa(7)\let\rOK\cachedata\ifemptydata\relax\else\IfNVOETF{\rOK}{}{\num{\rOK}\%}\fi&%
 				\checkaOKa(8)\let\rOK\cachedata\ifemptydata\relax\else\IfNVOETF{\rOK}{}{\num{\rOK} \euro}\fi&%
 				\IfNVOETF{\aOK}{}{\num{\aOK} \euro}\expandafter\\\fi%
 				\ifdefined\aOLa\rCa{\aOLa}&%
-				\checkaOLa(4)\let\rOL\cachedata\ifemptydata\relax\else\IfNVOETF{\rOL}{}{\num{\rOL}\ts{}\aOLa(5)}\fi&%
+				\checkaOLa(4)\let\rOL\cachedata\ifemptydata\relax\else\IfNVOETF{\rOL}{}{\num[round-precision=3]{\rOL}\ts{}\aOLa(5)}\fi&%
 				\checkaOLa(6)\let\rOL\cachedata\ifemptydata\relax\else\IfNVOETF{\rOL}{}{\num{\rOL}}\fi&%
 				\checkaOLa(7)\let\rOL\cachedata\ifemptydata\relax\else\IfNVOETF{\rOL}{}{\num{\rOL}\%}\fi&%
 				\checkaOLa(8)\let\rOL\cachedata\ifemptydata\relax\else\IfNVOETF{\rOL}{}{\num{\rOL} \euro}\fi&%
 				\IfNVOETF{\aOL}{}{\num{\aOL} \euro}\expandafter\\\fi%
 				\ifdefined\aOMa\rCa{\aOMa}&%
-				\checkaOMa(4)\let\rOM\cachedata\ifemptydata\relax\else\IfNVOETF{\rOM}{}{\num{\rOM}\ts{}\aOMa(5)}\fi&%
+				\checkaOMa(4)\let\rOM\cachedata\ifemptydata\relax\else\IfNVOETF{\rOM}{}{\num[round-precision=3]{\rOM}\ts{}\aOMa(5)}\fi&%
 				\checkaOMa(6)\let\rOM\cachedata\ifemptydata\relax\else\IfNVOETF{\rOM}{}{\num{\rOM}}\fi&%
 				\checkaOMa(7)\let\rOM\cachedata\ifemptydata\relax\else\IfNVOETF{\rOM}{}{\num{\rOM}\%}\fi&%
 				\checkaOMa(8)\let\rOM\cachedata\ifemptydata\relax\else\IfNVOETF{\rOM}{}{\num{\rOM} \euro}\fi&%
 				\IfNVOETF{\aOM}{}{\num{\aOM} \euro}\expandafter\\\fi%
 				\ifdefined\aONa\rCa{\aONa}&%
-				\checkaONa(4)\let\rON\cachedata\ifemptydata\relax\else\IfNVOETF{\rON}{}{\num{\rON}\ts{}\aONa(5)}\fi&%
+				\checkaONa(4)\let\rON\cachedata\ifemptydata\relax\else\IfNVOETF{\rON}{}{\num[round-precision=3]{\rON}\ts{}\aONa(5)}\fi&%
 				\checkaONa(6)\let\rON\cachedata\ifemptydata\relax\else\IfNVOETF{\rON}{}{\num{\rON}}\fi&%
 				\checkaONa(7)\let\rON\cachedata\ifemptydata\relax\else\IfNVOETF{\rON}{}{\num{\rON}\%}\fi&%
 				\checkaONa(8)\let\rON\cachedata\ifemptydata\relax\else\IfNVOETF{\rON}{}{\num{\rON} \euro}\fi&%
 				\IfNVOETF{\aON}{}{\num{\aON} \euro}\expandafter\\\fi%
 				\ifdefined\aOOa\rCa{\aOOa}&%
-				\checkaOOa(4)\let\rOO\cachedata\ifemptydata\relax\else\IfNVOETF{\rOO}{}{\num{\rOO}\ts{}\aOOa(5)}\fi&%
+				\checkaOOa(4)\let\rOO\cachedata\ifemptydata\relax\else\IfNVOETF{\rOO}{}{\num[round-precision=3]{\rOO}\ts{}\aOOa(5)}\fi&%
 				\checkaOOa(6)\let\rOO\cachedata\ifemptydata\relax\else\IfNVOETF{\rOO}{}{\num{\rOO}}\fi&%
 				\checkaOOa(7)\let\rOO\cachedata\ifemptydata\relax\else\IfNVOETF{\rOO}{}{\num{\rOO}\%}\fi&%
 				\checkaOOa(8)\let\rOO\cachedata\ifemptydata\relax\else\IfNVOETF{\rOO}{}{\num{\rOO} \euro}\fi&%
 				\IfNVOETF{\aOO}{}{\num{\aOO} \euro}\expandafter\\\fi%
 				\ifdefined\aOPa\rCa{\aOPa}&%
-				\checkaOPa(4)\let\rOP\cachedata\ifemptydata\relax\else\IfNVOETF{\rOP}{}{\num{\rOP}\ts{}\aOPa(5)}\fi&%
+				\checkaOPa(4)\let\rOP\cachedata\ifemptydata\relax\else\IfNVOETF{\rOP}{}{\num[round-precision=3]{\rOP}\ts{}\aOPa(5)}\fi&%
 				\checkaOPa(6)\let\rOP\cachedata\ifemptydata\relax\else\IfNVOETF{\rOP}{}{\num{\rOP}}\fi&%
 				\checkaOPa(7)\let\rOP\cachedata\ifemptydata\relax\else\IfNVOETF{\rOP}{}{\num{\rOP}\%}\fi&%
 				\checkaOPa(8)\let\rOP\cachedata\ifemptydata\relax\else\IfNVOETF{\rOP}{}{\num{\rOP} \euro}\fi&%
 				\IfNVOETF{\aOP}{}{\num{\aOP} \euro}\expandafter\\\fi%
 				\ifdefined\aOQa\rCa{\aOQa}&%
-				\checkaOQa(4)\let\rOQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOQ}{}{\num{\rOQ}\ts{}\aOQa(5)}\fi&%
+				\checkaOQa(4)\let\rOQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOQ}{}{\num[round-precision=3]{\rOQ}\ts{}\aOQa(5)}\fi&%
 				\checkaOQa(6)\let\rOQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOQ}{}{\num{\rOQ}}\fi&%
 				\checkaOQa(7)\let\rOQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOQ}{}{\num{\rOQ}\%}\fi&%
 				\checkaOQa(8)\let\rOQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOQ}{}{\num{\rOQ} \euro}\fi&%
 				\IfNVOETF{\aOQ}{}{\num{\aOQ} \euro}\expandafter\\\fi%
 				\ifdefined\aORa\rCa{\aORa}&%
-				\checkaORa(4)\let\rOR\cachedata\ifemptydata\relax\else\IfNVOETF{\rOR}{}{\num{\rOR}\ts{}\aORa(5)}\fi&%
+				\checkaORa(4)\let\rOR\cachedata\ifemptydata\relax\else\IfNVOETF{\rOR}{}{\num[round-precision=3]{\rOR}\ts{}\aORa(5)}\fi&%
 				\checkaORa(6)\let\rOR\cachedata\ifemptydata\relax\else\IfNVOETF{\rOR}{}{\num{\rOR}}\fi&%
 				\checkaORa(7)\let\rOR\cachedata\ifemptydata\relax\else\IfNVOETF{\rOR}{}{\num{\rOR}\%}\fi&%
 				\checkaORa(8)\let\rOR\cachedata\ifemptydata\relax\else\IfNVOETF{\rOR}{}{\num{\rOR} \euro}\fi&%
 				\IfNVOETF{\aOR}{}{\num{\aOR} \euro}\expandafter\\\fi%
 				\ifdefined\aOSa\rCa{\aOSa}&%
-				\checkaOSa(4)\let\rOS\cachedata\ifemptydata\relax\else\IfNVOETF{\rOS}{}{\num{\rOS}\ts{}\aOSa(5)}\fi&%
+				\checkaOSa(4)\let\rOS\cachedata\ifemptydata\relax\else\IfNVOETF{\rOS}{}{\num[round-precision=3]{\rOS}\ts{}\aOSa(5)}\fi&%
 				\checkaOSa(6)\let\rOS\cachedata\ifemptydata\relax\else\IfNVOETF{\rOS}{}{\num{\rOS}}\fi&%
 				\checkaOSa(7)\let\rOS\cachedata\ifemptydata\relax\else\IfNVOETF{\rOS}{}{\num{\rOS}\%}\fi&%
 				\checkaOSa(8)\let\rOS\cachedata\ifemptydata\relax\else\IfNVOETF{\rOS}{}{\num{\rOS} \euro}\fi&%
 				\IfNVOETF{\aOS}{}{\num{\aOS} \euro}\expandafter\\\fi%
 				\ifdefined\aOTa\rCa{\aOTa}&%
-				\checkaOTa(4)\let\rOT\cachedata\ifemptydata\relax\else\IfNVOETF{\rOT}{}{\num{\rOT}\ts{}\aOTa(5)}\fi&%
+				\checkaOTa(4)\let\rOT\cachedata\ifemptydata\relax\else\IfNVOETF{\rOT}{}{\num[round-precision=3]{\rOT}\ts{}\aOTa(5)}\fi&%
 				\checkaOTa(6)\let\rOT\cachedata\ifemptydata\relax\else\IfNVOETF{\rOT}{}{\num{\rOT}}\fi&%
 				\checkaOTa(7)\let\rOT\cachedata\ifemptydata\relax\else\IfNVOETF{\rOT}{}{\num{\rOT}\%}\fi&%
 				\checkaOTa(8)\let\rOT\cachedata\ifemptydata\relax\else\IfNVOETF{\rOT}{}{\num{\rOT} \euro}\fi&%
 				\IfNVOETF{\aOT}{}{\num{\aOT} \euro}\expandafter\\\fi%
 				\ifdefined\aOUa\rCa{\aOUa}&%
-				\checkaOUa(4)\let\rOU\cachedata\ifemptydata\relax\else\IfNVOETF{\rOU}{}{\num{\rOU}\ts{}\aOUa(5)}\fi&%
+				\checkaOUa(4)\let\rOU\cachedata\ifemptydata\relax\else\IfNVOETF{\rOU}{}{\num[round-precision=3]{\rOU}\ts{}\aOUa(5)}\fi&%
 				\checkaOUa(6)\let\rOU\cachedata\ifemptydata\relax\else\IfNVOETF{\rOU}{}{\num{\rOU}}\fi&%
 				\checkaOUa(7)\let\rOU\cachedata\ifemptydata\relax\else\IfNVOETF{\rOU}{}{\num{\rOU}\%}\fi&%
 				\checkaOUa(8)\let\rOU\cachedata\ifemptydata\relax\else\IfNVOETF{\rOU}{}{\num{\rOU} \euro}\fi&%
 				\IfNVOETF{\aOU}{}{\num{\aOU} \euro}\expandafter\\\fi%
 				\ifdefined\aOVa\rCa{\aOVa}&%
-				\checkaOVa(4)\let\rOV\cachedata\ifemptydata\relax\else\IfNVOETF{\rOV}{}{\num{\rOV}\ts{}\aOVa(5)}\fi&%
+				\checkaOVa(4)\let\rOV\cachedata\ifemptydata\relax\else\IfNVOETF{\rOV}{}{\num[round-precision=3]{\rOV}\ts{}\aOVa(5)}\fi&%
 				\checkaOVa(6)\let\rOV\cachedata\ifemptydata\relax\else\IfNVOETF{\rOV}{}{\num{\rOV}}\fi&%
 				\checkaOVa(7)\let\rOV\cachedata\ifemptydata\relax\else\IfNVOETF{\rOV}{}{\num{\rOV}\%}\fi&%
 				\checkaOVa(8)\let\rOV\cachedata\ifemptydata\relax\else\IfNVOETF{\rOV}{}{\num{\rOV} \euro}\fi&%
 				\IfNVOETF{\aOV}{}{\num{\aOV} \euro}\expandafter\\\fi%
 				\ifdefined\aOWa\rCa{\aOWa}&%
-				\checkaOWa(4)\let\rOW\cachedata\ifemptydata\relax\else\IfNVOETF{\rOW}{}{\num{\rOW}\ts{}\aOWa(5)}\fi&%
+				\checkaOWa(4)\let\rOW\cachedata\ifemptydata\relax\else\IfNVOETF{\rOW}{}{\num[round-precision=3]{\rOW}\ts{}\aOWa(5)}\fi&%
 				\checkaOWa(6)\let\rOW\cachedata\ifemptydata\relax\else\IfNVOETF{\rOW}{}{\num{\rOW}}\fi&%
 				\checkaOWa(7)\let\rOW\cachedata\ifemptydata\relax\else\IfNVOETF{\rOW}{}{\num{\rOW}\%}\fi&%
 				\checkaOWa(8)\let\rOW\cachedata\ifemptydata\relax\else\IfNVOETF{\rOW}{}{\num{\rOW} \euro}\fi&%
 				\IfNVOETF{\aOW}{}{\num{\aOW} \euro}\expandafter\\\fi%
 				\ifdefined\aOXa\rCa{\aOXa}&%
-				\checkaOXa(4)\let\rOX\cachedata\ifemptydata\relax\else\IfNVOETF{\rOX}{}{\num{\rOX}\ts{}\aOXa(5)}\fi&%
+				\checkaOXa(4)\let\rOX\cachedata\ifemptydata\relax\else\IfNVOETF{\rOX}{}{\num[round-precision=3]{\rOX}\ts{}\aOXa(5)}\fi&%
 				\checkaOXa(6)\let\rOX\cachedata\ifemptydata\relax\else\IfNVOETF{\rOX}{}{\num{\rOX}}\fi&%
 				\checkaOXa(7)\let\rOX\cachedata\ifemptydata\relax\else\IfNVOETF{\rOX}{}{\num{\rOX}\%}\fi&%
 				\checkaOXa(8)\let\rOX\cachedata\ifemptydata\relax\else\IfNVOETF{\rOX}{}{\num{\rOX} \euro}\fi&%
 				\IfNVOETF{\aOX}{}{\num{\aOX} \euro}\expandafter\\\fi%
 				\ifdefined\aOYa\rCa{\aOYa}&%
-				\checkaOYa(4)\let\rOY\cachedata\ifemptydata\relax\else\IfNVOETF{\rOY}{}{\num{\rOY}\ts{}\aOYa(5)}\fi&%
+				\checkaOYa(4)\let\rOY\cachedata\ifemptydata\relax\else\IfNVOETF{\rOY}{}{\num[round-precision=3]{\rOY}\ts{}\aOYa(5)}\fi&%
 				\checkaOYa(6)\let\rOY\cachedata\ifemptydata\relax\else\IfNVOETF{\rOY}{}{\num{\rOY}}\fi&%
 				\checkaOYa(7)\let\rOY\cachedata\ifemptydata\relax\else\IfNVOETF{\rOY}{}{\num{\rOY}\%}\fi&%
 				\checkaOYa(8)\let\rOY\cachedata\ifemptydata\relax\else\IfNVOETF{\rOY}{}{\num{\rOY} \euro}\fi&%
 				\IfNVOETF{\aOY}{}{\num{\aOY} \euro}\expandafter\\\fi%	
 				\ifdefined\aOZa\rCa{\aOZa}&%
-				\checkaOZa(4)\let\rOZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOZ}{}{\num{\rOZ}\ts{}\aOZa(5)}\fi&%
+				\checkaOZa(4)\let\rOZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOZ}{}{\num[round-precision=3]{\rOZ}\ts{}\aOZa(5)}\fi&%
 				\checkaOZa(6)\let\rOZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOZ}{}{\num{\rOZ}}\fi&%
 				\checkaOZa(7)\let\rOZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOZ}{}{\num{\rOZ}\%}\fi&%
 				\checkaOZa(8)\let\rOZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rOZ}{}{\num{\rOZ} \euro}\fi&%
@@ -4023,151 +4023,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aPAa\rCa{\aPAa}&%
-				\checkaPAa(4)\let\rPA\cachedata\ifemptydata\relax\else\IfNVOETF{\rPA}{}{\num{\rPA}\ts{}\aPAa(5)}\fi&%
+				\checkaPAa(4)\let\rPA\cachedata\ifemptydata\relax\else\IfNVOETF{\rPA}{}{\num[round-precision=3]{\rPA}\ts{}\aPAa(5)}\fi&%
 				\checkaPAa(6)\let\rPA\cachedata\ifemptydata\relax\else\IfNVOETF{\rPA}{}{\num{\rPA}}\fi&%
 				\checkaPAa(7)\let\rPA\cachedata\ifemptydata\relax\else\IfNVOETF{\rPA}{}{\num{\rPA}\%}\fi&%
 				\checkaPAa(8)\let\rPA\cachedata\ifemptydata\relax\else\IfNVOETF{\rPA}{}{\num{\rPA} \euro}\fi&%
 				\IfNVOETF{\aPA}{}{\num{\aPA} \euro}\expandafter\\\fi%
 				\ifdefined\aPBa\rCa{\aPBa}&%
-				\checkaPBa(4)\let\rPB\cachedata\ifemptydata\relax\else\IfNVOETF{\rPB}{}{\num{\rPB}\ts{}\aPBa(5)}\fi&%
+				\checkaPBa(4)\let\rPB\cachedata\ifemptydata\relax\else\IfNVOETF{\rPB}{}{\num[round-precision=3]{\rPB}\ts{}\aPBa(5)}\fi&%
 				\checkaPBa(6)\let\rPB\cachedata\ifemptydata\relax\else\IfNVOETF{\rPB}{}{\num{\rPB}}\fi&%
 				\checkaPBa(7)\let\rPB\cachedata\ifemptydata\relax\else\IfNVOETF{\rPB}{}{\num{\rPB}\%}\fi&%
 				\checkaPBa(8)\let\rPB\cachedata\ifemptydata\relax\else\IfNVOETF{\rPB}{}{\num{\rPB} \euro}\fi&%
 				\IfNVOETF{\aPB}{}{\num{\aPB} \euro}\expandafter\\\fi%
 				\ifdefined\aPCa\rCa{\aPCa}&%
-				\checkaPCa(4)\let\rPC\cachedata\ifemptydata\relax\else\IfNVOETF{\rPC}{}{\num{\rPC}\ts{}\aPCa(5)}\fi&%
+				\checkaPCa(4)\let\rPC\cachedata\ifemptydata\relax\else\IfNVOETF{\rPC}{}{\num[round-precision=3]{\rPC}\ts{}\aPCa(5)}\fi&%
 				\checkaPCa(6)\let\rPC\cachedata\ifemptydata\relax\else\IfNVOETF{\rPC}{}{\num{\rPC}}\fi&%
 				\checkaPCa(7)\let\rPC\cachedata\ifemptydata\relax\else\IfNVOETF{\rPC}{}{\num{\rPC}\%}\fi&%
 				\checkaPCa(8)\let\rPC\cachedata\ifemptydata\relax\else\IfNVOETF{\rPC}{}{\num{\rPC} \euro}\fi&%
 				\IfNVOETF{\aPC}{}{\num{\aPC} \euro}\expandafter\\\fi%
 				\ifdefined\aPDa\rCa{\aPDa}&%
-				\checkaPDa(4)\let\rPD\cachedata\ifemptydata\relax\else\IfNVOETF{\rPD}{}{\num{\rPD}\ts{}\aPDa(5)}\fi&%
+				\checkaPDa(4)\let\rPD\cachedata\ifemptydata\relax\else\IfNVOETF{\rPD}{}{\num[round-precision=3]{\rPD}\ts{}\aPDa(5)}\fi&%
 				\checkaPDa(6)\let\rPD\cachedata\ifemptydata\relax\else\IfNVOETF{\rPD}{}{\num{\rPD}}\fi&%
 				\checkaPDa(7)\let\rPD\cachedata\ifemptydata\relax\else\IfNVOETF{\rPD}{}{\num{\rPD}\%}\fi&%
 				\checkaPDa(8)\let\rPD\cachedata\ifemptydata\relax\else\IfNVOETF{\rPD}{}{\num{\rPD} \euro}\fi&%
 				\IfNVOETF{\aPD}{}{\num{\aPD} \euro}\expandafter\\\fi%
 				\ifdefined\aPEa\rCa{\aPEa}&%
-				\checkaPEa(4)\let\rPE\cachedata\ifemptydata\relax\else\IfNVOETF{\rPE}{}{\num{\rPE}\ts{}\aPEa(5)}\fi&%
+				\checkaPEa(4)\let\rPE\cachedata\ifemptydata\relax\else\IfNVOETF{\rPE}{}{\num[round-precision=3]{\rPE}\ts{}\aPEa(5)}\fi&%
 				\checkaPEa(6)\let\rPE\cachedata\ifemptydata\relax\else\IfNVOETF{\rPE}{}{\num{\rPE}}\fi&%
 				\checkaPEa(7)\let\rPE\cachedata\ifemptydata\relax\else\IfNVOETF{\rPE}{}{\num{\rPE}\%}\fi&%
 				\checkaPEa(8)\let\rPE\cachedata\ifemptydata\relax\else\IfNVOETF{\rPE}{}{\num{\rPE} \euro}\fi&%
 				\IfNVOETF{\aPE}{}{\num{\aPE} \euro}\expandafter\\\fi%
 				\ifdefined\aPFa\rCa{\aPFa}&%
-				\checkaPFa(4)\let\rPF\cachedata\ifemptydata\relax\else\IfNVOETF{\rPF}{}{\num{\rPF}\ts{}\aPFa(5)}\fi&%
+				\checkaPFa(4)\let\rPF\cachedata\ifemptydata\relax\else\IfNVOETF{\rPF}{}{\num[round-precision=3]{\rPF}\ts{}\aPFa(5)}\fi&%
 				\checkaPFa(6)\let\rPF\cachedata\ifemptydata\relax\else\IfNVOETF{\rPF}{}{\num{\rPF}}\fi&%
 				\checkaPFa(7)\let\rPF\cachedata\ifemptydata\relax\else\IfNVOETF{\rPF}{}{\num{\rPF}\%}\fi&%
 				\checkaPFa(8)\let\rPF\cachedata\ifemptydata\relax\else\IfNVOETF{\rPF}{}{\num{\rPF} \euro}\fi&%
 				\IfNVOETF{\aPF}{}{\num{\aPF} \euro}\expandafter\\\fi%
 				\ifdefined\aPGa\rCa{\aPGa}&%
-				\checkaPGa(4)\let\rPG\cachedata\ifemptydata\relax\else\IfNVOETF{\rPG}{}{\num{\rPG}\ts{}\aPGa(5)}\fi&%
+				\checkaPGa(4)\let\rPG\cachedata\ifemptydata\relax\else\IfNVOETF{\rPG}{}{\num[round-precision=3]{\rPG}\ts{}\aPGa(5)}\fi&%
 				\checkaPGa(6)\let\rPG\cachedata\ifemptydata\relax\else\IfNVOETF{\rPG}{}{\num{\rPG}}\fi&%
 				\checkaPGa(7)\let\rPG\cachedata\ifemptydata\relax\else\IfNVOETF{\rPG}{}{\num{\rPG}\%}\fi&%
 				\checkaPGa(8)\let\rPG\cachedata\ifemptydata\relax\else\IfNVOETF{\rPG}{}{\num{\rPG} \euro}\fi&%
 				\IfNVOETF{\aPG}{}{\num{\aPG} \euro}\expandafter\\\fi%
 				\ifdefined\aPIa\rCa{\aPIa}&%
-				\checkaPIa(4)\let\rPI\cachedata\ifemptydata\relax\else\IfNVOETF{\rPI}{}{\num{\rPI}\ts{}\aPIa(5)}\fi&%
+				\checkaPIa(4)\let\rPI\cachedata\ifemptydata\relax\else\IfNVOETF{\rPI}{}{\num[round-precision=3]{\rPI}\ts{}\aPIa(5)}\fi&%
 				\checkaPIa(6)\let\rPI\cachedata\ifemptydata\relax\else\IfNVOETF{\rPI}{}{\num{\rPI}}\fi&%
 				\checkaPIa(7)\let\rPI\cachedata\ifemptydata\relax\else\IfNVOETF{\rPI}{}{\num{\rPI}\%}\fi&%
 				\checkaPIa(8)\let\rPI\cachedata\ifemptydata\relax\else\IfNVOETF{\rPI}{}{\num{\rPI} \euro}\fi&%
 				\IfNVOETF{\aPI}{}{\num{\aPI} \euro}\expandafter\\\fi%
 				\ifdefined\aPJa\rCa{\aPJa}&%
-				\checkaPJa(4)\let\rPJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPJ}{}{\num{\rPJ}\ts{}\aPJa(5)}\fi&%
+				\checkaPJa(4)\let\rPJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPJ}{}{\num[round-precision=3]{\rPJ}\ts{}\aPJa(5)}\fi&%
 				\checkaPJa(6)\let\rPJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPJ}{}{\num{\rPJ}}\fi&%
 				\checkaPJa(7)\let\rPJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPJ}{}{\num{\rPJ}\%}\fi&%
 				\checkaPJa(8)\let\rPJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPJ}{}{\num{\rPJ} \euro}\fi&%
 				\IfNVOETF{\aPJ}{}{\num{\aPJ} \euro}\expandafter\\\fi%
 				\ifdefined\aPKa\rCa{\aPKa}&%
-				\checkaPKa(4)\let\rPK\cachedata\ifemptydata\relax\else\IfNVOETF{\rPK}{}{\num{\rPK}\ts{}\aPKa(5)}\fi&%
+				\checkaPKa(4)\let\rPK\cachedata\ifemptydata\relax\else\IfNVOETF{\rPK}{}{\num[round-precision=3]{\rPK}\ts{}\aPKa(5)}\fi&%
 				\checkaPKa(6)\let\rPK\cachedata\ifemptydata\relax\else\IfNVOETF{\rPK}{}{\num{\rPK}}\fi&%
 				\checkaPKa(7)\let\rPK\cachedata\ifemptydata\relax\else\IfNVOETF{\rPK}{}{\num{\rPK}\%}\fi&%
 				\checkaPKa(8)\let\rPK\cachedata\ifemptydata\relax\else\IfNVOETF{\rPK}{}{\num{\rPK} \euro}\fi&%
 				\IfNVOETF{\aPK}{}{\num{\aPK} \euro}\expandafter\\\fi%
 				\ifdefined\aPLa\rCa{\aPLa}&%
-				\checkaPLa(4)\let\rPL\cachedata\ifemptydata\relax\else\IfNVOETF{\rPL}{}{\num{\rPL}\ts{}\aPLa(5)}\fi&%
+				\checkaPLa(4)\let\rPL\cachedata\ifemptydata\relax\else\IfNVOETF{\rPL}{}{\num[round-precision=3]{\rPL}\ts{}\aPLa(5)}\fi&%
 				\checkaPLa(6)\let\rPL\cachedata\ifemptydata\relax\else\IfNVOETF{\rPL}{}{\num{\rPL}}\fi&%
 				\checkaPLa(7)\let\rPL\cachedata\ifemptydata\relax\else\IfNVOETF{\rPL}{}{\num{\rPL}\%}\fi&%
 				\checkaPLa(8)\let\rPL\cachedata\ifemptydata\relax\else\IfNVOETF{\rPL}{}{\num{\rPL} \euro}\fi&%
 				\IfNVOETF{\aPL}{}{\num{\aPL} \euro}\expandafter\\\fi%
 				\ifdefined\aPMa\rCa{\aPMa}&%
-				\checkaPMa(4)\let\rPM\cachedata\ifemptydata\relax\else\IfNVOETF{\rPM}{}{\num{\rPM}\ts{}\aPMa(5)}\fi&%
+				\checkaPMa(4)\let\rPM\cachedata\ifemptydata\relax\else\IfNVOETF{\rPM}{}{\num[round-precision=3]{\rPM}\ts{}\aPMa(5)}\fi&%
 				\checkaPMa(6)\let\rPM\cachedata\ifemptydata\relax\else\IfNVOETF{\rPM}{}{\num{\rPM}}\fi&%
 				\checkaPMa(7)\let\rPM\cachedata\ifemptydata\relax\else\IfNVOETF{\rPM}{}{\num{\rPM}\%}\fi&%
 				\checkaPMa(8)\let\rPM\cachedata\ifemptydata\relax\else\IfNVOETF{\rPM}{}{\num{\rPM} \euro}\fi&%
 				\IfNVOETF{\aPM}{}{\num{\aPM} \euro}\expandafter\\\fi%
 				\ifdefined\aPNa\rCa{\aPNa}&%
-				\checkaPNa(4)\let\rPN\cachedata\ifemptydata\relax\else\IfNVOETF{\rPN}{}{\num{\rPN}\ts{}\aPNa(5)}\fi&%
+				\checkaPNa(4)\let\rPN\cachedata\ifemptydata\relax\else\IfNVOETF{\rPN}{}{\num[round-precision=3]{\rPN}\ts{}\aPNa(5)}\fi&%
 				\checkaPNa(6)\let\rPN\cachedata\ifemptydata\relax\else\IfNVOETF{\rPN}{}{\num{\rPN}}\fi&%
 				\checkaPNa(7)\let\rPN\cachedata\ifemptydata\relax\else\IfNVOETF{\rPN}{}{\num{\rPN}\%}\fi&%
 				\checkaPNa(8)\let\rPN\cachedata\ifemptydata\relax\else\IfNVOETF{\rPN}{}{\num{\rPN} \euro}\fi&%
 				\IfNVOETF{\aPN}{}{\num{\aPN} \euro}\expandafter\\\fi%
 				\ifdefined\aPOa\rCa{\aPOa}&%
-				\checkaPOa(4)\let\rPO\cachedata\ifemptydata\relax\else\IfNVOETF{\rPO}{}{\num{\rPO}\ts{}\aPOa(5)}\fi&%
+				\checkaPOa(4)\let\rPO\cachedata\ifemptydata\relax\else\IfNVOETF{\rPO}{}{\num[round-precision=3]{\rPO}\ts{}\aPOa(5)}\fi&%
 				\checkaPOa(6)\let\rPO\cachedata\ifemptydata\relax\else\IfNVOETF{\rPO}{}{\num{\rPO}}\fi&%
 				\checkaPOa(7)\let\rPO\cachedata\ifemptydata\relax\else\IfNVOETF{\rPO}{}{\num{\rPO}\%}\fi&%
 				\checkaPOa(8)\let\rPO\cachedata\ifemptydata\relax\else\IfNVOETF{\rPO}{}{\num{\rPO} \euro}\fi&%
 				\IfNVOETF{\aPO}{}{\num{\aPO} \euro}\expandafter\\\fi%
 				\ifdefined\aPPa\rCa{\aPPa}&%
-				\checkaPPa(4)\let\rPP\cachedata\ifemptydata\relax\else\IfNVOETF{\rPP}{}{\num{\rPP}\ts{}\aPPa(5)}\fi&%
+				\checkaPPa(4)\let\rPP\cachedata\ifemptydata\relax\else\IfNVOETF{\rPP}{}{\num[round-precision=3]{\rPP}\ts{}\aPPa(5)}\fi&%
 				\checkaPPa(6)\let\rPP\cachedata\ifemptydata\relax\else\IfNVOETF{\rPP}{}{\num{\rPP}}\fi&%
 				\checkaPPa(7)\let\rPP\cachedata\ifemptydata\relax\else\IfNVOETF{\rPP}{}{\num{\rPP}\%}\fi&%
 				\checkaPPa(8)\let\rPP\cachedata\ifemptydata\relax\else\IfNVOETF{\rPP}{}{\num{\rPP} \euro}\fi&%
 				\IfNVOETF{\aPP}{}{\num{\aPP} \euro}\expandafter\\\fi%
 				\ifdefined\aPQa\rCa{\aPQa}&%
-				\checkaPQa(4)\let\rPQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPQ}{}{\num{\rPQ}\ts{}\aPQa(5)}\fi&%
+				\checkaPQa(4)\let\rPQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPQ}{}{\num[round-precision=3]{\rPQ}\ts{}\aPQa(5)}\fi&%
 				\checkaPQa(6)\let\rPQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPQ}{}{\num{\rPQ}}\fi&%
 				\checkaPQa(7)\let\rPQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPQ}{}{\num{\rPQ}\%}\fi&%
 				\checkaPQa(8)\let\rPQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPQ}{}{\num{\rPQ} \euro}\fi&%
 				\IfNVOETF{\aPQ}{}{\num{\aPQ} \euro}\expandafter\\\fi%
 				\ifdefined\aPRa\rCa{\aPRa}&%
-				\checkaPRa(4)\let\rPR\cachedata\ifemptydata\relax\else\IfNVOETF{\rPR}{}{\num{\rPR}\ts{}\aPRa(5)}\fi&%
+				\checkaPRa(4)\let\rPR\cachedata\ifemptydata\relax\else\IfNVOETF{\rPR}{}{\num[round-precision=3]{\rPR}\ts{}\aPRa(5)}\fi&%
 				\checkaPRa(6)\let\rPR\cachedata\ifemptydata\relax\else\IfNVOETF{\rPR}{}{\num{\rPR}}\fi&%
 				\checkaPRa(7)\let\rPR\cachedata\ifemptydata\relax\else\IfNVOETF{\rPR}{}{\num{\rPR}\%}\fi&%
 				\checkaPRa(8)\let\rPR\cachedata\ifemptydata\relax\else\IfNVOETF{\rPR}{}{\num{\rPR} \euro}\fi&%
 				\IfNVOETF{\aPR}{}{\num{\aPR} \euro}\expandafter\\\fi%
 				\ifdefined\aPSa\rCa{\aPSa}&%
-				\checkaPSa(4)\let\rPS\cachedata\ifemptydata\relax\else\IfNVOETF{\rPS}{}{\num{\rPS}\ts{}\aPSa(5)}\fi&%
+				\checkaPSa(4)\let\rPS\cachedata\ifemptydata\relax\else\IfNVOETF{\rPS}{}{\num[round-precision=3]{\rPS}\ts{}\aPSa(5)}\fi&%
 				\checkaPSa(6)\let\rPS\cachedata\ifemptydata\relax\else\IfNVOETF{\rPS}{}{\num{\rPS}}\fi&%
 				\checkaPSa(7)\let\rPS\cachedata\ifemptydata\relax\else\IfNVOETF{\rPS}{}{\num{\rPS}\%}\fi&%
 				\checkaPSa(8)\let\rPS\cachedata\ifemptydata\relax\else\IfNVOETF{\rPS}{}{\num{\rPS} \euro}\fi&%
 				\IfNVOETF{\aPS}{}{\num{\aPS} \euro}\expandafter\\\fi%
 				\ifdefined\aPTa\rCa{\aPTa}&%
-				\checkaPTa(4)\let\rPT\cachedata\ifemptydata\relax\else\IfNVOETF{\rPT}{}{\num{\rPT}\ts{}\aPTa(5)}\fi&%
+				\checkaPTa(4)\let\rPT\cachedata\ifemptydata\relax\else\IfNVOETF{\rPT}{}{\num[round-precision=3]{\rPT}\ts{}\aPTa(5)}\fi&%
 				\checkaPTa(6)\let\rPT\cachedata\ifemptydata\relax\else\IfNVOETF{\rPT}{}{\num{\rPT}}\fi&%
 				\checkaPTa(7)\let\rPT\cachedata\ifemptydata\relax\else\IfNVOETF{\rPT}{}{\num{\rPT}\%}\fi&%
 				\checkaPTa(8)\let\rPT\cachedata\ifemptydata\relax\else\IfNVOETF{\rPT}{}{\num{\rPT} \euro}\fi&%
 				\IfNVOETF{\aPT}{}{\num{\aPT} \euro}\expandafter\\\fi%
 				\ifdefined\aPUa\rCa{\aPUa}&%
-				\checkaPUa(4)\let\rPU\cachedata\ifemptydata\relax\else\IfNVOETF{\rPU}{}{\num{\rPU}\ts{}\aPUa(5)}\fi&%
+				\checkaPUa(4)\let\rPU\cachedata\ifemptydata\relax\else\IfNVOETF{\rPU}{}{\num[round-precision=3]{\rPU}\ts{}\aPUa(5)}\fi&%
 				\checkaPUa(6)\let\rPU\cachedata\ifemptydata\relax\else\IfNVOETF{\rPU}{}{\num{\rPU}}\fi&%
 				\checkaPUa(7)\let\rPU\cachedata\ifemptydata\relax\else\IfNVOETF{\rPU}{}{\num{\rPU}\%}\fi&%
 				\checkaPUa(8)\let\rPU\cachedata\ifemptydata\relax\else\IfNVOETF{\rPU}{}{\num{\rPU} \euro}\fi&%
 				\IfNVOETF{\aPU}{}{\num{\aPU} \euro}\expandafter\\\fi%
 				\ifdefined\aPVa\rCa{\aPVa}&%
-				\checkaPVa(4)\let\rPV\cachedata\ifemptydata\relax\else\IfNVOETF{\rPV}{}{\num{\rPV}\ts{}\aPVa(5)}\fi&%
+				\checkaPVa(4)\let\rPV\cachedata\ifemptydata\relax\else\IfNVOETF{\rPV}{}{\num[round-precision=3]{\rPV}\ts{}\aPVa(5)}\fi&%
 				\checkaPVa(6)\let\rPV\cachedata\ifemptydata\relax\else\IfNVOETF{\rPV}{}{\num{\rPV}}\fi&%
 				\checkaPVa(7)\let\rPV\cachedata\ifemptydata\relax\else\IfNVOETF{\rPV}{}{\num{\rPV}\%}\fi&%
 				\checkaPVa(8)\let\rPV\cachedata\ifemptydata\relax\else\IfNVOETF{\rPV}{}{\num{\rPV} \euro}\fi&%
 				\IfNVOETF{\aPV}{}{\num{\aPV} \euro}\expandafter\\\fi%
 				\ifdefined\aPWa\rCa{\aPWa}&%
-				\checkaPWa(4)\let\rPW\cachedata\ifemptydata\relax\else\IfNVOETF{\rPW}{}{\num{\rPW}\ts{}\aPWa(5)}\fi&%
+				\checkaPWa(4)\let\rPW\cachedata\ifemptydata\relax\else\IfNVOETF{\rPW}{}{\num[round-precision=3]{\rPW}\ts{}\aPWa(5)}\fi&%
 				\checkaPWa(6)\let\rPW\cachedata\ifemptydata\relax\else\IfNVOETF{\rPW}{}{\num{\rPW}}\fi&%
 				\checkaPWa(7)\let\rPW\cachedata\ifemptydata\relax\else\IfNVOETF{\rPW}{}{\num{\rPW}\%}\fi&%
 				\checkaPWa(8)\let\rPW\cachedata\ifemptydata\relax\else\IfNVOETF{\rPW}{}{\num{\rPW} \euro}\fi&%
 				\IfNVOETF{\aPW}{}{\num{\aPW} \euro}\expandafter\\\fi%
 				\ifdefined\aPXa\rCa{\aPXa}&%
-				\checkaPXa(4)\let\rPX\cachedata\ifemptydata\relax\else\IfNVOETF{\rPX}{}{\num{\rPX}\ts{}\aPXa(5)}\fi&%
+				\checkaPXa(4)\let\rPX\cachedata\ifemptydata\relax\else\IfNVOETF{\rPX}{}{\num[round-precision=3]{\rPX}\ts{}\aPXa(5)}\fi&%
 				\checkaPXa(6)\let\rPX\cachedata\ifemptydata\relax\else\IfNVOETF{\rPX}{}{\num{\rPX}}\fi&%
 				\checkaPXa(7)\let\rPX\cachedata\ifemptydata\relax\else\IfNVOETF{\rPX}{}{\num{\rPX}\%}\fi&%
 				\checkaPXa(8)\let\rPX\cachedata\ifemptydata\relax\else\IfNVOETF{\rPX}{}{\num{\rPX} \euro}\fi&%
 				\IfNVOETF{\aPX}{}{\num{\aPX} \euro}\expandafter\\\fi%
 				\ifdefined\aPYa\rCa{\aPYa}&%
-				\checkaPYa(4)\let\rPY\cachedata\ifemptydata\relax\else\IfNVOETF{\rPY}{}{\num{\rPY}\ts{}\aPYa(5)}\fi&%
+				\checkaPYa(4)\let\rPY\cachedata\ifemptydata\relax\else\IfNVOETF{\rPY}{}{\num[round-precision=3]{\rPY}\ts{}\aPYa(5)}\fi&%
 				\checkaPYa(6)\let\rPY\cachedata\ifemptydata\relax\else\IfNVOETF{\rPY}{}{\num{\rPY}}\fi&%
 				\checkaPYa(7)\let\rPY\cachedata\ifemptydata\relax\else\IfNVOETF{\rPY}{}{\num{\rPY}\%}\fi&%
 				\checkaPYa(8)\let\rPY\cachedata\ifemptydata\relax\else\IfNVOETF{\rPY}{}{\num{\rPY} \euro}\fi&%
 				\IfNVOETF{\aPY}{}{\num{\aPY} \euro}\expandafter\\\fi%	
 				\ifdefined\aPZa\rCa{\aPZa}&%
-				\checkaPZa(4)\let\rPZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPZ}{}{\num{\rPZ}\ts{}\aPZa(5)}\fi&%
+				\checkaPZa(4)\let\rPZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPZ}{}{\num[round-precision=3]{\rPZ}\ts{}\aPZa(5)}\fi&%
 				\checkaPZa(6)\let\rPZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPZ}{}{\num{\rPZ}}\fi&%
 				\checkaPZa(7)\let\rPZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPZ}{}{\num{\rPZ}\%}\fi&%
 				\checkaPZa(8)\let\rPZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rPZ}{}{\num{\rPZ} \euro}\fi&%
@@ -4186,151 +4186,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aQAa\rCa{\aQAa}&%
-				\checkaQAa(4)\let\rQA\cachedata\ifemptydata\relax\else\IfNVOETF{\rQA}{}{\num{\rQA}\ts{}\aQAa(5)}\fi&%
+				\checkaQAa(4)\let\rQA\cachedata\ifemptydata\relax\else\IfNVOETF{\rQA}{}{\num[round-precision=3]{\rQA}\ts{}\aQAa(5)}\fi&%
 				\checkaQAa(6)\let\rQA\cachedata\ifemptydata\relax\else\IfNVOETF{\rQA}{}{\num{\rQA}}\fi&%
 				\checkaQAa(7)\let\rQA\cachedata\ifemptydata\relax\else\IfNVOETF{\rQA}{}{\num{\rQA}\%}\fi&%
 				\checkaQAa(8)\let\rQA\cachedata\ifemptydata\relax\else\IfNVOETF{\rQA}{}{\num{\rQA} \euro}\fi&%
 				\IfNVOETF{\aQA}{}{\num{\aQA} \euro}\expandafter\\\fi%
 				\ifdefined\aQBa\rCa{\aQBa}&%
-				\checkaQBa(4)\let\rQB\cachedata\ifemptydata\relax\else\IfNVOETF{\rQB}{}{\num{\rQB}\ts{}\aQBa(5)}\fi&%
+				\checkaQBa(4)\let\rQB\cachedata\ifemptydata\relax\else\IfNVOETF{\rQB}{}{\num[round-precision=3]{\rQB}\ts{}\aQBa(5)}\fi&%
 				\checkaQBa(6)\let\rQB\cachedata\ifemptydata\relax\else\IfNVOETF{\rQB}{}{\num{\rQB}}\fi&%
 				\checkaQBa(7)\let\rQB\cachedata\ifemptydata\relax\else\IfNVOETF{\rQB}{}{\num{\rQB}\%}\fi&%
 				\checkaQBa(8)\let\rQB\cachedata\ifemptydata\relax\else\IfNVOETF{\rQB}{}{\num{\rQB} \euro}\fi&%
 				\IfNVOETF{\aQB}{}{\num{\aQB} \euro}\expandafter\\\fi%
 				\ifdefined\aQCa\rCa{\aQCa}&%
-				\checkaQCa(4)\let\rQC\cachedata\ifemptydata\relax\else\IfNVOETF{\rQC}{}{\num{\rQC}\ts{}\aQCa(5)}\fi&%
+				\checkaQCa(4)\let\rQC\cachedata\ifemptydata\relax\else\IfNVOETF{\rQC}{}{\num[round-precision=3]{\rQC}\ts{}\aQCa(5)}\fi&%
 				\checkaQCa(6)\let\rQC\cachedata\ifemptydata\relax\else\IfNVOETF{\rQC}{}{\num{\rQC}}\fi&%
 				\checkaQCa(7)\let\rQC\cachedata\ifemptydata\relax\else\IfNVOETF{\rQC}{}{\num{\rQC}\%}\fi&%
 				\checkaQCa(8)\let\rQC\cachedata\ifemptydata\relax\else\IfNVOETF{\rQC}{}{\num{\rQC} \euro}\fi&%
 				\IfNVOETF{\aQC}{}{\num{\aQC} \euro}\expandafter\\\fi%
 				\ifdefined\aQDa\rCa{\aQDa}&%
-				\checkaQDa(4)\let\rQD\cachedata\ifemptydata\relax\else\IfNVOETF{\rQD}{}{\num{\rQD}\ts{}\aQDa(5)}\fi&%
+				\checkaQDa(4)\let\rQD\cachedata\ifemptydata\relax\else\IfNVOETF{\rQD}{}{\num[round-precision=3]{\rQD}\ts{}\aQDa(5)}\fi&%
 				\checkaQDa(6)\let\rQD\cachedata\ifemptydata\relax\else\IfNVOETF{\rQD}{}{\num{\rQD}}\fi&%
 				\checkaQDa(7)\let\rQD\cachedata\ifemptydata\relax\else\IfNVOETF{\rQD}{}{\num{\rQD}\%}\fi&%
 				\checkaQDa(8)\let\rQD\cachedata\ifemptydata\relax\else\IfNVOETF{\rQD}{}{\num{\rQD} \euro}\fi&%
 				\IfNVOETF{\aQD}{}{\num{\aQD} \euro}\expandafter\\\fi%
 				\ifdefined\aQEa\rCa{\aQEa}&%
-				\checkaQEa(4)\let\rQE\cachedata\ifemptydata\relax\else\IfNVOETF{\rQE}{}{\num{\rQE}\ts{}\aQEa(5)}\fi&%
+				\checkaQEa(4)\let\rQE\cachedata\ifemptydata\relax\else\IfNVOETF{\rQE}{}{\num[round-precision=3]{\rQE}\ts{}\aQEa(5)}\fi&%
 				\checkaQEa(6)\let\rQE\cachedata\ifemptydata\relax\else\IfNVOETF{\rQE}{}{\num{\rQE}}\fi&%
 				\checkaQEa(7)\let\rQE\cachedata\ifemptydata\relax\else\IfNVOETF{\rQE}{}{\num{\rQE}\%}\fi&%
 				\checkaQEa(8)\let\rQE\cachedata\ifemptydata\relax\else\IfNVOETF{\rQE}{}{\num{\rQE} \euro}\fi&%
 				\IfNVOETF{\aQE}{}{\num{\aQE} \euro}\expandafter\\\fi%
 				\ifdefined\aQFa\rCa{\aQFa}&%
-				\checkaQFa(4)\let\rQF\cachedata\ifemptydata\relax\else\IfNVOETF{\rQF}{}{\num{\rQF}\ts{}\aQFa(5)}\fi&%
+				\checkaQFa(4)\let\rQF\cachedata\ifemptydata\relax\else\IfNVOETF{\rQF}{}{\num[round-precision=3]{\rQF}\ts{}\aQFa(5)}\fi&%
 				\checkaQFa(6)\let\rQF\cachedata\ifemptydata\relax\else\IfNVOETF{\rQF}{}{\num{\rQF}}\fi&%
 				\checkaQFa(7)\let\rQF\cachedata\ifemptydata\relax\else\IfNVOETF{\rQF}{}{\num{\rQF}\%}\fi&%
 				\checkaQFa(8)\let\rQF\cachedata\ifemptydata\relax\else\IfNVOETF{\rQF}{}{\num{\rQF} \euro}\fi&%
 				\IfNVOETF{\aQF}{}{\num{\aQF} \euro}\expandafter\\\fi%
 				\ifdefined\aQGa\rCa{\aQGa}&%
-				\checkaQGa(4)\let\rQG\cachedata\ifemptydata\relax\else\IfNVOETF{\rQG}{}{\num{\rQG}\ts{}\aQGa(5)}\fi&%
+				\checkaQGa(4)\let\rQG\cachedata\ifemptydata\relax\else\IfNVOETF{\rQG}{}{\num[round-precision=3]{\rQG}\ts{}\aQGa(5)}\fi&%
 				\checkaQGa(6)\let\rQG\cachedata\ifemptydata\relax\else\IfNVOETF{\rQG}{}{\num{\rQG}}\fi&%
 				\checkaQGa(7)\let\rQG\cachedata\ifemptydata\relax\else\IfNVOETF{\rQG}{}{\num{\rQG}\%}\fi&%
 				\checkaQGa(8)\let\rQG\cachedata\ifemptydata\relax\else\IfNVOETF{\rQG}{}{\num{\rQG} \euro}\fi&%
 				\IfNVOETF{\aQG}{}{\num{\aQG} \euro}\expandafter\\\fi%
 				\ifdefined\aQIa\rCa{\aQIa}&%
-				\checkaQIa(4)\let\rQI\cachedata\ifemptydata\relax\else\IfNVOETF{\rQI}{}{\num{\rQI}\ts{}\aQIa(5)}\fi&%
+				\checkaQIa(4)\let\rQI\cachedata\ifemptydata\relax\else\IfNVOETF{\rQI}{}{\num[round-precision=3]{\rQI}\ts{}\aQIa(5)}\fi&%
 				\checkaQIa(6)\let\rQI\cachedata\ifemptydata\relax\else\IfNVOETF{\rQI}{}{\num{\rQI}}\fi&%
 				\checkaQIa(7)\let\rQI\cachedata\ifemptydata\relax\else\IfNVOETF{\rQI}{}{\num{\rQI}\%}\fi&%
 				\checkaQIa(8)\let\rQI\cachedata\ifemptydata\relax\else\IfNVOETF{\rQI}{}{\num{\rQI} \euro}\fi&%
 				\IfNVOETF{\aQI}{}{\num{\aQI} \euro}\expandafter\\\fi%
 				\ifdefined\aQJa\rCa{\aQJa}&%
-				\checkaQJa(4)\let\rQJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQJ}{}{\num{\rQJ}\ts{}\aQJa(5)}\fi&%
+				\checkaQJa(4)\let\rQJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQJ}{}{\num[round-precision=3]{\rQJ}\ts{}\aQJa(5)}\fi&%
 				\checkaQJa(6)\let\rQJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQJ}{}{\num{\rQJ}}\fi&%
 				\checkaQJa(7)\let\rQJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQJ}{}{\num{\rQJ}\%}\fi&%
 				\checkaQJa(8)\let\rQJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQJ}{}{\num{\rQJ} \euro}\fi&%
 				\IfNVOETF{\aQJ}{}{\num{\aQJ} \euro}\expandafter\\\fi%
 				\ifdefined\aQKa\rCa{\aQKa}&%
-				\checkaQKa(4)\let\rQK\cachedata\ifemptydata\relax\else\IfNVOETF{\rQK}{}{\num{\rQK}\ts{}\aQKa(5)}\fi&%
+				\checkaQKa(4)\let\rQK\cachedata\ifemptydata\relax\else\IfNVOETF{\rQK}{}{\num[round-precision=3]{\rQK}\ts{}\aQKa(5)}\fi&%
 				\checkaQKa(6)\let\rQK\cachedata\ifemptydata\relax\else\IfNVOETF{\rQK}{}{\num{\rQK}}\fi&%
 				\checkaQKa(7)\let\rQK\cachedata\ifemptydata\relax\else\IfNVOETF{\rQK}{}{\num{\rQK}\%}\fi&%
 				\checkaQKa(8)\let\rQK\cachedata\ifemptydata\relax\else\IfNVOETF{\rQK}{}{\num{\rQK} \euro}\fi&%
 				\IfNVOETF{\aQK}{}{\num{\aQK} \euro}\expandafter\\\fi%
 				\ifdefined\aQLa\rCa{\aQLa}&%
-				\checkaQLa(4)\let\rQL\cachedata\ifemptydata\relax\else\IfNVOETF{\rQL}{}{\num{\rQL}\ts{}\aQLa(5)}\fi&%
+				\checkaQLa(4)\let\rQL\cachedata\ifemptydata\relax\else\IfNVOETF{\rQL}{}{\num[round-precision=3]{\rQL}\ts{}\aQLa(5)}\fi&%
 				\checkaQLa(6)\let\rQL\cachedata\ifemptydata\relax\else\IfNVOETF{\rQL}{}{\num{\rQL}}\fi&%
 				\checkaQLa(7)\let\rQL\cachedata\ifemptydata\relax\else\IfNVOETF{\rQL}{}{\num{\rQL}\%}\fi&%
 				\checkaQLa(8)\let\rQL\cachedata\ifemptydata\relax\else\IfNVOETF{\rQL}{}{\num{\rQL} \euro}\fi&%
 				\IfNVOETF{\aQL}{}{\num{\aQL} \euro}\expandafter\\\fi%
 				\ifdefined\aQMa\rCa{\aQMa}&%
-				\checkaQMa(4)\let\rQM\cachedata\ifemptydata\relax\else\IfNVOETF{\rQM}{}{\num{\rQM}\ts{}\aQMa(5)}\fi&%
+				\checkaQMa(4)\let\rQM\cachedata\ifemptydata\relax\else\IfNVOETF{\rQM}{}{\num[round-precision=3]{\rQM}\ts{}\aQMa(5)}\fi&%
 				\checkaQMa(6)\let\rQM\cachedata\ifemptydata\relax\else\IfNVOETF{\rQM}{}{\num{\rQM}}\fi&%
 				\checkaQMa(7)\let\rQM\cachedata\ifemptydata\relax\else\IfNVOETF{\rQM}{}{\num{\rQM}\%}\fi&%
 				\checkaQMa(8)\let\rQM\cachedata\ifemptydata\relax\else\IfNVOETF{\rQM}{}{\num{\rQM} \euro}\fi&%
 				\IfNVOETF{\aQM}{}{\num{\aQM} \euro}\expandafter\\\fi%
 				\ifdefined\aQNa\rCa{\aQNa}&%
-				\checkaQNa(4)\let\rQN\cachedata\ifemptydata\relax\else\IfNVOETF{\rQN}{}{\num{\rQN}\ts{}\aQNa(5)}\fi&%
+				\checkaQNa(4)\let\rQN\cachedata\ifemptydata\relax\else\IfNVOETF{\rQN}{}{\num[round-precision=3]{\rQN}\ts{}\aQNa(5)}\fi&%
 				\checkaQNa(6)\let\rQN\cachedata\ifemptydata\relax\else\IfNVOETF{\rQN}{}{\num{\rQN}}\fi&%
 				\checkaQNa(7)\let\rQN\cachedata\ifemptydata\relax\else\IfNVOETF{\rQN}{}{\num{\rQN}\%}\fi&%
 				\checkaQNa(8)\let\rQN\cachedata\ifemptydata\relax\else\IfNVOETF{\rQN}{}{\num{\rQN} \euro}\fi&%
 				\IfNVOETF{\aQN}{}{\num{\aQN} \euro}\expandafter\\\fi%
 				\ifdefined\aQOa\rCa{\aQOa}&%
-				\checkaQOa(4)\let\rQO\cachedata\ifemptydata\relax\else\IfNVOETF{\rQO}{}{\num{\rQO}\ts{}\aQOa(5)}\fi&%
+				\checkaQOa(4)\let\rQO\cachedata\ifemptydata\relax\else\IfNVOETF{\rQO}{}{\num[round-precision=3]{\rQO}\ts{}\aQOa(5)}\fi&%
 				\checkaQOa(6)\let\rQO\cachedata\ifemptydata\relax\else\IfNVOETF{\rQO}{}{\num{\rQO}}\fi&%
 				\checkaQOa(7)\let\rQO\cachedata\ifemptydata\relax\else\IfNVOETF{\rQO}{}{\num{\rQO}\%}\fi&%
 				\checkaQOa(8)\let\rQO\cachedata\ifemptydata\relax\else\IfNVOETF{\rQO}{}{\num{\rQO} \euro}\fi&%
 				\IfNVOETF{\aQO}{}{\num{\aQO} \euro}\expandafter\\\fi%
 				\ifdefined\aQPa\rCa{\aQPa}&%
-				\checkaQPa(4)\let\rQP\cachedata\ifemptydata\relax\else\IfNVOETF{\rQP}{}{\num{\rQP}\ts{}\aQPa(5)}\fi&%
+				\checkaQPa(4)\let\rQP\cachedata\ifemptydata\relax\else\IfNVOETF{\rQP}{}{\num[round-precision=3]{\rQP}\ts{}\aQPa(5)}\fi&%
 				\checkaQPa(6)\let\rQP\cachedata\ifemptydata\relax\else\IfNVOETF{\rQP}{}{\num{\rQP}}\fi&%
 				\checkaQPa(7)\let\rQP\cachedata\ifemptydata\relax\else\IfNVOETF{\rQP}{}{\num{\rQP}\%}\fi&%
 				\checkaQPa(8)\let\rQP\cachedata\ifemptydata\relax\else\IfNVOETF{\rQP}{}{\num{\rQP} \euro}\fi&%
 				\IfNVOETF{\aQP}{}{\num{\aQP} \euro}\expandafter\\\fi%
 				\ifdefined\aQQa\rCa{\aQQa}&%
-				\checkaQQa(4)\let\rQQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQQ}{}{\num{\rQQ}\ts{}\aQQa(5)}\fi&%
+				\checkaQQa(4)\let\rQQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQQ}{}{\num[round-precision=3]{\rQQ}\ts{}\aQQa(5)}\fi&%
 				\checkaQQa(6)\let\rQQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQQ}{}{\num{\rQQ}}\fi&%
 				\checkaQQa(7)\let\rQQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQQ}{}{\num{\rQQ}\%}\fi&%
 				\checkaQQa(8)\let\rQQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQQ}{}{\num{\rQQ} \euro}\fi&%
 				\IfNVOETF{\aQQ}{}{\num{\aQQ} \euro}\expandafter\\\fi%
 				\ifdefined\aQRa\rCa{\aQRa}&%
-				\checkaQRa(4)\let\rQR\cachedata\ifemptydata\relax\else\IfNVOETF{\rQR}{}{\num{\rQR}\ts{}\aQRa(5)}\fi&%
+				\checkaQRa(4)\let\rQR\cachedata\ifemptydata\relax\else\IfNVOETF{\rQR}{}{\num[round-precision=3]{\rQR}\ts{}\aQRa(5)}\fi&%
 				\checkaQRa(6)\let\rQR\cachedata\ifemptydata\relax\else\IfNVOETF{\rQR}{}{\num{\rQR}}\fi&%
 				\checkaQRa(7)\let\rQR\cachedata\ifemptydata\relax\else\IfNVOETF{\rQR}{}{\num{\rQR}\%}\fi&%
 				\checkaQRa(8)\let\rQR\cachedata\ifemptydata\relax\else\IfNVOETF{\rQR}{}{\num{\rQR} \euro}\fi&%
 				\IfNVOETF{\aQR}{}{\num{\aQR} \euro}\expandafter\\\fi%
 				\ifdefined\aQSa\rCa{\aQSa}&%
-				\checkaQSa(4)\let\rQS\cachedata\ifemptydata\relax\else\IfNVOETF{\rQS}{}{\num{\rQS}\ts{}\aQSa(5)}\fi&%
+				\checkaQSa(4)\let\rQS\cachedata\ifemptydata\relax\else\IfNVOETF{\rQS}{}{\num[round-precision=3]{\rQS}\ts{}\aQSa(5)}\fi&%
 				\checkaQSa(6)\let\rQS\cachedata\ifemptydata\relax\else\IfNVOETF{\rQS}{}{\num{\rQS}}\fi&%
 				\checkaQSa(7)\let\rQS\cachedata\ifemptydata\relax\else\IfNVOETF{\rQS}{}{\num{\rQS}\%}\fi&%
 				\checkaQSa(8)\let\rQS\cachedata\ifemptydata\relax\else\IfNVOETF{\rQS}{}{\num{\rQS} \euro}\fi&%
 				\IfNVOETF{\aQS}{}{\num{\aQS} \euro}\expandafter\\\fi%
 				\ifdefined\aQTa\rCa{\aQTa}&%
-				\checkaQTa(4)\let\rQT\cachedata\ifemptydata\relax\else\IfNVOETF{\rQT}{}{\num{\rQT}\ts{}\aQTa(5)}\fi&%
+				\checkaQTa(4)\let\rQT\cachedata\ifemptydata\relax\else\IfNVOETF{\rQT}{}{\num[round-precision=3]{\rQT}\ts{}\aQTa(5)}\fi&%
 				\checkaQTa(6)\let\rQT\cachedata\ifemptydata\relax\else\IfNVOETF{\rQT}{}{\num{\rQT}}\fi&%
 				\checkaQTa(7)\let\rQT\cachedata\ifemptydata\relax\else\IfNVOETF{\rQT}{}{\num{\rQT}\%}\fi&%
 				\checkaQTa(8)\let\rQT\cachedata\ifemptydata\relax\else\IfNVOETF{\rQT}{}{\num{\rQT} \euro}\fi&%
 				\IfNVOETF{\aQT}{}{\num{\aQT} \euro}\expandafter\\\fi%
 				\ifdefined\aQUa\rCa{\aQUa}&%
-				\checkaQUa(4)\let\rQU\cachedata\ifemptydata\relax\else\IfNVOETF{\rQU}{}{\num{\rQU}\ts{}\aQUa(5)}\fi&%
+				\checkaQUa(4)\let\rQU\cachedata\ifemptydata\relax\else\IfNVOETF{\rQU}{}{\num[round-precision=3]{\rQU}\ts{}\aQUa(5)}\fi&%
 				\checkaQUa(6)\let\rQU\cachedata\ifemptydata\relax\else\IfNVOETF{\rQU}{}{\num{\rQU}}\fi&%
 				\checkaQUa(7)\let\rQU\cachedata\ifemptydata\relax\else\IfNVOETF{\rQU}{}{\num{\rQU}\%}\fi&%
 				\checkaQUa(8)\let\rQU\cachedata\ifemptydata\relax\else\IfNVOETF{\rQU}{}{\num{\rQU} \euro}\fi&%
 				\IfNVOETF{\aQU}{}{\num{\aQU} \euro}\expandafter\\\fi%
 				\ifdefined\aQVa\rCa{\aQVa}&%
-				\checkaQVa(4)\let\rQV\cachedata\ifemptydata\relax\else\IfNVOETF{\rQV}{}{\num{\rQV}\ts{}\aQVa(5)}\fi&%
+				\checkaQVa(4)\let\rQV\cachedata\ifemptydata\relax\else\IfNVOETF{\rQV}{}{\num[round-precision=3]{\rQV}\ts{}\aQVa(5)}\fi&%
 				\checkaQVa(6)\let\rQV\cachedata\ifemptydata\relax\else\IfNVOETF{\rQV}{}{\num{\rQV}}\fi&%
 				\checkaQVa(7)\let\rQV\cachedata\ifemptydata\relax\else\IfNVOETF{\rQV}{}{\num{\rQV}\%}\fi&%
 				\checkaQVa(8)\let\rQV\cachedata\ifemptydata\relax\else\IfNVOETF{\rQV}{}{\num{\rQV} \euro}\fi&%
 				\IfNVOETF{\aQV}{}{\num{\aQV} \euro}\expandafter\\\fi%
 				\ifdefined\aQWa\rCa{\aQWa}&%
-				\checkaQWa(4)\let\rQW\cachedata\ifemptydata\relax\else\IfNVOETF{\rQW}{}{\num{\rQW}\ts{}\aQWa(5)}\fi&%
+				\checkaQWa(4)\let\rQW\cachedata\ifemptydata\relax\else\IfNVOETF{\rQW}{}{\num[round-precision=3]{\rQW}\ts{}\aQWa(5)}\fi&%
 				\checkaQWa(6)\let\rQW\cachedata\ifemptydata\relax\else\IfNVOETF{\rQW}{}{\num{\rQW}}\fi&%
 				\checkaQWa(7)\let\rQW\cachedata\ifemptydata\relax\else\IfNVOETF{\rQW}{}{\num{\rQW}\%}\fi&%
 				\checkaQWa(8)\let\rQW\cachedata\ifemptydata\relax\else\IfNVOETF{\rQW}{}{\num{\rQW} \euro}\fi&%
 				\IfNVOETF{\aQW}{}{\num{\aQW} \euro}\expandafter\\\fi%
 				\ifdefined\aQXa\rCa{\aQXa}&%
-				\checkaQXa(4)\let\rQX\cachedata\ifemptydata\relax\else\IfNVOETF{\rQX}{}{\num{\rQX}\ts{}\aQXa(5)}\fi&%
+				\checkaQXa(4)\let\rQX\cachedata\ifemptydata\relax\else\IfNVOETF{\rQX}{}{\num[round-precision=3]{\rQX}\ts{}\aQXa(5)}\fi&%
 				\checkaQXa(6)\let\rQX\cachedata\ifemptydata\relax\else\IfNVOETF{\rQX}{}{\num{\rQX}}\fi&%
 				\checkaQXa(7)\let\rQX\cachedata\ifemptydata\relax\else\IfNVOETF{\rQX}{}{\num{\rQX}\%}\fi&%
 				\checkaQXa(8)\let\rQX\cachedata\ifemptydata\relax\else\IfNVOETF{\rQX}{}{\num{\rQX} \euro}\fi&%
 				\IfNVOETF{\aQX}{}{\num{\aQX} \euro}\expandafter\\\fi%
 				\ifdefined\aQYa\rCa{\aQYa}&%
-				\checkaQYa(4)\let\rQY\cachedata\ifemptydata\relax\else\IfNVOETF{\rQY}{}{\num{\rQY}\ts{}\aQYa(5)}\fi&%
+				\checkaQYa(4)\let\rQY\cachedata\ifemptydata\relax\else\IfNVOETF{\rQY}{}{\num[round-precision=3]{\rQY}\ts{}\aQYa(5)}\fi&%
 				\checkaQYa(6)\let\rQY\cachedata\ifemptydata\relax\else\IfNVOETF{\rQY}{}{\num{\rQY}}\fi&%
 				\checkaQYa(7)\let\rQY\cachedata\ifemptydata\relax\else\IfNVOETF{\rQY}{}{\num{\rQY}\%}\fi&%
 				\checkaQYa(8)\let\rQY\cachedata\ifemptydata\relax\else\IfNVOETF{\rQY}{}{\num{\rQY} \euro}\fi&%
 				\IfNVOETF{\aQY}{}{\num{\aQY} \euro}\expandafter\\\fi%	
 				\ifdefined\aQZa\rCa{\aQZa}&%
-				\checkaQZa(4)\let\rQZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQZ}{}{\num{\rQZ}\ts{}\aQZa(5)}\fi&%
+				\checkaQZa(4)\let\rQZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQZ}{}{\num[round-precision=3]{\rQZ}\ts{}\aQZa(5)}\fi&%
 				\checkaQZa(6)\let\rQZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQZ}{}{\num{\rQZ}}\fi&%
 				\checkaQZa(7)\let\rQZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQZ}{}{\num{\rQZ}\%}\fi&%
 				\checkaQZa(8)\let\rQZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rQZ}{}{\num{\rQZ} \euro}\fi&%
@@ -4345,151 +4345,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aRAa\rCa{\aRAa}&%
-				\checkaRAa(4)\let\rRA\cachedata\ifemptydata\relax\else\IfNVOETF{\rRA}{}{\num{\rRA}\ts{}\aRAa(5)}\fi&%
+				\checkaRAa(4)\let\rRA\cachedata\ifemptydata\relax\else\IfNVOETF{\rRA}{}{\num[round-precision=3]{\rRA}\ts{}\aRAa(5)}\fi&%
 				\checkaRAa(6)\let\rRA\cachedata\ifemptydata\relax\else\IfNVOETF{\rRA}{}{\num{\rRA}}\fi&%
 				\checkaRAa(7)\let\rRA\cachedata\ifemptydata\relax\else\IfNVOETF{\rRA}{}{\num{\rRA}\%}\fi&%
 				\checkaRAa(8)\let\rRA\cachedata\ifemptydata\relax\else\IfNVOETF{\rRA}{}{\num{\rRA} \euro}\fi&%
 				\IfNVOETF{\aRA}{}{\num{\aRA} \euro}\expandafter\\\fi%
 				\ifdefined\aRBa\rCa{\aRBa}&%
-				\checkaRBa(4)\let\rRB\cachedata\ifemptydata\relax\else\IfNVOETF{\rRB}{}{\num{\rRB}\ts{}\aRBa(5)}\fi&%
+				\checkaRBa(4)\let\rRB\cachedata\ifemptydata\relax\else\IfNVOETF{\rRB}{}{\num[round-precision=3]{\rRB}\ts{}\aRBa(5)}\fi&%
 				\checkaRBa(6)\let\rRB\cachedata\ifemptydata\relax\else\IfNVOETF{\rRB}{}{\num{\rRB}}\fi&%
 				\checkaRBa(7)\let\rRB\cachedata\ifemptydata\relax\else\IfNVOETF{\rRB}{}{\num{\rRB}\%}\fi&%
 				\checkaRBa(8)\let\rRB\cachedata\ifemptydata\relax\else\IfNVOETF{\rRB}{}{\num{\rRB} \euro}\fi&%
 				\IfNVOETF{\aRB}{}{\num{\aRB} \euro}\expandafter\\\fi%
 				\ifdefined\aRCa\rCa{\aRCa}&%
-				\checkaRCa(4)\let\rRC\cachedata\ifemptydata\relax\else\IfNVOETF{\rRC}{}{\num{\rRC}\ts{}\aRCa(5)}\fi&%
+				\checkaRCa(4)\let\rRC\cachedata\ifemptydata\relax\else\IfNVOETF{\rRC}{}{\num[round-precision=3]{\rRC}\ts{}\aRCa(5)}\fi&%
 				\checkaRCa(6)\let\rRC\cachedata\ifemptydata\relax\else\IfNVOETF{\rRC}{}{\num{\rRC}}\fi&%
 				\checkaRCa(7)\let\rRC\cachedata\ifemptydata\relax\else\IfNVOETF{\rRC}{}{\num{\rRC}\%}\fi&%
 				\checkaRCa(8)\let\rRC\cachedata\ifemptydata\relax\else\IfNVOETF{\rRC}{}{\num{\rRC} \euro}\fi&%
 				\IfNVOETF{\aRC}{}{\num{\aRC} \euro}\expandafter\\\fi%
 				\ifdefined\aRDa\rCa{\aRDa}&%
-				\checkaRDa(4)\let\rRD\cachedata\ifemptydata\relax\else\IfNVOETF{\rRD}{}{\num{\rRD}\ts{}\aRDa(5)}\fi&%
+				\checkaRDa(4)\let\rRD\cachedata\ifemptydata\relax\else\IfNVOETF{\rRD}{}{\num[round-precision=3]{\rRD}\ts{}\aRDa(5)}\fi&%
 				\checkaRDa(6)\let\rRD\cachedata\ifemptydata\relax\else\IfNVOETF{\rRD}{}{\num{\rRD}}\fi&%
 				\checkaRDa(7)\let\rRD\cachedata\ifemptydata\relax\else\IfNVOETF{\rRD}{}{\num{\rRD}\%}\fi&%
 				\checkaRDa(8)\let\rRD\cachedata\ifemptydata\relax\else\IfNVOETF{\rRD}{}{\num{\rRD} \euro}\fi&%
 				\IfNVOETF{\aRD}{}{\num{\aRD} \euro}\expandafter\\\fi%
 				\ifdefined\aREa\rCa{\aREa}&%
-				\checkaREa(4)\let\rRE\cachedata\ifemptydata\relax\else\IfNVOETF{\rRE}{}{\num{\rRE}\ts{}\aREa(5)}\fi&%
+				\checkaREa(4)\let\rRE\cachedata\ifemptydata\relax\else\IfNVOETF{\rRE}{}{\num[round-precision=3]{\rRE}\ts{}\aREa(5)}\fi&%
 				\checkaREa(6)\let\rRE\cachedata\ifemptydata\relax\else\IfNVOETF{\rRE}{}{\num{\rRE}}\fi&%
 				\checkaREa(7)\let\rRE\cachedata\ifemptydata\relax\else\IfNVOETF{\rRE}{}{\num{\rRE}\%}\fi&%
 				\checkaREa(8)\let\rRE\cachedata\ifemptydata\relax\else\IfNVOETF{\rRE}{}{\num{\rRE} \euro}\fi&%
 				\IfNVOETF{\aRE}{}{\num{\aRE} \euro}\expandafter\\\fi%
 				\ifdefined\aRFa\rCa{\aRFa}&%
-				\checkaRFa(4)\let\rRF\cachedata\ifemptydata\relax\else\IfNVOETF{\rRF}{}{\num{\rRF}\ts{}\aRFa(5)}\fi&%
+				\checkaRFa(4)\let\rRF\cachedata\ifemptydata\relax\else\IfNVOETF{\rRF}{}{\num[round-precision=3]{\rRF}\ts{}\aRFa(5)}\fi&%
 				\checkaRFa(6)\let\rRF\cachedata\ifemptydata\relax\else\IfNVOETF{\rRF}{}{\num{\rRF}}\fi&%
 				\checkaRFa(7)\let\rRF\cachedata\ifemptydata\relax\else\IfNVOETF{\rRF}{}{\num{\rRF}\%}\fi&%
 				\checkaRFa(8)\let\rRF\cachedata\ifemptydata\relax\else\IfNVOETF{\rRF}{}{\num{\rRF} \euro}\fi&%
 				\IfNVOETF{\aRF}{}{\num{\aRF} \euro}\expandafter\\\fi%
 				\ifdefined\aRGa\rCa{\aRGa}&%
-				\checkaRGa(4)\let\rRG\cachedata\ifemptydata\relax\else\IfNVOETF{\rRG}{}{\num{\rRG}\ts{}\aRGa(5)}\fi&%
+				\checkaRGa(4)\let\rRG\cachedata\ifemptydata\relax\else\IfNVOETF{\rRG}{}{\num[round-precision=3]{\rRG}\ts{}\aRGa(5)}\fi&%
 				\checkaRGa(6)\let\rRG\cachedata\ifemptydata\relax\else\IfNVOETF{\rRG}{}{\num{\rRG}}\fi&%
 				\checkaRGa(7)\let\rRG\cachedata\ifemptydata\relax\else\IfNVOETF{\rRG}{}{\num{\rRG}\%}\fi&%
 				\checkaRGa(8)\let\rRG\cachedata\ifemptydata\relax\else\IfNVOETF{\rRG}{}{\num{\rRG} \euro}\fi&%
 				\IfNVOETF{\aRG}{}{\num{\aRG} \euro}\expandafter\\\fi%
 				\ifdefined\aRIa\rCa{\aRIa}&%
-				\checkaRIa(4)\let\rRI\cachedata\ifemptydata\relax\else\IfNVOETF{\rRI}{}{\num{\rRI}\ts{}\aRIa(5)}\fi&%
+				\checkaRIa(4)\let\rRI\cachedata\ifemptydata\relax\else\IfNVOETF{\rRI}{}{\num[round-precision=3]{\rRI}\ts{}\aRIa(5)}\fi&%
 				\checkaRIa(6)\let\rRI\cachedata\ifemptydata\relax\else\IfNVOETF{\rRI}{}{\num{\rRI}}\fi&%
 				\checkaRIa(7)\let\rRI\cachedata\ifemptydata\relax\else\IfNVOETF{\rRI}{}{\num{\rRI}\%}\fi&%
 				\checkaRIa(8)\let\rRI\cachedata\ifemptydata\relax\else\IfNVOETF{\rRI}{}{\num{\rRI} \euro}\fi&%
 				\IfNVOETF{\aRI}{}{\num{\aRI} \euro}\expandafter\\\fi%
 				\ifdefined\aRJa\rCa{\aRJa}&%
-				\checkaRJa(4)\let\rRJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRJ}{}{\num{\rRJ}\ts{}\aRJa(5)}\fi&%
+				\checkaRJa(4)\let\rRJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRJ}{}{\num[round-precision=3]{\rRJ}\ts{}\aRJa(5)}\fi&%
 				\checkaRJa(6)\let\rRJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRJ}{}{\num{\rRJ}}\fi&%
 				\checkaRJa(7)\let\rRJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRJ}{}{\num{\rRJ}\%}\fi&%
 				\checkaRJa(8)\let\rRJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRJ}{}{\num{\rRJ} \euro}\fi&%
 				\IfNVOETF{\aRJ}{}{\num{\aRJ} \euro}\expandafter\\\fi%
 				\ifdefined\aRKa\rCa{\aRKa}&%
-				\checkaRKa(4)\let\rRK\cachedata\ifemptydata\relax\else\IfNVOETF{\rRK}{}{\num{\rRK}\ts{}\aRKa(5)}\fi&%
+				\checkaRKa(4)\let\rRK\cachedata\ifemptydata\relax\else\IfNVOETF{\rRK}{}{\num[round-precision=3]{\rRK}\ts{}\aRKa(5)}\fi&%
 				\checkaRKa(6)\let\rRK\cachedata\ifemptydata\relax\else\IfNVOETF{\rRK}{}{\num{\rRK}}\fi&%
 				\checkaRKa(7)\let\rRK\cachedata\ifemptydata\relax\else\IfNVOETF{\rRK}{}{\num{\rRK}\%}\fi&%
 				\checkaRKa(8)\let\rRK\cachedata\ifemptydata\relax\else\IfNVOETF{\rRK}{}{\num{\rRK} \euro}\fi&%
 				\IfNVOETF{\aRK}{}{\num{\aRK} \euro}\expandafter\\\fi%
 				\ifdefined\aRLa\rCa{\aRLa}&%
-				\checkaRLa(4)\let\rRL\cachedata\ifemptydata\relax\else\IfNVOETF{\rRL}{}{\num{\rRL}\ts{}\aRLa(5)}\fi&%
+				\checkaRLa(4)\let\rRL\cachedata\ifemptydata\relax\else\IfNVOETF{\rRL}{}{\num[round-precision=3]{\rRL}\ts{}\aRLa(5)}\fi&%
 				\checkaRLa(6)\let\rRL\cachedata\ifemptydata\relax\else\IfNVOETF{\rRL}{}{\num{\rRL}}\fi&%
 				\checkaRLa(7)\let\rRL\cachedata\ifemptydata\relax\else\IfNVOETF{\rRL}{}{\num{\rRL}\%}\fi&%
 				\checkaRLa(8)\let\rRL\cachedata\ifemptydata\relax\else\IfNVOETF{\rRL}{}{\num{\rRL} \euro}\fi&%
 				\IfNVOETF{\aRL}{}{\num{\aRL} \euro}\expandafter\\\fi%
 				\ifdefined\aRMa\rCa{\aRMa}&%
-				\checkaRMa(4)\let\rRM\cachedata\ifemptydata\relax\else\IfNVOETF{\rRM}{}{\num{\rRM}\ts{}\aRMa(5)}\fi&%
+				\checkaRMa(4)\let\rRM\cachedata\ifemptydata\relax\else\IfNVOETF{\rRM}{}{\num[round-precision=3]{\rRM}\ts{}\aRMa(5)}\fi&%
 				\checkaRMa(6)\let\rRM\cachedata\ifemptydata\relax\else\IfNVOETF{\rRM}{}{\num{\rRM}}\fi&%
 				\checkaRMa(7)\let\rRM\cachedata\ifemptydata\relax\else\IfNVOETF{\rRM}{}{\num{\rRM}\%}\fi&%
 				\checkaRMa(8)\let\rRM\cachedata\ifemptydata\relax\else\IfNVOETF{\rRM}{}{\num{\rRM} \euro}\fi&%
 				\IfNVOETF{\aRM}{}{\num{\aRM} \euro}\expandafter\\\fi%
 				\ifdefined\aRNa\rCa{\aRNa}&%
-				\checkaRNa(4)\let\rRN\cachedata\ifemptydata\relax\else\IfNVOETF{\rRN}{}{\num{\rRN}\ts{}\aRNa(5)}\fi&%
+				\checkaRNa(4)\let\rRN\cachedata\ifemptydata\relax\else\IfNVOETF{\rRN}{}{\num[round-precision=3]{\rRN}\ts{}\aRNa(5)}\fi&%
 				\checkaRNa(6)\let\rRN\cachedata\ifemptydata\relax\else\IfNVOETF{\rRN}{}{\num{\rRN}}\fi&%
 				\checkaRNa(7)\let\rRN\cachedata\ifemptydata\relax\else\IfNVOETF{\rRN}{}{\num{\rRN}\%}\fi&%
 				\checkaRNa(8)\let\rRN\cachedata\ifemptydata\relax\else\IfNVOETF{\rRN}{}{\num{\rRN} \euro}\fi&%
 				\IfNVOETF{\aRN}{}{\num{\aRN} \euro}\expandafter\\\fi%
 				\ifdefined\aROa\rCa{\aROa}&%
-				\checkaROa(4)\let\rRO\cachedata\ifemptydata\relax\else\IfNVOETF{\rRO}{}{\num{\rRO}\ts{}\aROa(5)}\fi&%
+				\checkaROa(4)\let\rRO\cachedata\ifemptydata\relax\else\IfNVOETF{\rRO}{}{\num[round-precision=3]{\rRO}\ts{}\aROa(5)}\fi&%
 				\checkaROa(6)\let\rRO\cachedata\ifemptydata\relax\else\IfNVOETF{\rRO}{}{\num{\rRO}}\fi&%
 				\checkaROa(7)\let\rRO\cachedata\ifemptydata\relax\else\IfNVOETF{\rRO}{}{\num{\rRO}\%}\fi&%
 				\checkaROa(8)\let\rRO\cachedata\ifemptydata\relax\else\IfNVOETF{\rRO}{}{\num{\rRO} \euro}\fi&%
 				\IfNVOETF{\aRO}{}{\num{\aRO} \euro}\expandafter\\\fi%
 				\ifdefined\aRPa\rCa{\aRPa}&%
-				\checkaRPa(4)\let\rRP\cachedata\ifemptydata\relax\else\IfNVOETF{\rRP}{}{\num{\rRP}\ts{}\aRPa(5)}\fi&%
+				\checkaRPa(4)\let\rRP\cachedata\ifemptydata\relax\else\IfNVOETF{\rRP}{}{\num[round-precision=3]{\rRP}\ts{}\aRPa(5)}\fi&%
 				\checkaRPa(6)\let\rRP\cachedata\ifemptydata\relax\else\IfNVOETF{\rRP}{}{\num{\rRP}}\fi&%
 				\checkaRPa(7)\let\rRP\cachedata\ifemptydata\relax\else\IfNVOETF{\rRP}{}{\num{\rRP}\%}\fi&%
 				\checkaRPa(8)\let\rRP\cachedata\ifemptydata\relax\else\IfNVOETF{\rRP}{}{\num{\rRP} \euro}\fi&%
 				\IfNVOETF{\aRP}{}{\num{\aRP} \euro}\expandafter\\\fi%
 				\ifdefined\aRQa\rCa{\aRQa}&%
-				\checkaRQa(4)\let\rRQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRQ}{}{\num{\rRQ}\ts{}\aRQa(5)}\fi&%
+				\checkaRQa(4)\let\rRQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRQ}{}{\num[round-precision=3]{\rRQ}\ts{}\aRQa(5)}\fi&%
 				\checkaRQa(6)\let\rRQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRQ}{}{\num{\rRQ}}\fi&%
 				\checkaRQa(7)\let\rRQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRQ}{}{\num{\rRQ}\%}\fi&%
 				\checkaRQa(8)\let\rRQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRQ}{}{\num{\rRQ} \euro}\fi&%
 				\IfNVOETF{\aRQ}{}{\num{\aRQ} \euro}\expandafter\\\fi%
 				\ifdefined\aRRa\rCa{\aRRa}&%
-				\checkaRRa(4)\let\rRR\cachedata\ifemptydata\relax\else\IfNVOETF{\rRR}{}{\num{\rRR}\ts{}\aRRa(5)}\fi&%
+				\checkaRRa(4)\let\rRR\cachedata\ifemptydata\relax\else\IfNVOETF{\rRR}{}{\num[round-precision=3]{\rRR}\ts{}\aRRa(5)}\fi&%
 				\checkaRRa(6)\let\rRR\cachedata\ifemptydata\relax\else\IfNVOETF{\rRR}{}{\num{\rRR}}\fi&%
 				\checkaRRa(7)\let\rRR\cachedata\ifemptydata\relax\else\IfNVOETF{\rRR}{}{\num{\rRR}\%}\fi&%
 				\checkaRRa(8)\let\rRR\cachedata\ifemptydata\relax\else\IfNVOETF{\rRR}{}{\num{\rRR} \euro}\fi&%
 				\IfNVOETF{\aRR}{}{\num{\aRR} \euro}\expandafter\\\fi%
 				\ifdefined\aRSa\rCa{\aRSa}&%
-				\checkaRSa(4)\let\rRS\cachedata\ifemptydata\relax\else\IfNVOETF{\rRS}{}{\num{\rRS}\ts{}\aRSa(5)}\fi&%
+				\checkaRSa(4)\let\rRS\cachedata\ifemptydata\relax\else\IfNVOETF{\rRS}{}{\num[round-precision=3]{\rRS}\ts{}\aRSa(5)}\fi&%
 				\checkaRSa(6)\let\rRS\cachedata\ifemptydata\relax\else\IfNVOETF{\rRS}{}{\num{\rRS}}\fi&%
 				\checkaRSa(7)\let\rRS\cachedata\ifemptydata\relax\else\IfNVOETF{\rRS}{}{\num{\rRS}\%}\fi&%
 				\checkaRSa(8)\let\rRS\cachedata\ifemptydata\relax\else\IfNVOETF{\rRS}{}{\num{\rRS} \euro}\fi&%
 				\IfNVOETF{\aRS}{}{\num{\aRS} \euro}\expandafter\\\fi%
 				\ifdefined\aRTa\rCa{\aRTa}&%
-				\checkaRTa(4)\let\rRT\cachedata\ifemptydata\relax\else\IfNVOETF{\rRT}{}{\num{\rRT}\ts{}\aRTa(5)}\fi&%
+				\checkaRTa(4)\let\rRT\cachedata\ifemptydata\relax\else\IfNVOETF{\rRT}{}{\num[round-precision=3]{\rRT}\ts{}\aRTa(5)}\fi&%
 				\checkaRTa(6)\let\rRT\cachedata\ifemptydata\relax\else\IfNVOETF{\rRT}{}{\num{\rRT}}\fi&%
 				\checkaRTa(7)\let\rRT\cachedata\ifemptydata\relax\else\IfNVOETF{\rRT}{}{\num{\rRT}\%}\fi&%
 				\checkaRTa(8)\let\rRT\cachedata\ifemptydata\relax\else\IfNVOETF{\rRT}{}{\num{\rRT} \euro}\fi&%
 				\IfNVOETF{\aRT}{}{\num{\aRT} \euro}\expandafter\\\fi%
 				\ifdefined\aRUa\rCa{\aRUa}&%
-				\checkaRUa(4)\let\rRU\cachedata\ifemptydata\relax\else\IfNVOETF{\rRU}{}{\num{\rRU}\ts{}\aRUa(5)}\fi&%
+				\checkaRUa(4)\let\rRU\cachedata\ifemptydata\relax\else\IfNVOETF{\rRU}{}{\num[round-precision=3]{\rRU}\ts{}\aRUa(5)}\fi&%
 				\checkaRUa(6)\let\rRU\cachedata\ifemptydata\relax\else\IfNVOETF{\rRU}{}{\num{\rRU}}\fi&%
 				\checkaRUa(7)\let\rRU\cachedata\ifemptydata\relax\else\IfNVOETF{\rRU}{}{\num{\rRU}\%}\fi&%
 				\checkaRUa(8)\let\rRU\cachedata\ifemptydata\relax\else\IfNVOETF{\rRU}{}{\num{\rRU} \euro}\fi&%
 				\IfNVOETF{\aRU}{}{\num{\aRU} \euro}\expandafter\\\fi%
 				\ifdefined\aRVa\rCa{\aRVa}&%
-				\checkaRVa(4)\let\rRV\cachedata\ifemptydata\relax\else\IfNVOETF{\rRV}{}{\num{\rRV}\ts{}\aRVa(5)}\fi&%
+				\checkaRVa(4)\let\rRV\cachedata\ifemptydata\relax\else\IfNVOETF{\rRV}{}{\num[round-precision=3]{\rRV}\ts{}\aRVa(5)}\fi&%
 				\checkaRVa(6)\let\rRV\cachedata\ifemptydata\relax\else\IfNVOETF{\rRV}{}{\num{\rRV}}\fi&%
 				\checkaRVa(7)\let\rRV\cachedata\ifemptydata\relax\else\IfNVOETF{\rRV}{}{\num{\rRV}\%}\fi&%
 				\checkaRVa(8)\let\rRV\cachedata\ifemptydata\relax\else\IfNVOETF{\rRV}{}{\num{\rRV} \euro}\fi&%
 				\IfNVOETF{\aRV}{}{\num{\aRV} \euro}\expandafter\\\fi%
 				\ifdefined\aRWa\rCa{\aRWa}&%
-				\checkaRWa(4)\let\rRW\cachedata\ifemptydata\relax\else\IfNVOETF{\rRW}{}{\num{\rRW}\ts{}\aRWa(5)}\fi&%
+				\checkaRWa(4)\let\rRW\cachedata\ifemptydata\relax\else\IfNVOETF{\rRW}{}{\num[round-precision=3]{\rRW}\ts{}\aRWa(5)}\fi&%
 				\checkaRWa(6)\let\rRW\cachedata\ifemptydata\relax\else\IfNVOETF{\rRW}{}{\num{\rRW}}\fi&%
 				\checkaRWa(7)\let\rRW\cachedata\ifemptydata\relax\else\IfNVOETF{\rRW}{}{\num{\rRW}\%}\fi&%
 				\checkaRWa(8)\let\rRW\cachedata\ifemptydata\relax\else\IfNVOETF{\rRW}{}{\num{\rRW} \euro}\fi&%
 				\IfNVOETF{\aRW}{}{\num{\aRW} \euro}\expandafter\\\fi%
 				\ifdefined\aRXa\rCa{\aRXa}&%
-				\checkaRXa(4)\let\rRX\cachedata\ifemptydata\relax\else\IfNVOETF{\rRX}{}{\num{\rRX}\ts{}\aRXa(5)}\fi&%
+				\checkaRXa(4)\let\rRX\cachedata\ifemptydata\relax\else\IfNVOETF{\rRX}{}{\num[round-precision=3]{\rRX}\ts{}\aRXa(5)}\fi&%
 				\checkaRXa(6)\let\rRX\cachedata\ifemptydata\relax\else\IfNVOETF{\rRX}{}{\num{\rRX}}\fi&%
 				\checkaRXa(7)\let\rRX\cachedata\ifemptydata\relax\else\IfNVOETF{\rRX}{}{\num{\rRX}\%}\fi&%
 				\checkaRXa(8)\let\rRX\cachedata\ifemptydata\relax\else\IfNVOETF{\rRX}{}{\num{\rRX} \euro}\fi&%
 				\IfNVOETF{\aRX}{}{\num{\aRX} \euro}\expandafter\\\fi%
 				\ifdefined\aRYa\rCa{\aRYa}&%
-				\checkaRYa(4)\let\rRY\cachedata\ifemptydata\relax\else\IfNVOETF{\rRY}{}{\num{\rRY}\ts{}\aRYa(5)}\fi&%
+				\checkaRYa(4)\let\rRY\cachedata\ifemptydata\relax\else\IfNVOETF{\rRY}{}{\num[round-precision=3]{\rRY}\ts{}\aRYa(5)}\fi&%
 				\checkaRYa(6)\let\rRY\cachedata\ifemptydata\relax\else\IfNVOETF{\rRY}{}{\num{\rRY}}\fi&%
 				\checkaRYa(7)\let\rRY\cachedata\ifemptydata\relax\else\IfNVOETF{\rRY}{}{\num{\rRY}\%}\fi&%
 				\checkaRYa(8)\let\rRY\cachedata\ifemptydata\relax\else\IfNVOETF{\rRY}{}{\num{\rRY} \euro}\fi&%
 				\IfNVOETF{\aRY}{}{\num{\aRY} \euro}\expandafter\\\fi%	
 				\ifdefined\aRZa\rCa{\aRZa}&%
-				\checkaRZa(4)\let\rRZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRZ}{}{\num{\rRZ}\ts{}\aRZa(5)}\fi&%
+				\checkaRZa(4)\let\rRZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRZ}{}{\num[round-precision=3]{\rRZ}\ts{}\aRZa(5)}\fi&%
 				\checkaRZa(6)\let\rRZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRZ}{}{\num{\rRZ}}\fi&%
 				\checkaRZa(7)\let\rRZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRZ}{}{\num{\rRZ}\%}\fi&%
 				\checkaRZa(8)\let\rRZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rRZ}{}{\num{\rRZ} \euro}\fi&%
@@ -4504,151 +4504,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aSAa\rCa{\aSAa}&%
-				\checkaSAa(4)\let\rSA\cachedata\ifemptydata\relax\else\IfNVOETF{\rSA}{}{\num{\rSA}\ts{}\aSAa(5)}\fi&%
+				\checkaSAa(4)\let\rSA\cachedata\ifemptydata\relax\else\IfNVOETF{\rSA}{}{\num[round-precision=3]{\rSA}\ts{}\aSAa(5)}\fi&%
 				\checkaSAa(6)\let\rSA\cachedata\ifemptydata\relax\else\IfNVOETF{\rSA}{}{\num{\rSA}}\fi&%
 				\checkaSAa(7)\let\rSA\cachedata\ifemptydata\relax\else\IfNVOETF{\rSA}{}{\num{\rSA}\%}\fi&%
 				\checkaSAa(8)\let\rSA\cachedata\ifemptydata\relax\else\IfNVOETF{\rSA}{}{\num{\rSA} \euro}\fi&%
 				\IfNVOETF{\aSA}{}{\num{\aSA} \euro}\expandafter\\\fi%
 				\ifdefined\aSBa\rCa{\aSBa}&%
-				\checkaSBa(4)\let\rSB\cachedata\ifemptydata\relax\else\IfNVOETF{\rSB}{}{\num{\rSB}\ts{}\aSBa(5)}\fi&%
+				\checkaSBa(4)\let\rSB\cachedata\ifemptydata\relax\else\IfNVOETF{\rSB}{}{\num[round-precision=3]{\rSB}\ts{}\aSBa(5)}\fi&%
 				\checkaSBa(6)\let\rSB\cachedata\ifemptydata\relax\else\IfNVOETF{\rSB}{}{\num{\rSB}}\fi&%
 				\checkaSBa(7)\let\rSB\cachedata\ifemptydata\relax\else\IfNVOETF{\rSB}{}{\num{\rSB}\%}\fi&%
 				\checkaSBa(8)\let\rSB\cachedata\ifemptydata\relax\else\IfNVOETF{\rSB}{}{\num{\rSB} \euro}\fi&%
 				\IfNVOETF{\aSB}{}{\num{\aSB} \euro}\expandafter\\\fi%
 				\ifdefined\aSCa\rCa{\aSCa}&%
-				\checkaSCa(4)\let\rSC\cachedata\ifemptydata\relax\else\IfNVOETF{\rSC}{}{\num{\rSC}\ts{}\aSCa(5)}\fi&%
+				\checkaSCa(4)\let\rSC\cachedata\ifemptydata\relax\else\IfNVOETF{\rSC}{}{\num[round-precision=3]{\rSC}\ts{}\aSCa(5)}\fi&%
 				\checkaSCa(6)\let\rSC\cachedata\ifemptydata\relax\else\IfNVOETF{\rSC}{}{\num{\rSC}}\fi&%
 				\checkaSCa(7)\let\rSC\cachedata\ifemptydata\relax\else\IfNVOETF{\rSC}{}{\num{\rSC}\%}\fi&%
 				\checkaSCa(8)\let\rSC\cachedata\ifemptydata\relax\else\IfNVOETF{\rSC}{}{\num{\rSC} \euro}\fi&%
 				\IfNVOETF{\aSC}{}{\num{\aSC} \euro}\expandafter\\\fi%
 				\ifdefined\aSDa\rCa{\aSDa}&%
-				\checkaSDa(4)\let\rSD\cachedata\ifemptydata\relax\else\IfNVOETF{\rSD}{}{\num{\rSD}\ts{}\aSDa(5)}\fi&%
+				\checkaSDa(4)\let\rSD\cachedata\ifemptydata\relax\else\IfNVOETF{\rSD}{}{\num[round-precision=3]{\rSD}\ts{}\aSDa(5)}\fi&%
 				\checkaSDa(6)\let\rSD\cachedata\ifemptydata\relax\else\IfNVOETF{\rSD}{}{\num{\rSD}}\fi&%
 				\checkaSDa(7)\let\rSD\cachedata\ifemptydata\relax\else\IfNVOETF{\rSD}{}{\num{\rSD}\%}\fi&%
 				\checkaSDa(8)\let\rSD\cachedata\ifemptydata\relax\else\IfNVOETF{\rSD}{}{\num{\rSD} \euro}\fi&%
 				\IfNVOETF{\aSD}{}{\num{\aSD} \euro}\expandafter\\\fi%
 				\ifdefined\aSEa\rCa{\aSEa}&%
-				\checkaSEa(4)\let\rSE\cachedata\ifemptydata\relax\else\IfNVOETF{\rSE}{}{\num{\rSE}\ts{}\aSEa(5)}\fi&%
+				\checkaSEa(4)\let\rSE\cachedata\ifemptydata\relax\else\IfNVOETF{\rSE}{}{\num[round-precision=3]{\rSE}\ts{}\aSEa(5)}\fi&%
 				\checkaSEa(6)\let\rSE\cachedata\ifemptydata\relax\else\IfNVOETF{\rSE}{}{\num{\rSE}}\fi&%
 				\checkaSEa(7)\let\rSE\cachedata\ifemptydata\relax\else\IfNVOETF{\rSE}{}{\num{\rSE}\%}\fi&%
 				\checkaSEa(8)\let\rSE\cachedata\ifemptydata\relax\else\IfNVOETF{\rSE}{}{\num{\rSE} \euro}\fi&%
 				\IfNVOETF{\aSE}{}{\num{\aSE} \euro}\expandafter\\\fi%
 				\ifdefined\aSFa\rCa{\aSFa}&%
-				\checkaSFa(4)\let\rSF\cachedata\ifemptydata\relax\else\IfNVOETF{\rSF}{}{\num{\rSF}\ts{}\aSFa(5)}\fi&%
+				\checkaSFa(4)\let\rSF\cachedata\ifemptydata\relax\else\IfNVOETF{\rSF}{}{\num[round-precision=3]{\rSF}\ts{}\aSFa(5)}\fi&%
 				\checkaSFa(6)\let\rSF\cachedata\ifemptydata\relax\else\IfNVOETF{\rSF}{}{\num{\rSF}}\fi&%
 				\checkaSFa(7)\let\rSF\cachedata\ifemptydata\relax\else\IfNVOETF{\rSF}{}{\num{\rSF}\%}\fi&%
 				\checkaSFa(8)\let\rSF\cachedata\ifemptydata\relax\else\IfNVOETF{\rSF}{}{\num{\rSF} \euro}\fi&%
 				\IfNVOETF{\aSF}{}{\num{\aSF} \euro}\expandafter\\\fi%
 				\ifdefined\aSGa\rCa{\aSGa}&%
-				\checkaSGa(4)\let\rSG\cachedata\ifemptydata\relax\else\IfNVOETF{\rSG}{}{\num{\rSG}\ts{}\aSGa(5)}\fi&%
+				\checkaSGa(4)\let\rSG\cachedata\ifemptydata\relax\else\IfNVOETF{\rSG}{}{\num[round-precision=3]{\rSG}\ts{}\aSGa(5)}\fi&%
 				\checkaSGa(6)\let\rSG\cachedata\ifemptydata\relax\else\IfNVOETF{\rSG}{}{\num{\rSG}}\fi&%
 				\checkaSGa(7)\let\rSG\cachedata\ifemptydata\relax\else\IfNVOETF{\rSG}{}{\num{\rSG}\%}\fi&%
 				\checkaSGa(8)\let\rSG\cachedata\ifemptydata\relax\else\IfNVOETF{\rSG}{}{\num{\rSG} \euro}\fi&%
 				\IfNVOETF{\aSG}{}{\num{\aSG} \euro}\expandafter\\\fi%
 				\ifdefined\aSIa\rCa{\aSIa}&%
-				\checkaSIa(4)\let\rSI\cachedata\ifemptydata\relax\else\IfNVOETF{\rSI}{}{\num{\rSI}\ts{}\aSIa(5)}\fi&%
+				\checkaSIa(4)\let\rSI\cachedata\ifemptydata\relax\else\IfNVOETF{\rSI}{}{\num[round-precision=3]{\rSI}\ts{}\aSIa(5)}\fi&%
 				\checkaSIa(6)\let\rSI\cachedata\ifemptydata\relax\else\IfNVOETF{\rSI}{}{\num{\rSI}}\fi&%
 				\checkaSIa(7)\let\rSI\cachedata\ifemptydata\relax\else\IfNVOETF{\rSI}{}{\num{\rSI}\%}\fi&%
 				\checkaSIa(8)\let\rSI\cachedata\ifemptydata\relax\else\IfNVOETF{\rSI}{}{\num{\rSI} \euro}\fi&%
 				\IfNVOETF{\aSI}{}{\num{\aSI} \euro}\expandafter\\\fi%
 				\ifdefined\aSJa\rCa{\aSJa}&%
-				\checkaSJa(4)\let\rSJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSJ}{}{\num{\rSJ}\ts{}\aSJa(5)}\fi&%
+				\checkaSJa(4)\let\rSJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSJ}{}{\num[round-precision=3]{\rSJ}\ts{}\aSJa(5)}\fi&%
 				\checkaSJa(6)\let\rSJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSJ}{}{\num{\rSJ}}\fi&%
 				\checkaSJa(7)\let\rSJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSJ}{}{\num{\rSJ}\%}\fi&%
 				\checkaSJa(8)\let\rSJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSJ}{}{\num{\rSJ} \euro}\fi&%
 				\IfNVOETF{\aSJ}{}{\num{\aSJ} \euro}\expandafter\\\fi%
 				\ifdefined\aSKa\rCa{\aSKa}&%
-				\checkaSKa(4)\let\rSK\cachedata\ifemptydata\relax\else\IfNVOETF{\rSK}{}{\num{\rSK}\ts{}\aSKa(5)}\fi&%
+				\checkaSKa(4)\let\rSK\cachedata\ifemptydata\relax\else\IfNVOETF{\rSK}{}{\num[round-precision=3]{\rSK}\ts{}\aSKa(5)}\fi&%
 				\checkaSKa(6)\let\rSK\cachedata\ifemptydata\relax\else\IfNVOETF{\rSK}{}{\num{\rSK}}\fi&%
 				\checkaSKa(7)\let\rSK\cachedata\ifemptydata\relax\else\IfNVOETF{\rSK}{}{\num{\rSK}\%}\fi&%
 				\checkaSKa(8)\let\rSK\cachedata\ifemptydata\relax\else\IfNVOETF{\rSK}{}{\num{\rSK} \euro}\fi&%
 				\IfNVOETF{\aSK}{}{\num{\aSK} \euro}\expandafter\\\fi%
 				\ifdefined\aSLa\rCa{\aSLa}&%
-				\checkaSLa(4)\let\rSL\cachedata\ifemptydata\relax\else\IfNVOETF{\rSL}{}{\num{\rSL}\ts{}\aSLa(5)}\fi&%
+				\checkaSLa(4)\let\rSL\cachedata\ifemptydata\relax\else\IfNVOETF{\rSL}{}{\num[round-precision=3]{\rSL}\ts{}\aSLa(5)}\fi&%
 				\checkaSLa(6)\let\rSL\cachedata\ifemptydata\relax\else\IfNVOETF{\rSL}{}{\num{\rSL}}\fi&%
 				\checkaSLa(7)\let\rSL\cachedata\ifemptydata\relax\else\IfNVOETF{\rSL}{}{\num{\rSL}\%}\fi&%
 				\checkaSLa(8)\let\rSL\cachedata\ifemptydata\relax\else\IfNVOETF{\rSL}{}{\num{\rSL} \euro}\fi&%
 				\IfNVOETF{\aSL}{}{\num{\aSL} \euro}\expandafter\\\fi%
 				\ifdefined\aSMa\rCa{\aSMa}&%
-				\checkaSMa(4)\let\rSM\cachedata\ifemptydata\relax\else\IfNVOETF{\rSM}{}{\num{\rSM}\ts{}\aSMa(5)}\fi&%
+				\checkaSMa(4)\let\rSM\cachedata\ifemptydata\relax\else\IfNVOETF{\rSM}{}{\num[round-precision=3]{\rSM}\ts{}\aSMa(5)}\fi&%
 				\checkaSMa(6)\let\rSM\cachedata\ifemptydata\relax\else\IfNVOETF{\rSM}{}{\num{\rSM}}\fi&%
 				\checkaSMa(7)\let\rSM\cachedata\ifemptydata\relax\else\IfNVOETF{\rSM}{}{\num{\rSM}\%}\fi&%
 				\checkaSMa(8)\let\rSM\cachedata\ifemptydata\relax\else\IfNVOETF{\rSM}{}{\num{\rSM} \euro}\fi&%
 				\IfNVOETF{\aSM}{}{\num{\aSM} \euro}\expandafter\\\fi%
 				\ifdefined\aSNa\rCa{\aSNa}&%
-				\checkaSNa(4)\let\rSN\cachedata\ifemptydata\relax\else\IfNVOETF{\rSN}{}{\num{\rSN}\ts{}\aSNa(5)}\fi&%
+				\checkaSNa(4)\let\rSN\cachedata\ifemptydata\relax\else\IfNVOETF{\rSN}{}{\num[round-precision=3]{\rSN}\ts{}\aSNa(5)}\fi&%
 				\checkaSNa(6)\let\rSN\cachedata\ifemptydata\relax\else\IfNVOETF{\rSN}{}{\num{\rSN}}\fi&%
 				\checkaSNa(7)\let\rSN\cachedata\ifemptydata\relax\else\IfNVOETF{\rSN}{}{\num{\rSN}\%}\fi&%
 				\checkaSNa(8)\let\rSN\cachedata\ifemptydata\relax\else\IfNVOETF{\rSN}{}{\num{\rSN} \euro}\fi&%
 				\IfNVOETF{\aSN}{}{\num{\aSN} \euro}\expandafter\\\fi%
 				\ifdefined\aSOa\rCa{\aSOa}&%
-				\checkaSOa(4)\let\rSO\cachedata\ifemptydata\relax\else\IfNVOETF{\rSO}{}{\num{\rSO}\ts{}\aSOa(5)}\fi&%
+				\checkaSOa(4)\let\rSO\cachedata\ifemptydata\relax\else\IfNVOETF{\rSO}{}{\num[round-precision=3]{\rSO}\ts{}\aSOa(5)}\fi&%
 				\checkaSOa(6)\let\rSO\cachedata\ifemptydata\relax\else\IfNVOETF{\rSO}{}{\num{\rSO}}\fi&%
 				\checkaSOa(7)\let\rSO\cachedata\ifemptydata\relax\else\IfNVOETF{\rSO}{}{\num{\rSO}\%}\fi&%
 				\checkaSOa(8)\let\rSO\cachedata\ifemptydata\relax\else\IfNVOETF{\rSO}{}{\num{\rSO} \euro}\fi&%
 				\IfNVOETF{\aSO}{}{\num{\aSO} \euro}\expandafter\\\fi%
 				\ifdefined\aSPa\rCa{\aSPa}&%
-				\checkaSPa(4)\let\rSP\cachedata\ifemptydata\relax\else\IfNVOETF{\rSP}{}{\num{\rSP}\ts{}\aSPa(5)}\fi&%
+				\checkaSPa(4)\let\rSP\cachedata\ifemptydata\relax\else\IfNVOETF{\rSP}{}{\num[round-precision=3]{\rSP}\ts{}\aSPa(5)}\fi&%
 				\checkaSPa(6)\let\rSP\cachedata\ifemptydata\relax\else\IfNVOETF{\rSP}{}{\num{\rSP}}\fi&%
 				\checkaSPa(7)\let\rSP\cachedata\ifemptydata\relax\else\IfNVOETF{\rSP}{}{\num{\rSP}\%}\fi&%
 				\checkaSPa(8)\let\rSP\cachedata\ifemptydata\relax\else\IfNVOETF{\rSP}{}{\num{\rSP} \euro}\fi&%
 				\IfNVOETF{\aSP}{}{\num{\aSP} \euro}\expandafter\\\fi%
 				\ifdefined\aSQa\rCa{\aSQa}&%
-				\checkaSQa(4)\let\rSQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSQ}{}{\num{\rSQ}\ts{}\aSQa(5)}\fi&%
+				\checkaSQa(4)\let\rSQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSQ}{}{\num[round-precision=3]{\rSQ}\ts{}\aSQa(5)}\fi&%
 				\checkaSQa(6)\let\rSQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSQ}{}{\num{\rSQ}}\fi&%
 				\checkaSQa(7)\let\rSQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSQ}{}{\num{\rSQ}\%}\fi&%
 				\checkaSQa(8)\let\rSQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSQ}{}{\num{\rSQ} \euro}\fi&%
 				\IfNVOETF{\aSQ}{}{\num{\aSQ} \euro}\expandafter\\\fi%
 				\ifdefined\aSRa\rCa{\aSRa}&%
-				\checkaSRa(4)\let\rSR\cachedata\ifemptydata\relax\else\IfNVOETF{\rSR}{}{\num{\rSR}\ts{}\aSRa(5)}\fi&%
+				\checkaSRa(4)\let\rSR\cachedata\ifemptydata\relax\else\IfNVOETF{\rSR}{}{\num[round-precision=3]{\rSR}\ts{}\aSRa(5)}\fi&%
 				\checkaSRa(6)\let\rSR\cachedata\ifemptydata\relax\else\IfNVOETF{\rSR}{}{\num{\rSR}}\fi&%
 				\checkaSRa(7)\let\rSR\cachedata\ifemptydata\relax\else\IfNVOETF{\rSR}{}{\num{\rSR}\%}\fi&%
 				\checkaSRa(8)\let\rSR\cachedata\ifemptydata\relax\else\IfNVOETF{\rSR}{}{\num{\rSR} \euro}\fi&%
 				\IfNVOETF{\aSR}{}{\num{\aSR} \euro}\expandafter\\\fi%
 				\ifdefined\aSSa\rCa{\aSSa}&%
-				\checkaSSa(4)\let\rSS\cachedata\ifemptydata\relax\else\IfNVOETF{\rSS}{}{\num{\rSS}\ts{}\aSSa(5)}\fi&%
+				\checkaSSa(4)\let\rSS\cachedata\ifemptydata\relax\else\IfNVOETF{\rSS}{}{\num[round-precision=3]{\rSS}\ts{}\aSSa(5)}\fi&%
 				\checkaSSa(6)\let\rSS\cachedata\ifemptydata\relax\else\IfNVOETF{\rSS}{}{\num{\rSS}}\fi&%
 				\checkaSSa(7)\let\rSS\cachedata\ifemptydata\relax\else\IfNVOETF{\rSS}{}{\num{\rSS}\%}\fi&%
 				\checkaSSa(8)\let\rSS\cachedata\ifemptydata\relax\else\IfNVOETF{\rSS}{}{\num{\rSS} \euro}\fi&%
 				\IfNVOETF{\aSS}{}{\num{\aSS} \euro}\expandafter\\\fi%
 				\ifdefined\aSTa\rCa{\aSTa}&%
-				\checkaSTa(4)\let\rST\cachedata\ifemptydata\relax\else\IfNVOETF{\rST}{}{\num{\rST}\ts{}\aSTa(5)}\fi&%
+				\checkaSTa(4)\let\rST\cachedata\ifemptydata\relax\else\IfNVOETF{\rST}{}{\num[round-precision=3]{\rST}\ts{}\aSTa(5)}\fi&%
 				\checkaSTa(6)\let\rST\cachedata\ifemptydata\relax\else\IfNVOETF{\rST}{}{\num{\rST}}\fi&%
 				\checkaSTa(7)\let\rST\cachedata\ifemptydata\relax\else\IfNVOETF{\rST}{}{\num{\rST}\%}\fi&%
 				\checkaSTa(8)\let\rST\cachedata\ifemptydata\relax\else\IfNVOETF{\rST}{}{\num{\rST} \euro}\fi&%
 				\IfNVOETF{\aST}{}{\num{\aST} \euro}\expandafter\\\fi%
 				\ifdefined\aSUa\rCa{\aSUa}&%
-				\checkaSUa(4)\let\rSU\cachedata\ifemptydata\relax\else\IfNVOETF{\rSU}{}{\num{\rSU}\ts{}\aSUa(5)}\fi&%
+				\checkaSUa(4)\let\rSU\cachedata\ifemptydata\relax\else\IfNVOETF{\rSU}{}{\num[round-precision=3]{\rSU}\ts{}\aSUa(5)}\fi&%
 				\checkaSUa(6)\let\rSU\cachedata\ifemptydata\relax\else\IfNVOETF{\rSU}{}{\num{\rSU}}\fi&%
 				\checkaSUa(7)\let\rSU\cachedata\ifemptydata\relax\else\IfNVOETF{\rSU}{}{\num{\rSU}\%}\fi&%
 				\checkaSUa(8)\let\rSU\cachedata\ifemptydata\relax\else\IfNVOETF{\rSU}{}{\num{\rSU} \euro}\fi&%
 				\IfNVOETF{\aSU}{}{\num{\aSU} \euro}\expandafter\\\fi%
 				\ifdefined\aSVa\rCa{\aSVa}&%
-				\checkaSVa(4)\let\rSV\cachedata\ifemptydata\relax\else\IfNVOETF{\rSV}{}{\num{\rSV}\ts{}\aSVa(5)}\fi&%
+				\checkaSVa(4)\let\rSV\cachedata\ifemptydata\relax\else\IfNVOETF{\rSV}{}{\num[round-precision=3]{\rSV}\ts{}\aSVa(5)}\fi&%
 				\checkaSVa(6)\let\rSV\cachedata\ifemptydata\relax\else\IfNVOETF{\rSV}{}{\num{\rSV}}\fi&%
 				\checkaSVa(7)\let\rSV\cachedata\ifemptydata\relax\else\IfNVOETF{\rSV}{}{\num{\rSV}\%}\fi&%
 				\checkaSVa(8)\let\rSV\cachedata\ifemptydata\relax\else\IfNVOETF{\rSV}{}{\num{\rSV} \euro}\fi&%
 				\IfNVOETF{\aSV}{}{\num{\aSV} \euro}\expandafter\\\fi%
 				\ifdefined\aSWa\rCa{\aSWa}&%
-				\checkaSWa(4)\let\rSW\cachedata\ifemptydata\relax\else\IfNVOETF{\rSW}{}{\num{\rSW}\ts{}\aSWa(5)}\fi&%
+				\checkaSWa(4)\let\rSW\cachedata\ifemptydata\relax\else\IfNVOETF{\rSW}{}{\num[round-precision=3]{\rSW}\ts{}\aSWa(5)}\fi&%
 				\checkaSWa(6)\let\rSW\cachedata\ifemptydata\relax\else\IfNVOETF{\rSW}{}{\num{\rSW}}\fi&%
 				\checkaSWa(7)\let\rSW\cachedata\ifemptydata\relax\else\IfNVOETF{\rSW}{}{\num{\rSW}\%}\fi&%
 				\checkaSWa(8)\let\rSW\cachedata\ifemptydata\relax\else\IfNVOETF{\rSW}{}{\num{\rSW} \euro}\fi&%
 				\IfNVOETF{\aSW}{}{\num{\aSW} \euro}\expandafter\\\fi%
 				\ifdefined\aSXa\rCa{\aSXa}&%
-				\checkaSXa(4)\let\rSX\cachedata\ifemptydata\relax\else\IfNVOETF{\rSX}{}{\num{\rSX}\ts{}\aSXa(5)}\fi&%
+				\checkaSXa(4)\let\rSX\cachedata\ifemptydata\relax\else\IfNVOETF{\rSX}{}{\num[round-precision=3]{\rSX}\ts{}\aSXa(5)}\fi&%
 				\checkaSXa(6)\let\rSX\cachedata\ifemptydata\relax\else\IfNVOETF{\rSX}{}{\num{\rSX}}\fi&%
 				\checkaSXa(7)\let\rSX\cachedata\ifemptydata\relax\else\IfNVOETF{\rSX}{}{\num{\rSX}\%}\fi&%
 				\checkaSXa(8)\let\rSX\cachedata\ifemptydata\relax\else\IfNVOETF{\rSX}{}{\num{\rSX} \euro}\fi&%
 				\IfNVOETF{\aSX}{}{\num{\aSX} \euro}\expandafter\\\fi%
 				\ifdefined\aSYa\rCa{\aSYa}&%
-				\checkaSYa(4)\let\rSY\cachedata\ifemptydata\relax\else\IfNVOETF{\rSY}{}{\num{\rSY}\ts{}\aSYa(5)}\fi&%
+				\checkaSYa(4)\let\rSY\cachedata\ifemptydata\relax\else\IfNVOETF{\rSY}{}{\num[round-precision=3]{\rSY}\ts{}\aSYa(5)}\fi&%
 				\checkaSYa(6)\let\rSY\cachedata\ifemptydata\relax\else\IfNVOETF{\rSY}{}{\num{\rSY}}\fi&%
 				\checkaSYa(7)\let\rSY\cachedata\ifemptydata\relax\else\IfNVOETF{\rSY}{}{\num{\rSY}\%}\fi&%
 				\checkaSYa(8)\let\rSY\cachedata\ifemptydata\relax\else\IfNVOETF{\rSY}{}{\num{\rSY} \euro}\fi&%
 				\IfNVOETF{\aSY}{}{\num{\aSY} \euro}\expandafter\\\fi%	
 				\ifdefined\aSZa\rCa{\aSZa}&%
-				\checkaSZa(4)\let\rSZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSZ}{}{\num{\rSZ}\ts{}\aSZa(5)}\fi&%
+				\checkaSZa(4)\let\rSZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSZ}{}{\num[round-precision=3]{\rSZ}\ts{}\aSZa(5)}\fi&%
 				\checkaSZa(6)\let\rSZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSZ}{}{\num{\rSZ}}\fi&%
 				\checkaSZa(7)\let\rSZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSZ}{}{\num{\rSZ}\%}\fi&%
 				\checkaSZa(8)\let\rSZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rSZ}{}{\num{\rSZ} \euro}\fi&%
@@ -4663,151 +4663,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aTAa\rCa{\aTAa}&%
-				\checkaTAa(4)\let\rTA\cachedata\ifemptydata\relax\else\IfNVOETF{\rTA}{}{\num{\rTA}\ts{}\aTAa(5)}\fi&%
+				\checkaTAa(4)\let\rTA\cachedata\ifemptydata\relax\else\IfNVOETF{\rTA}{}{\num[round-precision=3]{\rTA}\ts{}\aTAa(5)}\fi&%
 				\checkaTAa(6)\let\rTA\cachedata\ifemptydata\relax\else\IfNVOETF{\rTA}{}{\num{\rTA}}\fi&%
 				\checkaTAa(7)\let\rTA\cachedata\ifemptydata\relax\else\IfNVOETF{\rTA}{}{\num{\rTA}\%}\fi&%
 				\checkaTAa(8)\let\rTA\cachedata\ifemptydata\relax\else\IfNVOETF{\rTA}{}{\num{\rTA} \euro}\fi&%
 				\IfNVOETF{\aTA}{}{\num{\aTA} \euro}\expandafter\\\fi%
 				\ifdefined\aTBa\rCa{\aTBa}&%
-				\checkaTBa(4)\let\rTB\cachedata\ifemptydata\relax\else\IfNVOETF{\rTB}{}{\num{\rTB}\ts{}\aTBa(5)}\fi&%
+				\checkaTBa(4)\let\rTB\cachedata\ifemptydata\relax\else\IfNVOETF{\rTB}{}{\num[round-precision=3]{\rTB}\ts{}\aTBa(5)}\fi&%
 				\checkaTBa(6)\let\rTB\cachedata\ifemptydata\relax\else\IfNVOETF{\rTB}{}{\num{\rTB}}\fi&%
 				\checkaTBa(7)\let\rTB\cachedata\ifemptydata\relax\else\IfNVOETF{\rTB}{}{\num{\rTB}\%}\fi&%
 				\checkaTBa(8)\let\rTB\cachedata\ifemptydata\relax\else\IfNVOETF{\rTB}{}{\num{\rTB} \euro}\fi&%
 				\IfNVOETF{\aTB}{}{\num{\aTB} \euro}\expandafter\\\fi%
 				\ifdefined\aTCa\rCa{\aTCa}&%
-				\checkaTCa(4)\let\rTC\cachedata\ifemptydata\relax\else\IfNVOETF{\rTC}{}{\num{\rTC}\ts{}\aTCa(5)}\fi&%
+				\checkaTCa(4)\let\rTC\cachedata\ifemptydata\relax\else\IfNVOETF{\rTC}{}{\num[round-precision=3]{\rTC}\ts{}\aTCa(5)}\fi&%
 				\checkaTCa(6)\let\rTC\cachedata\ifemptydata\relax\else\IfNVOETF{\rTC}{}{\num{\rTC}}\fi&%
 				\checkaTCa(7)\let\rTC\cachedata\ifemptydata\relax\else\IfNVOETF{\rTC}{}{\num{\rTC}\%}\fi&%
 				\checkaTCa(8)\let\rTC\cachedata\ifemptydata\relax\else\IfNVOETF{\rTC}{}{\num{\rTC} \euro}\fi&%
 				\IfNVOETF{\aTC}{}{\num{\aTC} \euro}\expandafter\\\fi%
 				\ifdefined\aTDa\rCa{\aTDa}&%
-				\checkaTDa(4)\let\rTD\cachedata\ifemptydata\relax\else\IfNVOETF{\rTD}{}{\num{\rTD}\ts{}\aTDa(5)}\fi&%
+				\checkaTDa(4)\let\rTD\cachedata\ifemptydata\relax\else\IfNVOETF{\rTD}{}{\num[round-precision=3]{\rTD}\ts{}\aTDa(5)}\fi&%
 				\checkaTDa(6)\let\rTD\cachedata\ifemptydata\relax\else\IfNVOETF{\rTD}{}{\num{\rTD}}\fi&%
 				\checkaTDa(7)\let\rTD\cachedata\ifemptydata\relax\else\IfNVOETF{\rTD}{}{\num{\rTD}\%}\fi&%
 				\checkaTDa(8)\let\rTD\cachedata\ifemptydata\relax\else\IfNVOETF{\rTD}{}{\num{\rTD} \euro}\fi&%
 				\IfNVOETF{\aTD}{}{\num{\aTD} \euro}\expandafter\\\fi%
 				\ifdefined\aTEa\rCa{\aTEa}&%
-				\checkaTEa(4)\let\rTE\cachedata\ifemptydata\relax\else\IfNVOETF{\rTE}{}{\num{\rTE}\ts{}\aTEa(5)}\fi&%
+				\checkaTEa(4)\let\rTE\cachedata\ifemptydata\relax\else\IfNVOETF{\rTE}{}{\num[round-precision=3]{\rTE}\ts{}\aTEa(5)}\fi&%
 				\checkaTEa(6)\let\rTE\cachedata\ifemptydata\relax\else\IfNVOETF{\rTE}{}{\num{\rTE}}\fi&%
 				\checkaTEa(7)\let\rTE\cachedata\ifemptydata\relax\else\IfNVOETF{\rTE}{}{\num{\rTE}\%}\fi&%
 				\checkaTEa(8)\let\rTE\cachedata\ifemptydata\relax\else\IfNVOETF{\rTE}{}{\num{\rTE} \euro}\fi&%
 				\IfNVOETF{\aTE}{}{\num{\aTE} \euro}\expandafter\\\fi%
 				\ifdefined\aTFa\rCa{\aTFa}&%
-				\checkaTFa(4)\let\rTF\cachedata\ifemptydata\relax\else\IfNVOETF{\rTF}{}{\num{\rTF}\ts{}\aTFa(5)}\fi&%
+				\checkaTFa(4)\let\rTF\cachedata\ifemptydata\relax\else\IfNVOETF{\rTF}{}{\num[round-precision=3]{\rTF}\ts{}\aTFa(5)}\fi&%
 				\checkaTFa(6)\let\rTF\cachedata\ifemptydata\relax\else\IfNVOETF{\rTF}{}{\num{\rTF}}\fi&%
 				\checkaTFa(7)\let\rTF\cachedata\ifemptydata\relax\else\IfNVOETF{\rTF}{}{\num{\rTF}\%}\fi&%
 				\checkaTFa(8)\let\rTF\cachedata\ifemptydata\relax\else\IfNVOETF{\rTF}{}{\num{\rTF} \euro}\fi&%
 				\IfNVOETF{\aTF}{}{\num{\aTF} \euro}\expandafter\\\fi%
 				\ifdefined\aTGa\rCa{\aTGa}&%
-				\checkaTGa(4)\let\rTG\cachedata\ifemptydata\relax\else\IfNVOETF{\rTG}{}{\num{\rTG}\ts{}\aTGa(5)}\fi&%
+				\checkaTGa(4)\let\rTG\cachedata\ifemptydata\relax\else\IfNVOETF{\rTG}{}{\num[round-precision=3]{\rTG}\ts{}\aTGa(5)}\fi&%
 				\checkaTGa(6)\let\rTG\cachedata\ifemptydata\relax\else\IfNVOETF{\rTG}{}{\num{\rTG}}\fi&%
 				\checkaTGa(7)\let\rTG\cachedata\ifemptydata\relax\else\IfNVOETF{\rTG}{}{\num{\rTG}\%}\fi&%
 				\checkaTGa(8)\let\rTG\cachedata\ifemptydata\relax\else\IfNVOETF{\rTG}{}{\num{\rTG} \euro}\fi&%
 				\IfNVOETF{\aTG}{}{\num{\aTG} \euro}\expandafter\\\fi%
 				\ifdefined\aTIa\rCa{\aTIa}&%
-				\checkaTIa(4)\let\rTI\cachedata\ifemptydata\relax\else\IfNVOETF{\rTI}{}{\num{\rTI}\ts{}\aTIa(5)}\fi&%
+				\checkaTIa(4)\let\rTI\cachedata\ifemptydata\relax\else\IfNVOETF{\rTI}{}{\num[round-precision=3]{\rTI}\ts{}\aTIa(5)}\fi&%
 				\checkaTIa(6)\let\rTI\cachedata\ifemptydata\relax\else\IfNVOETF{\rTI}{}{\num{\rTI}}\fi&%
 				\checkaTIa(7)\let\rTI\cachedata\ifemptydata\relax\else\IfNVOETF{\rTI}{}{\num{\rTI}\%}\fi&%
 				\checkaTIa(8)\let\rTI\cachedata\ifemptydata\relax\else\IfNVOETF{\rTI}{}{\num{\rTI} \euro}\fi&%
 				\IfNVOETF{\aTI}{}{\num{\aTI} \euro}\expandafter\\\fi%
 				\ifdefined\aTJa\rCa{\aTJa}&%
-				\checkaTJa(4)\let\rTJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTJ}{}{\num{\rTJ}\ts{}\aTJa(5)}\fi&%
+				\checkaTJa(4)\let\rTJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTJ}{}{\num[round-precision=3]{\rTJ}\ts{}\aTJa(5)}\fi&%
 				\checkaTJa(6)\let\rTJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTJ}{}{\num{\rTJ}}\fi&%
 				\checkaTJa(7)\let\rTJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTJ}{}{\num{\rTJ}\%}\fi&%
 				\checkaTJa(8)\let\rTJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTJ}{}{\num{\rTJ} \euro}\fi&%
 				\IfNVOETF{\aTJ}{}{\num{\aTJ} \euro}\expandafter\\\fi%
 				\ifdefined\aTKa\rCa{\aTKa}&%
-				\checkaTKa(4)\let\rTK\cachedata\ifemptydata\relax\else\IfNVOETF{\rTK}{}{\num{\rTK}\ts{}\aTKa(5)}\fi&%
+				\checkaTKa(4)\let\rTK\cachedata\ifemptydata\relax\else\IfNVOETF{\rTK}{}{\num[round-precision=3]{\rTK}\ts{}\aTKa(5)}\fi&%
 				\checkaTKa(6)\let\rTK\cachedata\ifemptydata\relax\else\IfNVOETF{\rTK}{}{\num{\rTK}}\fi&%
 				\checkaTKa(7)\let\rTK\cachedata\ifemptydata\relax\else\IfNVOETF{\rTK}{}{\num{\rTK}\%}\fi&%
 				\checkaTKa(8)\let\rTK\cachedata\ifemptydata\relax\else\IfNVOETF{\rTK}{}{\num{\rTK} \euro}\fi&%
 				\IfNVOETF{\aTK}{}{\num{\aTK} \euro}\expandafter\\\fi%
 				\ifdefined\aTLa\rCa{\aTLa}&%
-				\checkaTLa(4)\let\rTL\cachedata\ifemptydata\relax\else\IfNVOETF{\rTL}{}{\num{\rTL}\ts{}\aTLa(5)}\fi&%
+				\checkaTLa(4)\let\rTL\cachedata\ifemptydata\relax\else\IfNVOETF{\rTL}{}{\num[round-precision=3]{\rTL}\ts{}\aTLa(5)}\fi&%
 				\checkaTLa(6)\let\rTL\cachedata\ifemptydata\relax\else\IfNVOETF{\rTL}{}{\num{\rTL}}\fi&%
 				\checkaTLa(7)\let\rTL\cachedata\ifemptydata\relax\else\IfNVOETF{\rTL}{}{\num{\rTL}\%}\fi&%
 				\checkaTLa(8)\let\rTL\cachedata\ifemptydata\relax\else\IfNVOETF{\rTL}{}{\num{\rTL} \euro}\fi&%
 				\IfNVOETF{\aTL}{}{\num{\aTL} \euro}\expandafter\\\fi%
 				\ifdefined\aTMa\rCa{\aTMa}&%
-				\checkaTMa(4)\let\rTM\cachedata\ifemptydata\relax\else\IfNVOETF{\rTM}{}{\num{\rTM}\ts{}\aTMa(5)}\fi&%
+				\checkaTMa(4)\let\rTM\cachedata\ifemptydata\relax\else\IfNVOETF{\rTM}{}{\num[round-precision=3]{\rTM}\ts{}\aTMa(5)}\fi&%
 				\checkaTMa(6)\let\rTM\cachedata\ifemptydata\relax\else\IfNVOETF{\rTM}{}{\num{\rTM}}\fi&%
 				\checkaTMa(7)\let\rTM\cachedata\ifemptydata\relax\else\IfNVOETF{\rTM}{}{\num{\rTM}\%}\fi&%
 				\checkaTMa(8)\let\rTM\cachedata\ifemptydata\relax\else\IfNVOETF{\rTM}{}{\num{\rTM} \euro}\fi&%
 				\IfNVOETF{\aTM}{}{\num{\aTM} \euro}\expandafter\\\fi%
 				\ifdefined\aTNa\rCa{\aTNa}&%
-				\checkaTNa(4)\let\rTN\cachedata\ifemptydata\relax\else\IfNVOETF{\rTN}{}{\num{\rTN}\ts{}\aTNa(5)}\fi&%
+				\checkaTNa(4)\let\rTN\cachedata\ifemptydata\relax\else\IfNVOETF{\rTN}{}{\num[round-precision=3]{\rTN}\ts{}\aTNa(5)}\fi&%
 				\checkaTNa(6)\let\rTN\cachedata\ifemptydata\relax\else\IfNVOETF{\rTN}{}{\num{\rTN}}\fi&%
 				\checkaTNa(7)\let\rTN\cachedata\ifemptydata\relax\else\IfNVOETF{\rTN}{}{\num{\rTN}\%}\fi&%
 				\checkaTNa(8)\let\rTN\cachedata\ifemptydata\relax\else\IfNVOETF{\rTN}{}{\num{\rTN} \euro}\fi&%
 				\IfNVOETF{\aTN}{}{\num{\aTN} \euro}\expandafter\\\fi%
 				\ifdefined\aTOa\rCa{\aTOa}&%
-				\checkaTOa(4)\let\rTO\cachedata\ifemptydata\relax\else\IfNVOETF{\rTO}{}{\num{\rTO}\ts{}\aTOa(5)}\fi&%
+				\checkaTOa(4)\let\rTO\cachedata\ifemptydata\relax\else\IfNVOETF{\rTO}{}{\num[round-precision=3]{\rTO}\ts{}\aTOa(5)}\fi&%
 				\checkaTOa(6)\let\rTO\cachedata\ifemptydata\relax\else\IfNVOETF{\rTO}{}{\num{\rTO}}\fi&%
 				\checkaTOa(7)\let\rTO\cachedata\ifemptydata\relax\else\IfNVOETF{\rTO}{}{\num{\rTO}\%}\fi&%
 				\checkaTOa(8)\let\rTO\cachedata\ifemptydata\relax\else\IfNVOETF{\rTO}{}{\num{\rTO} \euro}\fi&%
 				\IfNVOETF{\aTO}{}{\num{\aTO} \euro}\expandafter\\\fi%
 				\ifdefined\aTPa\rCa{\aTPa}&%
-				\checkaTPa(4)\let\rTP\cachedata\ifemptydata\relax\else\IfNVOETF{\rTP}{}{\num{\rTP}\ts{}\aTPa(5)}\fi&%
+				\checkaTPa(4)\let\rTP\cachedata\ifemptydata\relax\else\IfNVOETF{\rTP}{}{\num[round-precision=3]{\rTP}\ts{}\aTPa(5)}\fi&%
 				\checkaTPa(6)\let\rTP\cachedata\ifemptydata\relax\else\IfNVOETF{\rTP}{}{\num{\rTP}}\fi&%
 				\checkaTPa(7)\let\rTP\cachedata\ifemptydata\relax\else\IfNVOETF{\rTP}{}{\num{\rTP}\%}\fi&%
 				\checkaTPa(8)\let\rTP\cachedata\ifemptydata\relax\else\IfNVOETF{\rTP}{}{\num{\rTP} \euro}\fi&%
 				\IfNVOETF{\aTP}{}{\num{\aTP} \euro}\expandafter\\\fi%
 				\ifdefined\aTQa\rCa{\aTQa}&%
-				\checkaTQa(4)\let\rTQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTQ}{}{\num{\rTQ}\ts{}\aTQa(5)}\fi&%
+				\checkaTQa(4)\let\rTQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTQ}{}{\num[round-precision=3]{\rTQ}\ts{}\aTQa(5)}\fi&%
 				\checkaTQa(6)\let\rTQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTQ}{}{\num{\rTQ}}\fi&%
 				\checkaTQa(7)\let\rTQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTQ}{}{\num{\rTQ}\%}\fi&%
 				\checkaTQa(8)\let\rTQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTQ}{}{\num{\rTQ} \euro}\fi&%
 				\IfNVOETF{\aTQ}{}{\num{\aTQ} \euro}\expandafter\\\fi%
 				\ifdefined\aTRa\rCa{\aTRa}&%
-				\checkaTRa(4)\let\rTR\cachedata\ifemptydata\relax\else\IfNVOETF{\rTR}{}{\num{\rTR}\ts{}\aTRa(5)}\fi&%
+				\checkaTRa(4)\let\rTR\cachedata\ifemptydata\relax\else\IfNVOETF{\rTR}{}{\num[round-precision=3]{\rTR}\ts{}\aTRa(5)}\fi&%
 				\checkaTRa(6)\let\rTR\cachedata\ifemptydata\relax\else\IfNVOETF{\rTR}{}{\num{\rTR}}\fi&%
 				\checkaTRa(7)\let\rTR\cachedata\ifemptydata\relax\else\IfNVOETF{\rTR}{}{\num{\rTR}\%}\fi&%
 				\checkaTRa(8)\let\rTR\cachedata\ifemptydata\relax\else\IfNVOETF{\rTR}{}{\num{\rTR} \euro}\fi&%
 				\IfNVOETF{\aTR}{}{\num{\aTR} \euro}\expandafter\\\fi%
 				\ifdefined\aTSa\rCa{\aTSa}&%
-				\checkaTSa(4)\let\rTS\cachedata\ifemptydata\relax\else\IfNVOETF{\rTS}{}{\num{\rTS}\ts{}\aTSa(5)}\fi&%
+				\checkaTSa(4)\let\rTS\cachedata\ifemptydata\relax\else\IfNVOETF{\rTS}{}{\num[round-precision=3]{\rTS}\ts{}\aTSa(5)}\fi&%
 				\checkaTSa(6)\let\rTS\cachedata\ifemptydata\relax\else\IfNVOETF{\rTS}{}{\num{\rTS}}\fi&%
 				\checkaTSa(7)\let\rTS\cachedata\ifemptydata\relax\else\IfNVOETF{\rTS}{}{\num{\rTS}\%}\fi&%
 				\checkaTSa(8)\let\rTS\cachedata\ifemptydata\relax\else\IfNVOETF{\rTS}{}{\num{\rTS} \euro}\fi&%
 				\IfNVOETF{\aTS}{}{\num{\aTS} \euro}\expandafter\\\fi%
 				\ifdefined\aTTa\rCa{\aTTa}&%
-				\checkaTTa(4)\let\rTT\cachedata\ifemptydata\relax\else\IfNVOETF{\rTT}{}{\num{\rTT}\ts{}\aTTa(5)}\fi&%
+				\checkaTTa(4)\let\rTT\cachedata\ifemptydata\relax\else\IfNVOETF{\rTT}{}{\num[round-precision=3]{\rTT}\ts{}\aTTa(5)}\fi&%
 				\checkaTTa(6)\let\rTT\cachedata\ifemptydata\relax\else\IfNVOETF{\rTT}{}{\num{\rTT}}\fi&%
 				\checkaTTa(7)\let\rTT\cachedata\ifemptydata\relax\else\IfNVOETF{\rTT}{}{\num{\rTT}\%}\fi&%
 				\checkaTTa(8)\let\rTT\cachedata\ifemptydata\relax\else\IfNVOETF{\rTT}{}{\num{\rTT} \euro}\fi&%
 				\IfNVOETF{\aTT}{}{\num{\aTT} \euro}\expandafter\\\fi%
 				\ifdefined\aTUa\rCa{\aTUa}&%
-				\checkaTUa(4)\let\rTU\cachedata\ifemptydata\relax\else\IfNVOETF{\rTU}{}{\num{\rTU}\ts{}\aTUa(5)}\fi&%
+				\checkaTUa(4)\let\rTU\cachedata\ifemptydata\relax\else\IfNVOETF{\rTU}{}{\num[round-precision=3]{\rTU}\ts{}\aTUa(5)}\fi&%
 				\checkaTUa(6)\let\rTU\cachedata\ifemptydata\relax\else\IfNVOETF{\rTU}{}{\num{\rTU}}\fi&%
 				\checkaTUa(7)\let\rTU\cachedata\ifemptydata\relax\else\IfNVOETF{\rTU}{}{\num{\rTU}\%}\fi&%
 				\checkaTUa(8)\let\rTU\cachedata\ifemptydata\relax\else\IfNVOETF{\rTU}{}{\num{\rTU} \euro}\fi&%
 				\IfNVOETF{\aTU}{}{\num{\aTU} \euro}\expandafter\\\fi%
 				\ifdefined\aTVa\rCa{\aTVa}&%
-				\checkaTVa(4)\let\rTV\cachedata\ifemptydata\relax\else\IfNVOETF{\rTV}{}{\num{\rTV}\ts{}\aTVa(5)}\fi&%
+				\checkaTVa(4)\let\rTV\cachedata\ifemptydata\relax\else\IfNVOETF{\rTV}{}{\num[round-precision=3]{\rTV}\ts{}\aTVa(5)}\fi&%
 				\checkaTVa(6)\let\rTV\cachedata\ifemptydata\relax\else\IfNVOETF{\rTV}{}{\num{\rTV}}\fi&%
 				\checkaTVa(7)\let\rTV\cachedata\ifemptydata\relax\else\IfNVOETF{\rTV}{}{\num{\rTV}\%}\fi&%
 				\checkaTVa(8)\let\rTV\cachedata\ifemptydata\relax\else\IfNVOETF{\rTV}{}{\num{\rTV} \euro}\fi&%
 				\IfNVOETF{\aTV}{}{\num{\aTV} \euro}\expandafter\\\fi%
 				\ifdefined\aTWa\rCa{\aTWa}&%
-				\checkaTWa(4)\let\rTW\cachedata\ifemptydata\relax\else\IfNVOETF{\rTW}{}{\num{\rTW}\ts{}\aTWa(5)}\fi&%
+				\checkaTWa(4)\let\rTW\cachedata\ifemptydata\relax\else\IfNVOETF{\rTW}{}{\num[round-precision=3]{\rTW}\ts{}\aTWa(5)}\fi&%
 				\checkaTWa(6)\let\rTW\cachedata\ifemptydata\relax\else\IfNVOETF{\rTW}{}{\num{\rTW}}\fi&%
 				\checkaTWa(7)\let\rTW\cachedata\ifemptydata\relax\else\IfNVOETF{\rTW}{}{\num{\rTW}\%}\fi&%
 				\checkaTWa(8)\let\rTW\cachedata\ifemptydata\relax\else\IfNVOETF{\rTW}{}{\num{\rTW} \euro}\fi&%
 				\IfNVOETF{\aTW}{}{\num{\aTW} \euro}\expandafter\\\fi%
 				\ifdefined\aTXa\rCa{\aTXa}&%
-				\checkaTXa(4)\let\rTX\cachedata\ifemptydata\relax\else\IfNVOETF{\rTX}{}{\num{\rTX}\ts{}\aTXa(5)}\fi&%
+				\checkaTXa(4)\let\rTX\cachedata\ifemptydata\relax\else\IfNVOETF{\rTX}{}{\num[round-precision=3]{\rTX}\ts{}\aTXa(5)}\fi&%
 				\checkaTXa(6)\let\rTX\cachedata\ifemptydata\relax\else\IfNVOETF{\rTX}{}{\num{\rTX}}\fi&%
 				\checkaTXa(7)\let\rTX\cachedata\ifemptydata\relax\else\IfNVOETF{\rTX}{}{\num{\rTX}\%}\fi&%
 				\checkaTXa(8)\let\rTX\cachedata\ifemptydata\relax\else\IfNVOETF{\rTX}{}{\num{\rTX} \euro}\fi&%
 				\IfNVOETF{\aTX}{}{\num{\aTX} \euro}\expandafter\\\fi%
 				\ifdefined\aTYa\rCa{\aTYa}&%
-				\checkaTYa(4)\let\rTY\cachedata\ifemptydata\relax\else\IfNVOETF{\rTY}{}{\num{\rTY}\ts{}\aTYa(5)}\fi&%
+				\checkaTYa(4)\let\rTY\cachedata\ifemptydata\relax\else\IfNVOETF{\rTY}{}{\num[round-precision=3]{\rTY}\ts{}\aTYa(5)}\fi&%
 				\checkaTYa(6)\let\rTY\cachedata\ifemptydata\relax\else\IfNVOETF{\rTY}{}{\num{\rTY}}\fi&%
 				\checkaTYa(7)\let\rTY\cachedata\ifemptydata\relax\else\IfNVOETF{\rTY}{}{\num{\rTY}\%}\fi&%
 				\checkaTYa(8)\let\rTY\cachedata\ifemptydata\relax\else\IfNVOETF{\rTY}{}{\num{\rTY} \euro}\fi&%
 				\IfNVOETF{\aTY}{}{\num{\aTY} \euro}\expandafter\\\fi%	
 				\ifdefined\aTZa\rCa{\aTZa}&%
-				\checkaTZa(4)\let\rTZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTZ}{}{\num{\rTZ}\ts{}\aTZa(5)}\fi&%
+				\checkaTZa(4)\let\rTZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTZ}{}{\num[round-precision=3]{\rTZ}\ts{}\aTZa(5)}\fi&%
 				\checkaTZa(6)\let\rTZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTZ}{}{\num{\rTZ}}\fi&%
 				\checkaTZa(7)\let\rTZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTZ}{}{\num{\rTZ}\%}\fi&%
 				\checkaTZa(8)\let\rTZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rTZ}{}{\num{\rTZ} \euro}\fi&%
@@ -4827,151 +4827,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aUAa\rCa{\aUAa}&%
-				\checkaUAa(4)\let\rUA\cachedata\ifemptydata\relax\else\IfNVOETF{\rUA}{}{\num{\rUA}\ts{}\aUAa(5)}\fi&%
+				\checkaUAa(4)\let\rUA\cachedata\ifemptydata\relax\else\IfNVOETF{\rUA}{}{\num[round-precision=3]{\rUA}\ts{}\aUAa(5)}\fi&%
 				\checkaUAa(6)\let\rUA\cachedata\ifemptydata\relax\else\IfNVOETF{\rUA}{}{\num{\rUA}}\fi&%
 				\checkaUAa(7)\let\rUA\cachedata\ifemptydata\relax\else\IfNVOETF{\rUA}{}{\num{\rUA}\%}\fi&%
 				\checkaUAa(8)\let\rUA\cachedata\ifemptydata\relax\else\IfNVOETF{\rUA}{}{\num{\rUA} \euro}\fi&%
 				\IfNVOETF{\aUA}{}{\num{\aUA} \euro}\expandafter\\\fi%
 				\ifdefined\aUBa\rCa{\aUBa}&%
-				\checkaUBa(4)\let\rUB\cachedata\ifemptydata\relax\else\IfNVOETF{\rUB}{}{\num{\rUB}\ts{}\aUBa(5)}\fi&%
+				\checkaUBa(4)\let\rUB\cachedata\ifemptydata\relax\else\IfNVOETF{\rUB}{}{\num[round-precision=3]{\rUB}\ts{}\aUBa(5)}\fi&%
 				\checkaUBa(6)\let\rUB\cachedata\ifemptydata\relax\else\IfNVOETF{\rUB}{}{\num{\rUB}}\fi&%
 				\checkaUBa(7)\let\rUB\cachedata\ifemptydata\relax\else\IfNVOETF{\rUB}{}{\num{\rUB}\%}\fi&%
 				\checkaUBa(8)\let\rUB\cachedata\ifemptydata\relax\else\IfNVOETF{\rUB}{}{\num{\rUB} \euro}\fi&%
 				\IfNVOETF{\aUB}{}{\num{\aUB} \euro}\expandafter\\\fi%
 				\ifdefined\aUCa\rCa{\aUCa}&%
-				\checkaUCa(4)\let\rUC\cachedata\ifemptydata\relax\else\IfNVOETF{\rUC}{}{\num{\rUC}\ts{}\aUCa(5)}\fi&%
+				\checkaUCa(4)\let\rUC\cachedata\ifemptydata\relax\else\IfNVOETF{\rUC}{}{\num[round-precision=3]{\rUC}\ts{}\aUCa(5)}\fi&%
 				\checkaUCa(6)\let\rUC\cachedata\ifemptydata\relax\else\IfNVOETF{\rUC}{}{\num{\rUC}}\fi&%
 				\checkaUCa(7)\let\rUC\cachedata\ifemptydata\relax\else\IfNVOETF{\rUC}{}{\num{\rUC}\%}\fi&%
 				\checkaUCa(8)\let\rUC\cachedata\ifemptydata\relax\else\IfNVOETF{\rUC}{}{\num{\rUC} \euro}\fi&%
 				\IfNVOETF{\aUC}{}{\num{\aUC} \euro}\expandafter\\\fi%
 				\ifdefined\aUDa\rCa{\aUDa}&%
-				\checkaUDa(4)\let\rUD\cachedata\ifemptydata\relax\else\IfNVOETF{\rUD}{}{\num{\rUD}\ts{}\aUDa(5)}\fi&%
+				\checkaUDa(4)\let\rUD\cachedata\ifemptydata\relax\else\IfNVOETF{\rUD}{}{\num[round-precision=3]{\rUD}\ts{}\aUDa(5)}\fi&%
 				\checkaUDa(6)\let\rUD\cachedata\ifemptydata\relax\else\IfNVOETF{\rUD}{}{\num{\rUD}}\fi&%
 				\checkaUDa(7)\let\rUD\cachedata\ifemptydata\relax\else\IfNVOETF{\rUD}{}{\num{\rUD}\%}\fi&%
 				\checkaUDa(8)\let\rUD\cachedata\ifemptydata\relax\else\IfNVOETF{\rUD}{}{\num{\rUD} \euro}\fi&%
 				\IfNVOETF{\aUD}{}{\num{\aUD} \euro}\expandafter\\\fi%
 				\ifdefined\aUEa\rCa{\aUEa}&%
-				\checkaUEa(4)\let\rUE\cachedata\ifemptydata\relax\else\IfNVOETF{\rUE}{}{\num{\rUE}\ts{}\aUEa(5)}\fi&%
+				\checkaUEa(4)\let\rUE\cachedata\ifemptydata\relax\else\IfNVOETF{\rUE}{}{\num[round-precision=3]{\rUE}\ts{}\aUEa(5)}\fi&%
 				\checkaUEa(6)\let\rUE\cachedata\ifemptydata\relax\else\IfNVOETF{\rUE}{}{\num{\rUE}}\fi&%
 				\checkaUEa(7)\let\rUE\cachedata\ifemptydata\relax\else\IfNVOETF{\rUE}{}{\num{\rUE}\%}\fi&%
 				\checkaUEa(8)\let\rUE\cachedata\ifemptydata\relax\else\IfNVOETF{\rUE}{}{\num{\rUE} \euro}\fi&%
 				\IfNVOETF{\aUE}{}{\num{\aUE} \euro}\expandafter\\\fi%
 				\ifdefined\aUFa\rCa{\aUFa}&%
-				\checkaUFa(4)\let\rUF\cachedata\ifemptydata\relax\else\IfNVOETF{\rUF}{}{\num{\rUF}\ts{}\aUFa(5)}\fi&%
+				\checkaUFa(4)\let\rUF\cachedata\ifemptydata\relax\else\IfNVOETF{\rUF}{}{\num[round-precision=3]{\rUF}\ts{}\aUFa(5)}\fi&%
 				\checkaUFa(6)\let\rUF\cachedata\ifemptydata\relax\else\IfNVOETF{\rUF}{}{\num{\rUF}}\fi&%
 				\checkaUFa(7)\let\rUF\cachedata\ifemptydata\relax\else\IfNVOETF{\rUF}{}{\num{\rUF}\%}\fi&%
 				\checkaUFa(8)\let\rUF\cachedata\ifemptydata\relax\else\IfNVOETF{\rUF}{}{\num{\rUF} \euro}\fi&%
 				\IfNVOETF{\aUF}{}{\num{\aUF} \euro}\expandafter\\\fi%
 				\ifdefined\aUGa\rCa{\aUGa}&%
-				\checkaUGa(4)\let\rUG\cachedata\ifemptydata\relax\else\IfNVOETF{\rUG}{}{\num{\rUG}\ts{}\aUGa(5)}\fi&%
+				\checkaUGa(4)\let\rUG\cachedata\ifemptydata\relax\else\IfNVOETF{\rUG}{}{\num[round-precision=3]{\rUG}\ts{}\aUGa(5)}\fi&%
 				\checkaUGa(6)\let\rUG\cachedata\ifemptydata\relax\else\IfNVOETF{\rUG}{}{\num{\rUG}}\fi&%
 				\checkaUGa(7)\let\rUG\cachedata\ifemptydata\relax\else\IfNVOETF{\rUG}{}{\num{\rUG}\%}\fi&%
 				\checkaUGa(8)\let\rUG\cachedata\ifemptydata\relax\else\IfNVOETF{\rUG}{}{\num{\rUG} \euro}\fi&%
 				\IfNVOETF{\aUG}{}{\num{\aUG} \euro}\expandafter\\\fi%
 				\ifdefined\aUIa\rCa{\aUIa}&%
-				\checkaUIa(4)\let\rUI\cachedata\ifemptydata\relax\else\IfNVOETF{\rUI}{}{\num{\rUI}\ts{}\aUIa(5)}\fi&%
+				\checkaUIa(4)\let\rUI\cachedata\ifemptydata\relax\else\IfNVOETF{\rUI}{}{\num[round-precision=3]{\rUI}\ts{}\aUIa(5)}\fi&%
 				\checkaUIa(6)\let\rUI\cachedata\ifemptydata\relax\else\IfNVOETF{\rUI}{}{\num{\rUI}}\fi&%
 				\checkaUIa(7)\let\rUI\cachedata\ifemptydata\relax\else\IfNVOETF{\rUI}{}{\num{\rUI}\%}\fi&%
 				\checkaUIa(8)\let\rUI\cachedata\ifemptydata\relax\else\IfNVOETF{\rUI}{}{\num{\rUI} \euro}\fi&%
 				\IfNVOETF{\aUI}{}{\num{\aUI} \euro}\expandafter\\\fi%
 				\ifdefined\aUJa\rCa{\aUJa}&%
-				\checkaUJa(4)\let\rUJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUJ}{}{\num{\rUJ}\ts{}\aUJa(5)}\fi&%
+				\checkaUJa(4)\let\rUJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUJ}{}{\num[round-precision=3]{\rUJ}\ts{}\aUJa(5)}\fi&%
 				\checkaUJa(6)\let\rUJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUJ}{}{\num{\rUJ}}\fi&%
 				\checkaUJa(7)\let\rUJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUJ}{}{\num{\rUJ}\%}\fi&%
 				\checkaUJa(8)\let\rUJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUJ}{}{\num{\rUJ} \euro}\fi&%
 				\IfNVOETF{\aUJ}{}{\num{\aUJ} \euro}\expandafter\\\fi%
 				\ifdefined\aUKa\rCa{\aUKa}&%
-				\checkaUKa(4)\let\rUK\cachedata\ifemptydata\relax\else\IfNVOETF{\rUK}{}{\num{\rUK}\ts{}\aUKa(5)}\fi&%
+				\checkaUKa(4)\let\rUK\cachedata\ifemptydata\relax\else\IfNVOETF{\rUK}{}{\num[round-precision=3]{\rUK}\ts{}\aUKa(5)}\fi&%
 				\checkaUKa(6)\let\rUK\cachedata\ifemptydata\relax\else\IfNVOETF{\rUK}{}{\num{\rUK}}\fi&%
 				\checkaUKa(7)\let\rUK\cachedata\ifemptydata\relax\else\IfNVOETF{\rUK}{}{\num{\rUK}\%}\fi&%
 				\checkaUKa(8)\let\rUK\cachedata\ifemptydata\relax\else\IfNVOETF{\rUK}{}{\num{\rUK} \euro}\fi&%
 				\IfNVOETF{\aUK}{}{\num{\aUK} \euro}\expandafter\\\fi%
 				\ifdefined\aULa\rCa{\aULa}&%
-				\checkaULa(4)\let\rUL\cachedata\ifemptydata\relax\else\IfNVOETF{\rUL}{}{\num{\rUL}\ts{}\aULa(5)}\fi&%
+				\checkaULa(4)\let\rUL\cachedata\ifemptydata\relax\else\IfNVOETF{\rUL}{}{\num[round-precision=3]{\rUL}\ts{}\aULa(5)}\fi&%
 				\checkaULa(6)\let\rUL\cachedata\ifemptydata\relax\else\IfNVOETF{\rUL}{}{\num{\rUL}}\fi&%
 				\checkaULa(7)\let\rUL\cachedata\ifemptydata\relax\else\IfNVOETF{\rUL}{}{\num{\rUL}\%}\fi&%
 				\checkaULa(8)\let\rUL\cachedata\ifemptydata\relax\else\IfNVOETF{\rUL}{}{\num{\rUL} \euro}\fi&%
 				\IfNVOETF{\aUL}{}{\num{\aUL} \euro}\expandafter\\\fi%
 				\ifdefined\aUMa\rCa{\aUMa}&%
-				\checkaUMa(4)\let\rUM\cachedata\ifemptydata\relax\else\IfNVOETF{\rUM}{}{\num{\rUM}\ts{}\aUMa(5)}\fi&%
+				\checkaUMa(4)\let\rUM\cachedata\ifemptydata\relax\else\IfNVOETF{\rUM}{}{\num[round-precision=3]{\rUM}\ts{}\aUMa(5)}\fi&%
 				\checkaUMa(6)\let\rUM\cachedata\ifemptydata\relax\else\IfNVOETF{\rUM}{}{\num{\rUM}}\fi&%
 				\checkaUMa(7)\let\rUM\cachedata\ifemptydata\relax\else\IfNVOETF{\rUM}{}{\num{\rUM}\%}\fi&%
 				\checkaUMa(8)\let\rUM\cachedata\ifemptydata\relax\else\IfNVOETF{\rUM}{}{\num{\rUM} \euro}\fi&%
 				\IfNVOETF{\aUM}{}{\num{\aUM} \euro}\expandafter\\\fi%
 				\ifdefined\aUNa\rCa{\aUNa}&%
-				\checkaUNa(4)\let\rUN\cachedata\ifemptydata\relax\else\IfNVOETF{\rUN}{}{\num{\rUN}\ts{}\aUNa(5)}\fi&%
+				\checkaUNa(4)\let\rUN\cachedata\ifemptydata\relax\else\IfNVOETF{\rUN}{}{\num[round-precision=3]{\rUN}\ts{}\aUNa(5)}\fi&%
 				\checkaUNa(6)\let\rUN\cachedata\ifemptydata\relax\else\IfNVOETF{\rUN}{}{\num{\rUN}}\fi&%
 				\checkaUNa(7)\let\rUN\cachedata\ifemptydata\relax\else\IfNVOETF{\rUN}{}{\num{\rUN}\%}\fi&%
 				\checkaUNa(8)\let\rUN\cachedata\ifemptydata\relax\else\IfNVOETF{\rUN}{}{\num{\rUN} \euro}\fi&%
 				\IfNVOETF{\aUN}{}{\num{\aUN} \euro}\expandafter\\\fi%
 				\ifdefined\aUOa\rCa{\aUOa}&%
-				\checkaUOa(4)\let\rUO\cachedata\ifemptydata\relax\else\IfNVOETF{\rUO}{}{\num{\rUO}\ts{}\aUOa(5)}\fi&%
+				\checkaUOa(4)\let\rUO\cachedata\ifemptydata\relax\else\IfNVOETF{\rUO}{}{\num[round-precision=3]{\rUO}\ts{}\aUOa(5)}\fi&%
 				\checkaUOa(6)\let\rUO\cachedata\ifemptydata\relax\else\IfNVOETF{\rUO}{}{\num{\rUO}}\fi&%
 				\checkaUOa(7)\let\rUO\cachedata\ifemptydata\relax\else\IfNVOETF{\rUO}{}{\num{\rUO}\%}\fi&%
 				\checkaUOa(8)\let\rUO\cachedata\ifemptydata\relax\else\IfNVOETF{\rUO}{}{\num{\rUO} \euro}\fi&%
 				\IfNVOETF{\aUO}{}{\num{\aUO} \euro}\expandafter\\\fi%
 				\ifdefined\aUPa\rCa{\aUPa}&%
-				\checkaUPa(4)\let\rUP\cachedata\ifemptydata\relax\else\IfNVOETF{\rUP}{}{\num{\rUP}\ts{}\aUPa(5)}\fi&%
+				\checkaUPa(4)\let\rUP\cachedata\ifemptydata\relax\else\IfNVOETF{\rUP}{}{\num[round-precision=3]{\rUP}\ts{}\aUPa(5)}\fi&%
 				\checkaUPa(6)\let\rUP\cachedata\ifemptydata\relax\else\IfNVOETF{\rUP}{}{\num{\rUP}}\fi&%
 				\checkaUPa(7)\let\rUP\cachedata\ifemptydata\relax\else\IfNVOETF{\rUP}{}{\num{\rUP}\%}\fi&%
 				\checkaUPa(8)\let\rUP\cachedata\ifemptydata\relax\else\IfNVOETF{\rUP}{}{\num{\rUP} \euro}\fi&%
 				\IfNVOETF{\aUP}{}{\num{\aUP} \euro}\expandafter\\\fi%
 				\ifdefined\aUQa\rCa{\aUQa}&%
-				\checkaUQa(4)\let\rUQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUQ}{}{\num{\rUQ}\ts{}\aUQa(5)}\fi&%
+				\checkaUQa(4)\let\rUQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUQ}{}{\num[round-precision=3]{\rUQ}\ts{}\aUQa(5)}\fi&%
 				\checkaUQa(6)\let\rUQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUQ}{}{\num{\rUQ}}\fi&%
 				\checkaUQa(7)\let\rUQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUQ}{}{\num{\rUQ}\%}\fi&%
 				\checkaUQa(8)\let\rUQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUQ}{}{\num{\rUQ} \euro}\fi&%
 				\IfNVOETF{\aUQ}{}{\num{\aUQ} \euro}\expandafter\\\fi%
 				\ifdefined\aURa\rCa{\aURa}&%
-				\checkaURa(4)\let\rUR\cachedata\ifemptydata\relax\else\IfNVOETF{\rUR}{}{\num{\rUR}\ts{}\aURa(5)}\fi&%
+				\checkaURa(4)\let\rUR\cachedata\ifemptydata\relax\else\IfNVOETF{\rUR}{}{\num[round-precision=3]{\rUR}\ts{}\aURa(5)}\fi&%
 				\checkaURa(6)\let\rUR\cachedata\ifemptydata\relax\else\IfNVOETF{\rUR}{}{\num{\rUR}}\fi&%
 				\checkaURa(7)\let\rUR\cachedata\ifemptydata\relax\else\IfNVOETF{\rUR}{}{\num{\rUR}\%}\fi&%
 				\checkaURa(8)\let\rUR\cachedata\ifemptydata\relax\else\IfNVOETF{\rUR}{}{\num{\rUR} \euro}\fi&%
 				\IfNVOETF{\aUR}{}{\num{\aUR} \euro}\expandafter\\\fi%
 				\ifdefined\aUSa\rCa{\aUSa}&%
-				\checkaUSa(4)\let\rUS\cachedata\ifemptydata\relax\else\IfNVOETF{\rUS}{}{\num{\rUS}\ts{}\aUSa(5)}\fi&%
+				\checkaUSa(4)\let\rUS\cachedata\ifemptydata\relax\else\IfNVOETF{\rUS}{}{\num[round-precision=3]{\rUS}\ts{}\aUSa(5)}\fi&%
 				\checkaUSa(6)\let\rUS\cachedata\ifemptydata\relax\else\IfNVOETF{\rUS}{}{\num{\rUS}}\fi&%
 				\checkaUSa(7)\let\rUS\cachedata\ifemptydata\relax\else\IfNVOETF{\rUS}{}{\num{\rUS}\%}\fi&%
 				\checkaUSa(8)\let\rUS\cachedata\ifemptydata\relax\else\IfNVOETF{\rUS}{}{\num{\rUS} \euro}\fi&%
 				\IfNVOETF{\aUS}{}{\num{\aUS} \euro}\expandafter\\\fi%
 				\ifdefined\aUTa\rCa{\aUTa}&%
-				\checkaUTa(4)\let\rUT\cachedata\ifemptydata\relax\else\IfNVOETF{\rUT}{}{\num{\rUT}\ts{}\aUTa(5)}\fi&%
+				\checkaUTa(4)\let\rUT\cachedata\ifemptydata\relax\else\IfNVOETF{\rUT}{}{\num[round-precision=3]{\rUT}\ts{}\aUTa(5)}\fi&%
 				\checkaUTa(6)\let\rUT\cachedata\ifemptydata\relax\else\IfNVOETF{\rUT}{}{\num{\rUT}}\fi&%
 				\checkaUTa(7)\let\rUT\cachedata\ifemptydata\relax\else\IfNVOETF{\rUT}{}{\num{\rUT}\%}\fi&%
 				\checkaUTa(8)\let\rUT\cachedata\ifemptydata\relax\else\IfNVOETF{\rUT}{}{\num{\rUT} \euro}\fi&%
 				\IfNVOETF{\aUT}{}{\num{\aUT} \euro}\expandafter\\\fi%
 				\ifdefined\aUUa\rCa{\aUUa}&%
-				\checkaUUa(4)\let\rUU\cachedata\ifemptydata\relax\else\IfNVOETF{\rUU}{}{\num{\rUU}\ts{}\aUUa(5)}\fi&%
+				\checkaUUa(4)\let\rUU\cachedata\ifemptydata\relax\else\IfNVOETF{\rUU}{}{\num[round-precision=3]{\rUU}\ts{}\aUUa(5)}\fi&%
 				\checkaUUa(6)\let\rUU\cachedata\ifemptydata\relax\else\IfNVOETF{\rUU}{}{\num{\rUU}}\fi&%
 				\checkaUUa(7)\let\rUU\cachedata\ifemptydata\relax\else\IfNVOETF{\rUU}{}{\num{\rUU}\%}\fi&%
 				\checkaUUa(8)\let\rUU\cachedata\ifemptydata\relax\else\IfNVOETF{\rUU}{}{\num{\rUU} \euro}\fi&%
 				\IfNVOETF{\aUU}{}{\num{\aUU} \euro}\expandafter\\\fi%
 				\ifdefined\aUVa\rCa{\aUVa}&%
-				\checkaUVa(4)\let\rUV\cachedata\ifemptydata\relax\else\IfNVOETF{\rUV}{}{\num{\rUV}\ts{}\aUVa(5)}\fi&%
+				\checkaUVa(4)\let\rUV\cachedata\ifemptydata\relax\else\IfNVOETF{\rUV}{}{\num[round-precision=3]{\rUV}\ts{}\aUVa(5)}\fi&%
 				\checkaUVa(6)\let\rUV\cachedata\ifemptydata\relax\else\IfNVOETF{\rUV}{}{\num{\rUV}}\fi&%
 				\checkaUVa(7)\let\rUV\cachedata\ifemptydata\relax\else\IfNVOETF{\rUV}{}{\num{\rUV}\%}\fi&%
 				\checkaUVa(8)\let\rUV\cachedata\ifemptydata\relax\else\IfNVOETF{\rUV}{}{\num{\rUV} \euro}\fi&%
 				\IfNVOETF{\aUV}{}{\num{\aUV} \euro}\expandafter\\\fi%
 				\ifdefined\aUWa\rCa{\aUWa}&%
-				\checkaUWa(4)\let\rUW\cachedata\ifemptydata\relax\else\IfNVOETF{\rUW}{}{\num{\rUW}\ts{}\aUWa(5)}\fi&%
+				\checkaUWa(4)\let\rUW\cachedata\ifemptydata\relax\else\IfNVOETF{\rUW}{}{\num[round-precision=3]{\rUW}\ts{}\aUWa(5)}\fi&%
 				\checkaUWa(6)\let\rUW\cachedata\ifemptydata\relax\else\IfNVOETF{\rUW}{}{\num{\rUW}}\fi&%
 				\checkaUWa(7)\let\rUW\cachedata\ifemptydata\relax\else\IfNVOETF{\rUW}{}{\num{\rUW}\%}\fi&%
 				\checkaUWa(8)\let\rUW\cachedata\ifemptydata\relax\else\IfNVOETF{\rUW}{}{\num{\rUW} \euro}\fi&%
 				\IfNVOETF{\aUW}{}{\num{\aUW} \euro}\expandafter\\\fi%
 				\ifdefined\aUXa\rCa{\aUXa}&%
-				\checkaUXa(4)\let\rUX\cachedata\ifemptydata\relax\else\IfNVOETF{\rUX}{}{\num{\rUX}\ts{}\aUXa(5)}\fi&%
+				\checkaUXa(4)\let\rUX\cachedata\ifemptydata\relax\else\IfNVOETF{\rUX}{}{\num[round-precision=3]{\rUX}\ts{}\aUXa(5)}\fi&%
 				\checkaUXa(6)\let\rUX\cachedata\ifemptydata\relax\else\IfNVOETF{\rUX}{}{\num{\rUX}}\fi&%
 				\checkaUXa(7)\let\rUX\cachedata\ifemptydata\relax\else\IfNVOETF{\rUX}{}{\num{\rUX}\%}\fi&%
 				\checkaUXa(8)\let\rUX\cachedata\ifemptydata\relax\else\IfNVOETF{\rUX}{}{\num{\rUX} \euro}\fi&%
 				\IfNVOETF{\aUX}{}{\num{\aUX} \euro}\expandafter\\\fi%
 				\ifdefined\aUYa\rCa{\aUYa}&%
-				\checkaUYa(4)\let\rUY\cachedata\ifemptydata\relax\else\IfNVOETF{\rUY}{}{\num{\rUY}\ts{}\aUYa(5)}\fi&%
+				\checkaUYa(4)\let\rUY\cachedata\ifemptydata\relax\else\IfNVOETF{\rUY}{}{\num[round-precision=3]{\rUY}\ts{}\aUYa(5)}\fi&%
 				\checkaUYa(6)\let\rUY\cachedata\ifemptydata\relax\else\IfNVOETF{\rUY}{}{\num{\rUY}}\fi&%
 				\checkaUYa(7)\let\rUY\cachedata\ifemptydata\relax\else\IfNVOETF{\rUY}{}{\num{\rUY}\%}\fi&%
 				\checkaUYa(8)\let\rUY\cachedata\ifemptydata\relax\else\IfNVOETF{\rUY}{}{\num{\rUY} \euro}\fi&%
 				\IfNVOETF{\aUY}{}{\num{\aUY} \euro}\expandafter\\\fi%	
 				\ifdefined\aUZa\rCa{\aUZa}&%
-				\checkaUZa(4)\let\rUZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUZ}{}{\num{\rUZ}\ts{}\aUZa(5)}\fi&%
+				\checkaUZa(4)\let\rUZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUZ}{}{\num[round-precision=3]{\rUZ}\ts{}\aUZa(5)}\fi&%
 				\checkaUZa(6)\let\rUZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUZ}{}{\num{\rUZ}}\fi&%
 				\checkaUZa(7)\let\rUZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUZ}{}{\num{\rUZ}\%}\fi&%
 				\checkaUZa(8)\let\rUZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rUZ}{}{\num{\rUZ} \euro}\fi&%
@@ -4986,151 +4986,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aVAa\rCa{\aVAa}&%
-				\checkaVAa(4)\let\rVA\cachedata\ifemptydata\relax\else\IfNVOETF{\rVA}{}{\num{\rVA}\ts{}\aVAa(5)}\fi&%
+				\checkaVAa(4)\let\rVA\cachedata\ifemptydata\relax\else\IfNVOETF{\rVA}{}{\num[round-precision=3]{\rVA}\ts{}\aVAa(5)}\fi&%
 				\checkaVAa(6)\let\rVA\cachedata\ifemptydata\relax\else\IfNVOETF{\rVA}{}{\num{\rVA}}\fi&%
 				\checkaVAa(7)\let\rVA\cachedata\ifemptydata\relax\else\IfNVOETF{\rVA}{}{\num{\rVA}\%}\fi&%
 				\checkaVAa(8)\let\rVA\cachedata\ifemptydata\relax\else\IfNVOETF{\rVA}{}{\num{\rVA} \euro}\fi&%
 				\IfNVOETF{\aVA}{}{\num{\aVA} \euro}\expandafter\\\fi%
 				\ifdefined\aVBa\rCa{\aVBa}&%
-				\checkaVBa(4)\let\rVB\cachedata\ifemptydata\relax\else\IfNVOETF{\rVB}{}{\num{\rVB}\ts{}\aVBa(5)}\fi&%
+				\checkaVBa(4)\let\rVB\cachedata\ifemptydata\relax\else\IfNVOETF{\rVB}{}{\num[round-precision=3]{\rVB}\ts{}\aVBa(5)}\fi&%
 				\checkaVBa(6)\let\rVB\cachedata\ifemptydata\relax\else\IfNVOETF{\rVB}{}{\num{\rVB}}\fi&%
 				\checkaVBa(7)\let\rVB\cachedata\ifemptydata\relax\else\IfNVOETF{\rVB}{}{\num{\rVB}\%}\fi&%
 				\checkaVBa(8)\let\rVB\cachedata\ifemptydata\relax\else\IfNVOETF{\rVB}{}{\num{\rVB} \euro}\fi&%
 				\IfNVOETF{\aVB}{}{\num{\aVB} \euro}\expandafter\\\fi%
 				\ifdefined\aVCa\rCa{\aVCa}&%
-				\checkaVCa(4)\let\rVC\cachedata\ifemptydata\relax\else\IfNVOETF{\rVC}{}{\num{\rVC}\ts{}\aVCa(5)}\fi&%
+				\checkaVCa(4)\let\rVC\cachedata\ifemptydata\relax\else\IfNVOETF{\rVC}{}{\num[round-precision=3]{\rVC}\ts{}\aVCa(5)}\fi&%
 				\checkaVCa(6)\let\rVC\cachedata\ifemptydata\relax\else\IfNVOETF{\rVC}{}{\num{\rVC}}\fi&%
 				\checkaVCa(7)\let\rVC\cachedata\ifemptydata\relax\else\IfNVOETF{\rVC}{}{\num{\rVC}\%}\fi&%
 				\checkaVCa(8)\let\rVC\cachedata\ifemptydata\relax\else\IfNVOETF{\rVC}{}{\num{\rVC} \euro}\fi&%
 				\IfNVOETF{\aVC}{}{\num{\aVC} \euro}\expandafter\\\fi%
 				\ifdefined\aVDa\rCa{\aVDa}&%
-				\checkaVDa(4)\let\rVD\cachedata\ifemptydata\relax\else\IfNVOETF{\rVD}{}{\num{\rVD}\ts{}\aVDa(5)}\fi&%
+				\checkaVDa(4)\let\rVD\cachedata\ifemptydata\relax\else\IfNVOETF{\rVD}{}{\num[round-precision=3]{\rVD}\ts{}\aVDa(5)}\fi&%
 				\checkaVDa(6)\let\rVD\cachedata\ifemptydata\relax\else\IfNVOETF{\rVD}{}{\num{\rVD}}\fi&%
 				\checkaVDa(7)\let\rVD\cachedata\ifemptydata\relax\else\IfNVOETF{\rVD}{}{\num{\rVD}\%}\fi&%
 				\checkaVDa(8)\let\rVD\cachedata\ifemptydata\relax\else\IfNVOETF{\rVD}{}{\num{\rVD} \euro}\fi&%
 				\IfNVOETF{\aVD}{}{\num{\aVD} \euro}\expandafter\\\fi%
 				\ifdefined\aVEa\rCa{\aVEa}&%
-				\checkaVEa(4)\let\rVE\cachedata\ifemptydata\relax\else\IfNVOETF{\rVE}{}{\num{\rVE}\ts{}\aVEa(5)}\fi&%
+				\checkaVEa(4)\let\rVE\cachedata\ifemptydata\relax\else\IfNVOETF{\rVE}{}{\num[round-precision=3]{\rVE}\ts{}\aVEa(5)}\fi&%
 				\checkaVEa(6)\let\rVE\cachedata\ifemptydata\relax\else\IfNVOETF{\rVE}{}{\num{\rVE}}\fi&%
 				\checkaVEa(7)\let\rVE\cachedata\ifemptydata\relax\else\IfNVOETF{\rVE}{}{\num{\rVE}\%}\fi&%
 				\checkaVEa(8)\let\rVE\cachedata\ifemptydata\relax\else\IfNVOETF{\rVE}{}{\num{\rVE} \euro}\fi&%
 				\IfNVOETF{\aVE}{}{\num{\aVE} \euro}\expandafter\\\fi%
 				\ifdefined\aVFa\rCa{\aVFa}&%
-				\checkaVFa(4)\let\rVF\cachedata\ifemptydata\relax\else\IfNVOETF{\rVF}{}{\num{\rVF}\ts{}\aVFa(5)}\fi&%
+				\checkaVFa(4)\let\rVF\cachedata\ifemptydata\relax\else\IfNVOETF{\rVF}{}{\num[round-precision=3]{\rVF}\ts{}\aVFa(5)}\fi&%
 				\checkaVFa(6)\let\rVF\cachedata\ifemptydata\relax\else\IfNVOETF{\rVF}{}{\num{\rVF}}\fi&%
 				\checkaVFa(7)\let\rVF\cachedata\ifemptydata\relax\else\IfNVOETF{\rVF}{}{\num{\rVF}\%}\fi&%
 				\checkaVFa(8)\let\rVF\cachedata\ifemptydata\relax\else\IfNVOETF{\rVF}{}{\num{\rVF} \euro}\fi&%
 				\IfNVOETF{\aVF}{}{\num{\aVF} \euro}\expandafter\\\fi%
 				\ifdefined\aVGa\rCa{\aVGa}&%
-				\checkaVGa(4)\let\rVG\cachedata\ifemptydata\relax\else\IfNVOETF{\rVG}{}{\num{\rVG}\ts{}\aVGa(5)}\fi&%
+				\checkaVGa(4)\let\rVG\cachedata\ifemptydata\relax\else\IfNVOETF{\rVG}{}{\num[round-precision=3]{\rVG}\ts{}\aVGa(5)}\fi&%
 				\checkaVGa(6)\let\rVG\cachedata\ifemptydata\relax\else\IfNVOETF{\rVG}{}{\num{\rVG}}\fi&%
 				\checkaVGa(7)\let\rVG\cachedata\ifemptydata\relax\else\IfNVOETF{\rVG}{}{\num{\rVG}\%}\fi&%
 				\checkaVGa(8)\let\rVG\cachedata\ifemptydata\relax\else\IfNVOETF{\rVG}{}{\num{\rVG} \euro}\fi&%
 				\IfNVOETF{\aVG}{}{\num{\aVG} \euro}\expandafter\\\fi%
 				\ifdefined\aVIa\rCa{\aVIa}&%
-				\checkaVIa(4)\let\rVI\cachedata\ifemptydata\relax\else\IfNVOETF{\rVI}{}{\num{\rVI}\ts{}\aVIa(5)}\fi&%
+				\checkaVIa(4)\let\rVI\cachedata\ifemptydata\relax\else\IfNVOETF{\rVI}{}{\num[round-precision=3]{\rVI}\ts{}\aVIa(5)}\fi&%
 				\checkaVIa(6)\let\rVI\cachedata\ifemptydata\relax\else\IfNVOETF{\rVI}{}{\num{\rVI}}\fi&%
 				\checkaVIa(7)\let\rVI\cachedata\ifemptydata\relax\else\IfNVOETF{\rVI}{}{\num{\rVI}\%}\fi&%
 				\checkaVIa(8)\let\rVI\cachedata\ifemptydata\relax\else\IfNVOETF{\rVI}{}{\num{\rVI} \euro}\fi&%
 				\IfNVOETF{\aVI}{}{\num{\aVI} \euro}\expandafter\\\fi%
 				\ifdefined\aVJa\rCa{\aVJa}&%
-				\checkaVJa(4)\let\rVJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVJ}{}{\num{\rVJ}\ts{}\aVJa(5)}\fi&%
+				\checkaVJa(4)\let\rVJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVJ}{}{\num[round-precision=3]{\rVJ}\ts{}\aVJa(5)}\fi&%
 				\checkaVJa(6)\let\rVJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVJ}{}{\num{\rVJ}}\fi&%
 				\checkaVJa(7)\let\rVJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVJ}{}{\num{\rVJ}\%}\fi&%
 				\checkaVJa(8)\let\rVJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVJ}{}{\num{\rVJ} \euro}\fi&%
 				\IfNVOETF{\aVJ}{}{\num{\aVJ} \euro}\expandafter\\\fi%
 				\ifdefined\aVKa\rCa{\aVKa}&%
-				\checkaVKa(4)\let\rVK\cachedata\ifemptydata\relax\else\IfNVOETF{\rVK}{}{\num{\rVK}\ts{}\aVKa(5)}\fi&%
+				\checkaVKa(4)\let\rVK\cachedata\ifemptydata\relax\else\IfNVOETF{\rVK}{}{\num[round-precision=3]{\rVK}\ts{}\aVKa(5)}\fi&%
 				\checkaVKa(6)\let\rVK\cachedata\ifemptydata\relax\else\IfNVOETF{\rVK}{}{\num{\rVK}}\fi&%
 				\checkaVKa(7)\let\rVK\cachedata\ifemptydata\relax\else\IfNVOETF{\rVK}{}{\num{\rVK}\%}\fi&%
 				\checkaVKa(8)\let\rVK\cachedata\ifemptydata\relax\else\IfNVOETF{\rVK}{}{\num{\rVK} \euro}\fi&%
 				\IfNVOETF{\aVK}{}{\num{\aVK} \euro}\expandafter\\\fi%
 				\ifdefined\aVLa\rCa{\aVLa}&%
-				\checkaVLa(4)\let\rVL\cachedata\ifemptydata\relax\else\IfNVOETF{\rVL}{}{\num{\rVL}\ts{}\aVLa(5)}\fi&%
+				\checkaVLa(4)\let\rVL\cachedata\ifemptydata\relax\else\IfNVOETF{\rVL}{}{\num[round-precision=3]{\rVL}\ts{}\aVLa(5)}\fi&%
 				\checkaVLa(6)\let\rVL\cachedata\ifemptydata\relax\else\IfNVOETF{\rVL}{}{\num{\rVL}}\fi&%
 				\checkaVLa(7)\let\rVL\cachedata\ifemptydata\relax\else\IfNVOETF{\rVL}{}{\num{\rVL}\%}\fi&%
 				\checkaVLa(8)\let\rVL\cachedata\ifemptydata\relax\else\IfNVOETF{\rVL}{}{\num{\rVL} \euro}\fi&%
 				\IfNVOETF{\aVL}{}{\num{\aVL} \euro}\expandafter\\\fi%
 				\ifdefined\aVMa\rCa{\aVMa}&%
-				\checkaVMa(4)\let\rVM\cachedata\ifemptydata\relax\else\IfNVOETF{\rVM}{}{\num{\rVM}\ts{}\aVMa(5)}\fi&%
+				\checkaVMa(4)\let\rVM\cachedata\ifemptydata\relax\else\IfNVOETF{\rVM}{}{\num[round-precision=3]{\rVM}\ts{}\aVMa(5)}\fi&%
 				\checkaVMa(6)\let\rVM\cachedata\ifemptydata\relax\else\IfNVOETF{\rVM}{}{\num{\rVM}}\fi&%
 				\checkaVMa(7)\let\rVM\cachedata\ifemptydata\relax\else\IfNVOETF{\rVM}{}{\num{\rVM}\%}\fi&%
 				\checkaVMa(8)\let\rVM\cachedata\ifemptydata\relax\else\IfNVOETF{\rVM}{}{\num{\rVM} \euro}\fi&%
 				\IfNVOETF{\aVM}{}{\num{\aVM} \euro}\expandafter\\\fi%
 				\ifdefined\aVNa\rCa{\aVNa}&%
-				\checkaVNa(4)\let\rVN\cachedata\ifemptydata\relax\else\IfNVOETF{\rVN}{}{\num{\rVN}\ts{}\aVNa(5)}\fi&%
+				\checkaVNa(4)\let\rVN\cachedata\ifemptydata\relax\else\IfNVOETF{\rVN}{}{\num[round-precision=3]{\rVN}\ts{}\aVNa(5)}\fi&%
 				\checkaVNa(6)\let\rVN\cachedata\ifemptydata\relax\else\IfNVOETF{\rVN}{}{\num{\rVN}}\fi&%
 				\checkaVNa(7)\let\rVN\cachedata\ifemptydata\relax\else\IfNVOETF{\rVN}{}{\num{\rVN}\%}\fi&%
 				\checkaVNa(8)\let\rVN\cachedata\ifemptydata\relax\else\IfNVOETF{\rVN}{}{\num{\rVN} \euro}\fi&%
 				\IfNVOETF{\aVN}{}{\num{\aVN} \euro}\expandafter\\\fi%
 				\ifdefined\aVOa\rCa{\aVOa}&%
-				\checkaVOa(4)\let\rVO\cachedata\ifemptydata\relax\else\IfNVOETF{\rVO}{}{\num{\rVO}\ts{}\aVOa(5)}\fi&%
+				\checkaVOa(4)\let\rVO\cachedata\ifemptydata\relax\else\IfNVOETF{\rVO}{}{\num[round-precision=3]{\rVO}\ts{}\aVOa(5)}\fi&%
 				\checkaVOa(6)\let\rVO\cachedata\ifemptydata\relax\else\IfNVOETF{\rVO}{}{\num{\rVO}}\fi&%
 				\checkaVOa(7)\let\rVO\cachedata\ifemptydata\relax\else\IfNVOETF{\rVO}{}{\num{\rVO}\%}\fi&%
 				\checkaVOa(8)\let\rVO\cachedata\ifemptydata\relax\else\IfNVOETF{\rVO}{}{\num{\rVO} \euro}\fi&%
 				\IfNVOETF{\aVO}{}{\num{\aVO} \euro}\expandafter\\\fi%
 				\ifdefined\aVPa\rCa{\aVPa}&%
-				\checkaVPa(4)\let\rVP\cachedata\ifemptydata\relax\else\IfNVOETF{\rVP}{}{\num{\rVP}\ts{}\aVPa(5)}\fi&%
+				\checkaVPa(4)\let\rVP\cachedata\ifemptydata\relax\else\IfNVOETF{\rVP}{}{\num[round-precision=3]{\rVP}\ts{}\aVPa(5)}\fi&%
 				\checkaVPa(6)\let\rVP\cachedata\ifemptydata\relax\else\IfNVOETF{\rVP}{}{\num{\rVP}}\fi&%
 				\checkaVPa(7)\let\rVP\cachedata\ifemptydata\relax\else\IfNVOETF{\rVP}{}{\num{\rVP}\%}\fi&%
 				\checkaVPa(8)\let\rVP\cachedata\ifemptydata\relax\else\IfNVOETF{\rVP}{}{\num{\rVP} \euro}\fi&%
 				\IfNVOETF{\aVP}{}{\num{\aVP} \euro}\expandafter\\\fi%
 				\ifdefined\aVQa\rCa{\aVQa}&%
-				\checkaVQa(4)\let\rVQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVQ}{}{\num{\rVQ}\ts{}\aVQa(5)}\fi&%
+				\checkaVQa(4)\let\rVQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVQ}{}{\num[round-precision=3]{\rVQ}\ts{}\aVQa(5)}\fi&%
 				\checkaVQa(6)\let\rVQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVQ}{}{\num{\rVQ}}\fi&%
 				\checkaVQa(7)\let\rVQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVQ}{}{\num{\rVQ}\%}\fi&%
 				\checkaVQa(8)\let\rVQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVQ}{}{\num{\rVQ} \euro}\fi&%
 				\IfNVOETF{\aVQ}{}{\num{\aVQ} \euro}\expandafter\\\fi%
 				\ifdefined\aVRa\rCa{\aVRa}&%
-				\checkaVRa(4)\let\rVR\cachedata\ifemptydata\relax\else\IfNVOETF{\rVR}{}{\num{\rVR}\ts{}\aVRa(5)}\fi&%
+				\checkaVRa(4)\let\rVR\cachedata\ifemptydata\relax\else\IfNVOETF{\rVR}{}{\num[round-precision=3]{\rVR}\ts{}\aVRa(5)}\fi&%
 				\checkaVRa(6)\let\rVR\cachedata\ifemptydata\relax\else\IfNVOETF{\rVR}{}{\num{\rVR}}\fi&%
 				\checkaVRa(7)\let\rVR\cachedata\ifemptydata\relax\else\IfNVOETF{\rVR}{}{\num{\rVR}\%}\fi&%
 				\checkaVRa(8)\let\rVR\cachedata\ifemptydata\relax\else\IfNVOETF{\rVR}{}{\num{\rVR} \euro}\fi&%
 				\IfNVOETF{\aVR}{}{\num{\aVR} \euro}\expandafter\\\fi%
 				\ifdefined\aVSa\rCa{\aVSa}&%
-				\checkaVSa(4)\let\rVS\cachedata\ifemptydata\relax\else\IfNVOETF{\rVS}{}{\num{\rVS}\ts{}\aVSa(5)}\fi&%
+				\checkaVSa(4)\let\rVS\cachedata\ifemptydata\relax\else\IfNVOETF{\rVS}{}{\num[round-precision=3]{\rVS}\ts{}\aVSa(5)}\fi&%
 				\checkaVSa(6)\let\rVS\cachedata\ifemptydata\relax\else\IfNVOETF{\rVS}{}{\num{\rVS}}\fi&%
 				\checkaVSa(7)\let\rVS\cachedata\ifemptydata\relax\else\IfNVOETF{\rVS}{}{\num{\rVS}\%}\fi&%
 				\checkaVSa(8)\let\rVS\cachedata\ifemptydata\relax\else\IfNVOETF{\rVS}{}{\num{\rVS} \euro}\fi&%
 				\IfNVOETF{\aVS}{}{\num{\aVS} \euro}\expandafter\\\fi%
 				\ifdefined\aVTa\rCa{\aVTa}&%
-				\checkaVTa(4)\let\rVT\cachedata\ifemptydata\relax\else\IfNVOETF{\rVT}{}{\num{\rVT}\ts{}\aVTa(5)}\fi&%
+				\checkaVTa(4)\let\rVT\cachedata\ifemptydata\relax\else\IfNVOETF{\rVT}{}{\num[round-precision=3]{\rVT}\ts{}\aVTa(5)}\fi&%
 				\checkaVTa(6)\let\rVT\cachedata\ifemptydata\relax\else\IfNVOETF{\rVT}{}{\num{\rVT}}\fi&%
 				\checkaVTa(7)\let\rVT\cachedata\ifemptydata\relax\else\IfNVOETF{\rVT}{}{\num{\rVT}\%}\fi&%
 				\checkaVTa(8)\let\rVT\cachedata\ifemptydata\relax\else\IfNVOETF{\rVT}{}{\num{\rVT} \euro}\fi&%
 				\IfNVOETF{\aVT}{}{\num{\aVT} \euro}\expandafter\\\fi%
 				\ifdefined\aVUa\rCa{\aVUa}&%
-				\checkaVUa(4)\let\rVU\cachedata\ifemptydata\relax\else\IfNVOETF{\rVU}{}{\num{\rVU}\ts{}\aVUa(5)}\fi&%
+				\checkaVUa(4)\let\rVU\cachedata\ifemptydata\relax\else\IfNVOETF{\rVU}{}{\num[round-precision=3]{\rVU}\ts{}\aVUa(5)}\fi&%
 				\checkaVUa(6)\let\rVU\cachedata\ifemptydata\relax\else\IfNVOETF{\rVU}{}{\num{\rVU}}\fi&%
 				\checkaVUa(7)\let\rVU\cachedata\ifemptydata\relax\else\IfNVOETF{\rVU}{}{\num{\rVU}\%}\fi&%
 				\checkaVUa(8)\let\rVU\cachedata\ifemptydata\relax\else\IfNVOETF{\rVU}{}{\num{\rVU} \euro}\fi&%
 				\IfNVOETF{\aVU}{}{\num{\aVU} \euro}\expandafter\\\fi%
 				\ifdefined\aVVa\rCa{\aVVa}&%
-				\checkaVVa(4)\let\rVV\cachedata\ifemptydata\relax\else\IfNVOETF{\rVV}{}{\num{\rVV}\ts{}\aVVa(5)}\fi&%
+				\checkaVVa(4)\let\rVV\cachedata\ifemptydata\relax\else\IfNVOETF{\rVV}{}{\num[round-precision=3]{\rVV}\ts{}\aVVa(5)}\fi&%
 				\checkaVVa(6)\let\rVV\cachedata\ifemptydata\relax\else\IfNVOETF{\rVV}{}{\num{\rVV}}\fi&%
 				\checkaVVa(7)\let\rVV\cachedata\ifemptydata\relax\else\IfNVOETF{\rVV}{}{\num{\rVV}\%}\fi&%
 				\checkaVVa(8)\let\rVV\cachedata\ifemptydata\relax\else\IfNVOETF{\rVV}{}{\num{\rVV} \euro}\fi&%
 				\IfNVOETF{\aVV}{}{\num{\aVV} \euro}\expandafter\\\fi%
 				\ifdefined\aVWa\rCa{\aVWa}&%
-				\checkaVWa(4)\let\rVW\cachedata\ifemptydata\relax\else\IfNVOETF{\rVW}{}{\num{\rVW}\ts{}\aVWa(5)}\fi&%
+				\checkaVWa(4)\let\rVW\cachedata\ifemptydata\relax\else\IfNVOETF{\rVW}{}{\num[round-precision=3]{\rVW}\ts{}\aVWa(5)}\fi&%
 				\checkaVWa(6)\let\rVW\cachedata\ifemptydata\relax\else\IfNVOETF{\rVW}{}{\num{\rVW}}\fi&%
 				\checkaVWa(7)\let\rVW\cachedata\ifemptydata\relax\else\IfNVOETF{\rVW}{}{\num{\rVW}\%}\fi&%
 				\checkaVWa(8)\let\rVW\cachedata\ifemptydata\relax\else\IfNVOETF{\rVW}{}{\num{\rVW} \euro}\fi&%
 				\IfNVOETF{\aVW}{}{\num{\aVW} \euro}\expandafter\\\fi%
 				\ifdefined\aVXa\rCa{\aVXa}&%
-				\checkaVXa(4)\let\rVX\cachedata\ifemptydata\relax\else\IfNVOETF{\rVX}{}{\num{\rVX}\ts{}\aVXa(5)}\fi&%
+				\checkaVXa(4)\let\rVX\cachedata\ifemptydata\relax\else\IfNVOETF{\rVX}{}{\num[round-precision=3]{\rVX}\ts{}\aVXa(5)}\fi&%
 				\checkaVXa(6)\let\rVX\cachedata\ifemptydata\relax\else\IfNVOETF{\rVX}{}{\num{\rVX}}\fi&%
 				\checkaVXa(7)\let\rVX\cachedata\ifemptydata\relax\else\IfNVOETF{\rVX}{}{\num{\rVX}\%}\fi&%
 				\checkaVXa(8)\let\rVX\cachedata\ifemptydata\relax\else\IfNVOETF{\rVX}{}{\num{\rVX} \euro}\fi&%
 				\IfNVOETF{\aVX}{}{\num{\aVX} \euro}\expandafter\\\fi%
 				\ifdefined\aVYa\rCa{\aVYa}&%
-				\checkaVYa(4)\let\rVY\cachedata\ifemptydata\relax\else\IfNVOETF{\rVY}{}{\num{\rVY}\ts{}\aVYa(5)}\fi&%
+				\checkaVYa(4)\let\rVY\cachedata\ifemptydata\relax\else\IfNVOETF{\rVY}{}{\num[round-precision=3]{\rVY}\ts{}\aVYa(5)}\fi&%
 				\checkaVYa(6)\let\rVY\cachedata\ifemptydata\relax\else\IfNVOETF{\rVY}{}{\num{\rVY}}\fi&%
 				\checkaVYa(7)\let\rVY\cachedata\ifemptydata\relax\else\IfNVOETF{\rVY}{}{\num{\rVY}\%}\fi&%
 				\checkaVYa(8)\let\rVY\cachedata\ifemptydata\relax\else\IfNVOETF{\rVY}{}{\num{\rVY} \euro}\fi&%
 				\IfNVOETF{\aVY}{}{\num{\aVY} \euro}\expandafter\\\fi%	
 				\ifdefined\aVZa\rCa{\aVZa}&%
-				\checkaVZa(4)\let\rVZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVZ}{}{\num{\rVZ}\ts{}\aVZa(5)}\fi&%
+				\checkaVZa(4)\let\rVZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVZ}{}{\num[round-precision=3]{\rVZ}\ts{}\aVZa(5)}\fi&%
 				\checkaVZa(6)\let\rVZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVZ}{}{\num{\rVZ}}\fi&%
 				\checkaVZa(7)\let\rVZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVZ}{}{\num{\rVZ}\%}\fi&%
 				\checkaVZa(8)\let\rVZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rVZ}{}{\num{\rVZ} \euro}\fi&%
@@ -5144,151 +5144,151 @@
 			\begin{tabularx}{\textwidth}{\assetTableColDef}%
 				\assetTableColLabels%
 				\ifdefined\aWAa\rCa{\aWAa}&%
-				\checkaWAa(4)\let\rWA\cachedata\ifemptydata\relax\else\IfNVOETF{\rWA}{}{\num{\rWA}\ts{}\aWAa(5)}\fi&%
+				\checkaWAa(4)\let\rWA\cachedata\ifemptydata\relax\else\IfNVOETF{\rWA}{}{\num[round-precision=3]{\rWA}\ts{}\aWAa(5)}\fi&%
 				\checkaWAa(6)\let\rWA\cachedata\ifemptydata\relax\else\IfNVOETF{\rWA}{}{\num{\rWA}}\fi&%
 				\checkaWAa(7)\let\rWA\cachedata\ifemptydata\relax\else\IfNVOETF{\rWA}{}{\num{\rWA}\%}\fi&%
 				\checkaWAa(8)\let\rWA\cachedata\ifemptydata\relax\else\IfNVOETF{\rWA}{}{\num{\rWA} \euro}\fi&%
 				\IfNVOETF{\aWA}{}{\num{\aWA} \euro}\expandafter\\\fi%
 				\ifdefined\aWBa\rCa{\aWBa}&%
-				\checkaWBa(4)\let\rWB\cachedata\ifemptydata\relax\else\IfNVOETF{\rWB}{}{\num{\rWB}\ts{}\aWBa(5)}\fi&%
+				\checkaWBa(4)\let\rWB\cachedata\ifemptydata\relax\else\IfNVOETF{\rWB}{}{\num[round-precision=3]{\rWB}\ts{}\aWBa(5)}\fi&%
 				\checkaWBa(6)\let\rWB\cachedata\ifemptydata\relax\else\IfNVOETF{\rWB}{}{\num{\rWB}}\fi&%
 				\checkaWBa(7)\let\rWB\cachedata\ifemptydata\relax\else\IfNVOETF{\rWB}{}{\num{\rWB}\%}\fi&%
 				\checkaWBa(8)\let\rWB\cachedata\ifemptydata\relax\else\IfNVOETF{\rWB}{}{\num{\rWB} \euro}\fi&%
 				\IfNVOETF{\aWB}{}{\num{\aWB} \euro}\expandafter\\\fi%
 				\ifdefined\aWCa\rCa{\aWCa}&%
-				\checkaWCa(4)\let\rWC\cachedata\ifemptydata\relax\else\IfNVOETF{\rWC}{}{\num{\rWC}\ts{}\aWCa(5)}\fi&%
+				\checkaWCa(4)\let\rWC\cachedata\ifemptydata\relax\else\IfNVOETF{\rWC}{}{\num[round-precision=3]{\rWC}\ts{}\aWCa(5)}\fi&%
 				\checkaWCa(6)\let\rWC\cachedata\ifemptydata\relax\else\IfNVOETF{\rWC}{}{\num{\rWC}}\fi&%
 				\checkaWCa(7)\let\rWC\cachedata\ifemptydata\relax\else\IfNVOETF{\rWC}{}{\num{\rWC}\%}\fi&%
 				\checkaWCa(8)\let\rWC\cachedata\ifemptydata\relax\else\IfNVOETF{\rWC}{}{\num{\rWC} \euro}\fi&%
 				\IfNVOETF{\aWC}{}{\num{\aWC} \euro}\expandafter\\\fi%
 				\ifdefined\aWDa\rCa{\aWDa}&%
-				\checkaWDa(4)\let\rWD\cachedata\ifemptydata\relax\else\IfNVOETF{\rWD}{}{\num{\rWD}\ts{}\aWDa(5)}\fi&%
+				\checkaWDa(4)\let\rWD\cachedata\ifemptydata\relax\else\IfNVOETF{\rWD}{}{\num[round-precision=3]{\rWD}\ts{}\aWDa(5)}\fi&%
 				\checkaWDa(6)\let\rWD\cachedata\ifemptydata\relax\else\IfNVOETF{\rWD}{}{\num{\rWD}}\fi&%
 				\checkaWDa(7)\let\rWD\cachedata\ifemptydata\relax\else\IfNVOETF{\rWD}{}{\num{\rWD}\%}\fi&%
 				\checkaWDa(8)\let\rWD\cachedata\ifemptydata\relax\else\IfNVOETF{\rWD}{}{\num{\rWD} \euro}\fi&%
 				\IfNVOETF{\aWD}{}{\num{\aWD} \euro}\expandafter\\\fi%
 				\ifdefined\aWEa\rCa{\aWEa}&%
-				\checkaWEa(4)\let\rWE\cachedata\ifemptydata\relax\else\IfNVOETF{\rWE}{}{\num{\rWE}\ts{}\aWEa(5)}\fi&%
+				\checkaWEa(4)\let\rWE\cachedata\ifemptydata\relax\else\IfNVOETF{\rWE}{}{\num[round-precision=3]{\rWE}\ts{}\aWEa(5)}\fi&%
 				\checkaWEa(6)\let\rWE\cachedata\ifemptydata\relax\else\IfNVOETF{\rWE}{}{\num{\rWE}}\fi&%
 				\checkaWEa(7)\let\rWE\cachedata\ifemptydata\relax\else\IfNVOETF{\rWE}{}{\num{\rWE}\%}\fi&%
 				\checkaWEa(8)\let\rWE\cachedata\ifemptydata\relax\else\IfNVOETF{\rWE}{}{\num{\rWE} \euro}\fi&%
 				\IfNVOETF{\aWE}{}{\num{\aWE} \euro}\expandafter\\\fi%
 				\ifdefined\aWFa\rCa{\aWFa}&%
-				\checkaWFa(4)\let\rWF\cachedata\ifemptydata\relax\else\IfNVOETF{\rWF}{}{\num{\rWF}\ts{}\aWFa(5)}\fi&%
+				\checkaWFa(4)\let\rWF\cachedata\ifemptydata\relax\else\IfNVOETF{\rWF}{}{\num[round-precision=3]{\rWF}\ts{}\aWFa(5)}\fi&%
 				\checkaWFa(6)\let\rWF\cachedata\ifemptydata\relax\else\IfNVOETF{\rWF}{}{\num{\rWF}}\fi&%
 				\checkaWFa(7)\let\rWF\cachedata\ifemptydata\relax\else\IfNVOETF{\rWF}{}{\num{\rWF}\%}\fi&%
 				\checkaWFa(8)\let\rWF\cachedata\ifemptydata\relax\else\IfNVOETF{\rWF}{}{\num{\rWF} \euro}\fi&%
 				\IfNVOETF{\aWF}{}{\num{\aWF} \euro}\expandafter\\\fi%
 				\ifdefined\aWGa\rCa{\aWGa}&%
-				\checkaWGa(4)\let\rWG\cachedata\ifemptydata\relax\else\IfNVOETF{\rWG}{}{\num{\rWG}\ts{}\aWGa(5)}\fi&%
+				\checkaWGa(4)\let\rWG\cachedata\ifemptydata\relax\else\IfNVOETF{\rWG}{}{\num[round-precision=3]{\rWG}\ts{}\aWGa(5)}\fi&%
 				\checkaWGa(6)\let\rWG\cachedata\ifemptydata\relax\else\IfNVOETF{\rWG}{}{\num{\rWG}}\fi&%
 				\checkaWGa(7)\let\rWG\cachedata\ifemptydata\relax\else\IfNVOETF{\rWG}{}{\num{\rWG}\%}\fi&%
 				\checkaWGa(8)\let\rWG\cachedata\ifemptydata\relax\else\IfNVOETF{\rWG}{}{\num{\rWG} \euro}\fi&%
 				\IfNVOETF{\aWG}{}{\num{\aWG} \euro}\expandafter\\\fi%
 				\ifdefined\aWIa\rCa{\aWIa}&%
-				\checkaWIa(4)\let\rWI\cachedata\ifemptydata\relax\else\IfNVOETF{\rWI}{}{\num{\rWI}\ts{}\aWIa(5)}\fi&%
+				\checkaWIa(4)\let\rWI\cachedata\ifemptydata\relax\else\IfNVOETF{\rWI}{}{\num[round-precision=3]{\rWI}\ts{}\aWIa(5)}\fi&%
 				\checkaWIa(6)\let\rWI\cachedata\ifemptydata\relax\else\IfNVOETF{\rWI}{}{\num{\rWI}}\fi&%
 				\checkaWIa(7)\let\rWI\cachedata\ifemptydata\relax\else\IfNVOETF{\rWI}{}{\num{\rWI}\%}\fi&%
 				\checkaWIa(8)\let\rWI\cachedata\ifemptydata\relax\else\IfNVOETF{\rWI}{}{\num{\rWI} \euro}\fi&%
 				\IfNVOETF{\aWI}{}{\num{\aWI} \euro}\expandafter\\\fi%
 				\ifdefined\aWJa\rCa{\aWJa}&%
-				\checkaWJa(4)\let\rWJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWJ}{}{\num{\rWJ}\ts{}\aWJa(5)}\fi&%
+				\checkaWJa(4)\let\rWJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWJ}{}{\num[round-precision=3]{\rWJ}\ts{}\aWJa(5)}\fi&%
 				\checkaWJa(6)\let\rWJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWJ}{}{\num{\rWJ}}\fi&%
 				\checkaWJa(7)\let\rWJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWJ}{}{\num{\rWJ}\%}\fi&%
 				\checkaWJa(8)\let\rWJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWJ}{}{\num{\rWJ} \euro}\fi&%
 				\IfNVOETF{\aWJ}{}{\num{\aWJ} \euro}\expandafter\\\fi%
 				\ifdefined\aWKa\rCa{\aWKa}&%
-				\checkaWKa(4)\let\rWK\cachedata\ifemptydata\relax\else\IfNVOETF{\rWK}{}{\num{\rWK}\ts{}\aWKa(5)}\fi&%
+				\checkaWKa(4)\let\rWK\cachedata\ifemptydata\relax\else\IfNVOETF{\rWK}{}{\num[round-precision=3]{\rWK}\ts{}\aWKa(5)}\fi&%
 				\checkaWKa(6)\let\rWK\cachedata\ifemptydata\relax\else\IfNVOETF{\rWK}{}{\num{\rWK}}\fi&%
 				\checkaWKa(7)\let\rWK\cachedata\ifemptydata\relax\else\IfNVOETF{\rWK}{}{\num{\rWK}\%}\fi&%
 				\checkaWKa(8)\let\rWK\cachedata\ifemptydata\relax\else\IfNVOETF{\rWK}{}{\num{\rWK} \euro}\fi&%
 				\IfNVOETF{\aWK}{}{\num{\aWK} \euro}\expandafter\\\fi%
 				\ifdefined\aWLa\rCa{\aWLa}&%
-				\checkaWLa(4)\let\rWL\cachedata\ifemptydata\relax\else\IfNVOETF{\rWL}{}{\num{\rWL}\ts{}\aWLa(5)}\fi&%
+				\checkaWLa(4)\let\rWL\cachedata\ifemptydata\relax\else\IfNVOETF{\rWL}{}{\num[round-precision=3]{\rWL}\ts{}\aWLa(5)}\fi&%
 				\checkaWLa(6)\let\rWL\cachedata\ifemptydata\relax\else\IfNVOETF{\rWL}{}{\num{\rWL}}\fi&%
 				\checkaWLa(7)\let\rWL\cachedata\ifemptydata\relax\else\IfNVOETF{\rWL}{}{\num{\rWL}\%}\fi&%
 				\checkaWLa(8)\let\rWL\cachedata\ifemptydata\relax\else\IfNVOETF{\rWL}{}{\num{\rWL} \euro}\fi&%
 				\IfNVOETF{\aWL}{}{\num{\aWL} \euro}\expandafter\\\fi%
 				\ifdefined\aWMa\rCa{\aWMa}&%
-				\checkaWMa(4)\let\rWM\cachedata\ifemptydata\relax\else\IfNVOETF{\rWM}{}{\num{\rWM}\ts{}\aWMa(5)}\fi&%
+				\checkaWMa(4)\let\rWM\cachedata\ifemptydata\relax\else\IfNVOETF{\rWM}{}{\num[round-precision=3]{\rWM}\ts{}\aWMa(5)}\fi&%
 				\checkaWMa(6)\let\rWM\cachedata\ifemptydata\relax\else\IfNVOETF{\rWM}{}{\num{\rWM}}\fi&%
 				\checkaWMa(7)\let\rWM\cachedata\ifemptydata\relax\else\IfNVOETF{\rWM}{}{\num{\rWM}\%}\fi&%
 				\checkaWMa(8)\let\rWM\cachedata\ifemptydata\relax\else\IfNVOETF{\rWM}{}{\num{\rWM} \euro}\fi&%
 				\IfNVOETF{\aWM}{}{\num{\aWM} \euro}\expandafter\\\fi%
 				\ifdefined\aWNa\rCa{\aWNa}&%
-				\checkaWNa(4)\let\rWN\cachedata\ifemptydata\relax\else\IfNVOETF{\rWN}{}{\num{\rWN}\ts{}\aWNa(5)}\fi&%
+				\checkaWNa(4)\let\rWN\cachedata\ifemptydata\relax\else\IfNVOETF{\rWN}{}{\num[round-precision=3]{\rWN}\ts{}\aWNa(5)}\fi&%
 				\checkaWNa(6)\let\rWN\cachedata\ifemptydata\relax\else\IfNVOETF{\rWN}{}{\num{\rWN}}\fi&%
 				\checkaWNa(7)\let\rWN\cachedata\ifemptydata\relax\else\IfNVOETF{\rWN}{}{\num{\rWN}\%}\fi&%
 				\checkaWNa(8)\let\rWN\cachedata\ifemptydata\relax\else\IfNVOETF{\rWN}{}{\num{\rWN} \euro}\fi&%
 				\IfNVOETF{\aWN}{}{\num{\aWN} \euro}\expandafter\\\fi%
 				\ifdefined\aWOa\rCa{\aWOa}&%
-				\checkaWOa(4)\let\rWO\cachedata\ifemptydata\relax\else\IfNVOETF{\rWO}{}{\num{\rWO}\ts{}\aWOa(5)}\fi&%
+				\checkaWOa(4)\let\rWO\cachedata\ifemptydata\relax\else\IfNVOETF{\rWO}{}{\num[round-precision=3]{\rWO}\ts{}\aWOa(5)}\fi&%
 				\checkaWOa(6)\let\rWO\cachedata\ifemptydata\relax\else\IfNVOETF{\rWO}{}{\num{\rWO}}\fi&%
 				\checkaWOa(7)\let\rWO\cachedata\ifemptydata\relax\else\IfNVOETF{\rWO}{}{\num{\rWO}\%}\fi&%
 				\checkaWOa(8)\let\rWO\cachedata\ifemptydata\relax\else\IfNVOETF{\rWO}{}{\num{\rWO} \euro}\fi&%
 				\IfNVOETF{\aWO}{}{\num{\aWO} \euro}\expandafter\\\fi%
 				\ifdefined\aWPa\rCa{\aWPa}&%
-				\checkaWPa(4)\let\rWP\cachedata\ifemptydata\relax\else\IfNVOETF{\rWP}{}{\num{\rWP}\ts{}\aWPa(5)}\fi&%
+				\checkaWPa(4)\let\rWP\cachedata\ifemptydata\relax\else\IfNVOETF{\rWP}{}{\num[round-precision=3]{\rWP}\ts{}\aWPa(5)}\fi&%
 				\checkaWPa(6)\let\rWP\cachedata\ifemptydata\relax\else\IfNVOETF{\rWP}{}{\num{\rWP}}\fi&%
 				\checkaWPa(7)\let\rWP\cachedata\ifemptydata\relax\else\IfNVOETF{\rWP}{}{\num{\rWP}\%}\fi&%
 				\checkaWPa(8)\let\rWP\cachedata\ifemptydata\relax\else\IfNVOETF{\rWP}{}{\num{\rWP} \euro}\fi&%
 				\IfNVOETF{\aWP}{}{\num{\aWP} \euro}\expandafter\\\fi%
 				\ifdefined\aWQa\rCa{\aWQa}&%
-				\checkaWQa(4)\let\rWQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWQ}{}{\num{\rWQ}\ts{}\aWQa(5)}\fi&%
+				\checkaWQa(4)\let\rWQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWQ}{}{\num[round-precision=3]{\rWQ}\ts{}\aWQa(5)}\fi&%
 				\checkaWQa(6)\let\rWQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWQ}{}{\num{\rWQ}}\fi&%
 				\checkaWQa(7)\let\rWQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWQ}{}{\num{\rWQ}\%}\fi&%
 				\checkaWQa(8)\let\rWQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWQ}{}{\num{\rWQ} \euro}\fi&%
 				\IfNVOETF{\aWQ}{}{\num{\aWQ} \euro}\expandafter\\\fi%
 				\ifdefined\aWRa\rCa{\aWRa}&%
-				\checkaWRa(4)\let\rWR\cachedata\ifemptydata\relax\else\IfNVOETF{\rWR}{}{\num{\rWR}\ts{}\aWRa(5)}\fi&%
+				\checkaWRa(4)\let\rWR\cachedata\ifemptydata\relax\else\IfNVOETF{\rWR}{}{\num[round-precision=3]{\rWR}\ts{}\aWRa(5)}\fi&%
 				\checkaWRa(6)\let\rWR\cachedata\ifemptydata\relax\else\IfNVOETF{\rWR}{}{\num{\rWR}}\fi&%
 				\checkaWRa(7)\let\rWR\cachedata\ifemptydata\relax\else\IfNVOETF{\rWR}{}{\num{\rWR}\%}\fi&%
 				\checkaWRa(8)\let\rWR\cachedata\ifemptydata\relax\else\IfNVOETF{\rWR}{}{\num{\rWR} \euro}\fi&%
 				\IfNVOETF{\aWR}{}{\num{\aWR} \euro}\expandafter\\\fi%
 				\ifdefined\aWSa\rCa{\aWSa}&%
-				\checkaWSa(4)\let\rWS\cachedata\ifemptydata\relax\else\IfNVOETF{\rWS}{}{\num{\rWS}\ts{}\aWSa(5)}\fi&%
+				\checkaWSa(4)\let\rWS\cachedata\ifemptydata\relax\else\IfNVOETF{\rWS}{}{\num[round-precision=3]{\rWS}\ts{}\aWSa(5)}\fi&%
 				\checkaWSa(6)\let\rWS\cachedata\ifemptydata\relax\else\IfNVOETF{\rWS}{}{\num{\rWS}}\fi&%
 				\checkaWSa(7)\let\rWS\cachedata\ifemptydata\relax\else\IfNVOETF{\rWS}{}{\num{\rWS}\%}\fi&%
 				\checkaWSa(8)\let\rWS\cachedata\ifemptydata\relax\else\IfNVOETF{\rWS}{}{\num{\rWS} \euro}\fi&%
 				\IfNVOETF{\aWS}{}{\num{\aWS} \euro}\expandafter\\\fi%
 				\ifdefined\aWTa\rCa{\aWTa}&%
-				\checkaWTa(4)\let\rWT\cachedata\ifemptydata\relax\else\IfNVOETF{\rWT}{}{\num{\rWT}\ts{}\aWTa(5)}\fi&%
+				\checkaWTa(4)\let\rWT\cachedata\ifemptydata\relax\else\IfNVOETF{\rWT}{}{\num[round-precision=3]{\rWT}\ts{}\aWTa(5)}\fi&%
 				\checkaWTa(6)\let\rWT\cachedata\ifemptydata\relax\else\IfNVOETF{\rWT}{}{\num{\rWT}}\fi&%
 				\checkaWTa(7)\let\rWT\cachedata\ifemptydata\relax\else\IfNVOETF{\rWT}{}{\num{\rWT}\%}\fi&%
 				\checkaWTa(8)\let\rWT\cachedata\ifemptydata\relax\else\IfNVOETF{\rWT}{}{\num{\rWT} \euro}\fi&%
 				\IfNVOETF{\aWT}{}{\num{\aWT} \euro}\expandafter\\\fi%
 				\ifdefined\aWUa\rCa{\aWUa}&%
-				\checkaWUa(4)\let\rWU\cachedata\ifemptydata\relax\else\IfNVOETF{\rWU}{}{\num{\rWU}\ts{}\aWUa(5)}\fi&%
+				\checkaWUa(4)\let\rWU\cachedata\ifemptydata\relax\else\IfNVOETF{\rWU}{}{\num[round-precision=3]{\rWU}\ts{}\aWUa(5)}\fi&%
 				\checkaWUa(6)\let\rWU\cachedata\ifemptydata\relax\else\IfNVOETF{\rWU}{}{\num{\rWU}}\fi&%
 				\checkaWUa(7)\let\rWU\cachedata\ifemptydata\relax\else\IfNVOETF{\rWU}{}{\num{\rWU}\%}\fi&%
 				\checkaWUa(8)\let\rWU\cachedata\ifemptydata\relax\else\IfNVOETF{\rWU}{}{\num{\rWU} \euro}\fi&%
 				\IfNVOETF{\aWU}{}{\num{\aWU} \euro}\expandafter\\\fi%
 				\ifdefined\aWVa\rCa{\aWVa}&%
-				\checkaWVa(4)\let\rWV\cachedata\ifemptydata\relax\else\IfNVOETF{\rWV}{}{\num{\rWV}\ts{}\aWVa(5)}\fi&%
+				\checkaWVa(4)\let\rWV\cachedata\ifemptydata\relax\else\IfNVOETF{\rWV}{}{\num[round-precision=3]{\rWV}\ts{}\aWVa(5)}\fi&%
 				\checkaWVa(6)\let\rWV\cachedata\ifemptydata\relax\else\IfNVOETF{\rWV}{}{\num{\rWV}}\fi&%
 				\checkaWVa(7)\let\rWV\cachedata\ifemptydata\relax\else\IfNVOETF{\rWV}{}{\num{\rWV}\%}\fi&%
 				\checkaWVa(8)\let\rWV\cachedata\ifemptydata\relax\else\IfNVOETF{\rWV}{}{\num{\rWV} \euro}\fi&%
 				\IfNVOETF{\aWV}{}{\num{\aWV} \euro}\expandafter\\\fi%
 				\ifdefined\aWWa\rCa{\aWWa}&%
-				\checkaWWa(4)\let\rWW\cachedata\ifemptydata\relax\else\IfNVOETF{\rWW}{}{\num{\rWW}\ts{}\aWWa(5)}\fi&%
+				\checkaWWa(4)\let\rWW\cachedata\ifemptydata\relax\else\IfNVOETF{\rWW}{}{\num[round-precision=3]{\rWW}\ts{}\aWWa(5)}\fi&%
 				\checkaWWa(6)\let\rWW\cachedata\ifemptydata\relax\else\IfNVOETF{\rWW}{}{\num{\rWW}}\fi&%
 				\checkaWWa(7)\let\rWW\cachedata\ifemptydata\relax\else\IfNVOETF{\rWW}{}{\num{\rWW}\%}\fi&%
 				\checkaWWa(8)\let\rWW\cachedata\ifemptydata\relax\else\IfNVOETF{\rWW}{}{\num{\rWW} \euro}\fi&%
 				\IfNVOETF{\aWW}{}{\num{\aWW} \euro}\expandafter\\\fi%
 				\ifdefined\aWXa\rCa{\aWXa}&%
-				\checkaWXa(4)\let\rWX\cachedata\ifemptydata\relax\else\IfNVOETF{\rWX}{}{\num{\rWX}\ts{}\aWXa(5)}\fi&%
+				\checkaWXa(4)\let\rWX\cachedata\ifemptydata\relax\else\IfNVOETF{\rWX}{}{\num[round-precision=3]{\rWX}\ts{}\aWXa(5)}\fi&%
 				\checkaWXa(6)\let\rWX\cachedata\ifemptydata\relax\else\IfNVOETF{\rWX}{}{\num{\rWX}}\fi&%
 				\checkaWXa(7)\let\rWX\cachedata\ifemptydata\relax\else\IfNVOETF{\rWX}{}{\num{\rWX}\%}\fi&%
 				\checkaWXa(8)\let\rWX\cachedata\ifemptydata\relax\else\IfNVOETF{\rWX}{}{\num{\rWX} \euro}\fi&%
 				\IfNVOETF{\aWX}{}{\num{\aWX} \euro}\expandafter\\\fi%
 				\ifdefined\aWYa\rCa{\aWYa}&%
-				\checkaWYa(4)\let\rWY\cachedata\ifemptydata\relax\else\IfNVOETF{\rWY}{}{\num{\rWY}\ts{}\aWYa(5)}\fi&%
+				\checkaWYa(4)\let\rWY\cachedata\ifemptydata\relax\else\IfNVOETF{\rWY}{}{\num[round-precision=3]{\rWY}\ts{}\aWYa(5)}\fi&%
 				\checkaWYa(6)\let\rWY\cachedata\ifemptydata\relax\else\IfNVOETF{\rWY}{}{\num{\rWY}}\fi&%
 				\checkaWYa(7)\let\rWY\cachedata\ifemptydata\relax\else\IfNVOETF{\rWY}{}{\num{\rWY}\%}\fi&%
 				\checkaWYa(8)\let\rWY\cachedata\ifemptydata\relax\else\IfNVOETF{\rWY}{}{\num{\rWY} \euro}\fi&%
 				\IfNVOETF{\aWY}{}{\num{\aWY} \euro}\expandafter\\\fi%	
 				\ifdefined\aWZa\rCa{\aWZa}&%
-				\checkaWZa(4)\let\rWZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWZ}{}{\num{\rWZ}\ts{}\aWZa(5)}\fi&%
+				\checkaWZa(4)\let\rWZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWZ}{}{\num[round-precision=3]{\rWZ}\ts{}\aWZa(5)}\fi&%
 				\checkaWZa(6)\let\rWZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWZ}{}{\num{\rWZ}}\fi&%
 				\checkaWZa(7)\let\rWZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWZ}{}{\num{\rWZ}\%}\fi&%
 				\checkaWZa(8)\let\rWZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rWZ}{}{\num{\rWZ} \euro}\fi&%
@@ -5303,151 +5303,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aXAa\rCa{\aXAa}&%
-				\checkaXAa(4)\let\rXA\cachedata\ifemptydata\relax\else\IfNVOETF{\rXA}{}{\num{\rXA}\ts{}\aXAa(5)}\fi&%
+				\checkaXAa(4)\let\rXA\cachedata\ifemptydata\relax\else\IfNVOETF{\rXA}{}{\num[round-precision=3]{\rXA}\ts{}\aXAa(5)}\fi&%
 				\checkaXAa(6)\let\rXA\cachedata\ifemptydata\relax\else\IfNVOETF{\rXA}{}{\num{\rXA}}\fi&%
 				\checkaXAa(7)\let\rXA\cachedata\ifemptydata\relax\else\IfNVOETF{\rXA}{}{\num{\rXA}\%}\fi&%
 				\checkaXAa(8)\let\rXA\cachedata\ifemptydata\relax\else\IfNVOETF{\rXA}{}{\num{\rXA} \euro}\fi&%
 				\IfNVOETF{\aXA}{}{\num{\aXA} \euro}\expandafter\\\fi%
 				\ifdefined\aXBa\rCa{\aXBa}&%
-				\checkaXBa(4)\let\rXB\cachedata\ifemptydata\relax\else\IfNVOETF{\rXB}{}{\num{\rXB}\ts{}\aXBa(5)}\fi&%
+				\checkaXBa(4)\let\rXB\cachedata\ifemptydata\relax\else\IfNVOETF{\rXB}{}{\num[round-precision=3]{\rXB}\ts{}\aXBa(5)}\fi&%
 				\checkaXBa(6)\let\rXB\cachedata\ifemptydata\relax\else\IfNVOETF{\rXB}{}{\num{\rXB}}\fi&%
 				\checkaXBa(7)\let\rXB\cachedata\ifemptydata\relax\else\IfNVOETF{\rXB}{}{\num{\rXB}\%}\fi&%
 				\checkaXBa(8)\let\rXB\cachedata\ifemptydata\relax\else\IfNVOETF{\rXB}{}{\num{\rXB} \euro}\fi&%
 				\IfNVOETF{\aXB}{}{\num{\aXB} \euro}\expandafter\\\fi%
 				\ifdefined\aXCa\rCa{\aXCa}&%
-				\checkaXCa(4)\let\rXC\cachedata\ifemptydata\relax\else\IfNVOETF{\rXC}{}{\num{\rXC}\ts{}\aXCa(5)}\fi&%
+				\checkaXCa(4)\let\rXC\cachedata\ifemptydata\relax\else\IfNVOETF{\rXC}{}{\num[round-precision=3]{\rXC}\ts{}\aXCa(5)}\fi&%
 				\checkaXCa(6)\let\rXC\cachedata\ifemptydata\relax\else\IfNVOETF{\rXC}{}{\num{\rXC}}\fi&%
 				\checkaXCa(7)\let\rXC\cachedata\ifemptydata\relax\else\IfNVOETF{\rXC}{}{\num{\rXC}\%}\fi&%
 				\checkaXCa(8)\let\rXC\cachedata\ifemptydata\relax\else\IfNVOETF{\rXC}{}{\num{\rXC} \euro}\fi&%
 				\IfNVOETF{\aXC}{}{\num{\aXC} \euro}\expandafter\\\fi%
 				\ifdefined\aXDa\rCa{\aXDa}&%
-				\checkaXDa(4)\let\rXD\cachedata\ifemptydata\relax\else\IfNVOETF{\rXD}{}{\num{\rXD}\ts{}\aXDa(5)}\fi&%
+				\checkaXDa(4)\let\rXD\cachedata\ifemptydata\relax\else\IfNVOETF{\rXD}{}{\num[round-precision=3]{\rXD}\ts{}\aXDa(5)}\fi&%
 				\checkaXDa(6)\let\rXD\cachedata\ifemptydata\relax\else\IfNVOETF{\rXD}{}{\num{\rXD}}\fi&%
 				\checkaXDa(7)\let\rXD\cachedata\ifemptydata\relax\else\IfNVOETF{\rXD}{}{\num{\rXD}\%}\fi&%
 				\checkaXDa(8)\let\rXD\cachedata\ifemptydata\relax\else\IfNVOETF{\rXD}{}{\num{\rXD} \euro}\fi&%
 				\IfNVOETF{\aXD}{}{\num{\aXD} \euro}\expandafter\\\fi%
 				\ifdefined\aXEa\rCa{\aXEa}&%
-				\checkaXEa(4)\let\rXE\cachedata\ifemptydata\relax\else\IfNVOETF{\rXE}{}{\num{\rXE}\ts{}\aXEa(5)}\fi&%
+				\checkaXEa(4)\let\rXE\cachedata\ifemptydata\relax\else\IfNVOETF{\rXE}{}{\num[round-precision=3]{\rXE}\ts{}\aXEa(5)}\fi&%
 				\checkaXEa(6)\let\rXE\cachedata\ifemptydata\relax\else\IfNVOETF{\rXE}{}{\num{\rXE}}\fi&%
 				\checkaXEa(7)\let\rXE\cachedata\ifemptydata\relax\else\IfNVOETF{\rXE}{}{\num{\rXE}\%}\fi&%
 				\checkaXEa(8)\let\rXE\cachedata\ifemptydata\relax\else\IfNVOETF{\rXE}{}{\num{\rXE} \euro}\fi&%
 				\IfNVOETF{\aXE}{}{\num{\aXE} \euro}\expandafter\\\fi%
 				\ifdefined\aXFa\rCa{\aXFa}&%
-				\checkaXFa(4)\let\rXF\cachedata\ifemptydata\relax\else\IfNVOETF{\rXF}{}{\num{\rXF}\ts{}\aXFa(5)}\fi&%
+				\checkaXFa(4)\let\rXF\cachedata\ifemptydata\relax\else\IfNVOETF{\rXF}{}{\num[round-precision=3]{\rXF}\ts{}\aXFa(5)}\fi&%
 				\checkaXFa(6)\let\rXF\cachedata\ifemptydata\relax\else\IfNVOETF{\rXF}{}{\num{\rXF}}\fi&%
 				\checkaXFa(7)\let\rXF\cachedata\ifemptydata\relax\else\IfNVOETF{\rXF}{}{\num{\rXF}\%}\fi&%
 				\checkaXFa(8)\let\rXF\cachedata\ifemptydata\relax\else\IfNVOETF{\rXF}{}{\num{\rXF} \euro}\fi&%
 				\IfNVOETF{\aXF}{}{\num{\aXF} \euro}\expandafter\\\fi%
 				\ifdefined\aXGa\rCa{\aXGa}&%
-				\checkaXGa(4)\let\rXG\cachedata\ifemptydata\relax\else\IfNVOETF{\rXG}{}{\num{\rXG}\ts{}\aXGa(5)}\fi&%
+				\checkaXGa(4)\let\rXG\cachedata\ifemptydata\relax\else\IfNVOETF{\rXG}{}{\num[round-precision=3]{\rXG}\ts{}\aXGa(5)}\fi&%
 				\checkaXGa(6)\let\rXG\cachedata\ifemptydata\relax\else\IfNVOETF{\rXG}{}{\num{\rXG}}\fi&%
 				\checkaXGa(7)\let\rXG\cachedata\ifemptydata\relax\else\IfNVOETF{\rXG}{}{\num{\rXG}\%}\fi&%
 				\checkaXGa(8)\let\rXG\cachedata\ifemptydata\relax\else\IfNVOETF{\rXG}{}{\num{\rXG} \euro}\fi&%
 				\IfNVOETF{\aXG}{}{\num{\aXG} \euro}\expandafter\\\fi%
 				\ifdefined\aXIa\rCa{\aXIa}&%
-				\checkaXIa(4)\let\rXI\cachedata\ifemptydata\relax\else\IfNVOETF{\rXI}{}{\num{\rXI}\ts{}\aXIa(5)}\fi&%
+				\checkaXIa(4)\let\rXI\cachedata\ifemptydata\relax\else\IfNVOETF{\rXI}{}{\num[round-precision=3]{\rXI}\ts{}\aXIa(5)}\fi&%
 				\checkaXIa(6)\let\rXI\cachedata\ifemptydata\relax\else\IfNVOETF{\rXI}{}{\num{\rXI}}\fi&%
 				\checkaXIa(7)\let\rXI\cachedata\ifemptydata\relax\else\IfNVOETF{\rXI}{}{\num{\rXI}\%}\fi&%
 				\checkaXIa(8)\let\rXI\cachedata\ifemptydata\relax\else\IfNVOETF{\rXI}{}{\num{\rXI} \euro}\fi&%
 				\IfNVOETF{\aXI}{}{\num{\aXI} \euro}\expandafter\\\fi%
 				\ifdefined\aXJa\rCa{\aXJa}&%
-				\checkaXJa(4)\let\rXJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXJ}{}{\num{\rXJ}\ts{}\aXJa(5)}\fi&%
+				\checkaXJa(4)\let\rXJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXJ}{}{\num[round-precision=3]{\rXJ}\ts{}\aXJa(5)}\fi&%
 				\checkaXJa(6)\let\rXJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXJ}{}{\num{\rXJ}}\fi&%
 				\checkaXJa(7)\let\rXJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXJ}{}{\num{\rXJ}\%}\fi&%
 				\checkaXJa(8)\let\rXJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXJ}{}{\num{\rXJ} \euro}\fi&%
 				\IfNVOETF{\aXJ}{}{\num{\aXJ} \euro}\expandafter\\\fi%
 				\ifdefined\aXKa\rCa{\aXKa}&%
-				\checkaXKa(4)\let\rXK\cachedata\ifemptydata\relax\else\IfNVOETF{\rXK}{}{\num{\rXK}\ts{}\aXKa(5)}\fi&%
+				\checkaXKa(4)\let\rXK\cachedata\ifemptydata\relax\else\IfNVOETF{\rXK}{}{\num[round-precision=3]{\rXK}\ts{}\aXKa(5)}\fi&%
 				\checkaXKa(6)\let\rXK\cachedata\ifemptydata\relax\else\IfNVOETF{\rXK}{}{\num{\rXK}}\fi&%
 				\checkaXKa(7)\let\rXK\cachedata\ifemptydata\relax\else\IfNVOETF{\rXK}{}{\num{\rXK}\%}\fi&%
 				\checkaXKa(8)\let\rXK\cachedata\ifemptydata\relax\else\IfNVOETF{\rXK}{}{\num{\rXK} \euro}\fi&%
 				\IfNVOETF{\aXK}{}{\num{\aXK} \euro}\expandafter\\\fi%
 				\ifdefined\aXLa\rCa{\aXLa}&%
-				\checkaXLa(4)\let\rXL\cachedata\ifemptydata\relax\else\IfNVOETF{\rXL}{}{\num{\rXL}\ts{}\aXLa(5)}\fi&%
+				\checkaXLa(4)\let\rXL\cachedata\ifemptydata\relax\else\IfNVOETF{\rXL}{}{\num[round-precision=3]{\rXL}\ts{}\aXLa(5)}\fi&%
 				\checkaXLa(6)\let\rXL\cachedata\ifemptydata\relax\else\IfNVOETF{\rXL}{}{\num{\rXL}}\fi&%
 				\checkaXLa(7)\let\rXL\cachedata\ifemptydata\relax\else\IfNVOETF{\rXL}{}{\num{\rXL}\%}\fi&%
 				\checkaXLa(8)\let\rXL\cachedata\ifemptydata\relax\else\IfNVOETF{\rXL}{}{\num{\rXL} \euro}\fi&%
 				\IfNVOETF{\aXL}{}{\num{\aXL} \euro}\expandafter\\\fi%
 				\ifdefined\aXMa\rCa{\aXMa}&%
-				\checkaXMa(4)\let\rXM\cachedata\ifemptydata\relax\else\IfNVOETF{\rXM}{}{\num{\rXM}\ts{}\aXMa(5)}\fi&%
+				\checkaXMa(4)\let\rXM\cachedata\ifemptydata\relax\else\IfNVOETF{\rXM}{}{\num[round-precision=3]{\rXM}\ts{}\aXMa(5)}\fi&%
 				\checkaXMa(6)\let\rXM\cachedata\ifemptydata\relax\else\IfNVOETF{\rXM}{}{\num{\rXM}}\fi&%
 				\checkaXMa(7)\let\rXM\cachedata\ifemptydata\relax\else\IfNVOETF{\rXM}{}{\num{\rXM}\%}\fi&%
 				\checkaXMa(8)\let\rXM\cachedata\ifemptydata\relax\else\IfNVOETF{\rXM}{}{\num{\rXM} \euro}\fi&%
 				\IfNVOETF{\aXM}{}{\num{\aXM} \euro}\expandafter\\\fi%
 				\ifdefined\aXNa\rCa{\aXNa}&%
-				\checkaXNa(4)\let\rXN\cachedata\ifemptydata\relax\else\IfNVOETF{\rXN}{}{\num{\rXN}\ts{}\aXNa(5)}\fi&%
+				\checkaXNa(4)\let\rXN\cachedata\ifemptydata\relax\else\IfNVOETF{\rXN}{}{\num[round-precision=3]{\rXN}\ts{}\aXNa(5)}\fi&%
 				\checkaXNa(6)\let\rXN\cachedata\ifemptydata\relax\else\IfNVOETF{\rXN}{}{\num{\rXN}}\fi&%
 				\checkaXNa(7)\let\rXN\cachedata\ifemptydata\relax\else\IfNVOETF{\rXN}{}{\num{\rXN}\%}\fi&%
 				\checkaXNa(8)\let\rXN\cachedata\ifemptydata\relax\else\IfNVOETF{\rXN}{}{\num{\rXN} \euro}\fi&%
 				\IfNVOETF{\aXN}{}{\num{\aXN} \euro}\expandafter\\\fi%
 				\ifdefined\aXOa\rCa{\aXOa}&%
-				\checkaXOa(4)\let\rXO\cachedata\ifemptydata\relax\else\IfNVOETF{\rXO}{}{\num{\rXO}\ts{}\aXOa(5)}\fi&%
+				\checkaXOa(4)\let\rXO\cachedata\ifemptydata\relax\else\IfNVOETF{\rXO}{}{\num[round-precision=3]{\rXO}\ts{}\aXOa(5)}\fi&%
 				\checkaXOa(6)\let\rXO\cachedata\ifemptydata\relax\else\IfNVOETF{\rXO}{}{\num{\rXO}}\fi&%
 				\checkaXOa(7)\let\rXO\cachedata\ifemptydata\relax\else\IfNVOETF{\rXO}{}{\num{\rXO}\%}\fi&%
 				\checkaXOa(8)\let\rXO\cachedata\ifemptydata\relax\else\IfNVOETF{\rXO}{}{\num{\rXO} \euro}\fi&%
 				\IfNVOETF{\aXO}{}{\num{\aXO} \euro}\expandafter\\\fi%
 				\ifdefined\aXPa\rCa{\aXPa}&%
-				\checkaXPa(4)\let\rXP\cachedata\ifemptydata\relax\else\IfNVOETF{\rXP}{}{\num{\rXP}\ts{}\aXPa(5)}\fi&%
+				\checkaXPa(4)\let\rXP\cachedata\ifemptydata\relax\else\IfNVOETF{\rXP}{}{\num[round-precision=3]{\rXP}\ts{}\aXPa(5)}\fi&%
 				\checkaXPa(6)\let\rXP\cachedata\ifemptydata\relax\else\IfNVOETF{\rXP}{}{\num{\rXP}}\fi&%
 				\checkaXPa(7)\let\rXP\cachedata\ifemptydata\relax\else\IfNVOETF{\rXP}{}{\num{\rXP}\%}\fi&%
 				\checkaXPa(8)\let\rXP\cachedata\ifemptydata\relax\else\IfNVOETF{\rXP}{}{\num{\rXP} \euro}\fi&%
 				\IfNVOETF{\aXP}{}{\num{\aXP} \euro}\expandafter\\\fi%
 				\ifdefined\aXQa\rCa{\aXQa}&%
-				\checkaXQa(4)\let\rXQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXQ}{}{\num{\rXQ}\ts{}\aXQa(5)}\fi&%
+				\checkaXQa(4)\let\rXQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXQ}{}{\num[round-precision=3]{\rXQ}\ts{}\aXQa(5)}\fi&%
 				\checkaXQa(6)\let\rXQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXQ}{}{\num{\rXQ}}\fi&%
 				\checkaXQa(7)\let\rXQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXQ}{}{\num{\rXQ}\%}\fi&%
 				\checkaXQa(8)\let\rXQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXQ}{}{\num{\rXQ} \euro}\fi&%
 				\IfNVOETF{\aXQ}{}{\num{\aXQ} \euro}\expandafter\\\fi%
 				\ifdefined\aXRa\rCa{\aXRa}&%
-				\checkaXRa(4)\let\rXR\cachedata\ifemptydata\relax\else\IfNVOETF{\rXR}{}{\num{\rXR}\ts{}\aXRa(5)}\fi&%
+				\checkaXRa(4)\let\rXR\cachedata\ifemptydata\relax\else\IfNVOETF{\rXR}{}{\num[round-precision=3]{\rXR}\ts{}\aXRa(5)}\fi&%
 				\checkaXRa(6)\let\rXR\cachedata\ifemptydata\relax\else\IfNVOETF{\rXR}{}{\num{\rXR}}\fi&%
 				\checkaXRa(7)\let\rXR\cachedata\ifemptydata\relax\else\IfNVOETF{\rXR}{}{\num{\rXR}\%}\fi&%
 				\checkaXRa(8)\let\rXR\cachedata\ifemptydata\relax\else\IfNVOETF{\rXR}{}{\num{\rXR} \euro}\fi&%
 				\IfNVOETF{\aXR}{}{\num{\aXR} \euro}\expandafter\\\fi%
 				\ifdefined\aXSa\rCa{\aXSa}&%
-				\checkaXSa(4)\let\rXS\cachedata\ifemptydata\relax\else\IfNVOETF{\rXS}{}{\num{\rXS}\ts{}\aXSa(5)}\fi&%
+				\checkaXSa(4)\let\rXS\cachedata\ifemptydata\relax\else\IfNVOETF{\rXS}{}{\num[round-precision=3]{\rXS}\ts{}\aXSa(5)}\fi&%
 				\checkaXSa(6)\let\rXS\cachedata\ifemptydata\relax\else\IfNVOETF{\rXS}{}{\num{\rXS}}\fi&%
 				\checkaXSa(7)\let\rXS\cachedata\ifemptydata\relax\else\IfNVOETF{\rXS}{}{\num{\rXS}\%}\fi&%
 				\checkaXSa(8)\let\rXS\cachedata\ifemptydata\relax\else\IfNVOETF{\rXS}{}{\num{\rXS} \euro}\fi&%
 				\IfNVOETF{\aXS}{}{\num{\aXS} \euro}\expandafter\\\fi%
 				\ifdefined\aXTa\rCa{\aXTa}&%
-				\checkaXTa(4)\let\rXT\cachedata\ifemptydata\relax\else\IfNVOETF{\rXT}{}{\num{\rXT}\ts{}\aXTa(5)}\fi&%
+				\checkaXTa(4)\let\rXT\cachedata\ifemptydata\relax\else\IfNVOETF{\rXT}{}{\num[round-precision=3]{\rXT}\ts{}\aXTa(5)}\fi&%
 				\checkaXTa(6)\let\rXT\cachedata\ifemptydata\relax\else\IfNVOETF{\rXT}{}{\num{\rXT}}\fi&%
 				\checkaXTa(7)\let\rXT\cachedata\ifemptydata\relax\else\IfNVOETF{\rXT}{}{\num{\rXT}\%}\fi&%
 				\checkaXTa(8)\let\rXT\cachedata\ifemptydata\relax\else\IfNVOETF{\rXT}{}{\num{\rXT} \euro}\fi&%
 				\IfNVOETF{\aXT}{}{\num{\aXT} \euro}\expandafter\\\fi%
 				\ifdefined\aXUa\rCa{\aXUa}&%
-				\checkaXUa(4)\let\rXU\cachedata\ifemptydata\relax\else\IfNVOETF{\rXU}{}{\num{\rXU}\ts{}\aXUa(5)}\fi&%
+				\checkaXUa(4)\let\rXU\cachedata\ifemptydata\relax\else\IfNVOETF{\rXU}{}{\num[round-precision=3]{\rXU}\ts{}\aXUa(5)}\fi&%
 				\checkaXUa(6)\let\rXU\cachedata\ifemptydata\relax\else\IfNVOETF{\rXU}{}{\num{\rXU}}\fi&%
 				\checkaXUa(7)\let\rXU\cachedata\ifemptydata\relax\else\IfNVOETF{\rXU}{}{\num{\rXU}\%}\fi&%
 				\checkaXUa(8)\let\rXU\cachedata\ifemptydata\relax\else\IfNVOETF{\rXU}{}{\num{\rXU} \euro}\fi&%
 				\IfNVOETF{\aXU}{}{\num{\aXU} \euro}\expandafter\\\fi%
 				\ifdefined\aXVa\rCa{\aXVa}&%
-				\checkaXVa(4)\let\rXV\cachedata\ifemptydata\relax\else\IfNVOETF{\rXV}{}{\num{\rXV}\ts{}\aXVa(5)}\fi&%
+				\checkaXVa(4)\let\rXV\cachedata\ifemptydata\relax\else\IfNVOETF{\rXV}{}{\num[round-precision=3]{\rXV}\ts{}\aXVa(5)}\fi&%
 				\checkaXVa(6)\let\rXV\cachedata\ifemptydata\relax\else\IfNVOETF{\rXV}{}{\num{\rXV}}\fi&%
 				\checkaXVa(7)\let\rXV\cachedata\ifemptydata\relax\else\IfNVOETF{\rXV}{}{\num{\rXV}\%}\fi&%
 				\checkaXVa(8)\let\rXV\cachedata\ifemptydata\relax\else\IfNVOETF{\rXV}{}{\num{\rXV} \euro}\fi&%
 				\IfNVOETF{\aXV}{}{\num{\aXV} \euro}\expandafter\\\fi%
 				\ifdefined\aXWa\rCa{\aXWa}&%
-				\checkaXWa(4)\let\rXW\cachedata\ifemptydata\relax\else\IfNVOETF{\rXW}{}{\num{\rXW}\ts{}\aXWa(5)}\fi&%
+				\checkaXWa(4)\let\rXW\cachedata\ifemptydata\relax\else\IfNVOETF{\rXW}{}{\num[round-precision=3]{\rXW}\ts{}\aXWa(5)}\fi&%
 				\checkaXWa(6)\let\rXW\cachedata\ifemptydata\relax\else\IfNVOETF{\rXW}{}{\num{\rXW}}\fi&%
 				\checkaXWa(7)\let\rXW\cachedata\ifemptydata\relax\else\IfNVOETF{\rXW}{}{\num{\rXW}\%}\fi&%
 				\checkaXWa(8)\let\rXW\cachedata\ifemptydata\relax\else\IfNVOETF{\rXW}{}{\num{\rXW} \euro}\fi&%
 				\IfNVOETF{\aXW}{}{\num{\aXW} \euro}\expandafter\\\fi%
 				\ifdefined\aXXa\rCa{\aXXa}&%
-				\checkaXXa(4)\let\rXX\cachedata\ifemptydata\relax\else\IfNVOETF{\rXX}{}{\num{\rXX}\ts{}\aXXa(5)}\fi&%
+				\checkaXXa(4)\let\rXX\cachedata\ifemptydata\relax\else\IfNVOETF{\rXX}{}{\num[round-precision=3]{\rXX}\ts{}\aXXa(5)}\fi&%
 				\checkaXXa(6)\let\rXX\cachedata\ifemptydata\relax\else\IfNVOETF{\rXX}{}{\num{\rXX}}\fi&%
 				\checkaXXa(7)\let\rXX\cachedata\ifemptydata\relax\else\IfNVOETF{\rXX}{}{\num{\rXX}\%}\fi&%
 				\checkaXXa(8)\let\rXX\cachedata\ifemptydata\relax\else\IfNVOETF{\rXX}{}{\num{\rXX} \euro}\fi&%
 				\IfNVOETF{\aXX}{}{\num{\aXX} \euro}\expandafter\\\fi%
 				\ifdefined\aXYa\rCa{\aXYa}&%
-				\checkaXYa(4)\let\rXY\cachedata\ifemptydata\relax\else\IfNVOETF{\rXY}{}{\num{\rXY}\ts{}\aXYa(5)}\fi&%
+				\checkaXYa(4)\let\rXY\cachedata\ifemptydata\relax\else\IfNVOETF{\rXY}{}{\num[round-precision=3]{\rXY}\ts{}\aXYa(5)}\fi&%
 				\checkaXYa(6)\let\rXY\cachedata\ifemptydata\relax\else\IfNVOETF{\rXY}{}{\num{\rXY}}\fi&%
 				\checkaXYa(7)\let\rXY\cachedata\ifemptydata\relax\else\IfNVOETF{\rXY}{}{\num{\rXY}\%}\fi&%
 				\checkaXYa(8)\let\rXY\cachedata\ifemptydata\relax\else\IfNVOETF{\rXY}{}{\num{\rXY} \euro}\fi&%
 				\IfNVOETF{\aXY}{}{\num{\aXY} \euro}\expandafter\\\fi%	
 				\ifdefined\aXZa\rCa{\aXZa}&%
-				\checkaXZa(4)\let\rXZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXZ}{}{\num{\rXZ}\ts{}\aXZa(5)}\fi&%
+				\checkaXZa(4)\let\rXZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXZ}{}{\num[round-precision=3]{\rXZ}\ts{}\aXZa(5)}\fi&%
 				\checkaXZa(6)\let\rXZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXZ}{}{\num{\rXZ}}\fi&%
 				\checkaXZa(7)\let\rXZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXZ}{}{\num{\rXZ}\%}\fi&%
 				\checkaXZa(8)\let\rXZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rXZ}{}{\num{\rXZ} \euro}\fi&%
@@ -5466,151 +5466,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aYAa\rCa{\aYAa}&%
-				\checkaYAa(4)\let\rYA\cachedata\ifemptydata\relax\else\IfNVOETF{\rYA}{}{\num{\rYA}\ts{}\aYAa(5)}\fi&%
+				\checkaYAa(4)\let\rYA\cachedata\ifemptydata\relax\else\IfNVOETF{\rYA}{}{\num[round-precision=3]{\rYA}\ts{}\aYAa(5)}\fi&%
 				\checkaYAa(6)\let\rYA\cachedata\ifemptydata\relax\else\IfNVOETF{\rYA}{}{\num{\rYA}}\fi&%
 				\checkaYAa(7)\let\rYA\cachedata\ifemptydata\relax\else\IfNVOETF{\rYA}{}{\num{\rYA}\%}\fi&%
 				\checkaYAa(8)\let\rYA\cachedata\ifemptydata\relax\else\IfNVOETF{\rYA}{}{\num{\rYA} \euro}\fi&%
 				\IfNVOETF{\aYA}{}{\num{\aYA} \euro}\expandafter\\\fi%
 				\ifdefined\aYBa\rCa{\aYBa}&%
-				\checkaYBa(4)\let\rYB\cachedata\ifemptydata\relax\else\IfNVOETF{\rYB}{}{\num{\rYB}\ts{}\aYBa(5)}\fi&%
+				\checkaYBa(4)\let\rYB\cachedata\ifemptydata\relax\else\IfNVOETF{\rYB}{}{\num[round-precision=3]{\rYB}\ts{}\aYBa(5)}\fi&%
 				\checkaYBa(6)\let\rYB\cachedata\ifemptydata\relax\else\IfNVOETF{\rYB}{}{\num{\rYB}}\fi&%
 				\checkaYBa(7)\let\rYB\cachedata\ifemptydata\relax\else\IfNVOETF{\rYB}{}{\num{\rYB}\%}\fi&%
 				\checkaYBa(8)\let\rYB\cachedata\ifemptydata\relax\else\IfNVOETF{\rYB}{}{\num{\rYB} \euro}\fi&%
 				\IfNVOETF{\aYB}{}{\num{\aYB} \euro}\expandafter\\\fi%
 				\ifdefined\aYCa\rCa{\aYCa}&%
-				\checkaYCa(4)\let\rYC\cachedata\ifemptydata\relax\else\IfNVOETF{\rYC}{}{\num{\rYC}\ts{}\aYCa(5)}\fi&%
+				\checkaYCa(4)\let\rYC\cachedata\ifemptydata\relax\else\IfNVOETF{\rYC}{}{\num[round-precision=3]{\rYC}\ts{}\aYCa(5)}\fi&%
 				\checkaYCa(6)\let\rYC\cachedata\ifemptydata\relax\else\IfNVOETF{\rYC}{}{\num{\rYC}}\fi&%
 				\checkaYCa(7)\let\rYC\cachedata\ifemptydata\relax\else\IfNVOETF{\rYC}{}{\num{\rYC}\%}\fi&%
 				\checkaYCa(8)\let\rYC\cachedata\ifemptydata\relax\else\IfNVOETF{\rYC}{}{\num{\rYC} \euro}\fi&%
 				\IfNVOETF{\aYC}{}{\num{\aYC} \euro}\expandafter\\\fi%
 				\ifdefined\aYDa\rCa{\aYDa}&%
-				\checkaYDa(4)\let\rYD\cachedata\ifemptydata\relax\else\IfNVOETF{\rYD}{}{\num{\rYD}\ts{}\aYDa(5)}\fi&%
+				\checkaYDa(4)\let\rYD\cachedata\ifemptydata\relax\else\IfNVOETF{\rYD}{}{\num[round-precision=3]{\rYD}\ts{}\aYDa(5)}\fi&%
 				\checkaYDa(6)\let\rYD\cachedata\ifemptydata\relax\else\IfNVOETF{\rYD}{}{\num{\rYD}}\fi&%
 				\checkaYDa(7)\let\rYD\cachedata\ifemptydata\relax\else\IfNVOETF{\rYD}{}{\num{\rYD}\%}\fi&%
 				\checkaYDa(8)\let\rYD\cachedata\ifemptydata\relax\else\IfNVOETF{\rYD}{}{\num{\rYD} \euro}\fi&%
 				\IfNVOETF{\aYD}{}{\num{\aYD} \euro}\expandafter\\\fi%
 				\ifdefined\aYEa\rCa{\aYEa}&%
-				\checkaYEa(4)\let\rYE\cachedata\ifemptydata\relax\else\IfNVOETF{\rYE}{}{\num{\rYE}\ts{}\aYEa(5)}\fi&%
+				\checkaYEa(4)\let\rYE\cachedata\ifemptydata\relax\else\IfNVOETF{\rYE}{}{\num[round-precision=3]{\rYE}\ts{}\aYEa(5)}\fi&%
 				\checkaYEa(6)\let\rYE\cachedata\ifemptydata\relax\else\IfNVOETF{\rYE}{}{\num{\rYE}}\fi&%
 				\checkaYEa(7)\let\rYE\cachedata\ifemptydata\relax\else\IfNVOETF{\rYE}{}{\num{\rYE}\%}\fi&%
 				\checkaYEa(8)\let\rYE\cachedata\ifemptydata\relax\else\IfNVOETF{\rYE}{}{\num{\rYE} \euro}\fi&%
 				\IfNVOETF{\aYE}{}{\num{\aYE} \euro}\expandafter\\\fi%
 				\ifdefined\aYFa\rCa{\aYFa}&%
-				\checkaYFa(4)\let\rYF\cachedata\ifemptydata\relax\else\IfNVOETF{\rYF}{}{\num{\rYF}\ts{}\aYFa(5)}\fi&%
+				\checkaYFa(4)\let\rYF\cachedata\ifemptydata\relax\else\IfNVOETF{\rYF}{}{\num[round-precision=3]{\rYF}\ts{}\aYFa(5)}\fi&%
 				\checkaYFa(6)\let\rYF\cachedata\ifemptydata\relax\else\IfNVOETF{\rYF}{}{\num{\rYF}}\fi&%
 				\checkaYFa(7)\let\rYF\cachedata\ifemptydata\relax\else\IfNVOETF{\rYF}{}{\num{\rYF}\%}\fi&%
 				\checkaYFa(8)\let\rYF\cachedata\ifemptydata\relax\else\IfNVOETF{\rYF}{}{\num{\rYF} \euro}\fi&%
 				\IfNVOETF{\aYF}{}{\num{\aYF} \euro}\expandafter\\\fi%
 				\ifdefined\aYGa\rCa{\aYGa}&%
-				\checkaYGa(4)\let\rYG\cachedata\ifemptydata\relax\else\IfNVOETF{\rYG}{}{\num{\rYG}\ts{}\aYGa(5)}\fi&%
+				\checkaYGa(4)\let\rYG\cachedata\ifemptydata\relax\else\IfNVOETF{\rYG}{}{\num[round-precision=3]{\rYG}\ts{}\aYGa(5)}\fi&%
 				\checkaYGa(6)\let\rYG\cachedata\ifemptydata\relax\else\IfNVOETF{\rYG}{}{\num{\rYG}}\fi&%
 				\checkaYGa(7)\let\rYG\cachedata\ifemptydata\relax\else\IfNVOETF{\rYG}{}{\num{\rYG}\%}\fi&%
 				\checkaYGa(8)\let\rYG\cachedata\ifemptydata\relax\else\IfNVOETF{\rYG}{}{\num{\rYG} \euro}\fi&%
 				\IfNVOETF{\aYG}{}{\num{\aYG} \euro}\expandafter\\\fi%
 				\ifdefined\aYIa\rCa{\aYIa}&%
-				\checkaYIa(4)\let\rYI\cachedata\ifemptydata\relax\else\IfNVOETF{\rYI}{}{\num{\rYI}\ts{}\aYIa(5)}\fi&%
+				\checkaYIa(4)\let\rYI\cachedata\ifemptydata\relax\else\IfNVOETF{\rYI}{}{\num[round-precision=3]{\rYI}\ts{}\aYIa(5)}\fi&%
 				\checkaYIa(6)\let\rYI\cachedata\ifemptydata\relax\else\IfNVOETF{\rYI}{}{\num{\rYI}}\fi&%
 				\checkaYIa(7)\let\rYI\cachedata\ifemptydata\relax\else\IfNVOETF{\rYI}{}{\num{\rYI}\%}\fi&%
 				\checkaYIa(8)\let\rYI\cachedata\ifemptydata\relax\else\IfNVOETF{\rYI}{}{\num{\rYI} \euro}\fi&%
 				\IfNVOETF{\aYI}{}{\num{\aYI} \euro}\expandafter\\\fi%
 				\ifdefined\aYJa\rCa{\aYJa}&%
-				\checkaYJa(4)\let\rYJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYJ}{}{\num{\rYJ}\ts{}\aYJa(5)}\fi&%
+				\checkaYJa(4)\let\rYJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYJ}{}{\num[round-precision=3]{\rYJ}\ts{}\aYJa(5)}\fi&%
 				\checkaYJa(6)\let\rYJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYJ}{}{\num{\rYJ}}\fi&%
 				\checkaYJa(7)\let\rYJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYJ}{}{\num{\rYJ}\%}\fi&%
 				\checkaYJa(8)\let\rYJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYJ}{}{\num{\rYJ} \euro}\fi&%
 				\IfNVOETF{\aYJ}{}{\num{\aYJ} \euro}\expandafter\\\fi%
 				\ifdefined\aYKa\rCa{\aYKa}&%
-				\checkaYKa(4)\let\rYK\cachedata\ifemptydata\relax\else\IfNVOETF{\rYK}{}{\num{\rYK}\ts{}\aYKa(5)}\fi&%
+				\checkaYKa(4)\let\rYK\cachedata\ifemptydata\relax\else\IfNVOETF{\rYK}{}{\num[round-precision=3]{\rYK}\ts{}\aYKa(5)}\fi&%
 				\checkaYKa(6)\let\rYK\cachedata\ifemptydata\relax\else\IfNVOETF{\rYK}{}{\num{\rYK}}\fi&%
 				\checkaYKa(7)\let\rYK\cachedata\ifemptydata\relax\else\IfNVOETF{\rYK}{}{\num{\rYK}\%}\fi&%
 				\checkaYKa(8)\let\rYK\cachedata\ifemptydata\relax\else\IfNVOETF{\rYK}{}{\num{\rYK} \euro}\fi&%
 				\IfNVOETF{\aYK}{}{\num{\aYK} \euro}\expandafter\\\fi%
 				\ifdefined\aYLa\rCa{\aYLa}&%
-				\checkaYLa(4)\let\rYL\cachedata\ifemptydata\relax\else\IfNVOETF{\rYL}{}{\num{\rYL}\ts{}\aYLa(5)}\fi&%
+				\checkaYLa(4)\let\rYL\cachedata\ifemptydata\relax\else\IfNVOETF{\rYL}{}{\num[round-precision=3]{\rYL}\ts{}\aYLa(5)}\fi&%
 				\checkaYLa(6)\let\rYL\cachedata\ifemptydata\relax\else\IfNVOETF{\rYL}{}{\num{\rYL}}\fi&%
 				\checkaYLa(7)\let\rYL\cachedata\ifemptydata\relax\else\IfNVOETF{\rYL}{}{\num{\rYL}\%}\fi&%
 				\checkaYLa(8)\let\rYL\cachedata\ifemptydata\relax\else\IfNVOETF{\rYL}{}{\num{\rYL} \euro}\fi&%
 				\IfNVOETF{\aYL}{}{\num{\aYL} \euro}\expandafter\\\fi%
 				\ifdefined\aYMa\rCa{\aYMa}&%
-				\checkaYMa(4)\let\rYM\cachedata\ifemptydata\relax\else\IfNVOETF{\rYM}{}{\num{\rYM}\ts{}\aYMa(5)}\fi&%
+				\checkaYMa(4)\let\rYM\cachedata\ifemptydata\relax\else\IfNVOETF{\rYM}{}{\num[round-precision=3]{\rYM}\ts{}\aYMa(5)}\fi&%
 				\checkaYMa(6)\let\rYM\cachedata\ifemptydata\relax\else\IfNVOETF{\rYM}{}{\num{\rYM}}\fi&%
 				\checkaYMa(7)\let\rYM\cachedata\ifemptydata\relax\else\IfNVOETF{\rYM}{}{\num{\rYM}\%}\fi&%
 				\checkaYMa(8)\let\rYM\cachedata\ifemptydata\relax\else\IfNVOETF{\rYM}{}{\num{\rYM} \euro}\fi&%
 				\IfNVOETF{\aYM}{}{\num{\aYM} \euro}\expandafter\\\fi%
 				\ifdefined\aYNa\rCa{\aYNa}&%
-				\checkaYNa(4)\let\rYN\cachedata\ifemptydata\relax\else\IfNVOETF{\rYN}{}{\num{\rYN}\ts{}\aYNa(5)}\fi&%
+				\checkaYNa(4)\let\rYN\cachedata\ifemptydata\relax\else\IfNVOETF{\rYN}{}{\num[round-precision=3]{\rYN}\ts{}\aYNa(5)}\fi&%
 				\checkaYNa(6)\let\rYN\cachedata\ifemptydata\relax\else\IfNVOETF{\rYN}{}{\num{\rYN}}\fi&%
 				\checkaYNa(7)\let\rYN\cachedata\ifemptydata\relax\else\IfNVOETF{\rYN}{}{\num{\rYN}\%}\fi&%
 				\checkaYNa(8)\let\rYN\cachedata\ifemptydata\relax\else\IfNVOETF{\rYN}{}{\num{\rYN} \euro}\fi&%
 				\IfNVOETF{\aYN}{}{\num{\aYN} \euro}\expandafter\\\fi%
 				\ifdefined\aYOa\rCa{\aYOa}&%
-				\checkaYOa(4)\let\rYO\cachedata\ifemptydata\relax\else\IfNVOETF{\rYO}{}{\num{\rYO}\ts{}\aYOa(5)}\fi&%
+				\checkaYOa(4)\let\rYO\cachedata\ifemptydata\relax\else\IfNVOETF{\rYO}{}{\num[round-precision=3]{\rYO}\ts{}\aYOa(5)}\fi&%
 				\checkaYOa(6)\let\rYO\cachedata\ifemptydata\relax\else\IfNVOETF{\rYO}{}{\num{\rYO}}\fi&%
 				\checkaYOa(7)\let\rYO\cachedata\ifemptydata\relax\else\IfNVOETF{\rYO}{}{\num{\rYO}\%}\fi&%
 				\checkaYOa(8)\let\rYO\cachedata\ifemptydata\relax\else\IfNVOETF{\rYO}{}{\num{\rYO} \euro}\fi&%
 				\IfNVOETF{\aYO}{}{\num{\aYO} \euro}\expandafter\\\fi%
 				\ifdefined\aYPa\rCa{\aYPa}&%
-				\checkaYPa(4)\let\rYP\cachedata\ifemptydata\relax\else\IfNVOETF{\rYP}{}{\num{\rYP}\ts{}\aYPa(5)}\fi&%
+				\checkaYPa(4)\let\rYP\cachedata\ifemptydata\relax\else\IfNVOETF{\rYP}{}{\num[round-precision=3]{\rYP}\ts{}\aYPa(5)}\fi&%
 				\checkaYPa(6)\let\rYP\cachedata\ifemptydata\relax\else\IfNVOETF{\rYP}{}{\num{\rYP}}\fi&%
 				\checkaYPa(7)\let\rYP\cachedata\ifemptydata\relax\else\IfNVOETF{\rYP}{}{\num{\rYP}\%}\fi&%
 				\checkaYPa(8)\let\rYP\cachedata\ifemptydata\relax\else\IfNVOETF{\rYP}{}{\num{\rYP} \euro}\fi&%
 				\IfNVOETF{\aYP}{}{\num{\aYP} \euro}\expandafter\\\fi%
 				\ifdefined\aYQa\rCa{\aYQa}&%
-				\checkaYQa(4)\let\rYQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYQ}{}{\num{\rYQ}\ts{}\aYQa(5)}\fi&%
+				\checkaYQa(4)\let\rYQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYQ}{}{\num[round-precision=3]{\rYQ}\ts{}\aYQa(5)}\fi&%
 				\checkaYQa(6)\let\rYQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYQ}{}{\num{\rYQ}}\fi&%
 				\checkaYQa(7)\let\rYQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYQ}{}{\num{\rYQ}\%}\fi&%
 				\checkaYQa(8)\let\rYQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYQ}{}{\num{\rYQ} \euro}\fi&%
 				\IfNVOETF{\aYQ}{}{\num{\aYQ} \euro}\expandafter\\\fi%
 				\ifdefined\aYRa\rCa{\aYRa}&%
-				\checkaYRa(4)\let\rYR\cachedata\ifemptydata\relax\else\IfNVOETF{\rYR}{}{\num{\rYR}\ts{}\aYRa(5)}\fi&%
+				\checkaYRa(4)\let\rYR\cachedata\ifemptydata\relax\else\IfNVOETF{\rYR}{}{\num[round-precision=3]{\rYR}\ts{}\aYRa(5)}\fi&%
 				\checkaYRa(6)\let\rYR\cachedata\ifemptydata\relax\else\IfNVOETF{\rYR}{}{\num{\rYR}}\fi&%
 				\checkaYRa(7)\let\rYR\cachedata\ifemptydata\relax\else\IfNVOETF{\rYR}{}{\num{\rYR}\%}\fi&%
 				\checkaYRa(8)\let\rYR\cachedata\ifemptydata\relax\else\IfNVOETF{\rYR}{}{\num{\rYR} \euro}\fi&%
 				\IfNVOETF{\aYR}{}{\num{\aYR} \euro}\expandafter\\\fi%
 				\ifdefined\aYSa\rCa{\aYSa}&%
-				\checkaYSa(4)\let\rYS\cachedata\ifemptydata\relax\else\IfNVOETF{\rYS}{}{\num{\rYS}\ts{}\aYSa(5)}\fi&%
+				\checkaYSa(4)\let\rYS\cachedata\ifemptydata\relax\else\IfNVOETF{\rYS}{}{\num[round-precision=3]{\rYS}\ts{}\aYSa(5)}\fi&%
 				\checkaYSa(6)\let\rYS\cachedata\ifemptydata\relax\else\IfNVOETF{\rYS}{}{\num{\rYS}}\fi&%
 				\checkaYSa(7)\let\rYS\cachedata\ifemptydata\relax\else\IfNVOETF{\rYS}{}{\num{\rYS}\%}\fi&%
 				\checkaYSa(8)\let\rYS\cachedata\ifemptydata\relax\else\IfNVOETF{\rYS}{}{\num{\rYS} \euro}\fi&%
 				\IfNVOETF{\aYS}{}{\num{\aYS} \euro}\expandafter\\\fi%
 				\ifdefined\aYTa\rCa{\aYTa}&%
-				\checkaYTa(4)\let\rYT\cachedata\ifemptydata\relax\else\IfNVOETF{\rYT}{}{\num{\rYT}\ts{}\aYTa(5)}\fi&%
+				\checkaYTa(4)\let\rYT\cachedata\ifemptydata\relax\else\IfNVOETF{\rYT}{}{\num[round-precision=3]{\rYT}\ts{}\aYTa(5)}\fi&%
 				\checkaYTa(6)\let\rYT\cachedata\ifemptydata\relax\else\IfNVOETF{\rYT}{}{\num{\rYT}}\fi&%
 				\checkaYTa(7)\let\rYT\cachedata\ifemptydata\relax\else\IfNVOETF{\rYT}{}{\num{\rYT}\%}\fi&%
 				\checkaYTa(8)\let\rYT\cachedata\ifemptydata\relax\else\IfNVOETF{\rYT}{}{\num{\rYT} \euro}\fi&%
 				\IfNVOETF{\aYT}{}{\num{\aYT} \euro}\expandafter\\\fi%
 				\ifdefined\aYUa\rCa{\aYUa}&%
-				\checkaYUa(4)\let\rYU\cachedata\ifemptydata\relax\else\IfNVOETF{\rYU}{}{\num{\rYU}\ts{}\aYUa(5)}\fi&%
+				\checkaYUa(4)\let\rYU\cachedata\ifemptydata\relax\else\IfNVOETF{\rYU}{}{\num[round-precision=3]{\rYU}\ts{}\aYUa(5)}\fi&%
 				\checkaYUa(6)\let\rYU\cachedata\ifemptydata\relax\else\IfNVOETF{\rYU}{}{\num{\rYU}}\fi&%
 				\checkaYUa(7)\let\rYU\cachedata\ifemptydata\relax\else\IfNVOETF{\rYU}{}{\num{\rYU}\%}\fi&%
 				\checkaYUa(8)\let\rYU\cachedata\ifemptydata\relax\else\IfNVOETF{\rYU}{}{\num{\rYU} \euro}\fi&%
 				\IfNVOETF{\aYU}{}{\num{\aYU} \euro}\expandafter\\\fi%
 				\ifdefined\aYVa\rCa{\aYVa}&%
-				\checkaYVa(4)\let\rYV\cachedata\ifemptydata\relax\else\IfNVOETF{\rYV}{}{\num{\rYV}\ts{}\aYVa(5)}\fi&%
+				\checkaYVa(4)\let\rYV\cachedata\ifemptydata\relax\else\IfNVOETF{\rYV}{}{\num[round-precision=3]{\rYV}\ts{}\aYVa(5)}\fi&%
 				\checkaYVa(6)\let\rYV\cachedata\ifemptydata\relax\else\IfNVOETF{\rYV}{}{\num{\rYV}}\fi&%
 				\checkaYVa(7)\let\rYV\cachedata\ifemptydata\relax\else\IfNVOETF{\rYV}{}{\num{\rYV}\%}\fi&%
 				\checkaYVa(8)\let\rYV\cachedata\ifemptydata\relax\else\IfNVOETF{\rYV}{}{\num{\rYV} \euro}\fi&%
 				\IfNVOETF{\aYV}{}{\num{\aYV} \euro}\expandafter\\\fi%
 				\ifdefined\aYWa\rCa{\aYWa}&%
-				\checkaYWa(4)\let\rYW\cachedata\ifemptydata\relax\else\IfNVOETF{\rYW}{}{\num{\rYW}\ts{}\aYWa(5)}\fi&%
+				\checkaYWa(4)\let\rYW\cachedata\ifemptydata\relax\else\IfNVOETF{\rYW}{}{\num[round-precision=3]{\rYW}\ts{}\aYWa(5)}\fi&%
 				\checkaYWa(6)\let\rYW\cachedata\ifemptydata\relax\else\IfNVOETF{\rYW}{}{\num{\rYW}}\fi&%
 				\checkaYWa(7)\let\rYW\cachedata\ifemptydata\relax\else\IfNVOETF{\rYW}{}{\num{\rYW}\%}\fi&%
 				\checkaYWa(8)\let\rYW\cachedata\ifemptydata\relax\else\IfNVOETF{\rYW}{}{\num{\rYW} \euro}\fi&%
 				\IfNVOETF{\aYW}{}{\num{\aYW} \euro}\expandafter\\\fi%
 				\ifdefined\aYXa\rCa{\aYXa}&%
-				\checkaYXa(4)\let\rYX\cachedata\ifemptydata\relax\else\IfNVOETF{\rYX}{}{\num{\rYX}\ts{}\aYXa(5)}\fi&%
+				\checkaYXa(4)\let\rYX\cachedata\ifemptydata\relax\else\IfNVOETF{\rYX}{}{\num[round-precision=3]{\rYX}\ts{}\aYXa(5)}\fi&%
 				\checkaYXa(6)\let\rYX\cachedata\ifemptydata\relax\else\IfNVOETF{\rYX}{}{\num{\rYX}}\fi&%
 				\checkaYXa(7)\let\rYX\cachedata\ifemptydata\relax\else\IfNVOETF{\rYX}{}{\num{\rYX}\%}\fi&%
 				\checkaYXa(8)\let\rYX\cachedata\ifemptydata\relax\else\IfNVOETF{\rYX}{}{\num{\rYX} \euro}\fi&%
 				\IfNVOETF{\aYX}{}{\num{\aYX} \euro}\expandafter\\\fi%
 				\ifdefined\aYYa\rCa{\aYYa}&%
-				\checkaYYa(4)\let\rYY\cachedata\ifemptydata\relax\else\IfNVOETF{\rYY}{}{\num{\rYY}\ts{}\aYYa(5)}\fi&%
+				\checkaYYa(4)\let\rYY\cachedata\ifemptydata\relax\else\IfNVOETF{\rYY}{}{\num[round-precision=3]{\rYY}\ts{}\aYYa(5)}\fi&%
 				\checkaYYa(6)\let\rYY\cachedata\ifemptydata\relax\else\IfNVOETF{\rYY}{}{\num{\rYY}}\fi&%
 				\checkaYYa(7)\let\rYY\cachedata\ifemptydata\relax\else\IfNVOETF{\rYY}{}{\num{\rYY}\%}\fi&%
 				\checkaYYa(8)\let\rYY\cachedata\ifemptydata\relax\else\IfNVOETF{\rYY}{}{\num{\rYY} \euro}\fi&%
 				\IfNVOETF{\aYY}{}{\num{\aYY} \euro}\expandafter\\\fi%	
 				\ifdefined\aYZa\rCa{\aYZa}&%
-				\checkaYZa(4)\let\rYZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYZ}{}{\num{\rYZ}\ts{}\aYZa(5)}\fi&%
+				\checkaYZa(4)\let\rYZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYZ}{}{\num[round-precision=3]{\rYZ}\ts{}\aYZa(5)}\fi&%
 				\checkaYZa(6)\let\rYZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYZ}{}{\num{\rYZ}}\fi&%
 				\checkaYZa(7)\let\rYZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYZ}{}{\num{\rYZ}\%}\fi&%
 				\checkaYZa(8)\let\rYZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rYZ}{}{\num{\rYZ} \euro}\fi&%
@@ -5625,151 +5625,151 @@
 				\assetTableColLabels%
 				\toprule%
 				\ifdefined\aZAa\rCa{\aZAa}&%
-				\checkaZAa(4)\let\rZA\cachedata\ifemptydata\relax\else\IfNVOETF{\rZA}{}{\num{\rZA}\ts{}\aZAa(5)}\fi&%
+				\checkaZAa(4)\let\rZA\cachedata\ifemptydata\relax\else\IfNVOETF{\rZA}{}{\num[round-precision=3]{\rZA}\ts{}\aZAa(5)}\fi&%
 				\checkaZAa(6)\let\rZA\cachedata\ifemptydata\relax\else\IfNVOETF{\rZA}{}{\num{\rZA}}\fi&%
 				\checkaZAa(7)\let\rZA\cachedata\ifemptydata\relax\else\IfNVOETF{\rZA}{}{\num{\rZA}\%}\fi&%
 				\checkaZAa(8)\let\rZA\cachedata\ifemptydata\relax\else\IfNVOETF{\rZA}{}{\num{\rZA} \euro}\fi&%
 				\IfNVOETF{\aZA}{}{\num{\aZA} \euro}\expandafter\\\fi%
 				\ifdefined\aZBa\rCa{\aZBa}&%
-				\checkaZBa(4)\let\rZB\cachedata\ifemptydata\relax\else\IfNVOETF{\rZB}{}{\num{\rZB}\ts{}\aZBa(5)}\fi&%
+				\checkaZBa(4)\let\rZB\cachedata\ifemptydata\relax\else\IfNVOETF{\rZB}{}{\num[round-precision=3]{\rZB}\ts{}\aZBa(5)}\fi&%
 				\checkaZBa(6)\let\rZB\cachedata\ifemptydata\relax\else\IfNVOETF{\rZB}{}{\num{\rZB}}\fi&%
 				\checkaZBa(7)\let\rZB\cachedata\ifemptydata\relax\else\IfNVOETF{\rZB}{}{\num{\rZB}\%}\fi&%
 				\checkaZBa(8)\let\rZB\cachedata\ifemptydata\relax\else\IfNVOETF{\rZB}{}{\num{\rZB} \euro}\fi&%
 				\IfNVOETF{\aZB}{}{\num{\aZB} \euro}\expandafter\\\fi%
 				\ifdefined\aZCa\rCa{\aZCa}&%
-				\checkaZCa(4)\let\rZC\cachedata\ifemptydata\relax\else\IfNVOETF{\rZC}{}{\num{\rZC}\ts{}\aZCa(5)}\fi&%
+				\checkaZCa(4)\let\rZC\cachedata\ifemptydata\relax\else\IfNVOETF{\rZC}{}{\num[round-precision=3]{\rZC}\ts{}\aZCa(5)}\fi&%
 				\checkaZCa(6)\let\rZC\cachedata\ifemptydata\relax\else\IfNVOETF{\rZC}{}{\num{\rZC}}\fi&%
 				\checkaZCa(7)\let\rZC\cachedata\ifemptydata\relax\else\IfNVOETF{\rZC}{}{\num{\rZC}\%}\fi&%
 				\checkaZCa(8)\let\rZC\cachedata\ifemptydata\relax\else\IfNVOETF{\rZC}{}{\num{\rZC} \euro}\fi&%
 				\IfNVOETF{\aZC}{}{\num{\aZC} \euro}\expandafter\\\fi%
 				\ifdefined\aZDa\rCa{\aZDa}&%
-				\checkaZDa(4)\let\rZD\cachedata\ifemptydata\relax\else\IfNVOETF{\rZD}{}{\num{\rZD}\ts{}\aZDa(5)}\fi&%
+				\checkaZDa(4)\let\rZD\cachedata\ifemptydata\relax\else\IfNVOETF{\rZD}{}{\num[round-precision=3]{\rZD}\ts{}\aZDa(5)}\fi&%
 				\checkaZDa(6)\let\rZD\cachedata\ifemptydata\relax\else\IfNVOETF{\rZD}{}{\num{\rZD}}\fi&%
 				\checkaZDa(7)\let\rZD\cachedata\ifemptydata\relax\else\IfNVOETF{\rZD}{}{\num{\rZD}\%}\fi&%
 				\checkaZDa(8)\let\rZD\cachedata\ifemptydata\relax\else\IfNVOETF{\rZD}{}{\num{\rZD} \euro}\fi&%
 				\IfNVOETF{\aZD}{}{\num{\aZD} \euro}\expandafter\\\fi%
 				\ifdefined\aZEa\rCa{\aZEa}&%
-				\checkaZEa(4)\let\rZE\cachedata\ifemptydata\relax\else\IfNVOETF{\rZE}{}{\num{\rZE}\ts{}\aZEa(5)}\fi&%
+				\checkaZEa(4)\let\rZE\cachedata\ifemptydata\relax\else\IfNVOETF{\rZE}{}{\num[round-precision=3]{\rZE}\ts{}\aZEa(5)}\fi&%
 				\checkaZEa(6)\let\rZE\cachedata\ifemptydata\relax\else\IfNVOETF{\rZE}{}{\num{\rZE}}\fi&%
 				\checkaZEa(7)\let\rZE\cachedata\ifemptydata\relax\else\IfNVOETF{\rZE}{}{\num{\rZE}\%}\fi&%
 				\checkaZEa(8)\let\rZE\cachedata\ifemptydata\relax\else\IfNVOETF{\rZE}{}{\num{\rZE} \euro}\fi&%
 				\IfNVOETF{\aZE}{}{\num{\aZE} \euro}\expandafter\\\fi%
 				\ifdefined\aZFa\rCa{\aZFa}&%
-				\checkaZFa(4)\let\rZF\cachedata\ifemptydata\relax\else\IfNVOETF{\rZF}{}{\num{\rZF}\ts{}\aZFa(5)}\fi&%
+				\checkaZFa(4)\let\rZF\cachedata\ifemptydata\relax\else\IfNVOETF{\rZF}{}{\num[round-precision=3]{\rZF}\ts{}\aZFa(5)}\fi&%
 				\checkaZFa(6)\let\rZF\cachedata\ifemptydata\relax\else\IfNVOETF{\rZF}{}{\num{\rZF}}\fi&%
 				\checkaZFa(7)\let\rZF\cachedata\ifemptydata\relax\else\IfNVOETF{\rZF}{}{\num{\rZF}\%}\fi&%
 				\checkaZFa(8)\let\rZF\cachedata\ifemptydata\relax\else\IfNVOETF{\rZF}{}{\num{\rZF} \euro}\fi&%
 				\IfNVOETF{\aZF}{}{\num{\aZF} \euro}\expandafter\\\fi%
 				\ifdefined\aZGa\rCa{\aZGa}&%
-				\checkaZGa(4)\let\rZG\cachedata\ifemptydata\relax\else\IfNVOETF{\rZG}{}{\num{\rZG}\ts{}\aZGa(5)}\fi&%
+				\checkaZGa(4)\let\rZG\cachedata\ifemptydata\relax\else\IfNVOETF{\rZG}{}{\num[round-precision=3]{\rZG}\ts{}\aZGa(5)}\fi&%
 				\checkaZGa(6)\let\rZG\cachedata\ifemptydata\relax\else\IfNVOETF{\rZG}{}{\num{\rZG}}\fi&%
 				\checkaZGa(7)\let\rZG\cachedata\ifemptydata\relax\else\IfNVOETF{\rZG}{}{\num{\rZG}\%}\fi&%
 				\checkaZGa(8)\let\rZG\cachedata\ifemptydata\relax\else\IfNVOETF{\rZG}{}{\num{\rZG} \euro}\fi&%
 				\IfNVOETF{\aZG}{}{\num{\aZG} \euro}\expandafter\\\fi%
 				\ifdefined\aZIa\rCa{\aZIa}&%
-				\checkaZIa(4)\let\rZI\cachedata\ifemptydata\relax\else\IfNVOETF{\rZI}{}{\num{\rZI}\ts{}\aZIa(5)}\fi&%
+				\checkaZIa(4)\let\rZI\cachedata\ifemptydata\relax\else\IfNVOETF{\rZI}{}{\num[round-precision=3]{\rZI}\ts{}\aZIa(5)}\fi&%
 				\checkaZIa(6)\let\rZI\cachedata\ifemptydata\relax\else\IfNVOETF{\rZI}{}{\num{\rZI}}\fi&%
 				\checkaZIa(7)\let\rZI\cachedata\ifemptydata\relax\else\IfNVOETF{\rZI}{}{\num{\rZI}\%}\fi&%
 				\checkaZIa(8)\let\rZI\cachedata\ifemptydata\relax\else\IfNVOETF{\rZI}{}{\num{\rZI} \euro}\fi&%
 				\IfNVOETF{\aZI}{}{\num{\aZI} \euro}\expandafter\\\fi%
 				\ifdefined\aZJa\rCa{\aZJa}&%
-				\checkaZJa(4)\let\rZJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZJ}{}{\num{\rZJ}\ts{}\aZJa(5)}\fi&%
+				\checkaZJa(4)\let\rZJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZJ}{}{\num[round-precision=3]{\rZJ}\ts{}\aZJa(5)}\fi&%
 				\checkaZJa(6)\let\rZJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZJ}{}{\num{\rZJ}}\fi&%
 				\checkaZJa(7)\let\rZJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZJ}{}{\num{\rZJ}\%}\fi&%
 				\checkaZJa(8)\let\rZJ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZJ}{}{\num{\rZJ} \euro}\fi&%
 				\IfNVOETF{\aZJ}{}{\num{\aZJ} \euro}\expandafter\\\fi%
 				\ifdefined\aZKa\rCa{\aZKa}&%
-				\checkaZKa(4)\let\rZK\cachedata\ifemptydata\relax\else\IfNVOETF{\rZK}{}{\num{\rZK}\ts{}\aZKa(5)}\fi&%
+				\checkaZKa(4)\let\rZK\cachedata\ifemptydata\relax\else\IfNVOETF{\rZK}{}{\num[round-precision=3]{\rZK}\ts{}\aZKa(5)}\fi&%
 				\checkaZKa(6)\let\rZK\cachedata\ifemptydata\relax\else\IfNVOETF{\rZK}{}{\num{\rZK}}\fi&%
 				\checkaZKa(7)\let\rZK\cachedata\ifemptydata\relax\else\IfNVOETF{\rZK}{}{\num{\rZK}\%}\fi&%
 				\checkaZKa(8)\let\rZK\cachedata\ifemptydata\relax\else\IfNVOETF{\rZK}{}{\num{\rZK} \euro}\fi&%
 				\IfNVOETF{\aZK}{}{\num{\aZK} \euro}\expandafter\\\fi%
 				\ifdefined\aZLa\rCa{\aZLa}&%
-				\checkaZLa(4)\let\rZL\cachedata\ifemptydata\relax\else\IfNVOETF{\rZL}{}{\num{\rZL}\ts{}\aZLa(5)}\fi&%
+				\checkaZLa(4)\let\rZL\cachedata\ifemptydata\relax\else\IfNVOETF{\rZL}{}{\num[round-precision=3]{\rZL}\ts{}\aZLa(5)}\fi&%
 				\checkaZLa(6)\let\rZL\cachedata\ifemptydata\relax\else\IfNVOETF{\rZL}{}{\num{\rZL}}\fi&%
 				\checkaZLa(7)\let\rZL\cachedata\ifemptydata\relax\else\IfNVOETF{\rZL}{}{\num{\rZL}\%}\fi&%
 				\checkaZLa(8)\let\rZL\cachedata\ifemptydata\relax\else\IfNVOETF{\rZL}{}{\num{\rZL} \euro}\fi&%
 				\IfNVOETF{\aZL}{}{\num{\aZL} \euro}\expandafter\\\fi%
 				\ifdefined\aZMa\rCa{\aZMa}&%
-				\checkaZMa(4)\let\rZM\cachedata\ifemptydata\relax\else\IfNVOETF{\rZM}{}{\num{\rZM}\ts{}\aZMa(5)}\fi&%
+				\checkaZMa(4)\let\rZM\cachedata\ifemptydata\relax\else\IfNVOETF{\rZM}{}{\num[round-precision=3]{\rZM}\ts{}\aZMa(5)}\fi&%
 				\checkaZMa(6)\let\rZM\cachedata\ifemptydata\relax\else\IfNVOETF{\rZM}{}{\num{\rZM}}\fi&%
 				\checkaZMa(7)\let\rZM\cachedata\ifemptydata\relax\else\IfNVOETF{\rZM}{}{\num{\rZM}\%}\fi&%
 				\checkaZMa(8)\let\rZM\cachedata\ifemptydata\relax\else\IfNVOETF{\rZM}{}{\num{\rZM} \euro}\fi&%
 				\IfNVOETF{\aZM}{}{\num{\aZM} \euro}\expandafter\\\fi%
 				\ifdefined\aZNa\rCa{\aZNa}&%
-				\checkaZNa(4)\let\rZN\cachedata\ifemptydata\relax\else\IfNVOETF{\rZN}{}{\num{\rZN}\ts{}\aZNa(5)}\fi&%
+				\checkaZNa(4)\let\rZN\cachedata\ifemptydata\relax\else\IfNVOETF{\rZN}{}{\num[round-precision=3]{\rZN}\ts{}\aZNa(5)}\fi&%
 				\checkaZNa(6)\let\rZN\cachedata\ifemptydata\relax\else\IfNVOETF{\rZN}{}{\num{\rZN}}\fi&%
 				\checkaZNa(7)\let\rZN\cachedata\ifemptydata\relax\else\IfNVOETF{\rZN}{}{\num{\rZN}\%}\fi&%
 				\checkaZNa(8)\let\rZN\cachedata\ifemptydata\relax\else\IfNVOETF{\rZN}{}{\num{\rZN} \euro}\fi&%
 				\IfNVOETF{\aZN}{}{\num{\aZN} \euro}\expandafter\\\fi%
 				\ifdefined\aZOa\rCa{\aZOa}&%
-				\checkaZOa(4)\let\rZO\cachedata\ifemptydata\relax\else\IfNVOETF{\rZO}{}{\num{\rZO}\ts{}\aZOa(5)}\fi&%
+				\checkaZOa(4)\let\rZO\cachedata\ifemptydata\relax\else\IfNVOETF{\rZO}{}{\num[round-precision=3]{\rZO}\ts{}\aZOa(5)}\fi&%
 				\checkaZOa(6)\let\rZO\cachedata\ifemptydata\relax\else\IfNVOETF{\rZO}{}{\num{\rZO}}\fi&%
 				\checkaZOa(7)\let\rZO\cachedata\ifemptydata\relax\else\IfNVOETF{\rZO}{}{\num{\rZO}\%}\fi&%
 				\checkaZOa(8)\let\rZO\cachedata\ifemptydata\relax\else\IfNVOETF{\rZO}{}{\num{\rZO} \euro}\fi&%
 				\IfNVOETF{\aZO}{}{\num{\aZO} \euro}\expandafter\\\fi%
 				\ifdefined\aZPa\rCa{\aZPa}&%
-				\checkaZPa(4)\let\rZP\cachedata\ifemptydata\relax\else\IfNVOETF{\rZP}{}{\num{\rZP}\ts{}\aZPa(5)}\fi&%
+				\checkaZPa(4)\let\rZP\cachedata\ifemptydata\relax\else\IfNVOETF{\rZP}{}{\num[round-precision=3]{\rZP}\ts{}\aZPa(5)}\fi&%
 				\checkaZPa(6)\let\rZP\cachedata\ifemptydata\relax\else\IfNVOETF{\rZP}{}{\num{\rZP}}\fi&%
 				\checkaZPa(7)\let\rZP\cachedata\ifemptydata\relax\else\IfNVOETF{\rZP}{}{\num{\rZP}\%}\fi&%
 				\checkaZPa(8)\let\rZP\cachedata\ifemptydata\relax\else\IfNVOETF{\rZP}{}{\num{\rZP} \euro}\fi&%
 				\IfNVOETF{\aZP}{}{\num{\aZP} \euro}\expandafter\\\fi%
 				\ifdefined\aZQa\rCa{\aZQa}&%
-				\checkaZQa(4)\let\rZQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZQ}{}{\num{\rZQ}\ts{}\aZQa(5)}\fi&%
+				\checkaZQa(4)\let\rZQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZQ}{}{\num[round-precision=3]{\rZQ}\ts{}\aZQa(5)}\fi&%
 				\checkaZQa(6)\let\rZQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZQ}{}{\num{\rZQ}}\fi&%
 				\checkaZQa(7)\let\rZQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZQ}{}{\num{\rZQ}\%}\fi&%
 				\checkaZQa(8)\let\rZQ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZQ}{}{\num{\rZQ} \euro}\fi&%
 				\IfNVOETF{\aZQ}{}{\num{\aZQ} \euro}\expandafter\\\fi%
 				\ifdefined\aZRa\rCa{\aZRa}&%
-				\checkaZRa(4)\let\rZR\cachedata\ifemptydata\relax\else\IfNVOETF{\rZR}{}{\num{\rZR}\ts{}\aZRa(5)}\fi&%
+				\checkaZRa(4)\let\rZR\cachedata\ifemptydata\relax\else\IfNVOETF{\rZR}{}{\num[round-precision=3]{\rZR}\ts{}\aZRa(5)}\fi&%
 				\checkaZRa(6)\let\rZR\cachedata\ifemptydata\relax\else\IfNVOETF{\rZR}{}{\num{\rZR}}\fi&%
 				\checkaZRa(7)\let\rZR\cachedata\ifemptydata\relax\else\IfNVOETF{\rZR}{}{\num{\rZR}\%}\fi&%
 				\checkaZRa(8)\let\rZR\cachedata\ifemptydata\relax\else\IfNVOETF{\rZR}{}{\num{\rZR} \euro}\fi&%
 				\IfNVOETF{\aZR}{}{\num{\aZR} \euro}\expandafter\\\fi%
 				\ifdefined\aZSa\rCa{\aZSa}&%
-				\checkaZSa(4)\let\rZS\cachedata\ifemptydata\relax\else\IfNVOETF{\rZS}{}{\num{\rZS}\ts{}\aZSa(5)}\fi&%
+				\checkaZSa(4)\let\rZS\cachedata\ifemptydata\relax\else\IfNVOETF{\rZS}{}{\num[round-precision=3]{\rZS}\ts{}\aZSa(5)}\fi&%
 				\checkaZSa(6)\let\rZS\cachedata\ifemptydata\relax\else\IfNVOETF{\rZS}{}{\num{\rZS}}\fi&%
 				\checkaZSa(7)\let\rZS\cachedata\ifemptydata\relax\else\IfNVOETF{\rZS}{}{\num{\rZS}\%}\fi&%
 				\checkaZSa(8)\let\rZS\cachedata\ifemptydata\relax\else\IfNVOETF{\rZS}{}{\num{\rZS} \euro}\fi&%
 				\IfNVOETF{\aZS}{}{\num{\aZS} \euro}\expandafter\\\fi%
 				\ifdefined\aZTa\rCa{\aZTa}&%
-				\checkaZTa(4)\let\rZT\cachedata\ifemptydata\relax\else\IfNVOETF{\rZT}{}{\num{\rZT}\ts{}\aZTa(5)}\fi&%
+				\checkaZTa(4)\let\rZT\cachedata\ifemptydata\relax\else\IfNVOETF{\rZT}{}{\num[round-precision=3]{\rZT}\ts{}\aZTa(5)}\fi&%
 				\checkaZTa(6)\let\rZT\cachedata\ifemptydata\relax\else\IfNVOETF{\rZT}{}{\num{\rZT}}\fi&%
 				\checkaZTa(7)\let\rZT\cachedata\ifemptydata\relax\else\IfNVOETF{\rZT}{}{\num{\rZT}\%}\fi&%
 				\checkaZTa(8)\let\rZT\cachedata\ifemptydata\relax\else\IfNVOETF{\rZT}{}{\num{\rZT} \euro}\fi&%
 				\IfNVOETF{\aZT}{}{\num{\aZT} \euro}\expandafter\\\fi%
 				\ifdefined\aZUa\rCa{\aZUa}&%
-				\checkaZUa(4)\let\rZU\cachedata\ifemptydata\relax\else\IfNVOETF{\rZU}{}{\num{\rZU}\ts{}\aZUa(5)}\fi&%
+				\checkaZUa(4)\let\rZU\cachedata\ifemptydata\relax\else\IfNVOETF{\rZU}{}{\num[round-precision=3]{\rZU}\ts{}\aZUa(5)}\fi&%
 				\checkaZUa(6)\let\rZU\cachedata\ifemptydata\relax\else\IfNVOETF{\rZU}{}{\num{\rZU}}\fi&%
 				\checkaZUa(7)\let\rZU\cachedata\ifemptydata\relax\else\IfNVOETF{\rZU}{}{\num{\rZU}\%}\fi&%
 				\checkaZUa(8)\let\rZU\cachedata\ifemptydata\relax\else\IfNVOETF{\rZU}{}{\num{\rZU} \euro}\fi&%
 				\IfNVOETF{\aZU}{}{\num{\aZU} \euro}\expandafter\\\fi%
 				\ifdefined\aZVa\rCa{\aZVa}&%
-				\checkaZVa(4)\let\rZV\cachedata\ifemptydata\relax\else\IfNVOETF{\rZV}{}{\num{\rZV}\ts{}\aZVa(5)}\fi&%
+				\checkaZVa(4)\let\rZV\cachedata\ifemptydata\relax\else\IfNVOETF{\rZV}{}{\num[round-precision=3]{\rZV}\ts{}\aZVa(5)}\fi&%
 				\checkaZVa(6)\let\rZV\cachedata\ifemptydata\relax\else\IfNVOETF{\rZV}{}{\num{\rZV}}\fi&%
 				\checkaZVa(7)\let\rZV\cachedata\ifemptydata\relax\else\IfNVOETF{\rZV}{}{\num{\rZV}\%}\fi&%
 				\checkaZVa(8)\let\rZV\cachedata\ifemptydata\relax\else\IfNVOETF{\rZV}{}{\num{\rZV} \euro}\fi&%
 				\IfNVOETF{\aZV}{}{\num{\aZV} \euro}\expandafter\\\fi%
 				\ifdefined\aZWa\rCa{\aZWa}&%
-				\checkaZWa(4)\let\rZW\cachedata\ifemptydata\relax\else\IfNVOETF{\rZW}{}{\num{\rZW}\ts{}\aZWa(5)}\fi&%
+				\checkaZWa(4)\let\rZW\cachedata\ifemptydata\relax\else\IfNVOETF{\rZW}{}{\num[round-precision=3]{\rZW}\ts{}\aZWa(5)}\fi&%
 				\checkaZWa(6)\let\rZW\cachedata\ifemptydata\relax\else\IfNVOETF{\rZW}{}{\num{\rZW}}\fi&%
 				\checkaZWa(7)\let\rZW\cachedata\ifemptydata\relax\else\IfNVOETF{\rZW}{}{\num{\rZW}\%}\fi&%
 				\checkaZWa(8)\let\rZW\cachedata\ifemptydata\relax\else\IfNVOETF{\rZW}{}{\num{\rZW} \euro}\fi&%
 				\IfNVOETF{\aZW}{}{\num{\aZW} \euro}\expandafter\\\fi%
 				\ifdefined\aZXa\rCa{\aZXa}&%
-				\checkaZXa(4)\let\rZX\cachedata\ifemptydata\relax\else\IfNVOETF{\rZX}{}{\num{\rZX}\ts{}\aZXa(5)}\fi&%
+				\checkaZXa(4)\let\rZX\cachedata\ifemptydata\relax\else\IfNVOETF{\rZX}{}{\num[round-precision=3]{\rZX}\ts{}\aZXa(5)}\fi&%
 				\checkaZXa(6)\let\rZX\cachedata\ifemptydata\relax\else\IfNVOETF{\rZX}{}{\num{\rZX}}\fi&%
 				\checkaZXa(7)\let\rZX\cachedata\ifemptydata\relax\else\IfNVOETF{\rZX}{}{\num{\rZX}\%}\fi&%
 				\checkaZXa(8)\let\rZX\cachedata\ifemptydata\relax\else\IfNVOETF{\rZX}{}{\num{\rZX} \euro}\fi&%
 				\IfNVOETF{\aZX}{}{\num{\aZX} \euro}\expandafter\\\fi%
 				\ifdefined\aZYa\rCa{\aZYa}&%
-				\checkaZYa(4)\let\rZY\cachedata\ifemptydata\relax\else\IfNVOETF{\rZY}{}{\num{\rZY}\ts{}\aZYa(5)}\fi&%
+				\checkaZYa(4)\let\rZY\cachedata\ifemptydata\relax\else\IfNVOETF{\rZY}{}{\num[round-precision=3]{\rZY}\ts{}\aZYa(5)}\fi&%
 				\checkaZYa(6)\let\rZY\cachedata\ifemptydata\relax\else\IfNVOETF{\rZY}{}{\num{\rZY}}\fi&%
 				\checkaZYa(7)\let\rZY\cachedata\ifemptydata\relax\else\IfNVOETF{\rZY}{}{\num{\rZY}\%}\fi&%
 				\checkaZYa(8)\let\rZY\cachedata\ifemptydata\relax\else\IfNVOETF{\rZY}{}{\num{\rZY} \euro}\fi&%
 				\IfNVOETF{\aZY}{}{\num{\aZY} \euro}\expandafter\\\fi%	
 				\ifdefined\aZZa\rCa{\aZZa}&%
-				\checkaZZa(4)\let\rZZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZZ}{}{\num{\rZZ}\ts{}\aZZa(5)}\fi&%
+				\checkaZZa(4)\let\rZZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZZ}{}{\num[round-precision=3]{\rZZ}\ts{}\aZZa(5)}\fi&%
 				\checkaZZa(6)\let\rZZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZZ}{}{\num{\rZZ}}\fi&%
 				\checkaZZa(7)\let\rZZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZZ}{}{\num{\rZZ}\%}\fi&%
 				\checkaZZa(8)\let\rZZ\cachedata\ifemptydata\relax\else\IfNVOETF{\rZZ}{}{\num{\rZZ} \euro}\fi&%
