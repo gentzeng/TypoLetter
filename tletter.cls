@@ -420,7 +420,7 @@
 \setkomavar{from_bank}{%
 	\usekomavar{fin_name}%
 	\\IBAN:~\usekomavar{fin_iban_cc}%
-	\pnums{\usekomavar{fin_iban_remainder}}%
+	~\pnums{\usekomavar{fin_iban_remainder}}%
 	\\BIC:~\usekomavar{fin_bic}%
 }%
 \setkomavar{subject}{Das ist die Betreffszeile}%
