@@ -1,6 +1,6 @@
 # TypoLetter
 
-This project deals with the creation of a flexible latex/scrlttr2 based business letter. I build it to fit my personal requirements. However, the letter is build according to DIN 5008 and available in english and german. 
+This project offers a flexible latex/scrlttr2 based business letter. I build it to fit my personal requirements. However, the letter is build according to DIN 5008 and available in english and german. 
 
 ## Features
 * Matching DIN 5008 requirements
