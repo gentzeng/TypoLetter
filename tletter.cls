@@ -46,8 +46,12 @@
 \newkomavar{fin_iban_remainder}%
 \newkomavar{fin_bic}%
 \newkomavar{write_date}%
+\newkomavar{header_name}%
+\newkomavar{sender_line_name}%
+\newkomavar{footer_name}%
 \newkomavar{opening}%
 \newkomavar{closing}%
+\newkomavar{signature_name}%
 \newkomavar{l_f_id}%
 \newkomavar{l_r_id}%
 \newkomavar{l_f_mail_date}%
@@ -398,7 +402,11 @@
 %	Definition of meta data variables
 %-------------------------------------------------------------------------------
 \setkomavar{date}{}%unset date
-\setkomavar{fromname}{\usekomavar{from_name}}%
+\setkomavar{sender_line_name}{\usekomavar{from_name}}% sender line name
+\setkomavar{fromname}{\usekomavar{sender_line_name}}% sender line name
+\setkomavar{header_name}{\usekomavar{from_name}}%
+\setkomavar{footer_name}{\usekomavar{from_name}}%
+\setkomavar{signature_name}{\usekomavar{from_name}}%
 \setkomavar{from_street_complete}{%
 	\usekomavar{from_street}%
 	~\usekomavar{from_street_number}%
@@ -416,7 +424,7 @@
 \setkomavar{fromemail}{\usekomavar{from_email}}%
 \setkomavar{fromurl}{\usekomavar{from_url}}%
 %\setkomavar{ort}{\usekomavar{place}}%
-\setkomavar{signature}{\usekomavar{fromname}}% Your name used in the signature
+\setkomavar{signature}{\usekomavar{signature_name}}% Your name used in the signature
 \setkomavar{from_bank}{%
 	\usekomavar{fin_name}%
 	\\IBAN:~\usekomavar{fin_iban_cc}%
@@ -546,7 +554,7 @@
 \newcommand*{\conthead}{%-------------CONT: definition of head content----------
 	\parbox{\useplength{firstheadwidth}}{%
 		\centering%
-		\textsc{\usekomavar{fromname}}\\%
+		\textsc{\usekomavar{header_name}}\\%
 		\rule[3pt]{\textwidth}{.4pt}%
 	}%
 }%
@@ -575,7 +583,7 @@
 %		\vspace{-\offsetunknown}	
 		\begin{tabular}[t]{l@{}}% 
 			\fontfamily{LinuxLibertineT-OsF}\selectfont%
-			\usekomavar{fromname}\\%
+			\usekomavar{footer_name}\\%
 			\usekomavar{fromaddress}\\%
 			\fontfamily{LinuxLibertineT-TLF}\selectfont%
 		\end{tabular}%
