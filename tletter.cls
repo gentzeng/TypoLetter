@@ -30,6 +30,7 @@
 \newkomavar{from_bank}%
 \newkomavar{from_id}%
 \newkomavar{from_mail_date}%
+\newkomavar{tax_id}%
 \newkomavar{recipient}%
 \newkomavar{rec_id}%
 \newkomavar{rec_mail_date}%
@@ -69,6 +70,7 @@
 %-------------------------------------------------------------------------------
 \setkomavar{from_street_number}  {42}%
 \setkomavar{from_zip}            {00000}%
+\setkomavar{tax_id}              {FF(F)/BBB(B)/UUU(U)P}%
 \setkomavar{rec_addressee_opt_b} {}%
 \setkomavar{rec_street_number}   {11}%
 \setkomavar{rec_zip}             {00000}%
@@ -86,6 +88,7 @@
 \newif\if@ncc%
 \newif\if@english%
 \newif\if@bill%
+\newif\if@tax%
 \newif\if@bank%
 \newif\if@fromid\@fromidtrue%
 \newif\if@frommaildate\@frommaildatetrue%
@@ -103,6 +106,7 @@
 \DeclareOption{ncc}              {\@nccfalse}%
 \DeclareOption{english}          {\@englishtrue}%
 \DeclareOption{bill}             {\@billtrue}%
+\DeclareOption{tax}              {\@taxtrue}%
 \DeclareOption{bank}             {\@banktrue}%
 \ProcessOptions\relax%
 %-------------------------------------------------------------------------------
@@ -589,7 +593,13 @@
 		\end{tabular}%
 		\hfill%
 		\begin{tabular}[t]{l@{}}%
-%			\usekomavar{fromphone}\\%
+			\if@tax%
+				\if@english%
+					VAT:~\usekomavar{tax_id}\\%
+				\else%
+					USt-IDNr.:~\usekomavar{tax_id}\\%
+				\fi%
+			\fi%
 %			\usekomavar{fromemail}\\%
 		\end{tabular}%
 		\hfill%
