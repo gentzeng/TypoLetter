@@ -30,7 +30,8 @@
 \newkomavar{from_bank}%
 \newkomavar{from_id}%
 \newkomavar{from_mail_date}%
-\newkomavar{tax_id}%
+\newkomavar{tax_in}%
+\newkomavar{vat_in}%
 \newkomavar{recipient}%
 \newkomavar{rec_id}%
 \newkomavar{rec_mail_date}%
@@ -70,7 +71,8 @@
 %-------------------------------------------------------------------------------
 \setkomavar{from_street_number}  {42}%
 \setkomavar{from_zip}            {00000}%
-\setkomavar{tax_id}              {FF(F)/BBB(B)/UUU(U)P}%
+\setkomavar{tax_in}              {XX/XXX/XXX}%
+\setkomavar{vat_in}              {FF(F)/BBB(B)/UUU(U)P}%
 \setkomavar{rec_addressee_opt_b} {}%
 \setkomavar{rec_street_number}   {11}%
 \setkomavar{rec_zip}             {00000}%
@@ -89,6 +91,7 @@
 \newif\if@english%
 \newif\if@bill%
 \newif\if@tax%
+\newif\if@vat%
 \newif\if@bank%
 \newif\if@fromid\@fromidtrue%
 \newif\if@frommaildate\@frommaildatetrue%
@@ -107,6 +110,7 @@
 \DeclareOption{english}          {\@englishtrue}%
 \DeclareOption{bill}             {\@billtrue}%
 \DeclareOption{tax}              {\@taxtrue}%
+\DeclareOption{vat}              {\@vattrue}%
 \DeclareOption{bank}             {\@banktrue}%
 \ProcessOptions\relax%
 %-------------------------------------------------------------------------------
@@ -398,7 +402,7 @@
 	\usepackage{efficiency}%
 	\newcolumntype\assetTableColDef{L{0.13}L{0.14}L{0.15}R{0.08}R{0.07}R{0.07}R{0.105}R{0.105}}%
 }{%
-	\PackageWarning{tletter}{*** WARNING: Pleae install efficiency packages! ***}%
+	\PackageWarning{tletter}{*** WARNING: Please install efficiency packages! ***}%
 	\newcommand{\ts}{\thinspace}%
 	\newcolumntype\assetTableColDef{lllrrrrr}
 }%
@@ -594,10 +598,18 @@
 		\hfill%
 		\begin{tabular}[t]{l@{}}%
 			\if@tax%
-				\if@english%
-					VAT:~\usekomavar{tax_id}\\%
+				\if@vat%
+					\if@english%
+						VAT Reg No:~\usekomavar{vat_in}\\%
+					\else%
+						USt-IdNr.:~\usekomavar{vat_in}\\%
+					\fi%
 				\else%
-					USt-IDNr.:~\usekomavar{tax_id}\\%
+					\if@english%
+						TIN:~\usekomavar{tax_in}\\%
+					\else%
+						Steuer-IdNr.:~\usekomavar{tax_in}\\%
+					\fi%
 				\fi%
 			\fi%
 %			\usekomavar{fromemail}\\%
