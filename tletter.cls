@@ -32,6 +32,7 @@
 \newkomavar{from_mail_date}%
 \newkomavar{tax_in}%
 \newkomavar{vat_in}%
+\newkomavar{tax_agency}%
 \newkomavar{recipient}%
 \newkomavar{rec_id}%
 \newkomavar{rec_mail_date}%
@@ -73,6 +74,7 @@
 \setkomavar{from_zip}            {00000}%
 \setkomavar{tax_in}              {XX/XXX/XXX}%
 \setkomavar{vat_in}              {FF(F)/BBB(B)/UUU(U)P}%
+\setkomavar{tax_agency}          {XYZ}%
 \setkomavar{rec_addressee_opt_b} {}%
 \setkomavar{rec_street_number}   {11}%
 \setkomavar{rec_zip}             {00000}%
@@ -598,18 +600,20 @@
 		\hfill%
 		\begin{tabular}[t]{l@{}}%
 			\if@tax%
-				\if@vat%
-					\if@english%
+				\if@english%
+					\if@vat%
 						VAT Reg No:~\usekomavar{vat_in}\\%
 					\else%
-						USt-IdNr.:~\usekomavar{vat_in}\\%
+						TIN:~\usekomavar{tax_in}\\%
+
 					\fi%
 				\else%
-					\if@english%
-						TIN:~\usekomavar{tax_in}\\%
+					\if@vat%
+						USt-IdNr.:~\usekomavar{vat_in}\\%
 					\else%
 						Steuer-IdNr.:~\usekomavar{tax_in}\\%
 					\fi%
+					Finanzamt \usekomavar{tax_agency}
 				\fi%
 			\fi%
 %			\usekomavar{fromemail}\\%
