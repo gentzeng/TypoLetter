@@ -458,11 +458,6 @@
 %	Command Definitions
 %-------------------------------------------------------------------------------
 \makeatletter%
-\ifdefined\setplength%
-	\renewcommand*{\setplength}[1]{\@setplength{#1}}%
-\else%
-	\newcommand*{\setplength}[1]{\@setplength{#1}}%
-\fi%
 \makeatother%
 \newcommand{\pnums}[1]{\proportionalnums{#1}}%
 \newcommand{\pnumsf}[1]{\proportionalnumsf{#1}}%
