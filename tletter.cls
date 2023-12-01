@@ -485,7 +485,11 @@
 %indention of text body
 \setlength{\oddsidemargin}{\useplength{toaddrhpos}}%
 \addtolength{\oddsidemargin}{-1in}%
+\addtolength{\oddsidemargin}{+5mm}% the 5mm is the difference in din 5008 form b 
+% between the addres block posistion (20mm from left) an the body position
+% (25mm from left)
 \setlength{\textwidth}{\useplength{firstheadwidth}}%
+\addtolength{\textwidth}{-5mm}%
 %-------------------------------------------------------------------------------
 %	Positioning: Header, Footer, Locationbox, Creative Common Info
 %-------------------------------------------------------------------------------
@@ -560,7 +564,7 @@
 	\parbox{\useplength{firstheadwidth}}{%
 		\centering%
 		\textsc{\usekomavar{header_name}}\\%
-		\rule[3pt]{\textwidth}{.4pt}%
+    \rule[3pt]{\useplength{firstheadwidth}}{.4pt}%
 	}%
 }%
 \newcommand*{\contfoot}{%-------------CONT: definition of foot content----------
@@ -584,7 +588,7 @@
 		\footnotesize%
 		\color[gray]{.3}%
 		\contccinfo%
-		\rule[3pt]{\textwidth}{.4pt}\\%
+    \rule[3pt]{\useplength{firstheadwidth}}{.4pt}\\%
 %		\vspace{-\offsetunknown}	
 		\begin{tabular}[t]{l@{}}% 
 			\fontfamily{LinuxLibertineT-OsF}\selectfont%
