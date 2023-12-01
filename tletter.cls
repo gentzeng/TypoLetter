@@ -488,6 +488,8 @@
 \addtolength{\oddsidemargin}{+5mm}% the 5mm is the difference in din 5008 form b 
 % between the addres block posistion (20mm from left) an the body position
 % (25mm from left)
+% set refaftervskip to 0 to start body vheight according to din 5008 form b
+\setplength{refaftervskip}{0cm}
 \setlength{\textwidth}{\useplength{firstheadwidth}}%
 \addtolength{\textwidth}{-5mm}%
 %-------------------------------------------------------------------------------
